@@ -101,7 +101,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_example_1() {
+    fn test_0002_example_1() {
         let l1 = linked![2, 4, 3];
         let l2 = linked![5, 6, 4];
 
@@ -109,7 +109,7 @@ mod tests {
     }
 
     #[test]
-    fn test_example_2() {
+    fn test_0002_example_2() {
         let l1 = linked![0];
         let l2 = linked![0];
 
@@ -117,7 +117,7 @@ mod tests {
     }
 
     #[test]
-    fn test_example_3() {
+    fn test_0002_example_3() {
         let l1 = linked![9, 9, 9, 9, 9, 9, 9];
         let l2 = linked![9, 9, 9, 9];
 
@@ -128,7 +128,7 @@ mod tests {
     }
 
     #[test]
-    fn test_invalid_input() {
+    fn test_0002_invalid_input() {
         assert_eq!(Solution::add_two_numbers(None, linked![]), None);
         assert_eq!(Solution::add_two_numbers(linked![], None), None);
     }

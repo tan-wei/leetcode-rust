@@ -61,25 +61,25 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_example_1() {
+    fn test_0001_example_1() {
         let nums: Vec<i32> = vec![2, 7, 11, 15];
         assert_eq!(Solution::two_sum(nums, 9), vec![0, 1]);
     }
 
     #[test]
-    fn test_example_2() {
+    fn test_0001_example_2() {
         let nums: Vec<i32> = vec![3, 2, 4];
         assert_eq!(Solution::two_sum(nums, 6), vec![1, 2]);
     }
 
     #[test]
-    fn test_example_3() {
+    fn test_0001_example_3() {
         let nums: Vec<i32> = vec![3, 3];
         assert_eq!(Solution::two_sum(nums, 6), vec![0, 1]);
     }
 
     #[test]
-    fn test_empty_vec() {
+    fn test_0001_empty_vec() {
         let nums: Vec<i32> = vec![];
         assert_eq!(nums, vec![]);
     }
