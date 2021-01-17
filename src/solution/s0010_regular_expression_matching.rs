@@ -150,6 +150,24 @@ impl Solution {
         let patterns = parse_pattern(p.as_str()).expect("pattern parsing error");
         _is_match(s.as_str(), patterns.as_slice(), &mut HashMap::new())
     }
+
+    pub fn is_match_v2(s: String, p: String) -> bool {
+        Solution::is_match_slice(s.as_bytes(), p.as_bytes())
+    }
+
+    fn is_match_slice(s: &[u8], p: &[u8]) -> bool {
+        match (p, s) {
+            ([x, b'*', subp @ ..], [y, subs @ ..]) if *x == b'.' || x == y => {
+                Solution::is_match_slice(subs, p)
+            }
+            ([_, b'*', subp @ ..], _) => Solution::is_match_slice(s, subp),
+            ([x, subp @ ..], [y, subs @ ..]) if *x == b'.' || x == y => {
+                Solution::is_match_slice(subs, subp)
+            }
+            ([], s) => s.is_empty(),
+            _ => false,
+        }
+    }
 }
 
 // submission codes end
@@ -163,7 +181,12 @@ mod tests {
         let s = String::from("aa");
         let p = String::from("a");
 
-        assert_eq!(Solution::is_match(s, p), false)
+        assert_eq!(Solution::is_match(s, p), false);
+
+        let s = String::from("aa");
+        let p = String::from("a");
+
+        assert_eq!(Solution::is_match_v2(s, p), false);
     }
 
     #[test]
@@ -171,7 +194,12 @@ mod tests {
         let s = String::from("aa");
         let p = String::from("a*");
 
-        assert_eq!(Solution::is_match(s, p), true)
+        assert_eq!(Solution::is_match(s, p), true);
+
+        let s = String::from("aa");
+        let p = String::from("a*");
+
+        assert_eq!(Solution::is_match_v2(s, p), true);
     }
 
     #[test]
@@ -179,7 +207,12 @@ mod tests {
         let s = String::from("ab");
         let p = String::from(".*");
 
-        assert_eq!(Solution::is_match(s, p), true)
+        assert_eq!(Solution::is_match(s, p), true);
+
+        let s = String::from("ab");
+        let p = String::from(".*");
+
+        assert_eq!(Solution::is_match_v2(s, p), true);
     }
 
     #[test]
@@ -187,7 +220,12 @@ mod tests {
         let s = String::from("aab");
         let p = String::from("c*a*b");
 
-        assert_eq!(Solution::is_match(s, p), true)
+        assert_eq!(Solution::is_match(s, p), true);
+
+        let s = String::from("aab");
+        let p = String::from("c*a*b");
+
+        assert_eq!(Solution::is_match_v2(s, p), true);
     }
 
     #[test]
@@ -195,6 +233,11 @@ mod tests {
         let s = String::from("mississippi");
         let p = String::from("mis*is*p*.");
 
-        assert_eq!(Solution::is_match(s, p), false)
+        assert_eq!(Solution::is_match(s, p), false);
+
+        let s = String::from("mississippi");
+        let p = String::from("mis*is*p*.");
+
+        assert_eq!(Solution::is_match_v2(s, p), false);
     }
 }
