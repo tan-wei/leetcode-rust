@@ -44,32 +44,32 @@ impl Solution {
             return vec![];
         }
 
-        let mut letters = digits.chars();
-        let head = letters.next().unwrap().to_string();
-        let tail = Solution::letter_combinations(letters.collect());
+        let mut root: Vec<String> = vec![];
+        let mut leaf: Vec<String> = vec![];
 
-        if tail.is_empty() {
-            Solution::DIGIT_TO_CHAR[head.parse::<usize>().unwrap()]
-                .chars()
-                .map(|letter| letter.to_string())
-                .collect()
-        } else if head == "1" {
-            tail
-        } else {
-            Solution::DIGIT_TO_CHAR[head.parse::<usize>().unwrap()]
-                .chars()
-                .map(|prefix| {
-                    tail.iter()
-                        .map(|suffix| {
-                            std::iter::once(prefix)
-                                .chain(suffix.chars())
-                                .collect::<String>()
-                        })
-                        .collect::<Vec<String>>()
-                })
-                .flatten()
-                .collect()
+        let mut level = 0;
+        for digit in digits.chars() {
+            let letters = Solution::DIGIT_TO_CHAR[digit.to_digit(10).unwrap() as usize];
+            for char in letters.chars() {
+                if level < 1 {
+                    root.push(char.to_string());
+                } else {
+                    for left_char in &root {
+                        let str = left_char.to_string() + &char.to_string();
+                        leaf.push(str);
+                    }
+                }
+            }
+
+            if level > 0 {
+                root.clear();
+                root.append(&mut leaf);
+            }
+
+            level += 1;
         }
+
+        root
     }
 }
 
@@ -82,7 +82,7 @@ mod tests {
     #[test]
     fn test_0017_exmaple_1() {
         let digits = "23".to_string();
-        let result = vec!["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"];
+        let result = vec!["ad", "bd", "cd", "ae", "be", "ce", "af", "bf", "cf"];
 
         assert_eq!(Solution::letter_combinations(digits), result);
     }
