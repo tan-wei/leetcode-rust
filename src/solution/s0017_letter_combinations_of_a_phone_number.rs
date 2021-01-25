@@ -84,7 +84,7 @@ mod tests {
         let digits = "23".to_string();
         let result = vec!["ad", "bd", "cd", "ae", "be", "ce", "af", "bf", "cf"];
 
-        assert_eq!(Solution::letter_combinations(digits), result);
+        assert_eq_sorted!(Solution::letter_combinations(digits), result);
     }
 
     #[test]
@@ -92,7 +92,7 @@ mod tests {
         let digits = "".to_string();
         let result: Vec<String> = vec![];
 
-        assert_eq!(Solution::letter_combinations(digits), result);
+        assert_eq_sorted!(Solution::letter_combinations(digits), result);
     }
 
     #[test]
@@ -100,6 +100,6 @@ mod tests {
         let digits = "2".to_string();
         let result = vec!["a", "b", "c"];
 
-        assert_eq!(Solution::letter_combinations(digits), result);
+        assert_eq_sorted!(Solution::letter_combinations(digits), result);
     }
 }
