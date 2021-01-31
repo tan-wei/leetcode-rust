@@ -68,7 +68,7 @@ impl Solution {
         })
     }
 
-    // Iterative version
+    // Iteration version
     pub fn swap_pairs_v2(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy = Box::new(ListNode { val: 0, next: head });
         let mut tail = &mut dummy;
