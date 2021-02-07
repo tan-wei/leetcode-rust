@@ -83,7 +83,7 @@ impl Solution {
             let tail = end.as_mut().unwrap().next.take();
             // BEFORE: head -> start -> 123456... -> end   -> tail
             // AFTER:  head -> end   -> ...654321 -> start -> tail
-            let end = Solution::reverse(start, tail);
+            let end = Self::reverse(start, tail);
             head.as_mut().unwrap().next = end;
             for _ in 0..k {
                 head = head.unwrap().next.as_mut()

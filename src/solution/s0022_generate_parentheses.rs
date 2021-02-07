@@ -43,8 +43,8 @@ impl Solution {
         let mut result: Vec<String> = Vec::new();
 
         for i in 0..n {
-            let result_i = Solution::generate_parenthesis_recursive(i);
-            let result_n_1_i = Solution::generate_parenthesis_recursive(n - 1 - i);
+            let result_i = Self::generate_parenthesis_recursive(i);
+            let result_n_1_i = Self::generate_parenthesis_recursive(n - 1 - i);
 
             for left in result_i.iter() {
                 for right in result_n_1_i.iter() {

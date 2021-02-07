@@ -94,7 +94,7 @@ impl Solution {
         l1: Option<Box<ListNode>>,
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
-        Solution::merge_two_lists_recursive(l1, l2)
+        Self::merge_two_lists_recursive(l1, l2)
     }
 
     fn merge_two_lists_recursive(
@@ -108,12 +108,12 @@ impl Solution {
                 if l1.val >= l2.val {
                     Some(Box::new(ListNode {
                         val: l2.val,
-                        next: Solution::merge_two_lists_recursive(Some(l1), l2.next),
+                        next: Self::merge_two_lists_recursive(Some(l1), l2.next),
                     }))
                 } else {
                     Some(Box::new(ListNode {
                         val: l1.val,
-                        next: Solution::merge_two_lists_recursive(l1.next, Some(l2)),
+                        next: Self::merge_two_lists_recursive(l1.next, Some(l2)),
                     }))
                 }
             }

@@ -49,7 +49,7 @@ impl Solution {
 
         let mut level = 0;
         for digit in digits.chars() {
-            let letters = Solution::DIGIT_TO_CHAR[digit.to_digit(10).unwrap() as usize];
+            let letters = Self::DIGIT_TO_CHAR[digit.to_digit(10).unwrap() as usize];
             for char in letters.chars() {
                 if level < 1 {
                     root.push(char.to_string());

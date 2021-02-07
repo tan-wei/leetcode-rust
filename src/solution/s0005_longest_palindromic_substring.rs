@@ -50,7 +50,7 @@ impl Solution {
 
         for s in 0..chars.len() {
             for e in s + 1..chars.len() {
-                if Solution::is_palindrome(&chars, s, e) && e - s > end - begin {
+                if Self::is_palindrome(&chars, s, e) && e - s > end - begin {
                     end = e;
                     begin = s;
                 }

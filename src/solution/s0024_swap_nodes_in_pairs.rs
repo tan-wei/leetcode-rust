@@ -54,13 +54,13 @@ use crate::util::linked_list::{to_list, ListNode};
 impl Solution {
     // Recursiver verion
     pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        Solution::swap_pairs_recursive(head)
+        Self::swap_pairs_recursive(head)
     }
 
     fn swap_pairs_recursive(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         head.and_then(|mut node| match node.next {
             Some(mut next) => {
-                node.next = Solution::swap_pairs_recursive(next.next);
+                node.next = Self::swap_pairs_recursive(next.next);
                 next.next = Some(node);
                 Some(next)
             }
