@@ -29,3 +29,4 @@ mod s0028_implement_strstr;
 mod s0029_divide_two_integers;
 mod s0030_substring_with_concatenation_of_all_words;
 mod s0031_next_permutation;
+mod s0032_longest_valid_parentheses;
