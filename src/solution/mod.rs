@@ -32,3 +32,4 @@ mod s0031_next_permutation;
 mod s0032_longest_valid_parentheses;
 mod s0033_search_in_rotated_sorted_array;
 mod s0034_find_first_and_last_position_of_element_in_sorted_array;
+mod s0035_search_insert_position;
