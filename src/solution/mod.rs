@@ -35,3 +35,4 @@ mod s0034_find_first_and_last_position_of_element_in_sorted_array;
 mod s0035_search_insert_position;
 mod s0036_valid_sudoku;
 mod s0037_sudoku_solver;
+mod s0038_count_and_say;
