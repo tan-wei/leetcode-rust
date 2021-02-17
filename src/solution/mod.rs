@@ -38,3 +38,4 @@ mod s0037_sudoku_solver;
 mod s0038_count_and_say;
 mod s0039_combination_sum;
 mod s0040_combination_sum_ii;
+mod s0041_first_missing_positive;
