@@ -40,3 +40,4 @@ mod s0039_combination_sum;
 mod s0040_combination_sum_ii;
 mod s0041_first_missing_positive;
 mod s0042_trapping_rain_water;
+mod s0043_multiply_strings;
