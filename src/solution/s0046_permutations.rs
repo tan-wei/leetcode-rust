@@ -72,13 +72,13 @@ mod tests {
     fn test_0046_example_2() {
         let nums = vec![0, 1];
 
-        assert_eq_sorted!(Solution::permute(nums), vec![vec![0, 1], vec![1, 0]])
+        assert_eq!(Solution::permute(nums), vec![vec![0, 1], vec![1, 0]])
     }
 
     #[test]
     fn test_0046_example_3() {
         let nums = vec![1];
 
-        assert_eq_sorted!(Solution::permute(nums), vec![vec![1]]);
+        assert_eq!(Solution::permute(nums), vec![vec![1]]);
     }
 }
