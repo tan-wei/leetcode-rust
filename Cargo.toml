@@ -17,3 +17,6 @@ surf = "1.0.3"
 [lib]
 doctest = false
 test = true
+
+[dev-dependencies]
+assert_float_eq = "1"
