@@ -49,3 +49,4 @@ mod s0048_rotate_image;
 mod s0049_group_anagrams;
 mod s0050_powx_n;
 mod s0051_n_queens;
+mod s0052_n_queens_ii;
