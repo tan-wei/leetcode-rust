@@ -51,3 +51,4 @@ mod s0050_powx_n;
 mod s0051_n_queens;
 mod s0052_n_queens_ii;
 mod s0053_maximum_subarray;
+mod s0054_spiral_matrix;
