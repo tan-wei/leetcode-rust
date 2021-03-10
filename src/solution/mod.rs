@@ -59,3 +59,4 @@ mod s0058_length_of_last_word;
 mod s0059_spiral_matrix_ii;
 mod s0060_permutation_sequence;
 mod s0061_rotate_list;
+mod s0062_unique_paths;
