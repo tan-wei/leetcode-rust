@@ -70,3 +70,4 @@ mod s0069_sqrtx;
 mod s0070_climbing_stairs;
 mod s0071_simplify_path;
 mod s0072_edit_distance;
+mod s0073_set_matrix_zeroes;
