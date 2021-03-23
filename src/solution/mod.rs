@@ -72,3 +72,4 @@ mod s0071_simplify_path;
 mod s0072_edit_distance;
 mod s0073_set_matrix_zeroes;
 mod s0074_search_a_2d_matrix;
+mod s0075_sort_colors;
