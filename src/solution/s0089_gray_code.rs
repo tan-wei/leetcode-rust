@@ -51,6 +51,15 @@ impl Solution {
 
         ret
     }
+
+    pub fn gray_code_v2(n: i32) -> Vec<i32> {
+        let mut ret: Vec<i32> = vec![];
+        let count = (2 as i32).pow(n as u32);
+        for i in 0..count as usize {
+            ret.push((i as i32) ^ (i as i32 >> 1));
+        }
+        ret
+    }
 }
 
 // submission codes end
@@ -66,6 +75,8 @@ mod tests {
         let result = vec![0, 1, 3, 2];
 
         assert_eq!(Solution::gray_code(n), result);
+
+        assert_eq!(Solution::gray_code_v2(n), result);
     }
 
     #[test]
@@ -75,5 +86,7 @@ mod tests {
         let result = vec![0, 1];
 
         assert_eq!(Solution::gray_code(n), result);
+
+        assert_eq!(Solution::gray_code_v2(n), result);
     }
 }
