@@ -95,3 +95,4 @@ mod s0094_binary_tree_inorder_traversal;
 mod s0095_unique_binary_search_trees_ii;
 mod s0096_unique_binary_search_trees;
 mod s0097_interleaving_string;
+mod s0098_validate_binary_search_tree;
