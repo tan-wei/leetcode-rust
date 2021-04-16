@@ -96,3 +96,4 @@ mod s0095_unique_binary_search_trees_ii;
 mod s0096_unique_binary_search_trees;
 mod s0097_interleaving_string;
 mod s0098_validate_binary_search_tree;
+mod s0099_recover_binary_search_tree;
