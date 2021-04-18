@@ -98,3 +98,4 @@ mod s0097_interleaving_string;
 mod s0098_validate_binary_search_tree;
 mod s0099_recover_binary_search_tree;
 mod s0100_same_tree;
+mod s0101_symmetric_tree;
