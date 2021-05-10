@@ -120,3 +120,4 @@ mod s0121_best_time_to_buy_and_sell_stock;
 mod s0122_best_time_to_buy_and_sell_stock_ii;
 mod s0123_best_time_to_buy_and_sell_stock_iii;
 mod s0124_binary_tree_maximum_path_sum;
+mod s0125_valid_palindrome;
