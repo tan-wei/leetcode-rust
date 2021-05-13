@@ -123,3 +123,4 @@ mod s0124_binary_tree_maximum_path_sum;
 mod s0125_valid_palindrome;
 mod s0126_word_ladder_ii;
 mod s0127_word_ladder;
+mod s0128_longest_consecutive_sequence;
