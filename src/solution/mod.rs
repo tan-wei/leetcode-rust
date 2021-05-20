@@ -130,3 +130,4 @@ mod s0131_palindrome_partitioning;
 mod s0132_palindrome_partitioning_ii;
 mod s0134_gas_station;
 mod s0135_candy;
+mod s0136_single_number;
