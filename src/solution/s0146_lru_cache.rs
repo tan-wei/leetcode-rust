@@ -67,6 +67,7 @@ impl LRUCache {
             cap: capacity.try_into().unwrap(),
         }
     }
+
     fn get(&mut self, key: i32) -> i32 {
         if self.map.contains_key(&key) {
             let i = self.dq.iter().position(|&x| x == key).unwrap();
