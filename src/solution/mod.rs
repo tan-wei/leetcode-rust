@@ -142,3 +142,4 @@ mod s0147_insertion_sort_list;
 mod s0148_sort_list;
 mod s0149_max_points_on_a_line;
 mod s0150_evaluate_reverse_polish_notation;
+mod s0151_reverse_words_in_a_string;
