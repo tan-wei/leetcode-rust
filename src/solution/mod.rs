@@ -145,3 +145,4 @@ mod s0150_evaluate_reverse_polish_notation;
 mod s0151_reverse_words_in_a_string;
 mod s0152_maximum_product_subarray;
 mod s0153_find_minimum_in_rotated_sorted_array;
+mod s0154_find_minimum_in_rotated_sorted_array_ii;
