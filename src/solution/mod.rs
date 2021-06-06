@@ -147,3 +147,4 @@ mod s0152_maximum_product_subarray;
 mod s0153_find_minimum_in_rotated_sorted_array;
 mod s0154_find_minimum_in_rotated_sorted_array_ii;
 mod s0155_min_stack;
+mod s0162_find_peak_element;
