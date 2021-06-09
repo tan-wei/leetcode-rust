@@ -150,3 +150,4 @@ mod s0155_min_stack;
 mod s0162_find_peak_element;
 mod s0164_maximum_gap;
 mod s0165_compare_version_numbers;
+mod s0166_fraction_to_recurring_decimal;
