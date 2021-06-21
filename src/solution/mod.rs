@@ -162,3 +162,4 @@ mod s0179_largest_number;
 mod s0187_repeated_dna_sequences;
 mod s0188_best_time_to_buy_and_sell_stock_iv;
 mod s0189_rotate_array;
+mod s0190_reverse_bits;
