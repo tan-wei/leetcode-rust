@@ -164,3 +164,4 @@ mod s0188_best_time_to_buy_and_sell_stock_iv;
 mod s0189_rotate_array;
 mod s0190_reverse_bits;
 mod s0191_number_of_1_bits;
+mod s0198_house_robber;
