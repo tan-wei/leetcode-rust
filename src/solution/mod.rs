@@ -168,3 +168,4 @@ mod s0198_house_robber;
 mod s0199_binary_tree_right_side_view;
 mod s0200_number_of_islands;
 mod s0201_bitwise_and_of_numbers_range;
+mod s0202_happy_number;
