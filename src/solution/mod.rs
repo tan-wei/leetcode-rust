@@ -171,3 +171,4 @@ mod s0201_bitwise_and_of_numbers_range;
 mod s0202_happy_number;
 mod s0203_remove_linked_list_elements;
 mod s0204_count_primes;
+mod s0205_isomorphic_strings;
