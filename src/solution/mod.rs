@@ -178,3 +178,4 @@ mod s0208_implement_trie_prefix_tree;
 mod s0209_minimum_size_subarray_sum;
 mod s0210_course_schedule_ii;
 mod s0211_design_add_and_search_words_data_structure;
+mod s0212_word_search_ii;
