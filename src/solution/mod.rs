@@ -181,3 +181,4 @@ mod s0211_design_add_and_search_words_data_structure;
 mod s0212_word_search_ii;
 mod s0213_house_robber_ii;
 mod s0214_shortest_palindrome;
+mod s0215_kth_largest_element_in_an_array;
