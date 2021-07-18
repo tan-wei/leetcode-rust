@@ -189,3 +189,4 @@ mod s0219_contains_duplicate_ii;
 mod s0220_contains_duplicate_iii;
 mod s0221_maximal_square;
 mod s0222_count_complete_tree_nodes;
+mod s0223_rectangle_area;
