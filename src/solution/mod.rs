@@ -192,3 +192,4 @@ mod s0222_count_complete_tree_nodes;
 mod s0223_rectangle_area;
 mod s0224_basic_calculator;
 mod s0225_implement_stack_using_queues;
+mod s0226_invert_binary_tree;
