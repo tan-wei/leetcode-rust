@@ -197,3 +197,4 @@ mod s0227_basic_calculator_ii;
 mod s0228_summary_ranges;
 mod s0229_majority_element_ii;
 mod s0230_kth_smallest_element_in_a_bst;
+mod s0231_power_of_two;
