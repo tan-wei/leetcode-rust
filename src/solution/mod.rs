@@ -198,3 +198,5 @@ mod s0228_summary_ranges;
 mod s0229_majority_element_ii;
 mod s0230_kth_smallest_element_in_a_bst;
 mod s0231_power_of_two;
+mod s0233_number_of_digit_one;
+mod s0232_implement_queue_using_stacks;
