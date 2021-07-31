@@ -202,3 +202,4 @@ mod s0233_number_of_digit_one;
 mod s0232_implement_queue_using_stacks;
 mod s0234_palindrome_linked_list;
 mod s0235_lowest_common_ancestor_of_a_binary_search_tree;
+mod s0236_lowest_common_ancestor_of_a_binary_tree;
