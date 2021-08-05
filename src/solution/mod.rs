@@ -207,3 +207,4 @@ mod s0238_product_of_array_except_self;
 mod s0239_sliding_window_maximum;
 mod s0240_search_a_2d_matrix_ii;
 mod s0241_different_ways_to_add_parentheses;
+mod s0242_valid_anagram;
