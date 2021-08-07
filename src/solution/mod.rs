@@ -209,3 +209,4 @@ mod s0240_search_a_2d_matrix_ii;
 mod s0241_different_ways_to_add_parentheses;
 mod s0242_valid_anagram;
 mod s0257_binary_tree_paths;
+mod s0258_add_digits;
