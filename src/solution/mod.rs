@@ -211,3 +211,4 @@ mod s0242_valid_anagram;
 mod s0257_binary_tree_paths;
 mod s0258_add_digits;
 mod s0260_single_number_iii;
+mod s0263_ugly_number;
