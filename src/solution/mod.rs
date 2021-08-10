@@ -212,3 +212,4 @@ mod s0257_binary_tree_paths;
 mod s0258_add_digits;
 mod s0260_single_number_iii;
 mod s0263_ugly_number;
+mod s0264_ugly_number_ii;
