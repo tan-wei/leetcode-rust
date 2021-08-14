@@ -216,3 +216,4 @@ mod s0264_ugly_number_ii;
 mod s0268_missing_number;
 mod s0273_integer_to_english_words;
 mod s0274_h_index;
+mod s0275_h_index_ii;
