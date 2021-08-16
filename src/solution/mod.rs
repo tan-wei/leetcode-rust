@@ -218,3 +218,4 @@ mod s0273_integer_to_english_words;
 mod s0274_h_index;
 mod s0275_h_index_ii;
 mod s0278_first_bad_version;
+mod s0279_perfect_squares;
