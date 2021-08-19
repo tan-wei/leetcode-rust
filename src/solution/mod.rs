@@ -221,3 +221,4 @@ mod s0278_first_bad_version;
 mod s0279_perfect_squares;
 mod s0282_expression_add_operators;
 mod s0283_move_zeroes;
+mod s0287_find_the_duplicate_number;
