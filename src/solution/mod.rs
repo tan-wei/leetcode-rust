@@ -224,3 +224,4 @@ mod s0283_move_zeroes;
 mod s0287_find_the_duplicate_number;
 mod s0289_game_of_life;
 mod s0290_word_pattern;
+mod s0292_nim_game;
