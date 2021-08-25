@@ -227,3 +227,4 @@ mod s0290_word_pattern;
 mod s0292_nim_game;
 mod s0295_find_median_from_data_stream;
 mod s0297_serialize_and_deserialize_binary_tree;
+mod s0299_bulls_and_cows;
