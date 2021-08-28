@@ -77,7 +77,7 @@ mod tests {
 
     #[test]
     fn test_0300_example_3() {
-        let nums = vec![10, 9, 2, 5, 3, 7, 101, 18];
+        let nums = vec![7, 7, 7, 7, 7, 7, 7];
         let result = 1;
 
         assert_eq!(Solution::length_of_lis(nums), result);
