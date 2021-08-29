@@ -231,3 +231,4 @@ mod s0299_bulls_and_cows;
 mod s0300_longest_increasing_subsequence;
 mod s0301_remove_invalid_parentheses;
 mod s0303_range_sum_query_immutable;
+mod s0304_range_sum_query_2d_immutable;
