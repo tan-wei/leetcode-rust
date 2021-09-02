@@ -235,3 +235,4 @@ mod s0304_range_sum_query_2d_immutable;
 mod s0306_additive_number;
 mod s0307_range_sum_query_mutable;
 mod s0309_best_time_to_buy_and_sell_stock_with_cooldown;
+mod s0310_minimum_height_trees;
