@@ -238,3 +238,4 @@ mod s0309_best_time_to_buy_and_sell_stock_with_cooldown;
 mod s0310_minimum_height_trees;
 mod s0312_burst_balloons;
 mod s0313_super_ugly_number;
+mod s0315_count_of_smaller_numbers_after_self;
