@@ -239,3 +239,4 @@ mod s0310_minimum_height_trees;
 mod s0312_burst_balloons;
 mod s0313_super_ugly_number;
 mod s0315_count_of_smaller_numbers_after_self;
+mod s0316_remove_duplicate_letters;
