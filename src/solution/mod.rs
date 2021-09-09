@@ -242,3 +242,4 @@ mod s0315_count_of_smaller_numbers_after_self;
 mod s0316_remove_duplicate_letters;
 mod s0318_maximum_product_of_word_lengths;
 mod s0319_bulb_switcher;
+mod s0321_create_maximum_number;
