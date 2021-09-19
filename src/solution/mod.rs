@@ -252,3 +252,4 @@ mod s0329_longest_increasing_path_in_a_matrix;
 mod s0330_patching_array;
 mod s0331_verify_preorder_serialization_of_a_binary_tree;
 mod s0332_reconstruct_itinerary;
+mod s0334_increasing_triplet_subsequence;
