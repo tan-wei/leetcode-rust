@@ -254,3 +254,4 @@ mod s0331_verify_preorder_serialization_of_a_binary_tree;
 mod s0332_reconstruct_itinerary;
 mod s0334_increasing_triplet_subsequence;
 mod s0335_self_crossing;
+mod s0336_palindrome_pairs;
