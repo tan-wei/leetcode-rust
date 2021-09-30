@@ -263,3 +263,4 @@ mod s0343_integer_break;
 mod s0344_reverse_string;
 mod s0345_reverse_vowels_of_a_string;
 mod s0347_top_k_frequent_elements;
+mod s0349_intersection_of_two_arrays;
