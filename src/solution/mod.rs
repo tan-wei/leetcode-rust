@@ -268,3 +268,4 @@ mod s0350_intersection_of_two_arrays_ii;
 mod s0352_data_stream_as_disjoint_intervals;
 mod s0354_russian_doll_envelopes;
 mod s0355_design_twitter;
+mod s0357_count_numbers_with_unique_digits;
