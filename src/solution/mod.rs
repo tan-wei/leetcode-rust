@@ -270,3 +270,4 @@ mod s0354_russian_doll_envelopes;
 mod s0355_design_twitter;
 mod s0357_count_numbers_with_unique_digits;
 mod s0363_max_sum_of_rectangle_no_larger_than_k;
+mod s0365_water_and_jug_problem;
