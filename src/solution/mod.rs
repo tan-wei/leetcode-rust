@@ -273,3 +273,4 @@ mod s0363_max_sum_of_rectangle_no_larger_than_k;
 mod s0365_water_and_jug_problem;
 mod s0367_valid_perfect_square;
 mod s0368_largest_divisible_subset;
+mod s0371_sum_of_two_integers;
