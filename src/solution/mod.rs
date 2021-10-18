@@ -281,3 +281,4 @@ mod s0375_guess_number_higher_or_lower_ii;
 mod s0376_wiggle_subsequence;
 mod s0377_combination_sum_iv;
 mod s0378_kth_smallest_element_in_a_sorted_matrix;
+mod s0380_insert_delete_getrandom_o1;
