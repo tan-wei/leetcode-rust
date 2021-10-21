@@ -284,3 +284,4 @@ mod s0378_kth_smallest_element_in_a_sorted_matrix;
 mod s0380_insert_delete_getrandom_o1;
 mod s0381_insert_delete_getrandom_o1_duplicates_allowed;
 mod s0382_linked_list_random_node;
+mod s0383_ransom_note;
