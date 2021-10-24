@@ -287,3 +287,4 @@ mod s0382_linked_list_random_node;
 mod s0383_ransom_note;
 mod s0384_shuffle_an_array;
 mod s0385_mini_parser;
+mod s0386_lexicographical_numbers;
