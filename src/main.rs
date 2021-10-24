@@ -336,7 +336,7 @@ fn deal_problem(problem: &Problem, code: &CodeDefinition, write_mod_file: bool) 
             "__PROBLEM_DEFAULT_CODE__",
             &insert_return_in_code(&problem.return_type, &code.default_code),
         )
-        .replace("__PROBLEM_ID__", &format!("{}", problem.question_id))
+        .replace("__PROBLEM_ID__", &format!("{:0>4}", problem.question_id))
         .replace("__EXTRA_USE__", &parse_extra_use(&code.default_code))
         .replace("__PROBLEM_LINK__", &parse_problem_link(problem))
         .replace("__DISCUSS_LINK__", &parse_discuss_link(problem));

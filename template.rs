@@ -19,6 +19,6 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test___PROBLEM_ID__() {
+    fn test___PROBLEM_ID___example_1() {
     }
 }
