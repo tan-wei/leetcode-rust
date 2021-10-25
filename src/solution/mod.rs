@@ -288,3 +288,4 @@ mod s0383_ransom_note;
 mod s0384_shuffle_an_array;
 mod s0385_mini_parser;
 mod s0386_lexicographical_numbers;
+mod s0387_first_unique_character_in_a_string;
