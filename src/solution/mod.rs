@@ -291,3 +291,4 @@ mod s0386_lexicographical_numbers;
 mod s0387_first_unique_character_in_a_string;
 mod s0388_longest_absolute_file_path;
 mod s0389_find_the_difference;
+mod s0390_elimination_game;
