@@ -295,3 +295,4 @@ mod s0390_elimination_game;
 mod s0391_perfect_rectangle;
 mod s0392_is_subsequence;
 mod s0393_utf_8_validation;
+mod s0394_decode_string;
