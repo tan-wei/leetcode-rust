@@ -297,3 +297,4 @@ mod s0392_is_subsequence;
 mod s0393_utf_8_validation;
 mod s0394_decode_string;
 mod s0395_longest_substring_with_at_least_k_repeating_characters;
+mod s0396_rotate_function;
