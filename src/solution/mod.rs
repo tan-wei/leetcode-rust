@@ -301,3 +301,4 @@ mod s0396_rotate_function;
 mod s0397_integer_replacement;
 mod s0398_random_pick_index;
 mod s0399_evaluate_division;
+mod s0400_nth_digit;
