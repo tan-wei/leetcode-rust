@@ -303,3 +303,4 @@ mod s0398_random_pick_index;
 mod s0399_evaluate_division;
 mod s0400_nth_digit;
 mod s0401_binary_watch;
+mod s0402_remove_k_digits;
