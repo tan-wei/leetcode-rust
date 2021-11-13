@@ -307,3 +307,4 @@ mod s0402_remove_k_digits;
 mod s0403_frog_jump;
 mod s0404_sum_of_left_leaves;
 mod s0405_convert_a_number_to_hexadecimal;
+mod s0406_queue_reconstruction_by_height;
