@@ -312,3 +312,4 @@ mod s0407_trapping_rain_water_ii;
 mod s0409_longest_palindrome;
 mod s0410_split_array_largest_sum;
 mod s0412_fizz_buzz;
+mod s0413_arithmetic_slices;
