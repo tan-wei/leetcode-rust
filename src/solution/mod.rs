@@ -315,3 +315,4 @@ mod s0412_fizz_buzz;
 mod s0413_arithmetic_slices;
 mod s0414_third_maximum_number;
 mod s0415_add_strings;
+mod s0416_partition_equal_subset_sum;
