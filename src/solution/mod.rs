@@ -322,3 +322,4 @@ mod s0420_strong_password_checker;
 mod s0421_maximum_xor_of_two_numbers_in_an_array;
 mod s0423_reconstruct_original_digits_from_english;
 mod s0424_longest_repeating_character_replacement;
+mod s0432_all_oone_data_structure;
