@@ -325,3 +325,4 @@ mod s0424_longest_repeating_character_replacement;
 mod s0432_all_oone_data_structure;
 mod s0433_minimum_genetic_mutation;
 mod s0434_number_of_segments_in_a_string;
+mod s0435_non_overlapping_intervals;
