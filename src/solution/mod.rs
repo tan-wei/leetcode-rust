@@ -344,3 +344,4 @@ mod s0452_minimum_number_of_arrows_to_burst_balloons;
 mod s0453_minimum_moves_to_equal_array_elements;
 mod s0454_4sum_ii;
 mod s0455_assign_cookies;
+mod s0456_132_pattern;
