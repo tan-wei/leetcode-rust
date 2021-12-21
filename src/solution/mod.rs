@@ -345,3 +345,4 @@ mod s0453_minimum_moves_to_equal_array_elements;
 mod s0454_4sum_ii;
 mod s0455_assign_cookies;
 mod s0456_132_pattern;
+mod s0457_circular_array_loop;
