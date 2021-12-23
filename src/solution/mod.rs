@@ -347,3 +347,4 @@ mod s0455_assign_cookies;
 mod s0456_132_pattern;
 mod s0457_circular_array_loop;
 mod s0458_poor_pigs;
+mod s0459_repeated_substring_pattern;
