@@ -353,3 +353,4 @@ mod s0461_hamming_distance;
 mod s0462_minimum_moves_to_equal_array_elements_ii;
 mod s0463_island_perimeter;
 mod s0464_can_i_win;
+mod s0466_count_the_repetitions;
