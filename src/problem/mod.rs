@@ -1,0 +1,1 @@
+mod p0470_implement_rand10_using_rand7;
