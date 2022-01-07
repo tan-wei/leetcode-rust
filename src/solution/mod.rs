@@ -362,3 +362,4 @@ mod s0473_matchsticks_to_square;
 mod s0474_ones_and_zeroes;
 mod s0475_heaters;
 mod s0476_number_complement;
+mod s0477_total_hamming_distance;
