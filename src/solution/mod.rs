@@ -364,3 +364,4 @@ mod s0475_heaters;
 mod s0476_number_complement;
 mod s0477_total_hamming_distance;
 mod s0478_generate_random_point_in_a_circle;
+mod s0479_largest_palindrome_product;
