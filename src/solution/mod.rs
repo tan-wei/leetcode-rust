@@ -367,3 +367,4 @@ mod s0478_generate_random_point_in_a_circle;
 mod s0479_largest_palindrome_product;
 mod s0480_sliding_window_median;
 mod s0481_magical_string;
+mod s0482_license_key_formatting;
