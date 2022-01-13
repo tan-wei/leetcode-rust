@@ -368,3 +368,4 @@ mod s0479_largest_palindrome_product;
 mod s0480_sliding_window_median;
 mod s0481_magical_string;
 mod s0482_license_key_formatting;
+mod s0483_smallest_good_base;
