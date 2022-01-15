@@ -370,3 +370,4 @@ mod s0481_magical_string;
 mod s0482_license_key_formatting;
 mod s0483_smallest_good_base;
 mod s0485_max_consecutive_ones;
+mod s0486_predict_the_winner;
