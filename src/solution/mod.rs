@@ -372,3 +372,4 @@ mod s0483_smallest_good_base;
 mod s0485_max_consecutive_ones;
 mod s0486_predict_the_winner;
 mod s0488_zuma_game;
+mod s0491_increasing_subsequences;
