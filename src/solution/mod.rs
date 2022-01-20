@@ -375,3 +375,4 @@ mod s0488_zuma_game;
 mod s0491_increasing_subsequences;
 mod s0492_construct_the_rectangle;
 mod s0493_reverse_pairs;
+mod s0494_target_sum;
