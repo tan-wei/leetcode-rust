@@ -377,3 +377,4 @@ mod s0492_construct_the_rectangle;
 mod s0493_reverse_pairs;
 mod s0494_target_sum;
 mod s0495_teemo_attacking;
+mod s0496_next_greater_element_i;
