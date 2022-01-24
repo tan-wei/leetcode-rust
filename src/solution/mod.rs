@@ -379,3 +379,4 @@ mod s0494_target_sum;
 mod s0495_teemo_attacking;
 mod s0496_next_greater_element_i;
 mod s0497_random_point_in_non_overlapping_rectangles;
+mod s0498_diagonal_traverse;
