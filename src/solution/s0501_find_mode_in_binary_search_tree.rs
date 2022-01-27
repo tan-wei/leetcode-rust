@@ -97,7 +97,7 @@ mod tests {
     #[test]
     fn test_0501_example_1() {
         let root = tree![1, null, 2, 2];
-        let result = 2;
+        let result = vec![2];
 
         assert_eq!(Solution::find_mode(root), result);
     }
@@ -105,7 +105,7 @@ mod tests {
     #[test]
     fn test_0501_example_2() {
         let root = tree![0];
-        let result = 0;
+        let result = vec![0];
 
         assert_eq!(Solution::find_mode(root), result);
     }
