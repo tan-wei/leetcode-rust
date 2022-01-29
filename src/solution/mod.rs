@@ -384,3 +384,4 @@ mod s0500_keyboard_row;
 mod s0501_find_mode_in_binary_search_tree;
 mod s0502_ipo;
 mod s0503_next_greater_element_ii;
+mod s0504_base_7;
