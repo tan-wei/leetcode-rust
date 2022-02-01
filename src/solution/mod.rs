@@ -387,3 +387,4 @@ mod s0503_next_greater_element_ii;
 mod s0504_base_7;
 mod s0506_relative_ranks;
 mod s0507_perfect_number;
+mod s0508_most_frequent_subtree_sum;
