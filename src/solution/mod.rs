@@ -390,3 +390,4 @@ mod s0507_perfect_number;
 mod s0508_most_frequent_subtree_sum;
 mod s0509_fibonacci_number;
 mod s0513_find_bottom_left_tree_value;
+mod s0514_freedom_trail;
