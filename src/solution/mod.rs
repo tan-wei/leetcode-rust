@@ -395,3 +395,5 @@ mod s0515_find_largest_value_in_each_tree_row;
 mod s0516_longest_palindromic_subsequence;
 mod s0517_super_washing_machines;
 mod s0518_coin_change_2;
+mod s0520_detect_capital;
+mod s0519_random_flip_matrix;
