@@ -398,3 +398,4 @@ mod s0518_coin_change_2;
 mod s0520_detect_capital;
 mod s0519_random_flip_matrix;
 mod s0521_longest_uncommon_subsequence_i;
+mod s0522_longest_uncommon_subsequence_ii;
