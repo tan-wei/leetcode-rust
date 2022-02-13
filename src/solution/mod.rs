@@ -399,3 +399,4 @@ mod s0520_detect_capital;
 mod s0519_random_flip_matrix;
 mod s0521_longest_uncommon_subsequence_i;
 mod s0522_longest_uncommon_subsequence_ii;
+mod s0523_continuous_subarray_sum;
