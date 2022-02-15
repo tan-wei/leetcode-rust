@@ -401,3 +401,4 @@ mod s0521_longest_uncommon_subsequence_i;
 mod s0522_longest_uncommon_subsequence_ii;
 mod s0523_continuous_subarray_sum;
 mod s0524_longest_word_in_dictionary_through_deleting;
+mod s0525_contiguous_array;
