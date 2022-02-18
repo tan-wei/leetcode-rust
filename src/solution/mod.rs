@@ -404,3 +404,4 @@ mod s0524_longest_word_in_dictionary_through_deleting;
 mod s0525_contiguous_array;
 mod s0526_beautiful_arrangement;
 mod s0528_random_pick_with_weight;
+mod s0529_minesweeper;
