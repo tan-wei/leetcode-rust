@@ -405,3 +405,4 @@ mod s0525_contiguous_array;
 mod s0526_beautiful_arrangement;
 mod s0528_random_pick_with_weight;
 mod s0529_minesweeper;
+mod s0530_minimum_absolute_difference_in_bst;
