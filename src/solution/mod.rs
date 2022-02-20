@@ -406,3 +406,4 @@ mod s0526_beautiful_arrangement;
 mod s0528_random_pick_with_weight;
 mod s0529_minesweeper;
 mod s0530_minimum_absolute_difference_in_bst;
+mod s0532_k_diff_pairs_in_an_array;
