@@ -408,3 +408,4 @@ mod s0529_minesweeper;
 mod s0530_minimum_absolute_difference_in_bst;
 mod s0532_k_diff_pairs_in_an_array;
 mod s0535_encode_and_decode_tinyurl;
+mod s0537_complex_number_multiplication;
