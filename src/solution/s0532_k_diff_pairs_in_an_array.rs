@@ -52,11 +52,7 @@ impl Solution {
         let mut count = 0;
         hm.iter().for_each(|(&x, &n)| {
             if hm.get(&(x + k)).is_some() {
-                count += if k > 0 || k == 0 && n > 1 {
-                    1
-                } else {
-                    0
-                };
+                count += if k > 0 || k == 0 && n > 1 { 1 } else { 0 };
             }
         });
 
