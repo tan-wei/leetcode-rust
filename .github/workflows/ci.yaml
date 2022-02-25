@@ -47,6 +47,7 @@ jobs:
           command: fmt
           args: --all -- --check
 
+  # TODO: Enable clippy with a configuration file
   # clippy:
   #   name: Clippy
   #   runs-on: ubuntu-latest
