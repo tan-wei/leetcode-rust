@@ -415,3 +415,4 @@ mod s0540_single_element_in_a_sorted_array;
 mod s0541_reverse_string_ii;
 mod s0542_01_matrix;
 mod s0543_diameter_of_binary_tree;
+mod s0546_remove_boxes;
