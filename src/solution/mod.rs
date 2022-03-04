@@ -418,3 +418,4 @@ mod s0543_diameter_of_binary_tree;
 mod s0546_remove_boxes;
 mod s0547_number_of_provinces;
 mod s0551_student_attendance_record_i;
+mod s0552_student_attendance_record_ii;
