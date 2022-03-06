@@ -420,3 +420,4 @@ mod s0547_number_of_provinces;
 mod s0551_student_attendance_record_i;
 mod s0552_student_attendance_record_ii;
 mod s0553_optimal_division;
+mod s0554_brick_wall;
