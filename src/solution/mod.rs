@@ -424,3 +424,4 @@ mod s0554_brick_wall;
 mod s0556_next_greater_element_iii;
 mod s0557_reverse_words_in_a_string_iii;
 mod s0560_subarray_sum_equals_k;
+mod s0561_array_partition_i;
