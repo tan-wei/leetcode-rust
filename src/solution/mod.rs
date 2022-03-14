@@ -428,3 +428,4 @@ mod s0561_array_partition_i;
 mod s0563_binary_tree_tilt;
 mod s0564_find_the_closest_palindrome;
 mod s0565_array_nesting;
+mod s0566_reshape_the_matrix;
