@@ -429,3 +429,4 @@ mod s0563_binary_tree_tilt;
 mod s0564_find_the_closest_palindrome;
 mod s0565_array_nesting;
 mod s0566_reshape_the_matrix;
+mod s0567_permutation_in_string;
