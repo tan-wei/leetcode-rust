@@ -433,3 +433,4 @@ mod s0567_permutation_in_string;
 mod s0572_subtree_of_another_tree;
 mod s0575_distribute_candies;
 mod s0576_out_of_boundary_paths;
+mod s0581_shortest_unsorted_continuous_subarray;
