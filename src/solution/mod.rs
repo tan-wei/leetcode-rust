@@ -434,3 +434,4 @@ mod s0572_subtree_of_another_tree;
 mod s0575_distribute_candies;
 mod s0576_out_of_boundary_paths;
 mod s0581_shortest_unsorted_continuous_subarray;
+mod s0583_delete_operation_for_two_strings;
