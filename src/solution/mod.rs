@@ -435,3 +435,4 @@ mod s0575_distribute_candies;
 mod s0576_out_of_boundary_paths;
 mod s0581_shortest_unsorted_continuous_subarray;
 mod s0583_delete_operation_for_two_strings;
+mod s0587_erect_the_fence;
