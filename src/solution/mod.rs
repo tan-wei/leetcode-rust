@@ -437,3 +437,4 @@ mod s0581_shortest_unsorted_continuous_subarray;
 mod s0583_delete_operation_for_two_strings;
 mod s0587_erect_the_fence;
 mod s0591_tag_validator;
+mod s0592_fraction_addition_and_subtraction;
