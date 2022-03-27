@@ -441,3 +441,4 @@ mod s0592_fraction_addition_and_subtraction;
 mod s0593_valid_square;
 mod s0594_longest_harmonious_subsequence;
 mod s0598_range_addition_ii;
+mod s0599_minimum_index_sum_of_two_lists;
