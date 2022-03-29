@@ -443,3 +443,4 @@ mod s0594_longest_harmonious_subsequence;
 mod s0598_range_addition_ii;
 mod s0599_minimum_index_sum_of_two_lists;
 mod s0600_non_negative_integers_without_consecutive_ones;
+mod s0605_can_place_flowers;
