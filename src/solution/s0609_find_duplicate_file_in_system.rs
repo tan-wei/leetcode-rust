@@ -85,7 +85,7 @@ mod tests {
             vec_string!["root/a/1.txt", "root/c/3.txt"],
         ];
 
-        assert_eq!(Solution::find_duplicate(paths), result);
+        assert_eq_sorted!(Solution::find_duplicate(paths), result);
     }
 
     #[test]
@@ -100,6 +100,6 @@ mod tests {
             vec_string!["root/a/1.txt", "root/c/3.txt"],
         ];
 
-        assert_eq!(Solution::find_duplicate(paths), result);
+        assert_eq_sorted!(Solution::find_duplicate(paths), result);
     }
 }
