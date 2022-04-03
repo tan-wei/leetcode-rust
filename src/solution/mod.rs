@@ -448,3 +448,4 @@ mod s0606_construct_string_from_binary_tree;
 mod s0609_find_duplicate_file_in_system;
 mod s0611_valid_triangle_number;
 mod s0617_merge_two_binary_trees;
+mod s0621_task_scheduler;
