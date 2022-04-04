@@ -449,3 +449,4 @@ mod s0609_find_duplicate_file_in_system;
 mod s0611_valid_triangle_number;
 mod s0617_merge_two_binary_trees;
 mod s0621_task_scheduler;
+mod s0622_design_circular_queue;
