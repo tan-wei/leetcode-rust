@@ -451,3 +451,4 @@ mod s0617_merge_two_binary_trees;
 mod s0621_task_scheduler;
 mod s0622_design_circular_queue;
 mod s0623_add_one_row_to_tree;
+mod s0628_maximum_product_of_three_numbers;
