@@ -29,11 +29,11 @@ pub struct Solution {}
 
 impl Solution {
     pub fn judge_square_sum(c: i32) -> bool {
-        let (mut left, mut right) = (0, (c as f64).sqrt() as i32);
+        let (mut left, mut right) = (0u64, (c as f64).sqrt() as u64);
 
         while left <= right {
             let n = left.pow(2) + right.pow(2);
-            match n.cmp(&c) {
+            match n.cmp(&(c as u64)) {
                 std::cmp::Ordering::Less => {
                     left += 1;
                 }
@@ -65,6 +65,14 @@ mod tests {
     fn test_0633_example_2() {
         let c = 3;
         let result = false;
+
+        assert_eq!(Solution::judge_square_sum(c), result);
+    }
+
+    #[test]
+    fn test_0633_additional_1() {
+        let c = 2147483600;
+        let result = true;
 
         assert_eq!(Solution::judge_square_sum(c), result);
     }
