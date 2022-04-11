@@ -456,3 +456,4 @@ mod s0629_k_inverse_pairs_array;
 mod s0630_course_schedule_iii;
 mod s0632_smallest_range_covering_elements_from_k_lists;
 mod s0633_sum_of_square_numbers;
+mod s0636_exclusive_time_of_functions;
