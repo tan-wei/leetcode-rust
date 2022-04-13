@@ -458,3 +458,4 @@ mod s0632_smallest_range_covering_elements_from_k_lists;
 mod s0633_sum_of_square_numbers;
 mod s0636_exclusive_time_of_functions;
 mod s0637_average_of_levels_in_binary_tree;
+mod s0638_shopping_offers;
