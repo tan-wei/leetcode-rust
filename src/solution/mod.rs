@@ -461,3 +461,4 @@ mod s0637_average_of_levels_in_binary_tree;
 mod s0638_shopping_offers;
 mod s0639_decode_ways_ii;
 mod s0640_solve_the_equation;
+mod s0641_design_circular_deque;
