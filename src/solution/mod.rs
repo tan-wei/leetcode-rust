@@ -466,3 +466,4 @@ mod s0643_maximum_average_subarray_i;
 mod s0645_set_mismatch;
 mod s0646_maximum_length_of_pair_chain;
 mod s0647_palindromic_substrings;
+mod s0648_replace_words;
