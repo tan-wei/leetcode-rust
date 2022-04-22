@@ -467,3 +467,4 @@ mod s0645_set_mismatch;
 mod s0646_maximum_length_of_pair_chain;
 mod s0647_palindromic_substrings;
 mod s0648_replace_words;
+mod s0649_dota2_senate;
