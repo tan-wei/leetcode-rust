@@ -470,3 +470,4 @@ mod s0648_replace_words;
 mod s0649_dota2_senate;
 mod s0650_2_keys_keyboard;
 mod s0652_find_duplicate_subtrees;
+mod s0653_two_sum_iv_input_is_a_bst;
