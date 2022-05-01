@@ -476,3 +476,4 @@ mod s0655_print_binary_tree;
 mod s0657_robot_return_to_origin;
 mod s0658_find_k_closest_elements;
 mod s0659_split_array_into_consecutive_subsequences;
+mod s0661_image_smoother;
