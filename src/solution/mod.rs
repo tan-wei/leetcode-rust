@@ -479,3 +479,4 @@ mod s0659_split_array_into_consecutive_subsequences;
 mod s0661_image_smoother;
 mod s0662_maximum_width_of_binary_tree;
 mod s0664_strange_printer;
+mod s0665_non_decreasing_array;
