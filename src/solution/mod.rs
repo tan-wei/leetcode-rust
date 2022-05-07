@@ -482,3 +482,4 @@ mod s0664_strange_printer;
 mod s0665_non_decreasing_array;
 mod s0667_beautiful_arrangement_ii;
 mod s0668_kth_smallest_number_in_multiplication_table;
+mod s0669_trim_a_binary_search_tree;
