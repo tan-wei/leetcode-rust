@@ -486,3 +486,4 @@ mod s0669_trim_a_binary_search_tree;
 mod s0670_maximum_swap;
 mod s0671_second_minimum_node_in_a_binary_tree;
 mod s0672_bulb_switcher_ii;
+mod s0673_number_of_longest_increasing_subsequence;
