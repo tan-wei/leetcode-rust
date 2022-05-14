@@ -489,3 +489,4 @@ mod s0672_bulb_switcher_ii;
 mod s0673_number_of_longest_increasing_subsequence;
 mod s0674_longest_continuous_increasing_subsequence;
 mod s0675_cut_off_trees_for_golf_event;
+mod s0676_implement_magic_dictionary;
