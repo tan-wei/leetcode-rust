@@ -492,3 +492,4 @@ mod s0675_cut_off_trees_for_golf_event;
 mod s0676_implement_magic_dictionary;
 mod s0677_map_sum_pairs;
 mod s0678_valid_parenthesis_string;
+mod s0679_24_game;
