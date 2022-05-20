@@ -495,3 +495,4 @@ mod s0678_valid_parenthesis_string;
 mod s0679_24_game;
 mod s0680_valid_palindrome_ii;
 mod s0682_baseball_game;
+mod s0684_redundant_connection;
