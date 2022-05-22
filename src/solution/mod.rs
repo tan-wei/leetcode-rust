@@ -497,3 +497,4 @@ mod s0680_valid_palindrome_ii;
 mod s0682_baseball_game;
 mod s0684_redundant_connection;
 mod s0685_redundant_connection_ii;
+mod s0686_repeated_string_match;
