@@ -499,3 +499,4 @@ mod s0684_redundant_connection;
 mod s0685_redundant_connection_ii;
 mod s0686_repeated_string_match;
 mod s0687_longest_univalue_path;
+mod s0688_knight_probability_in_chessboard;
