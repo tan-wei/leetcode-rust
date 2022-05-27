@@ -502,3 +502,4 @@ mod s0687_longest_univalue_path;
 mod s0688_knight_probability_in_chessboard;
 mod s0689_maximum_sum_of_3_non_overlapping_subarrays;
 mod s0691_stickers_to_spell_word;
+mod s0692_top_k_frequent_words;
