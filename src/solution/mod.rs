@@ -504,3 +504,4 @@ mod s0689_maximum_sum_of_3_non_overlapping_subarrays;
 mod s0691_stickers_to_spell_word;
 mod s0692_top_k_frequent_words;
 mod s0693_binary_number_with_alternating_bits;
+mod s0695_max_area_of_island;
