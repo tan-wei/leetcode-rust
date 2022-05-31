@@ -506,3 +506,4 @@ mod s0692_top_k_frequent_words;
 mod s0693_binary_number_with_alternating_bits;
 mod s0695_max_area_of_island;
 mod s0696_count_binary_substrings;
+mod s0697_degree_of_an_array;
