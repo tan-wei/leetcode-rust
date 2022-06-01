@@ -82,4 +82,14 @@ mod tests {
 
         assert_eq!(Solution::can_partition_k_subsets(nums, k), result);
     }
+
+    #[test]
+    fn test_0698_additional_1() {
+        // TODO: This case will cause TLE
+        let nums = vec![8, 2, 10, 2, 5, 6, 8, 6, 4, 2, 8, 5, 8, 4, 2, 5];
+        let k = 5;
+        let result = false;
+
+        assert_eq!(Solution::can_partition_k_subsets(nums, k), result);
+    }
 }
