@@ -26,7 +26,7 @@ pub fn get_problem(frontend_question_id: u32) -> Option<Problem> {
                 return None;
             }
 
-            let client = reqwest::Client::new();
+            let client = reqwest::blocking::Client::new();
             let resp: RawProblem = client
                 .post(GRAPHQL_URL)
                 .json(&Query::question_query(
@@ -97,7 +97,10 @@ pub async fn get_problem_async(problem_stat: StatWithStatus) -> Option<Problem> 
 }
 
 pub fn get_problems() -> Option<Problems> {
-    reqwest::get(PROBLEMS_URL).unwrap().json().unwrap()
+    reqwest::blocking::get(PROBLEMS_URL)
+        .unwrap()
+        .json()
+        .unwrap()
 }
 
 #[derive(Serialize, Deserialize)]
