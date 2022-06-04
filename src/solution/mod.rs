@@ -510,3 +510,4 @@ mod s0697_degree_of_an_array;
 mod s0698_partition_to_k_equal_sum_subsets;
 mod s0699_falling_squares;
 mod s0700_search_in_a_binary_search_tree;
+mod s0701_insert_into_a_binary_search_tree;
