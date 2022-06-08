@@ -54,16 +54,19 @@ impl MyHashSet {
             set: vec![false; 1_000_001],
         }
     }
+
     fn add(&mut self, key: i32) {
         if let Some(elem) = self.set.get_mut(key as usize) {
             *elem = true;
         }
     }
+
     fn remove(&mut self, key: i32) {
         if let Some(elem) = self.set.get_mut(key as usize) {
             *elem = false;
         }
     }
+
     fn contains(&self, key: i32) -> bool {
         if let Some(elem) = self.set.get(key as usize) {
             *elem
