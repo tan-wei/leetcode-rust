@@ -514,3 +514,4 @@ mod s0701_insert_into_a_binary_search_tree;
 mod s0703_kth_largest_element_in_a_stream;
 mod s0704_binary_search;
 mod s0705_design_hashset;
+mod s0706_design_hashmap;
