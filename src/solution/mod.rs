@@ -518,3 +518,4 @@ mod s0706_design_hashmap;
 mod s0707_design_linked_list;
 mod s0709_to_lower_case;
 mod s0710_random_pick_with_blacklist;
+mod s0712_minimum_ascii_delete_sum_for_two_strings;
