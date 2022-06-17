@@ -523,3 +523,4 @@ mod s0713_subarray_product_less_than_k;
 mod s0714_best_time_to_buy_and_sell_stock_with_transaction_fee;
 mod s0715_range_module;
 mod s0717_1_bit_and_2_bit_characters;
+mod s0718_maximum_length_of_repeated_subarray;
