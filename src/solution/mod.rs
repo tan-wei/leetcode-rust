@@ -526,3 +526,4 @@ mod s0717_1_bit_and_2_bit_characters;
 mod s0718_maximum_length_of_repeated_subarray;
 mod s0719_find_k_th_smallest_pair_distance;
 mod s0720_longest_word_in_dictionary;
+mod s0721_accounts_merge;
