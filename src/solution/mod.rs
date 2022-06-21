@@ -527,3 +527,4 @@ mod s0718_maximum_length_of_repeated_subarray;
 mod s0719_find_k_th_smallest_pair_distance;
 mod s0720_longest_word_in_dictionary;
 mod s0721_accounts_merge;
+mod s0722_remove_comments;
