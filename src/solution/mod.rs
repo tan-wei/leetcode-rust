@@ -528,3 +528,4 @@ mod s0719_find_k_th_smallest_pair_distance;
 mod s0720_longest_word_in_dictionary;
 mod s0721_accounts_merge;
 mod s0722_remove_comments;
+mod s0724_find_pivot_index;
