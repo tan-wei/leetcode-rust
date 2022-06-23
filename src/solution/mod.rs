@@ -529,3 +529,4 @@ mod s0720_longest_word_in_dictionary;
 mod s0721_accounts_merge;
 mod s0722_remove_comments;
 mod s0724_find_pivot_index;
+mod s0725_split_linked_list_in_parts;
