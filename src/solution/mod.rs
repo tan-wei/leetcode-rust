@@ -531,3 +531,4 @@ mod s0722_remove_comments;
 mod s0724_find_pivot_index;
 mod s0725_split_linked_list_in_parts;
 mod s0726_number_of_atoms;
+mod s0728_self_dividing_numbers;
