@@ -533,3 +533,4 @@ mod s0725_split_linked_list_in_parts;
 mod s0726_number_of_atoms;
 mod s0728_self_dividing_numbers;
 mod s0729_my_calendar_i;
+mod s0730_count_different_palindromic_subsequences;
