@@ -538,3 +538,4 @@ mod s0731_my_calendar_ii;
 mod s0732_my_calendar_iii;
 mod s0733_flood_fill;
 mod s0735_asteroid_collision;
+mod s0736_parse_lisp_expression;
