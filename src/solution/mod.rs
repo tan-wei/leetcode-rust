@@ -542,3 +542,4 @@ mod s0736_parse_lisp_expression;
 mod s0738_monotone_increasing_digits;
 mod s0739_daily_temperatures;
 mod s0740_delete_and_earn;
+mod s0741_cherry_pickup;
