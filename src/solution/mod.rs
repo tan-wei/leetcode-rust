@@ -543,3 +543,4 @@ mod s0738_monotone_increasing_digits;
 mod s0739_daily_temperatures;
 mod s0740_delete_and_earn;
 mod s0741_cherry_pickup;
+mod s0743_network_delay_time;
