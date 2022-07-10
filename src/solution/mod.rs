@@ -546,3 +546,4 @@ mod s0741_cherry_pickup;
 mod s0743_network_delay_time;
 mod s0744_find_smallest_letter_greater_than_target;
 mod s0745_prefix_and_suffix_search;
+mod s0746_min_cost_climbing_stairs;
