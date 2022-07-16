@@ -552,3 +552,4 @@ mod s0748_shortest_completing_word;
 mod s0749_contain_virus;
 mod s0752_open_the_lock;
 mod s0753_cracking_the_safe;
+mod s0754_reach_a_number;
