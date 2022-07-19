@@ -555,3 +555,4 @@ mod s0753_cracking_the_safe;
 mod s0754_reach_a_number;
 mod s0756_pyramid_transition_matrix;
 mod s0757_set_intersection_size_at_least_two;
+mod s0761_special_binary_string;
