@@ -556,3 +556,4 @@ mod s0754_reach_a_number;
 mod s0756_pyramid_transition_matrix;
 mod s0757_set_intersection_size_at_least_two;
 mod s0761_special_binary_string;
+mod s0762_prime_number_of_set_bits_in_binary_representation;
