@@ -331,7 +331,7 @@ impl Solution {
             let mut new_members = vec![];
             let mut new_operators = vec![];
 
-            for op in ['*', '-', '+'].into_iter() {
+            for op in ['*', '-', '+'].iter() {
                 {
                     let mut it_mem = members.drain(..);
                     let mut it_op = operators.drain(..);
