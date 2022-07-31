@@ -73,7 +73,6 @@ impl RandomizedSet {
         }
     }
 
-    #[allow(mutable_borrow_reservation_conflict)]
     fn remove(&mut self, val: i32) -> bool {
         match self.um.get(&val) {
             //Get value of key
