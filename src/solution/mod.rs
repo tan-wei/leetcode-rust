@@ -568,3 +568,4 @@ mod s0770_basic_calculator_iv;
 mod s0771_jewels_and_stones;
 mod s0773_sliding_puzzle;
 mod s0775_global_and_local_inversions;
+mod s0777_swap_adjacent_in_lr_string;
