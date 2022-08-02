@@ -569,3 +569,4 @@ mod s0771_jewels_and_stones;
 mod s0773_sliding_puzzle;
 mod s0775_global_and_local_inversions;
 mod s0777_swap_adjacent_in_lr_string;
+mod s0778_swim_in_rising_water;
