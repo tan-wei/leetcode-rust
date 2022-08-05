@@ -572,3 +572,4 @@ mod s0777_swap_adjacent_in_lr_string;
 mod s0778_swim_in_rising_water;
 mod s0779_k_th_symbol_in_grammar;
 mod s0780_reaching_points;
+mod s0781_rabbits_in_forest;
