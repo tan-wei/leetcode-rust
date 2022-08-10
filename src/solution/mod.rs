@@ -577,3 +577,4 @@ mod s0782_transform_to_chessboard;
 mod s0783_minimum_distance_between_bst_nodes;
 mod s0784_letter_case_permutation;
 mod s0785_is_graph_bipartite;
+mod s0786_k_th_smallest_prime_fraction;
