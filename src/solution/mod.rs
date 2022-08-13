@@ -580,3 +580,4 @@ mod s0785_is_graph_bipartite;
 mod s0786_k_th_smallest_prime_fraction;
 mod s0787_cheapest_flights_within_k_stops;
 mod s0788_rotated_digits;
+mod s0789_escape_the_ghosts;
