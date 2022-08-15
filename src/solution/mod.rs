@@ -582,3 +582,4 @@ mod s0787_cheapest_flights_within_k_stops;
 mod s0788_rotated_digits;
 mod s0789_escape_the_ghosts;
 mod s0790_domino_and_tromino_tiling;
+mod s0791_custom_sort_string;
