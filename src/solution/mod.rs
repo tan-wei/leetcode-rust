@@ -585,3 +585,4 @@ mod s0790_domino_and_tromino_tiling;
 mod s0791_custom_sort_string;
 mod s0792_number_of_matching_subsequences;
 mod s0793_preimage_size_of_factorial_zeroes_function;
+mod s0794_valid_tic_tac_toe_state;
