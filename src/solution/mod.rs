@@ -588,3 +588,4 @@ mod s0793_preimage_size_of_factorial_zeroes_function;
 mod s0794_valid_tic_tac_toe_state;
 mod s0795_number_of_subarrays_with_bounded_maximum;
 mod s0796_rotate_string;
+mod s0797_all_paths_from_source_to_target;
