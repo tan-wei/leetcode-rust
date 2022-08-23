@@ -590,3 +590,4 @@ mod s0795_number_of_subarrays_with_bounded_maximum;
 mod s0796_rotate_string;
 mod s0797_all_paths_from_source_to_target;
 mod s0798_smallest_rotation_with_highest_score;
+mod s0799_champagne_tower;
