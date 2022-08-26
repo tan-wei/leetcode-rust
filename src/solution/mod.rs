@@ -593,3 +593,4 @@ mod s0798_smallest_rotation_with_highest_score;
 mod s0799_champagne_tower;
 mod s0801_minimum_swaps_to_make_sequences_increasing;
 mod s0802_find_eventual_safe_states;
+mod s0803_bricks_falling_when_hit;
