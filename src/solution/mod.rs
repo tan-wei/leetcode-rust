@@ -595,3 +595,4 @@ mod s0801_minimum_swaps_to_make_sequences_increasing;
 mod s0802_find_eventual_safe_states;
 mod s0803_bricks_falling_when_hit;
 mod s0804_unique_morse_code_words;
+mod s0805_split_array_with_same_average;
