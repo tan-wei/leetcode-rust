@@ -597,3 +597,4 @@ mod s0803_bricks_falling_when_hit;
 mod s0804_unique_morse_code_words;
 mod s0805_split_array_with_same_average;
 mod s0806_number_of_lines_to_write_string;
+mod s0807_max_increase_to_keep_city_skyline;
