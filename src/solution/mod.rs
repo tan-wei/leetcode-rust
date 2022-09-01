@@ -599,3 +599,4 @@ mod s0805_split_array_with_same_average;
 mod s0806_number_of_lines_to_write_string;
 mod s0807_max_increase_to_keep_city_skyline;
 mod s0808_soup_servings;
+mod s0809_expressive_words;
