@@ -603,3 +603,4 @@ mod s0809_expressive_words;
 mod s0810_chalkboard_xor_game;
 mod s0811_subdomain_visit_count;
 mod s0812_largest_triangle_area;
+mod s0813_largest_sum_of_averages;
