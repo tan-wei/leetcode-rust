@@ -608,3 +608,4 @@ mod s0814_binary_tree_pruning;
 mod s0815_bus_routes;
 mod s0816_ambiguous_coordinates;
 mod s0817_linked_list_components;
+mod s0818_race_car;
