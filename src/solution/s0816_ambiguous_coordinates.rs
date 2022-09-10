@@ -89,7 +89,7 @@ mod tests {
         let s = "(123)".to_string();
         let result = vec_string!["(1, 2.3)", "(1, 23)", "(1.2, 3)", "(12, 3)"];
 
-        assert_eq!(Solution::ambiguous_coordinates(s), result);
+        assert_eq_sorted!(Solution::ambiguous_coordinates(s), result);
     }
 
     #[test]
