@@ -104,7 +104,7 @@ mod tests {
             "(0.12, 3)"
         ];
 
-        assert_eq!(Solution::ambiguous_coordinates(s), result);
+        assert_eq_sorted!(Solution::ambiguous_coordinates(s), result);
     }
 
     #[test]
@@ -112,6 +112,6 @@ mod tests {
         let s = "(00011)".to_string();
         let result = vec_string!["(0, 0.011)", "(0.001, 1)"];
 
-        assert_eq!(Solution::ambiguous_coordinates(s), result);
+        assert_eq_sorted!(Solution::ambiguous_coordinates(s), result);
     }
 }
