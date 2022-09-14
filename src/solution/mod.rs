@@ -612,3 +612,4 @@ mod s0818_race_car;
 mod s0819_most_common_word;
 mod s0820_short_encoding_of_words;
 mod s0821_shortest_distance_to_a_character;
+mod s0822_card_flipping_game;
