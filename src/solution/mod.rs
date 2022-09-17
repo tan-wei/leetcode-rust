@@ -615,3 +615,4 @@ mod s0821_shortest_distance_to_a_character;
 mod s0822_card_flipping_game;
 mod s0823_binary_trees_with_factors;
 mod s0824_goat_latin;
+mod s0825_friends_of_appropriate_ages;
