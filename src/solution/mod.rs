@@ -619,3 +619,4 @@ mod s0825_friends_of_appropriate_ages;
 mod s0826_most_profit_assigning_work;
 mod s0827_making_a_large_island;
 mod s0828_count_unique_characters_of_all_substrings_of_a_given_string;
+mod s0829_consecutive_numbers_sum;
