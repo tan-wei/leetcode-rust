@@ -621,3 +621,4 @@ mod s0827_making_a_large_island;
 mod s0828_count_unique_characters_of_all_substrings_of_a_given_string;
 mod s0829_consecutive_numbers_sum;
 mod s0830_positions_of_large_groups;
+mod s0831_masking_personal_information;
