@@ -624,3 +624,4 @@ mod s0830_positions_of_large_groups;
 mod s0831_masking_personal_information;
 mod s0832_flipping_an_image;
 mod s0833_find_and_replace_in_string;
+mod s0834_sum_of_distances_in_tree;
