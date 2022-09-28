@@ -626,3 +626,4 @@ mod s0832_flipping_an_image;
 mod s0833_find_and_replace_in_string;
 mod s0834_sum_of_distances_in_tree;
 mod s0835_image_overlap;
+mod s0836_rectangle_overlap;
