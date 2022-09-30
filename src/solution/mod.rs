@@ -628,3 +628,4 @@ mod s0834_sum_of_distances_in_tree;
 mod s0835_image_overlap;
 mod s0836_rectangle_overlap;
 mod s0837_new_21_game;
+mod s0838_push_dominoes;
