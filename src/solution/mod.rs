@@ -630,3 +630,4 @@ mod s0836_rectangle_overlap;
 mod s0837_new_21_game;
 mod s0838_push_dominoes;
 mod s0839_similar_string_groups;
+mod s0840_magic_squares_in_grid;
