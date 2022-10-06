@@ -634,3 +634,4 @@ mod s0840_magic_squares_in_grid;
 mod s0841_keys_and_rooms;
 mod s0842_split_array_into_fibonacci_sequence;
 mod s0843_guess_the_word;
+mod s0844_backspace_string_compare;
