@@ -636,3 +636,4 @@ mod s0842_split_array_into_fibonacci_sequence;
 mod s0843_guess_the_word;
 mod s0844_backspace_string_compare;
 mod s0845_longest_mountain_in_array;
+mod s0846_hand_of_straights;
