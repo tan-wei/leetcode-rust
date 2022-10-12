@@ -640,3 +640,4 @@ mod s0846_hand_of_straights;
 mod s0847_shortest_path_visiting_all_nodes;
 mod s0848_shifting_letters;
 mod s0849_maximize_distance_to_closest_person;
+mod s0850_rectangle_area_ii;
