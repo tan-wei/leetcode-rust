@@ -642,3 +642,4 @@ mod s0848_shifting_letters;
 mod s0849_maximize_distance_to_closest_person;
 mod s0850_rectangle_area_ii;
 mod s0851_loud_and_rich;
+mod s0852_peak_index_in_a_mountain_array;
