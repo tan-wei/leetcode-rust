@@ -645,3 +645,4 @@ mod s0851_loud_and_rich;
 mod s0852_peak_index_in_a_mountain_array;
 mod s0853_car_fleet;
 mod s0854_k_similar_strings;
+mod s0855_exam_room;
