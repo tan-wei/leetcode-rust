@@ -647,3 +647,4 @@ mod s0853_car_fleet;
 mod s0854_k_similar_strings;
 mod s0855_exam_room;
 mod s0856_score_of_parentheses;
+mod s0857_minimum_cost_to_hire_k_workers;
