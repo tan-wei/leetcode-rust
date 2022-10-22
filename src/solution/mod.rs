@@ -650,3 +650,4 @@ mod s0856_score_of_parentheses;
 mod s0857_minimum_cost_to_hire_k_workers;
 mod s0858_mirror_reflection;
 mod s0859_buddy_strings;
+mod s0860_lemonade_change;
