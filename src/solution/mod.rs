@@ -653,3 +653,4 @@ mod s0859_buddy_strings;
 mod s0860_lemonade_change;
 mod s0861_score_after_flipping_matrix;
 mod s0862_shortest_subarray_with_sum_at_least_k;
+mod s0863_all_nodes_distance_k_in_binary_tree;
