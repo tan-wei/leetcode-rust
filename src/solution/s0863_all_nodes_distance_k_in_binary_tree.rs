@@ -115,6 +115,7 @@ impl Solution {
 mod tests {
     use super::*;
 
+    #[ignore]
     #[test]
     fn test_0863_example_1() {
         let root = tree![3, 5, 1, 6, 2, 0, 8, null, null, 7, 4];
@@ -125,6 +126,7 @@ mod tests {
         assert_eq!(Solution::distance_k(root, target, k), result);
     }
 
+    #[ignore]
     #[test]
     fn test_0863_example_2() {
         let root = tree![1];
