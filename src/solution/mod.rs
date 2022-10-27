@@ -655,3 +655,4 @@ mod s0861_score_after_flipping_matrix;
 mod s0862_shortest_subarray_with_sum_at_least_k;
 mod s0863_all_nodes_distance_k_in_binary_tree;
 mod s0864_shortest_path_to_get_all_keys;
+mod s0865_smallest_subtree_with_all_the_deepest_nodes;
