@@ -246,6 +246,7 @@ fn build_desc(content: &str) -> String {
     content
         .replace("<strong>", "")
         .replace("</strong>", "")
+        .replace("<strong class=\"example\">", "")
         .replace("<em>", "")
         .replace("</em>", "")
         .replace("</p>", "")
