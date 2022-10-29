@@ -657,3 +657,4 @@ mod s0863_all_nodes_distance_k_in_binary_tree;
 mod s0864_shortest_path_to_get_all_keys;
 mod s0865_smallest_subtree_with_all_the_deepest_nodes;
 mod s0866_prime_palindrome;
+mod s0867_transpose_matrix;
