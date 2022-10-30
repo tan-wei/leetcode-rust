@@ -658,3 +658,4 @@ mod s0864_shortest_path_to_get_all_keys;
 mod s0865_smallest_subtree_with_all_the_deepest_nodes;
 mod s0866_prime_palindrome;
 mod s0867_transpose_matrix;
+mod s0868_binary_gap;
