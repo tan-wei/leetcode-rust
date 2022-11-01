@@ -660,3 +660,4 @@ mod s0866_prime_palindrome;
 mod s0867_transpose_matrix;
 mod s0868_binary_gap;
 mod s0869_reordered_power_of_2;
+mod s0870_advantage_shuffle;
