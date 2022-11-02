@@ -661,3 +661,4 @@ mod s0867_transpose_matrix;
 mod s0868_binary_gap;
 mod s0869_reordered_power_of_2;
 mod s0870_advantage_shuffle;
+mod s0871_minimum_number_of_refueling_stops;
