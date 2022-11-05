@@ -664,3 +664,4 @@ mod s0870_advantage_shuffle;
 mod s0871_minimum_number_of_refueling_stops;
 mod s0872_leaf_similar_trees;
 mod s0873_length_of_longest_fibonacci_subsequence;
+mod s0874_walking_robot_simulation;
