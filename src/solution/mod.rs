@@ -667,3 +667,4 @@ mod s0873_length_of_longest_fibonacci_subsequence;
 mod s0874_walking_robot_simulation;
 mod s0875_koko_eating_bananas;
 mod s0876_middle_of_the_linked_list;
+mod s0877_stone_game;
