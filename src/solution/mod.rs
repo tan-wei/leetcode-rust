@@ -668,3 +668,4 @@ mod s0874_walking_robot_simulation;
 mod s0875_koko_eating_bananas;
 mod s0876_middle_of_the_linked_list;
 mod s0877_stone_game;
+mod s0878_nth_magical_number;
