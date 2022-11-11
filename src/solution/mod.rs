@@ -670,3 +670,4 @@ mod s0876_middle_of_the_linked_list;
 mod s0877_stone_game;
 mod s0878_nth_magical_number;
 mod s0879_profitable_schemes;
+mod s0880_decoded_string_at_index;
