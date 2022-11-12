@@ -671,3 +671,4 @@ mod s0877_stone_game;
 mod s0878_nth_magical_number;
 mod s0879_profitable_schemes;
 mod s0880_decoded_string_at_index;
+mod s0881_boats_to_save_people;
