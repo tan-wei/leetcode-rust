@@ -678,3 +678,4 @@ mod s0884_uncommon_words_from_two_sentences;
 mod s0885_spiral_matrix_iii;
 mod s0886_possible_bipartition;
 mod s0887_super_egg_drop;
+mod s0888_fair_candy_swap;
