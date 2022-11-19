@@ -72,5 +72,29 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_0887_example_1() {}
+    fn test_0887_example_1() {
+        let k = 1;
+        let n = 2;
+        let result = 2;
+
+        assert_eq!(Solution::super_egg_drop(k, n), result);
+    }
+
+    #[test]
+    fn test_0887_example_2() {
+        let k = 2;
+        let n = 6;
+        let result = 3;
+
+        assert_eq!(Solution::super_egg_drop(k, n), result);
+    }
+
+    #[test]
+    fn test_0887_example_3() {
+        let k = 3;
+        let n = 14;
+        let result = 4;
+
+        assert_eq!(Solution::super_egg_drop(k, n), result);
+    }
 }
