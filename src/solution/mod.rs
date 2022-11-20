@@ -679,3 +679,4 @@ mod s0885_spiral_matrix_iii;
 mod s0886_possible_bipartition;
 mod s0887_super_egg_drop;
 mod s0888_fair_candy_swap;
+mod s0889_construct_binary_tree_from_preorder_and_postorder_traversal;
