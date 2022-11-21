@@ -680,3 +680,4 @@ mod s0886_possible_bipartition;
 mod s0887_super_egg_drop;
 mod s0888_fair_candy_swap;
 mod s0889_construct_binary_tree_from_preorder_and_postorder_traversal;
+mod s0890_find_and_replace_pattern;
