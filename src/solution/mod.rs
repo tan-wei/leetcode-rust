@@ -684,3 +684,4 @@ mod s0890_find_and_replace_pattern;
 mod s0891_sum_of_subsequence_widths;
 mod s0892_surface_area_of_3d_shapes;
 mod s0893_groups_of_special_equivalent_strings;
+mod s0894_all_possible_full_binary_trees;
