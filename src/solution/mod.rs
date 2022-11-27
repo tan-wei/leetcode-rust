@@ -686,3 +686,4 @@ mod s0892_surface_area_of_3d_shapes;
 mod s0893_groups_of_special_equivalent_strings;
 mod s0894_all_possible_full_binary_trees;
 mod s0895_maximum_frequency_stack;
+mod s0896_monotonic_array;
