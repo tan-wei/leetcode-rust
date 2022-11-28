@@ -687,3 +687,4 @@ mod s0893_groups_of_special_equivalent_strings;
 mod s0894_all_possible_full_binary_trees;
 mod s0895_maximum_frequency_stack;
 mod s0896_monotonic_array;
+mod s0897_increasing_order_search_tree;
