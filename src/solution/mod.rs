@@ -688,3 +688,4 @@ mod s0894_all_possible_full_binary_trees;
 mod s0895_maximum_frequency_stack;
 mod s0896_monotonic_array;
 mod s0897_increasing_order_search_tree;
+mod s0898_bitwise_ors_of_subarrays;
