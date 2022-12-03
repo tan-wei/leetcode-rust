@@ -692,3 +692,4 @@ mod s0898_bitwise_ors_of_subarrays;
 mod s0899_orderly_queue;
 mod s0900_rle_iterator;
 mod s0901_online_stock_span;
+mod s0902_numbers_at_most_n_given_digit_set;
