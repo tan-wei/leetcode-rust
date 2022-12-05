@@ -694,3 +694,4 @@ mod s0900_rle_iterator;
 mod s0901_online_stock_span;
 mod s0902_numbers_at_most_n_given_digit_set;
 mod s0903_valid_permutations_for_di_sequence;
+mod s0904_fruit_into_baskets;
