@@ -697,3 +697,4 @@ mod s0903_valid_permutations_for_di_sequence;
 mod s0904_fruit_into_baskets;
 mod s0905_sort_array_by_parity;
 mod s0906_super_palindromes;
+mod s0907_sum_of_subarray_minimums;
