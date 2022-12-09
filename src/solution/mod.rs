@@ -698,3 +698,4 @@ mod s0904_fruit_into_baskets;
 mod s0905_sort_array_by_parity;
 mod s0906_super_palindromes;
 mod s0907_sum_of_subarray_minimums;
+mod s0908_smallest_range_i;
