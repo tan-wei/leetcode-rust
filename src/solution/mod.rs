@@ -702,3 +702,4 @@ mod s0908_smallest_range_i;
 mod s0909_snakes_and_ladders;
 mod s0910_smallest_range_ii;
 mod s0911_online_election;
+mod s0912_sort_an_array;
