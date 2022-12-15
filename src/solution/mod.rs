@@ -704,3 +704,4 @@ mod s0910_smallest_range_ii;
 mod s0911_online_election;
 mod s0912_sort_an_array;
 mod s0913_cat_and_mouse;
+mod s0914_x_of_a_kind_in_a_deck_of_cards;
