@@ -708,3 +708,4 @@ mod s0914_x_of_a_kind_in_a_deck_of_cards;
 mod s0915_partition_array_into_disjoint_intervals;
 mod s0916_word_subsets;
 mod s0917_reverse_only_letters;
+mod s0918_maximum_sum_circular_subarray;
