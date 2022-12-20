@@ -709,3 +709,4 @@ mod s0915_partition_array_into_disjoint_intervals;
 mod s0916_word_subsets;
 mod s0917_reverse_only_letters;
 mod s0918_maximum_sum_circular_subarray;
+mod s0919_complete_binary_tree_inserter;
