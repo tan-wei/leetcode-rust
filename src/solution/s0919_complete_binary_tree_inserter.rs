@@ -135,8 +135,8 @@ mod tests {
     #[test]
     fn test_0919_example_1() {
         let mut c_bt_inserter = CBTInserter::new(tree![1, 2]);
-        asser_eq!(c_bt_inserter.insert(3), 1); // return 1
-        asser_eq!(c_bt_inserter.insert(4), 2); // return 2
-        asser_eq!(c_bt_inserter.get_root(), tree![1, 2, 3, 4]); // return [1, 2, 3, 4]
+        assert_eq!(c_bt_inserter.insert(3), 1); // return 1
+        assert_eq!(c_bt_inserter.insert(4), 2); // return 2
+        assert_eq!(c_bt_inserter.get_root(), tree![1, 2, 3, 4]); // return [1, 2, 3, 4]
     }
 }
