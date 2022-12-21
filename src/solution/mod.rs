@@ -710,3 +710,4 @@ mod s0916_word_subsets;
 mod s0917_reverse_only_letters;
 mod s0918_maximum_sum_circular_subarray;
 mod s0919_complete_binary_tree_inserter;
+mod s0920_number_of_music_playlists;
