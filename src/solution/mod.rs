@@ -714,3 +714,4 @@ mod s0920_number_of_music_playlists;
 mod s0921_minimum_add_to_make_parentheses_valid;
 mod s0922_sort_array_by_parity_ii;
 mod s0923_3sum_with_multiplicity;
+mod s0924_minimize_malware_spread;
