@@ -717,3 +717,4 @@ mod s0923_3sum_with_multiplicity;
 mod s0924_minimize_malware_spread;
 mod s0925_long_pressed_name;
 mod s0926_flip_string_to_monotone_increasing;
+mod s0927_three_equal_parts;
