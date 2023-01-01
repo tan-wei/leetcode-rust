@@ -721,3 +721,4 @@ mod s0927_three_equal_parts;
 mod s0928_minimize_malware_spread_ii;
 mod s0929_unique_email_addresses;
 mod s0930_binary_subarrays_with_sum;
+mod s0931_minimum_falling_path_sum;
