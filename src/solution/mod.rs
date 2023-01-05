@@ -725,3 +725,4 @@ mod s0931_minimum_falling_path_sum;
 mod s0932_beautiful_array;
 mod s0933_number_of_recent_calls;
 mod s0934_shortest_bridge;
+mod s0935_knight_dialer;
