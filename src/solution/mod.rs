@@ -726,3 +726,4 @@ mod s0932_beautiful_array;
 mod s0933_number_of_recent_calls;
 mod s0934_shortest_bridge;
 mod s0935_knight_dialer;
+mod s0936_stamping_the_sequence;
