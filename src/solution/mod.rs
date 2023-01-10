@@ -730,3 +730,4 @@ mod s0936_stamping_the_sequence;
 mod s0937_reorder_data_in_log_files;
 mod s0938_range_sum_of_bst;
 mod s0939_minimum_area_rectangle;
+mod s0940_distinct_subsequences_ii;
