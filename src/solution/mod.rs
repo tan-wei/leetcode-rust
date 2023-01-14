@@ -734,3 +734,4 @@ mod s0940_distinct_subsequences_ii;
 mod s0941_valid_mountain_array;
 mod s0942_di_string_match;
 mod s0943_find_the_shortest_superstring;
+mod s0944_delete_columns_to_make_sorted;
