@@ -735,3 +735,4 @@ mod s0941_valid_mountain_array;
 mod s0942_di_string_match;
 mod s0943_find_the_shortest_superstring;
 mod s0944_delete_columns_to_make_sorted;
+mod s0945_minimum_increment_to_make_array_unique;
