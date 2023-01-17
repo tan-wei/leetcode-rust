@@ -737,3 +737,4 @@ mod s0943_find_the_shortest_superstring;
 mod s0944_delete_columns_to_make_sorted;
 mod s0945_minimum_increment_to_make_array_unique;
 mod s0946_validate_stack_sequences;
+mod s0947_most_stones_removed_with_same_row_or_column;
