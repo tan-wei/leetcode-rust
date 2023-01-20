@@ -740,3 +740,4 @@ mod s0946_validate_stack_sequences;
 mod s0947_most_stones_removed_with_same_row_or_column;
 mod s0948_bag_of_tokens;
 mod s0949_largest_time_for_given_digits;
+mod s0950_reveal_cards_in_increasing_order;
