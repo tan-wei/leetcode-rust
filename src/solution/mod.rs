@@ -744,3 +744,4 @@ mod s0950_reveal_cards_in_increasing_order;
 mod s0951_flip_equivalent_binary_trees;
 mod s0952_largest_component_size_by_common_factor;
 mod s0953_verifying_an_alien_dictionary;
+mod s0954_array_of_doubled_pairs;
