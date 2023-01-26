@@ -746,3 +746,4 @@ mod s0952_largest_component_size_by_common_factor;
 mod s0953_verifying_an_alien_dictionary;
 mod s0954_array_of_doubled_pairs;
 mod s0955_delete_columns_to_make_sorted_ii;
+mod s0956_tallest_billboard;
