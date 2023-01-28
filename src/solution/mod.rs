@@ -748,3 +748,4 @@ mod s0954_array_of_doubled_pairs;
 mod s0955_delete_columns_to_make_sorted_ii;
 mod s0956_tallest_billboard;
 mod s0957_prison_cells_after_n_days;
+mod s0958_check_completeness_of_a_binary_tree;
