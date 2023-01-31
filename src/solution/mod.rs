@@ -751,3 +751,4 @@ mod s0957_prison_cells_after_n_days;
 mod s0958_check_completeness_of_a_binary_tree;
 mod s0959_regions_cut_by_slashes;
 mod s0960_delete_columns_to_make_sorted_iii;
+mod s0961_n_repeated_element_in_size_2n_array;
