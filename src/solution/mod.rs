@@ -753,3 +753,4 @@ mod s0959_regions_cut_by_slashes;
 mod s0960_delete_columns_to_make_sorted_iii;
 mod s0961_n_repeated_element_in_size_2n_array;
 mod s0962_maximum_width_ramp;
+mod s0963_minimum_area_rectangle_ii;
