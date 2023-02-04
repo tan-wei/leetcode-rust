@@ -755,3 +755,4 @@ mod s0961_n_repeated_element_in_size_2n_array;
 mod s0962_maximum_width_ramp;
 mod s0963_minimum_area_rectangle_ii;
 mod s0964_least_operators_to_express_number;
+mod s0965_univalued_binary_tree;
