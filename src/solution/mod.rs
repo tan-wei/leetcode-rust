@@ -756,3 +756,4 @@ mod s0962_maximum_width_ramp;
 mod s0963_minimum_area_rectangle_ii;
 mod s0964_least_operators_to_express_number;
 mod s0965_univalued_binary_tree;
+mod s0966_vowel_spellchecker;
