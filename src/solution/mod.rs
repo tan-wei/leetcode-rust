@@ -759,3 +759,4 @@ mod s0965_univalued_binary_tree;
 mod s0966_vowel_spellchecker;
 mod s0967_numbers_with_same_consecutive_differences;
 mod s0968_binary_tree_cameras;
+mod s0969_pancake_sorting;
