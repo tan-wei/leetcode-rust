@@ -765,3 +765,4 @@ mod s0971_flip_binary_tree_to_match_preorder_traversal;
 mod s0972_equal_rational_numbers;
 mod s0973_k_closest_points_to_origin;
 mod s0974_subarray_sums_divisible_by_k;
+mod s0975_odd_even_jump;
