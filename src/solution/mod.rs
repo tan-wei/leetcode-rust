@@ -768,3 +768,4 @@ mod s0974_subarray_sums_divisible_by_k;
 mod s0975_odd_even_jump;
 mod s0976_largest_perimeter_triangle;
 mod s0977_squares_of_a_sorted_array;
+mod s0978_longest_turbulent_subarray;
