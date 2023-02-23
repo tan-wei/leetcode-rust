@@ -774,3 +774,4 @@ mod s0980_unique_paths_iii;
 mod s0981_time_based_key_value_store;
 mod s0982_triples_with_bitwise_and_equal_to_zero;
 mod s0983_minimum_cost_for_tickets;
+mod s0984_string_without_aaa_or_bbb;
