@@ -776,3 +776,4 @@ mod s0982_triples_with_bitwise_and_equal_to_zero;
 mod s0983_minimum_cost_for_tickets;
 mod s0984_string_without_aaa_or_bbb;
 mod s0985_sum_of_even_numbers_after_queries;
+mod s0986_interval_list_intersections;
