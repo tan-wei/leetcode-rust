@@ -780,3 +780,4 @@ mod s0986_interval_list_intersections;
 mod s0987_vertical_order_traversal_of_a_binary_tree;
 mod s0988_smallest_string_starting_from_leaf;
 mod s0989_add_to_array_form_of_integer;
+mod s0990_satisfiability_of_equality_equations;
