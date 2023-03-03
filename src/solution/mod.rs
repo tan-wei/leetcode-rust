@@ -782,3 +782,4 @@ mod s0988_smallest_string_starting_from_leaf;
 mod s0989_add_to_array_form_of_integer;
 mod s0990_satisfiability_of_equality_equations;
 mod s0991_broken_calculator;
+mod s0992_subarrays_with_k_different_integers;
