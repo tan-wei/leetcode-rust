@@ -784,3 +784,4 @@ mod s0990_satisfiability_of_equality_equations;
 mod s0991_broken_calculator;
 mod s0992_subarrays_with_k_different_integers;
 mod s0993_cousins_in_binary_tree;
+mod s0994_rotting_oranges;
