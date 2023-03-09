@@ -788,3 +788,4 @@ mod s0994_rotting_oranges;
 mod s0995_minimum_number_of_k_consecutive_bit_flips;
 mod s0996_number_of_squareful_arrays;
 mod s0997_find_the_town_judge;
+mod s0998_maximum_binary_tree_ii;
