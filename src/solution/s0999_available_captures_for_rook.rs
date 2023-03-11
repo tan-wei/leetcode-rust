@@ -53,18 +53,18 @@ impl Solution {
     }
 
     fn calc_cap(it: impl Iterator<Item = char>, rook_pos: usize) -> i32 {
-        let (mut res, mut num) = (0, 0);
+        let (mut result, mut num) = (0, 0);
         for (pos, fig) in it.enumerate() {
             match (fig, pos < rook_pos) {
-                ('R', _) => res += num,
+                ('R', _) => result += num,
                 ('p', true) => num = 1,
                 ('B', true) => num = 0,
-                ('p', false) => return res + 1,
-                ('B', false) => return res,
+                ('p', false) => return result + 1,
+                ('B', false) => return result,
                 _ => (),
             }
         }
-        res
+        result
     }
 }
 
