@@ -41,46 +41,30 @@ pub struct Solution {}
 
 impl Solution {
     pub fn num_rook_captures(board: Vec<Vec<char>>) -> i32 {
-        let mut rook = (0, 0);
-        let mut pawns = vec![];
-        let mut bishops = vec![];
-        let directions = [(0, -1), (0, 1), (-1, 0), (1, 0)];
-        let mut count = 0;
-
-        (0..8usize).for_each(|i| {
-            (0..8usize).for_each(|j| match board[i][j] {
-                'R' => rook = (i, j),
-                'p' => pawns.push((i, j)),
-                'B' => bishops.push((i, j)),
-                _ => (),
-            })
-        });
-
-        pawns = pawns
-            .into_iter()
-            .filter(|&(i, j)| rook.0 == i || rook.1 == j)
-            .collect();
-
-        bishops = bishops
-            .into_iter()
-            .filter(|&(i, j)| rook.0 == i || rook.1 == j)
-            .collect();
-
-        for (x, y) in directions {
-            let (mut i, mut j) = rook;
-            while (0..8).contains(&i) && (0..8).contains(&j) {
-                i += x as usize;
-                j += y as usize;
-                if bishops.contains(&(i, j)) {
-                    break;
-                }
-                if pawns.contains(&(i, j)) {
-                    count += 1;
-                    break;
-                }
+        for (y, row) in board.iter().enumerate() {
+            if let Some(x) = row.iter().position(|c| *c == 'R') {
+                let row_it = row.iter().cloned();
+                let col_it = (0..8_usize).map(|i| board[i][x]);
+                return Self::calc_cap(row_it, x) + Self::calc_cap(col_it, y);
             }
         }
-        count
+
+        unreachable!()
+    }
+
+    fn calc_cap(it: impl Iterator<Item = char>, rook_pos: usize) -> i32 {
+        let (mut res, mut num) = (0, 0);
+        for (pos, fig) in it.enumerate() {
+            match (fig, pos < rook_pos) {
+                ('R', _) => res += num,
+                ('p', true) => num = 1,
+                ('B', true) => num = 0,
+                ('p', false) => return res + 1,
+                ('B', false) => return res,
+                _ => (),
+            }
+        }
+        res
     }
 }
 
