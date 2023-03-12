@@ -791,3 +791,4 @@ mod s0997_find_the_town_judge;
 mod s0998_maximum_binary_tree_ii;
 mod s0999_available_captures_for_rook;
 mod s1000_minimum_cost_to_merge_stones;
+mod s1001_grid_illumination;
