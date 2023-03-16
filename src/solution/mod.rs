@@ -795,3 +795,4 @@ mod s1001_grid_illumination;
 mod s1002_find_common_characters;
 mod s1003_check_if_word_is_valid_after_substitutions;
 mod s1004_max_consecutive_ones_iii;
+mod s1005_maximize_sum_of_array_after_k_negations;
