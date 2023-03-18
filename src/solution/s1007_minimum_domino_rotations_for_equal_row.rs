@@ -38,10 +38,10 @@ pub struct Solution {}
 
 impl Solution {
     // Credit: https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/solutions/901537/rust-solution/
-    pub fn min_domino_rotations(top: Vec<i32>, bottom: Vec<i32>) -> i32 {
+    pub fn min_domino_rotations(tops: Vec<i32>, bottoms: Vec<i32>) -> i32 {
         'nums: for num in 1..=6 {
             let mut rotations = (0, 0);
-            for domino in top.iter().zip(bottom.iter()) {
+            for domino in tops.iter().zip(bottoms.iter()) {
                 match (*domino.0 == num, *domino.1 == num) {
                     (true, true) => {}
                     (true, false) => rotations.0 += 1,
