@@ -85,4 +85,12 @@ mod tests {
 
         assert_eq!(Solution::bst_from_preorder(preorder), result);
     }
+
+    #[test]
+    fn test_1008_example_2() {
+        let preorder = vec![1, 3];
+        let result = tree![1, null, 3];
+
+        assert_eq!(Solution::bst_from_preorder(preorder), result);
+    }
 }
