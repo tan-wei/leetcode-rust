@@ -799,3 +799,4 @@ mod s1005_maximize_sum_of_array_after_k_negations;
 mod s1006_clumsy_factorial;
 mod s1007_minimum_domino_rotations_for_equal_row;
 mod s1008_construct_binary_search_tree_from_preorder_traversal;
+mod s1009_complement_of_base_10_integer;
