@@ -802,3 +802,4 @@ mod s1008_construct_binary_search_tree_from_preorder_traversal;
 mod s1009_complement_of_base_10_integer;
 mod s1010_pairs_of_songs_with_total_durations_divisible_by_60;
 mod s1011_capacity_to_ship_packages_within_d_days;
+mod s1012_numbers_with_repeated_digits;
