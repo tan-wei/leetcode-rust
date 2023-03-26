@@ -805,3 +805,4 @@ mod s1011_capacity_to_ship_packages_within_d_days;
 mod s1012_numbers_with_repeated_digits;
 mod s1013_partition_array_into_three_parts_with_equal_sum;
 mod s1014_best_sightseeing_pair;
+mod s1015_smallest_integer_divisible_by_k;
