@@ -808,3 +808,4 @@ mod s1014_best_sightseeing_pair;
 mod s1015_smallest_integer_divisible_by_k;
 mod s1016_binary_string_with_substrings_representing_1_to_n;
 mod s1017_convert_to_base_2;
+mod s1018_binary_prefix_divisible_by_5;
