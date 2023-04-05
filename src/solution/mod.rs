@@ -815,3 +815,4 @@ mod s1021_remove_outermost_parentheses;
 mod s1022_sum_of_root_to_leaf_binary_numbers;
 mod s1023_camelcase_matching;
 mod s1024_video_stitching;
+mod s1025_divisor_game;
