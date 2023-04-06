@@ -816,3 +816,4 @@ mod s1022_sum_of_root_to_leaf_binary_numbers;
 mod s1023_camelcase_matching;
 mod s1024_video_stitching;
 mod s1025_divisor_game;
+mod s1026_maximum_difference_between_node_and_ancestor;
