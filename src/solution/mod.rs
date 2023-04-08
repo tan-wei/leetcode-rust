@@ -818,3 +818,4 @@ mod s1024_video_stitching;
 mod s1025_divisor_game;
 mod s1026_maximum_difference_between_node_and_ancestor;
 mod s1027_longest_arithmetic_subsequence;
+mod s1028_recover_a_tree_from_preorder_traversal;
