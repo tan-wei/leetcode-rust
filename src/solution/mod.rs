@@ -821,3 +821,4 @@ mod s1027_longest_arithmetic_subsequence;
 mod s1028_recover_a_tree_from_preorder_traversal;
 mod s1029_two_city_scheduling;
 mod s1030_matrix_cells_in_distance_order;
+mod s1031_maximum_sum_of_two_non_overlapping_subarrays;
