@@ -825,3 +825,4 @@ mod s1031_maximum_sum_of_two_non_overlapping_subarrays;
 mod s1032_stream_of_characters;
 mod s1033_moving_stones_until_consecutive;
 mod s1034_coloring_a_border;
+mod s1035_uncrossed_lines;
