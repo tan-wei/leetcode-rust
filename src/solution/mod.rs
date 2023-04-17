@@ -827,3 +827,4 @@ mod s1033_moving_stones_until_consecutive;
 mod s1034_coloring_a_border;
 mod s1035_uncrossed_lines;
 mod s1036_escape_a_large_maze;
+mod s1037_valid_boomerang;
