@@ -828,3 +828,4 @@ mod s1034_coloring_a_border;
 mod s1035_uncrossed_lines;
 mod s1036_escape_a_large_maze;
 mod s1037_valid_boomerang;
+mod s1038_binary_search_tree_to_greater_sum_tree;
