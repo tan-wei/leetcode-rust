@@ -830,3 +830,4 @@ mod s1036_escape_a_large_maze;
 mod s1037_valid_boomerang;
 mod s1038_binary_search_tree_to_greater_sum_tree;
 mod s1039_minimum_score_triangulation_of_polygon;
+mod s1040_moving_stones_until_consecutive_ii;
