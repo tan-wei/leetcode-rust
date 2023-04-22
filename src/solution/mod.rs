@@ -832,3 +832,4 @@ mod s1038_binary_search_tree_to_greater_sum_tree;
 mod s1039_minimum_score_triangulation_of_polygon;
 mod s1040_moving_stones_until_consecutive_ii;
 mod s1041_robot_bounded_in_circle;
+mod s1042_flower_planting_with_no_adjacent;
