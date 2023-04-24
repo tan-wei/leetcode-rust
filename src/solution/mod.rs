@@ -834,3 +834,4 @@ mod s1040_moving_stones_until_consecutive_ii;
 mod s1041_robot_bounded_in_circle;
 mod s1042_flower_planting_with_no_adjacent;
 mod s1043_partition_array_for_maximum_sum;
+mod s1044_longest_duplicate_substring;
