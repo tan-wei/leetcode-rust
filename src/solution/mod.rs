@@ -837,3 +837,4 @@ mod s1043_partition_array_for_maximum_sum;
 mod s1044_longest_duplicate_substring;
 mod s1046_last_stone_weight;
 mod s1047_remove_all_adjacent_duplicates_in_string;
+mod s1048_longest_string_chain;
