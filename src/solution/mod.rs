@@ -839,3 +839,4 @@ mod s1046_last_stone_weight;
 mod s1047_remove_all_adjacent_duplicates_in_string;
 mod s1048_longest_string_chain;
 mod s1049_last_stone_weight_ii;
+mod s1051_height_checker;
