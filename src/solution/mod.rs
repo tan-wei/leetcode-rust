@@ -843,3 +843,4 @@ mod s1051_height_checker;
 mod s1052_grumpy_bookstore_owner;
 mod s1053_previous_permutation_with_one_swap;
 mod s1054_distant_barcodes;
+mod s1061_lexicographically_smallest_equivalent_string;
