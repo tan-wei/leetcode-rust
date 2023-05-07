@@ -847,3 +847,4 @@ mod s1061_lexicographically_smallest_equivalent_string;
 mod s1071_greatest_common_divisor_of_strings;
 mod s1072_flip_columns_for_maximum_number_of_equal_rows;
 mod s1073_adding_two_negabinary_numbers;
+mod s1074_number_of_submatrices_that_sum_to_target;
