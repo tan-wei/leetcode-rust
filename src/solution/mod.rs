@@ -851,3 +851,4 @@ mod s1074_number_of_submatrices_that_sum_to_target;
 mod s1078_occurrences_after_bigram;
 mod s1079_letter_tile_possibilities;
 mod s1080_insufficient_nodes_in_root_to_leaf_paths;
+mod s1081_smallest_subsequence_of_distinct_characters;
