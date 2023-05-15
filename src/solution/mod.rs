@@ -855,3 +855,4 @@ mod s1081_smallest_subsequence_of_distinct_characters;
 mod s1089_duplicate_zeros;
 mod s1090_largest_values_from_labels;
 mod s1091_shortest_path_in_binary_matrix;
+mod s1092_shortest_common_supersequence;
