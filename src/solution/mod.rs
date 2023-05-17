@@ -857,3 +857,4 @@ mod s1090_largest_values_from_labels;
 mod s1091_shortest_path_in_binary_matrix;
 mod s1092_shortest_common_supersequence;
 mod s1093_statistics_from_a_large_sample;
+mod s1094_car_pooling;
