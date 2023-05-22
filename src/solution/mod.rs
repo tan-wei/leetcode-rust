@@ -862,3 +862,4 @@ mod s1096_brace_expansion_ii;
 mod s1103_distribute_candies_to_people;
 mod s1104_path_in_zigzag_labelled_binary_tree;
 mod s1105_filling_bookcase_shelves;
+mod s1106_parsing_a_boolean_expression;
