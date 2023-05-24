@@ -864,3 +864,4 @@ mod s1104_path_in_zigzag_labelled_binary_tree;
 mod s1105_filling_bookcase_shelves;
 mod s1106_parsing_a_boolean_expression;
 mod s1108_defanging_an_ip_address;
+mod s1109_corporate_flight_bookings;
