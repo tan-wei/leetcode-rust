@@ -866,3 +866,4 @@ mod s1106_parsing_a_boolean_expression;
 mod s1108_defanging_an_ip_address;
 mod s1109_corporate_flight_bookings;
 mod s1110_delete_nodes_and_return_forest;
+mod s1111_maximum_nesting_depth_of_two_valid_parentheses_strings;
