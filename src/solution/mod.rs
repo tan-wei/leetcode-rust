@@ -870,3 +870,4 @@ mod s1111_maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod s1122_relative_sort_array;
 mod s1123_lowest_common_ancestor_of_deepest_leaves;
 mod s1124_longest_well_performing_interval;
+mod s1125_smallest_sufficient_team;
