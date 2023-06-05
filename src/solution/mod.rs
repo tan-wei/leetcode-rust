@@ -876,3 +876,4 @@ mod s1129_shortest_path_with_alternating_colors;
 mod s1130_minimum_cost_tree_from_leaf_values;
 mod s1131_maximum_of_absolute_value_expression;
 mod s1137_n_th_tribonacci_number;
+mod s1138_alphabet_board_path;
