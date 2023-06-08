@@ -879,3 +879,4 @@ mod s1137_n_th_tribonacci_number;
 mod s1138_alphabet_board_path;
 mod s1139_largest_1_bordered_square;
 mod s1140_stone_game_ii;
+mod s1143_longest_common_subsequence;
