@@ -881,3 +881,4 @@ mod s1139_largest_1_bordered_square;
 mod s1140_stone_game_ii;
 mod s1143_longest_common_subsequence;
 mod s1144_decrease_elements_to_make_array_zigzag;
+mod s1145_binary_tree_coloring_game;
