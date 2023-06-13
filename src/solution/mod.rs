@@ -884,3 +884,4 @@ mod s1144_decrease_elements_to_make_array_zigzag;
 mod s1145_binary_tree_coloring_game;
 mod s1146_snapshot_array;
 mod s1147_longest_chunked_palindrome_decomposition;
+mod s1154_day_of_the_year;
