@@ -885,3 +885,4 @@ mod s1145_binary_tree_coloring_game;
 mod s1146_snapshot_array;
 mod s1147_longest_chunked_palindrome_decomposition;
 mod s1154_day_of_the_year;
+mod s1155_number_of_dice_rolls_with_target_sum;
