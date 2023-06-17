@@ -887,3 +887,4 @@ mod s1147_longest_chunked_palindrome_decomposition;
 mod s1154_day_of_the_year;
 mod s1155_number_of_dice_rolls_with_target_sum;
 mod s1156_swap_for_longest_repeated_character_substring;
+mod s1157_online_majority_element_in_subarray;
