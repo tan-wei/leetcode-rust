@@ -889,3 +889,4 @@ mod s1155_number_of_dice_rolls_with_target_sum;
 mod s1156_swap_for_longest_repeated_character_substring;
 mod s1157_online_majority_element_in_subarray;
 mod s1160_find_words_that_can_be_formed_by_characters;
+mod s1161_maximum_level_sum_of_a_binary_tree;
