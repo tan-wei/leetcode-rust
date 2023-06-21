@@ -892,3 +892,4 @@ mod s1160_find_words_that_can_be_formed_by_characters;
 mod s1161_maximum_level_sum_of_a_binary_tree;
 mod s1162_as_far_from_land_as_possible;
 mod s1163_last_substring_in_lexicographical_order;
+mod s1169_invalid_transactions;
