@@ -895,3 +895,4 @@ mod s1163_last_substring_in_lexicographical_order;
 mod s1169_invalid_transactions;
 mod s1170_compare_strings_by_frequency_of_the_smallest_character;
 mod s1171_remove_zero_sum_consecutive_nodes_from_linked_list;
+mod s1172_dinner_plate_stacks;
