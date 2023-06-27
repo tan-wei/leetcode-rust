@@ -898,3 +898,4 @@ mod s1171_remove_zero_sum_consecutive_nodes_from_linked_list;
 mod s1172_dinner_plate_stacks;
 mod s1175_prime_arrangements;
 mod s1177_can_make_palindrome_from_substring;
+mod s1178_number_of_valid_words_for_each_puzzle;
