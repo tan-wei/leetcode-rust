@@ -901,3 +901,4 @@ mod s1177_can_make_palindrome_from_substring;
 mod s1178_number_of_valid_words_for_each_puzzle;
 mod s1184_distance_between_bus_stops;
 mod s1185_day_of_the_week;
+mod s1186_maximum_subarray_sum_with_one_deletion;
