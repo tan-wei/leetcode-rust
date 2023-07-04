@@ -905,3 +905,4 @@ mod s1186_maximum_subarray_sum_with_one_deletion;
 mod s1187_make_array_strictly_increasing;
 mod s1189_maximum_number_of_balloons;
 mod s1190_reverse_substrings_between_each_pair_of_parentheses;
+mod s1191_k_concatenation_maximum_sum;
