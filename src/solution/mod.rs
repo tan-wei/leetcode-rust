@@ -907,3 +907,4 @@ mod s1189_maximum_number_of_balloons;
 mod s1190_reverse_substrings_between_each_pair_of_parentheses;
 mod s1191_k_concatenation_maximum_sum;
 mod s1192_critical_connections_in_a_network;
+mod s1200_minimum_absolute_difference;
