@@ -909,3 +909,4 @@ mod s1191_k_concatenation_maximum_sum;
 mod s1192_critical_connections_in_a_network;
 mod s1200_minimum_absolute_difference;
 mod s1201_ugly_number_iii;
+mod s1202_smallest_string_with_swaps;
