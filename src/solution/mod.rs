@@ -911,3 +911,4 @@ mod s1200_minimum_absolute_difference;
 mod s1201_ugly_number_iii;
 mod s1202_smallest_string_with_swaps;
 mod s1203_sort_items_by_groups_respecting_dependencies;
+mod s1206_design_skiplist;
