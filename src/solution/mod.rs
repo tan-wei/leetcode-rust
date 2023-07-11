@@ -912,3 +912,4 @@ mod s1201_ugly_number_iii;
 mod s1202_smallest_string_with_swaps;
 mod s1203_sort_items_by_groups_respecting_dependencies;
 mod s1206_design_skiplist;
+mod s1207_unique_number_of_occurrences;
