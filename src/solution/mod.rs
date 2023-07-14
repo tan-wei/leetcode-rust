@@ -915,3 +915,4 @@ mod s1206_design_skiplist;
 mod s1207_unique_number_of_occurrences;
 mod s1208_get_equal_substrings_within_budget;
 mod s1209_remove_all_adjacent_duplicates_in_string_ii;
+mod s1210_minimum_moves_to_reach_target_with_rotations;
