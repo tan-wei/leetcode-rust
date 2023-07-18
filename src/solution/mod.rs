@@ -919,3 +919,4 @@ mod s1210_minimum_moves_to_reach_target_with_rotations;
 mod s1217_minimum_cost_to_move_chips_to_the_same_position;
 mod s1218_longest_arithmetic_subsequence_of_given_difference;
 mod s1219_path_with_maximum_gold;
+mod s1220_count_vowels_permutation;
