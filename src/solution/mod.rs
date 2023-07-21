@@ -922,3 +922,4 @@ mod s1219_path_with_maximum_gold;
 mod s1220_count_vowels_permutation;
 mod s1221_split_a_string_in_balanced_strings;
 mod s1222_queens_that_can_attack_the_king;
+mod s1223_dice_roll_simulation;
