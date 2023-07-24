@@ -925,3 +925,4 @@ mod s1222_queens_that_can_attack_the_king;
 mod s1223_dice_roll_simulation;
 mod s1224_maximum_equal_frequency;
 mod s1227_airplane_seat_assignment_probability;
+mod s1232_check_if_it_is_a_straight_line;
