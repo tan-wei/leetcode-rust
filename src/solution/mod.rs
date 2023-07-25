@@ -926,3 +926,4 @@ mod s1223_dice_roll_simulation;
 mod s1224_maximum_equal_frequency;
 mod s1227_airplane_seat_assignment_probability;
 mod s1232_check_if_it_is_a_straight_line;
+mod s1233_remove_sub_folders_from_the_filesystem;
