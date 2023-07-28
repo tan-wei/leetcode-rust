@@ -929,3 +929,4 @@ mod s1232_check_if_it_is_a_straight_line;
 mod s1233_remove_sub_folders_from_the_filesystem;
 mod s1234_replace_the_substring_for_balanced_string;
 mod s1235_maximum_profit_in_job_scheduling;
+mod s1238_circular_permutation_in_binary_representation;
