@@ -931,3 +931,4 @@ mod s1234_replace_the_substring_for_balanced_string;
 mod s1235_maximum_profit_in_job_scheduling;
 mod s1238_circular_permutation_in_binary_representation;
 mod s1239_maximum_length_of_a_concatenated_string_with_unique_characters;
+mod s1240_tiling_a_rectangle_with_the_fewest_squares;
