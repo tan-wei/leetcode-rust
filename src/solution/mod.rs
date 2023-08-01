@@ -933,3 +933,4 @@ mod s1238_circular_permutation_in_binary_representation;
 mod s1239_maximum_length_of_a_concatenated_string_with_unique_characters;
 mod s1240_tiling_a_rectangle_with_the_fewest_squares;
 mod s1247_minimum_swaps_to_make_strings_equal;
+mod s1248_count_number_of_nice_subarrays;
