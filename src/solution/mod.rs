@@ -935,3 +935,4 @@ mod s1240_tiling_a_rectangle_with_the_fewest_squares;
 mod s1247_minimum_swaps_to_make_strings_equal;
 mod s1248_count_number_of_nice_subarrays;
 mod s1249_minimum_remove_to_make_valid_parentheses;
+mod s1250_check_if_it_is_a_good_array;
