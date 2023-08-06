@@ -938,3 +938,4 @@ mod s1249_minimum_remove_to_make_valid_parentheses;
 mod s1250_check_if_it_is_a_good_array;
 mod s1252_cells_with_odd_values_in_a_matrix;
 mod s1253_reconstruct_a_2_row_binary_matrix;
+mod s1254_number_of_closed_islands;
