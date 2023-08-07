@@ -939,3 +939,4 @@ mod s1250_check_if_it_is_a_good_array;
 mod s1252_cells_with_odd_values_in_a_matrix;
 mod s1253_reconstruct_a_2_row_binary_matrix;
 mod s1254_number_of_closed_islands;
+mod s1255_maximum_score_words_formed_by_letters;
