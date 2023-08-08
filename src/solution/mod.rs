@@ -940,3 +940,4 @@ mod s1252_cells_with_odd_values_in_a_matrix;
 mod s1253_reconstruct_a_2_row_binary_matrix;
 mod s1254_number_of_closed_islands;
 mod s1255_maximum_score_words_formed_by_letters;
+mod s1260_shift_2d_grid;
