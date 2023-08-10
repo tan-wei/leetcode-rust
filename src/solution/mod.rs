@@ -942,3 +942,4 @@ mod s1254_number_of_closed_islands;
 mod s1255_maximum_score_words_formed_by_letters;
 mod s1260_shift_2d_grid;
 mod s1261_find_elements_in_a_contaminated_binary_tree;
+mod s1262_greatest_sum_divisible_by_three;
