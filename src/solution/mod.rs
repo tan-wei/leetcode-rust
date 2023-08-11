@@ -943,3 +943,4 @@ mod s1255_maximum_score_words_formed_by_letters;
 mod s1260_shift_2d_grid;
 mod s1261_find_elements_in_a_contaminated_binary_tree;
 mod s1262_greatest_sum_divisible_by_three;
+mod s1263_minimum_moves_to_move_a_box_to_their_target_location;
