@@ -946,3 +946,4 @@ mod s1262_greatest_sum_divisible_by_three;
 mod s1263_minimum_moves_to_move_a_box_to_their_target_location;
 mod s1266_minimum_time_visiting_all_points;
 mod s1267_count_servers_that_communicate;
+mod s1268_search_suggestions_system;
