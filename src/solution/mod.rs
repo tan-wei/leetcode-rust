@@ -947,3 +947,4 @@ mod s1263_minimum_moves_to_move_a_box_to_their_target_location;
 mod s1266_minimum_time_visiting_all_points;
 mod s1267_count_servers_that_communicate;
 mod s1268_search_suggestions_system;
+mod s1269_number_of_ways_to_stay_in_the_same_place_after_some_steps;
