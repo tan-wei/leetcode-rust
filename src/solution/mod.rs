@@ -948,3 +948,4 @@ mod s1266_minimum_time_visiting_all_points;
 mod s1267_count_servers_that_communicate;
 mod s1268_search_suggestions_system;
 mod s1269_number_of_ways_to_stay_in_the_same_place_after_some_steps;
+mod s1275_find_winner_on_a_tic_tac_toe_game;
