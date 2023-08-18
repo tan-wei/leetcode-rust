@@ -950,3 +950,4 @@ mod s1268_search_suggestions_system;
 mod s1269_number_of_ways_to_stay_in_the_same_place_after_some_steps;
 mod s1275_find_winner_on_a_tic_tac_toe_game;
 mod s1276_number_of_burgers_with_no_waste_of_ingredients;
+mod s1277_count_square_submatrices_with_all_ones;
