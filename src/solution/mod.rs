@@ -953,3 +953,4 @@ mod s1276_number_of_burgers_with_no_waste_of_ingredients;
 mod s1277_count_square_submatrices_with_all_ones;
 mod s1278_palindrome_partitioning_iii;
 mod s1281_subtract_the_product_and_sum_of_digits_of_an_integer;
+mod s1282_group_the_people_given_the_group_size_they_belong_to;
