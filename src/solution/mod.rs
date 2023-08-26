@@ -958,3 +958,4 @@ mod s1283_find_the_smallest_divisor_given_a_threshold;
 mod s1284_minimum_number_of_flips_to_convert_binary_matrix_to_zero_matrix;
 mod s1286_iterator_for_combination;
 mod s1287_element_appearing_more_than_25_in_sorted_array;
+mod s1288_remove_covered_intervals;
