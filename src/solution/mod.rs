@@ -960,3 +960,4 @@ mod s1286_iterator_for_combination;
 mod s1287_element_appearing_more_than_25_in_sorted_array;
 mod s1288_remove_covered_intervals;
 mod s1289_minimum_falling_path_sum_ii;
+mod s1290_convert_binary_number_in_a_linked_list_to_integer;
