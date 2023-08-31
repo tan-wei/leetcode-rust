@@ -963,3 +963,4 @@ mod s1289_minimum_falling_path_sum_ii;
 mod s1290_convert_binary_number_in_a_linked_list_to_integer;
 mod s1291_sequential_digits;
 mod s1292_maximum_side_length_of_a_square_with_sum_less_than_or_equal_to_threshold;
+mod s1293_shortest_path_in_a_grid_with_obstacles_elimination;
