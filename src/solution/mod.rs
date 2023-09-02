@@ -965,3 +965,4 @@ mod s1291_sequential_digits;
 mod s1292_maximum_side_length_of_a_square_with_sum_less_than_or_equal_to_threshold;
 mod s1293_shortest_path_in_a_grid_with_obstacles_elimination;
 mod s1295_find_numbers_with_even_number_of_digits;
+mod s1296_divide_array_in_sets_of_k_consecutive_numbers;
