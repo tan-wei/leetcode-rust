@@ -967,3 +967,4 @@ mod s1293_shortest_path_in_a_grid_with_obstacles_elimination;
 mod s1295_find_numbers_with_even_number_of_digits;
 mod s1296_divide_array_in_sets_of_k_consecutive_numbers;
 mod s1297_maximum_number_of_occurrences_of_a_substring;
+mod s1298_maximum_candies_you_can_get_from_boxes;
