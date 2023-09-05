@@ -968,3 +968,4 @@ mod s1295_find_numbers_with_even_number_of_digits;
 mod s1296_divide_array_in_sets_of_k_consecutive_numbers;
 mod s1297_maximum_number_of_occurrences_of_a_substring;
 mod s1298_maximum_candies_you_can_get_from_boxes;
+mod s1299_replace_elements_with_greatest_element_on_right_side;
