@@ -971,3 +971,4 @@ mod s1298_maximum_candies_you_can_get_from_boxes;
 mod s1299_replace_elements_with_greatest_element_on_right_side;
 mod s1300_sum_of_mutated_array_closest_to_target;
 mod s1301_number_of_paths_with_max_score;
+mod s1302_deepest_leaves_sum;
