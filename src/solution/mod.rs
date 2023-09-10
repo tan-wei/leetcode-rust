@@ -973,3 +973,4 @@ mod s1300_sum_of_mutated_array_closest_to_target;
 mod s1301_number_of_paths_with_max_score;
 mod s1302_deepest_leaves_sum;
 mod s1304_find_n_unique_integers_sum_up_to_zero;
+mod s1305_all_elements_in_two_binary_search_trees;
