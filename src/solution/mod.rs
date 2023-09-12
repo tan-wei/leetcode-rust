@@ -975,3 +975,4 @@ mod s1302_deepest_leaves_sum;
 mod s1304_find_n_unique_integers_sum_up_to_zero;
 mod s1305_all_elements_in_two_binary_search_trees;
 mod s1306_jump_game_iii;
+mod s1307_verbal_arithmetic_puzzle;
