@@ -977,3 +977,4 @@ mod s1305_all_elements_in_two_binary_search_trees;
 mod s1306_jump_game_iii;
 mod s1307_verbal_arithmetic_puzzle;
 mod s1309_decrypt_string_from_alphabet_to_integer_mapping;
+mod s1310_xor_queries_of_a_subarray;
