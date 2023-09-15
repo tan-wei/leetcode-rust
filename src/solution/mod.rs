@@ -978,3 +978,4 @@ mod s1306_jump_game_iii;
 mod s1307_verbal_arithmetic_puzzle;
 mod s1309_decrypt_string_from_alphabet_to_integer_mapping;
 mod s1310_xor_queries_of_a_subarray;
+mod s1311_get_watched_videos_by_your_friends;
