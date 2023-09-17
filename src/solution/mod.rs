@@ -980,3 +980,4 @@ mod s1309_decrypt_string_from_alphabet_to_integer_mapping;
 mod s1310_xor_queries_of_a_subarray;
 mod s1311_get_watched_videos_by_your_friends;
 mod s1312_minimum_insertion_steps_to_make_a_string_palindrome;
+mod s1313_decompress_run_length_encoded_list;
