@@ -982,3 +982,4 @@ mod s1311_get_watched_videos_by_your_friends;
 mod s1312_minimum_insertion_steps_to_make_a_string_palindrome;
 mod s1313_decompress_run_length_encoded_list;
 mod s1314_matrix_block_sum;
+mod s1315_sum_of_nodes_with_even_valued_grandparent;
