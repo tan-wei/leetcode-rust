@@ -984,3 +984,4 @@ mod s1313_decompress_run_length_encoded_list;
 mod s1314_matrix_block_sum;
 mod s1315_sum_of_nodes_with_even_valued_grandparent;
 mod s1316_distinct_echo_substrings;
+mod s1317_convert_integer_to_the_sum_of_two_no_zero_integers;
