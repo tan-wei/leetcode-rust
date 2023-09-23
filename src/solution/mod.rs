@@ -986,3 +986,4 @@ mod s1315_sum_of_nodes_with_even_valued_grandparent;
 mod s1316_distinct_echo_substrings;
 mod s1317_convert_integer_to_the_sum_of_two_no_zero_integers;
 mod s1318_minimum_flips_to_make_a_or_b_equal_to_c;
+mod s1319_number_of_operations_to_make_network_connected;
