@@ -989,3 +989,4 @@ mod s1318_minimum_flips_to_make_a_or_b_equal_to_c;
 mod s1319_number_of_operations_to_make_network_connected;
 mod s1320_minimum_distance_to_type_a_word_using_two_fingers;
 mod s1323_maximum_69_number;
+mod s1324_print_words_vertically;
