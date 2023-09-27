@@ -990,3 +990,4 @@ mod s1319_number_of_operations_to_make_network_connected;
 mod s1320_minimum_distance_to_type_a_word_using_two_fingers;
 mod s1323_maximum_69_number;
 mod s1324_print_words_vertically;
+mod s1325_delete_leaves_with_a_given_value;
