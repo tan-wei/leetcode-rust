@@ -991,3 +991,4 @@ mod s1320_minimum_distance_to_type_a_word_using_two_fingers;
 mod s1323_maximum_69_number;
 mod s1324_print_words_vertically;
 mod s1325_delete_leaves_with_a_given_value;
+mod s1326_minimum_number_of_taps_to_open_to_water_a_garden;
