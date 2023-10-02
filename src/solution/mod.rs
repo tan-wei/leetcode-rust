@@ -995,3 +995,4 @@ mod s1326_minimum_number_of_taps_to_open_to_water_a_garden;
 mod s1328_break_a_palindrome;
 mod s1329_sort_the_matrix_diagonally;
 mod s1330_reverse_subarray_to_maximize_array_value;
+mod s1331_rank_transform_of_an_array;
