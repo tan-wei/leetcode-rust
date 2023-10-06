@@ -59,7 +59,7 @@ impl Solution {
                 let current_path = if path.len() == 0 {
                     val
                 } else {
-                    path.clone().to_owned() + "->" + &val
+                    path.to_owned() + "->" + &val
                 };
 
                 if root.left.is_none() && root.right.is_none() {

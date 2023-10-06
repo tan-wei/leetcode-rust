@@ -61,8 +61,8 @@ impl Solution {
                         return false;
                     }
                 }
-                char_to_word.insert(c, words[i].clone());
-                word_to_char.insert(words[i].clone(), c);
+                char_to_word.insert(c, words[i]);
+                word_to_char.insert(words[i], c);
             }
         }
         true
