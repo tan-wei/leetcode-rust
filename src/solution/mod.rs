@@ -1002,3 +1002,4 @@ mod s1334_find_the_city_with_the_smallest_number_of_neighbors_at_a_threshold_dis
 mod s1335_minimum_difficulty_of_a_job_schedule;
 mod s1337_the_k_weakest_rows_in_a_matrix;
 mod s1338_reduce_array_size_to_the_half;
+mod s1339_maximum_product_of_splitted_binary_tree;
