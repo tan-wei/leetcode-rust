@@ -1003,3 +1003,4 @@ mod s1335_minimum_difficulty_of_a_job_schedule;
 mod s1337_the_k_weakest_rows_in_a_matrix;
 mod s1338_reduce_array_size_to_the_half;
 mod s1339_maximum_product_of_splitted_binary_tree;
+mod s1340_jump_game_v;
