@@ -1005,3 +1005,4 @@ mod s1338_reduce_array_size_to_the_half;
 mod s1339_maximum_product_of_splitted_binary_tree;
 mod s1340_jump_game_v;
 mod s1342_number_of_steps_to_reduce_a_number_to_zero;
+mod s1343_number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_threshold;
