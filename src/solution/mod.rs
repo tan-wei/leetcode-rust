@@ -1009,3 +1009,4 @@ mod s1343_number_of_sub_arrays_of_size_k_and_average_greater_than_or_equal_to_th
 mod s1344_angle_between_hands_of_a_clock;
 mod s1345_jump_game_iv;
 mod s1346_check_if_n_and_its_double_exist;
+mod s1347_minimum_number_of_steps_to_make_two_strings_anagram;
