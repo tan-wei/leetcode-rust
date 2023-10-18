@@ -1011,3 +1011,4 @@ mod s1345_jump_game_iv;
 mod s1346_check_if_n_and_its_double_exist;
 mod s1347_minimum_number_of_steps_to_make_two_strings_anagram;
 mod s1348_tweet_counts_per_frequency;
+mod s1349_maximum_students_taking_exam;
