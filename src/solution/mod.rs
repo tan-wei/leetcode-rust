@@ -1013,3 +1013,4 @@ mod s1347_minimum_number_of_steps_to_make_two_strings_anagram;
 mod s1348_tweet_counts_per_frequency;
 mod s1349_maximum_students_taking_exam;
 mod s1351_count_negative_numbers_in_a_sorted_matrix;
+mod s1352_product_of_the_last_k_numbers;
