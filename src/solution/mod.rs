@@ -1017,3 +1017,4 @@ mod s1352_product_of_the_last_k_numbers;
 mod s1353_maximum_number_of_events_that_can_be_attended;
 mod s1354_construct_target_array_with_multiple_sums;
 mod s1356_sort_integers_by_the_number_of_1_bits;
+mod s1357_apply_discount_every_n_orders;
