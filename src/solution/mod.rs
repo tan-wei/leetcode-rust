@@ -1019,3 +1019,4 @@ mod s1354_construct_target_array_with_multiple_sums;
 mod s1356_sort_integers_by_the_number_of_1_bits;
 mod s1357_apply_discount_every_n_orders;
 mod s1358_number_of_substrings_containing_all_three_characters;
+mod s1359_count_all_valid_pickup_and_delivery_options;
