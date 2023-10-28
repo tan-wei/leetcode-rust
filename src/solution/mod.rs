@@ -1021,3 +1021,4 @@ mod s1357_apply_discount_every_n_orders;
 mod s1358_number_of_substrings_containing_all_three_characters;
 mod s1359_count_all_valid_pickup_and_delivery_options;
 mod s1360_number_of_days_between_two_dates;
+mod s1361_validate_binary_tree_nodes;
