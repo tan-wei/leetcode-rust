@@ -1025,3 +1025,4 @@ mod s1361_validate_binary_tree_nodes;
 mod s1362_closest_divisors;
 mod s1363_largest_multiple_of_three;
 mod s1365_how_many_numbers_are_smaller_than_the_current_number;
+mod s1366_rank_teams_by_votes;
