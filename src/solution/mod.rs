@@ -1027,3 +1027,4 @@ mod s1363_largest_multiple_of_three;
 mod s1365_how_many_numbers_are_smaller_than_the_current_number;
 mod s1366_rank_teams_by_votes;
 mod s1367_linked_list_in_binary_tree;
+mod s1368_minimum_cost_to_make_at_least_one_valid_path_in_a_grid;
