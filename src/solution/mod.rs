@@ -1030,3 +1030,4 @@ mod s1367_linked_list_in_binary_tree;
 mod s1368_minimum_cost_to_make_at_least_one_valid_path_in_a_grid;
 mod s1370_increasing_decreasing_string;
 mod s1371_find_the_longest_substring_containing_vowels_in_even_counts;
+mod s1372_longest_zigzag_path_in_a_binary_tree;
