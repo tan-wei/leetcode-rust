@@ -1032,3 +1032,4 @@ mod s1370_increasing_decreasing_string;
 mod s1371_find_the_longest_substring_containing_vowels_in_even_counts;
 mod s1372_longest_zigzag_path_in_a_binary_tree;
 mod s1373_maximum_sum_bst_in_binary_tree;
+mod s1374_generate_a_string_with_characters_that_have_odd_counts;
