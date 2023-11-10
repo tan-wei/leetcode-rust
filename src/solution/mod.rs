@@ -1034,3 +1034,4 @@ mod s1372_longest_zigzag_path_in_a_binary_tree;
 mod s1373_maximum_sum_bst_in_binary_tree;
 mod s1374_generate_a_string_with_characters_that_have_odd_counts;
 mod s1375_number_of_times_binary_string_is_prefix_aligned;
+mod s1376_time_needed_to_inform_all_employees;
