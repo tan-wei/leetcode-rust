@@ -1038,3 +1038,4 @@ mod s1376_time_needed_to_inform_all_employees;
 mod s1377_frog_position_after_t_seconds;
 mod s1380_lucky_numbers_in_a_matrix;
 mod s1381_design_a_stack_with_increment_operation;
+mod s1382_balance_a_binary_search_tree;
