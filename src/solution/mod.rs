@@ -1042,3 +1042,4 @@ mod s1382_balance_a_binary_search_tree;
 mod s1383_maximum_performance_of_a_team;
 mod s1385_find_the_distance_value_between_two_arrays;
 mod s1386_cinema_seat_allocation;
+mod s1387_sort_integers_by_the_power_value;
