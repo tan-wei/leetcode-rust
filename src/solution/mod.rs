@@ -1045,3 +1045,4 @@ mod s1386_cinema_seat_allocation;
 mod s1387_sort_integers_by_the_power_value;
 mod s1388_pizza_with_3n_slices;
 mod s1389_create_target_array_in_the_given_order;
+mod s1390_four_divisors;
