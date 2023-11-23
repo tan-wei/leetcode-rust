@@ -1047,3 +1047,4 @@ mod s1388_pizza_with_3n_slices;
 mod s1389_create_target_array_in_the_given_order;
 mod s1390_four_divisors;
 mod s1391_check_if_there_is_a_valid_path_in_a_grid;
+mod s1392_longest_happy_prefix;
