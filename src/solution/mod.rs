@@ -1048,3 +1048,4 @@ mod s1389_create_target_array_in_the_given_order;
 mod s1390_four_divisors;
 mod s1391_check_if_there_is_a_valid_path_in_a_grid;
 mod s1392_longest_happy_prefix;
+mod s1394_find_lucky_integer_in_an_array;
