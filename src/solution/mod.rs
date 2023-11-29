@@ -1053,3 +1053,4 @@ mod s1395_count_number_of_teams;
 mod s1396_design_underground_system;
 mod s1397_find_all_good_strings;
 mod s1399_count_largest_group;
+mod s1400_construct_k_palindrome_strings;
