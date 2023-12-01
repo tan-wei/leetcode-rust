@@ -1055,3 +1055,4 @@ mod s1397_find_all_good_strings;
 mod s1399_count_largest_group;
 mod s1400_construct_k_palindrome_strings;
 mod s1401_circle_and_rectangle_overlapping;
+mod s1402_reducing_dishes;
