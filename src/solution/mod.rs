@@ -1058,3 +1058,4 @@ mod s1401_circle_and_rectangle_overlapping;
 mod s1402_reducing_dishes;
 mod s1403_minimum_subsequence_in_non_increasing_order;
 mod s1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
+mod s1405_longest_happy_string;
