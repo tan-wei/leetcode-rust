@@ -1060,3 +1060,4 @@ mod s1403_minimum_subsequence_in_non_increasing_order;
 mod s1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 mod s1405_longest_happy_string;
 mod s1406_stone_game_iii;
+mod s1408_string_matching_in_an_array;
