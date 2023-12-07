@@ -1061,3 +1061,4 @@ mod s1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 mod s1405_longest_happy_string;
 mod s1406_stone_game_iii;
 mod s1408_string_matching_in_an_array;
+mod s1409_queries_on_a_permutation_with_key;
