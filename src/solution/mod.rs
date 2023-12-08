@@ -1062,3 +1062,4 @@ mod s1405_longest_happy_string;
 mod s1406_stone_game_iii;
 mod s1408_string_matching_in_an_array;
 mod s1409_queries_on_a_permutation_with_key;
+mod s1410_html_entity_parser;
