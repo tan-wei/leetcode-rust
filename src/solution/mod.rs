@@ -1063,3 +1063,4 @@ mod s1406_stone_game_iii;
 mod s1408_string_matching_in_an_array;
 mod s1409_queries_on_a_permutation_with_key;
 mod s1410_html_entity_parser;
+mod s1411_number_of_ways_to_paint_n_3_grid;
