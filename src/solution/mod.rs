@@ -1065,3 +1065,4 @@ mod s1409_queries_on_a_permutation_with_key;
 mod s1410_html_entity_parser;
 mod s1411_number_of_ways_to_paint_n_3_grid;
 mod s1413_minimum_value_to_get_positive_step_by_step_sum;
+mod s1414_find_the_minimum_number_of_fibonacci_numbers_whose_sum_is_k;
