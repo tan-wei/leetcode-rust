@@ -1067,3 +1067,4 @@ mod s1411_number_of_ways_to_paint_n_3_grid;
 mod s1413_minimum_value_to_get_positive_step_by_step_sum;
 mod s1414_find_the_minimum_number_of_fibonacci_numbers_whose_sum_is_k;
 mod s1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
+mod s1416_restore_the_array;
