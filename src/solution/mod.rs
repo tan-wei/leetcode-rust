@@ -1070,3 +1070,4 @@ mod s1415_the_k_th_lexicographical_string_of_all_happy_strings_of_length_n;
 mod s1416_restore_the_array;
 mod s1417_reformat_the_string;
 mod s1418_display_table_of_food_orders_in_a_restaurant;
+mod s1419_minimum_number_of_frogs_croaking;
