@@ -1072,3 +1072,4 @@ mod s1417_reformat_the_string;
 mod s1418_display_table_of_food_orders_in_a_restaurant;
 mod s1419_minimum_number_of_frogs_croaking;
 mod s1420_build_array_where_you_can_find_the_maximum_exactly_k_comparisons;
+mod s1422_maximum_score_after_splitting_a_string;
