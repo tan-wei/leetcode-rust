@@ -1079,3 +1079,4 @@ mod s1425_constrained_subsequence_sum;
 mod s1431_kids_with_the_greatest_number_of_candies;
 mod s1432_max_difference_you_can_get_from_changing_an_integer;
 mod s1433_check_if_a_string_can_break_another_string;
+mod s1434_number_of_ways_to_wear_different_hats_to_each_other;
