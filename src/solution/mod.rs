@@ -1081,3 +1081,4 @@ mod s1432_max_difference_you_can_get_from_changing_an_integer;
 mod s1433_check_if_a_string_can_break_another_string;
 mod s1434_number_of_ways_to_wear_different_hats_to_each_other;
 mod s1436_destination_city;
+mod s1437_check_if_all_1s_are_at_least_length_k_places_away;
