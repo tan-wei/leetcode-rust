@@ -1088,3 +1088,4 @@ mod s1441_build_an_array_with_stack_operations;
 mod s1442_count_triplets_that_can_form_two_arrays_of_equal_xor;
 mod s1443_minimum_time_to_collect_all_apples_in_a_tree;
 mod s1444_number_of_ways_of_cutting_a_pizza;
+mod s1446_consecutive_characters;
