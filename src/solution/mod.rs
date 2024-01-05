@@ -1090,3 +1090,4 @@ mod s1443_minimum_time_to_collect_all_apples_in_a_tree;
 mod s1444_number_of_ways_of_cutting_a_pizza;
 mod s1446_consecutive_characters;
 mod s1447_simplified_fractions;
+mod s1448_count_good_nodes_in_binary_tree;
