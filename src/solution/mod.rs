@@ -1091,3 +1091,4 @@ mod s1444_number_of_ways_of_cutting_a_pizza;
 mod s1446_consecutive_characters;
 mod s1447_simplified_fractions;
 mod s1448_count_good_nodes_in_binary_tree;
+mod s1449_form_largest_integer_with_digits_that_add_up_to_target;
