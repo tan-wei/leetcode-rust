@@ -1093,3 +1093,4 @@ mod s1447_simplified_fractions;
 mod s1448_count_good_nodes_in_binary_tree;
 mod s1449_form_largest_integer_with_digits_that_add_up_to_target;
 mod s1450_number_of_students_doing_homework_at_a_given_time;
+mod s1451_rearrange_words_in_a_sentence;
