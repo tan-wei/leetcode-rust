@@ -1105,3 +1105,4 @@ mod s1461_check_if_a_string_contains_all_binary_codes_of_size_k;
 mod s1462_course_schedule_iv;
 mod s1463_cherry_pickup_ii;
 mod s1464_maximum_product_of_two_elements_in_an_array;
+mod s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts;
