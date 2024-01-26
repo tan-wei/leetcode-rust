@@ -1111,3 +1111,4 @@ mod s1467_probability_of_a_two_boxes_having_the_same_number_of_distinct_balls;
 mod s1470_shuffle_the_array;
 mod s1471_the_k_strongest_values_in_an_array;
 mod s1472_design_browser_history;
+mod s1473_paint_house_iii;
