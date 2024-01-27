@@ -1112,3 +1112,4 @@ mod s1470_shuffle_the_array;
 mod s1471_the_k_strongest_values_in_an_array;
 mod s1472_design_browser_history;
 mod s1473_paint_house_iii;
+mod s1475_final_prices_with_a_special_discount_in_a_shop;
