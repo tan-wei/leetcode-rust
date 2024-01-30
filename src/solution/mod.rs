@@ -1115,3 +1115,4 @@ mod s1473_paint_house_iii;
 mod s1475_final_prices_with_a_special_discount_in_a_shop;
 mod s1476_subrectangle_queries;
 mod s1477_find_two_non_overlapping_sub_arrays_each_with_target_sum;
+mod s1478_allocate_mailboxes;
