@@ -1117,3 +1117,4 @@ mod s1476_subrectangle_queries;
 mod s1477_find_two_non_overlapping_sub_arrays_each_with_target_sum;
 mod s1478_allocate_mailboxes;
 mod s1480_running_sum_of_1d_array;
+mod s1481_least_number_of_unique_integers_after_k_removals;
