@@ -1121,3 +1121,4 @@ mod s1481_least_number_of_unique_integers_after_k_removals;
 mod s1482_minimum_number_of_days_to_make_m_bouquets;
 mod s1483_kth_ancestor_of_a_tree_node;
 mod s1486_xor_operation_in_an_array;
+mod s1487_making_file_names_unique;
