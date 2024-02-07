@@ -1123,3 +1123,4 @@ mod s1483_kth_ancestor_of_a_tree_node;
 mod s1486_xor_operation_in_an_array;
 mod s1487_making_file_names_unique;
 mod s1488_avoid_flood_in_the_city;
+mod s1489_find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree;
