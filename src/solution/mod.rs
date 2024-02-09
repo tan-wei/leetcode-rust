@@ -1125,3 +1125,4 @@ mod s1487_making_file_names_unique;
 mod s1488_avoid_flood_in_the_city;
 mod s1489_find_critical_and_pseudo_critical_edges_in_minimum_spanning_tree;
 mod s1491_average_salary_excluding_the_minimum_and_maximum_salary;
+mod s1492_the_kth_factor_of_n;
