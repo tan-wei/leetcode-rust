@@ -1129,3 +1129,4 @@ mod s1492_the_kth_factor_of_n;
 mod s1493_longest_subarray_of_1s_after_deleting_one_element;
 mod s1494_parallel_courses_ii;
 mod s1496_path_crossing;
+mod s1497_check_if_array_pairs_are_divisible_by_k;
