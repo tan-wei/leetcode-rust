@@ -1135,3 +1135,4 @@ mod s1499_max_value_of_equation;
 mod s1502_can_make_arithmetic_progression_from_sequence;
 mod s1503_last_moment_before_all_ants_fall_out_of_a_plank;
 mod s1504_count_submatrices_with_all_ones;
+mod s1505_minimum_possible_integer_after_at_most_k_adjacent_swaps_on_digits;
