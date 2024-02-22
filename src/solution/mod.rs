@@ -1138,3 +1138,4 @@ mod s1504_count_submatrices_with_all_ones;
 mod s1505_minimum_possible_integer_after_at_most_k_adjacent_swaps_on_digits;
 mod s1507_reformat_date;
 mod s1508_range_sum_of_sorted_subarray_sums;
+mod s1509_minimum_difference_between_largest_and_smallest_value_in_three_moves;
