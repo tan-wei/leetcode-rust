@@ -1140,3 +1140,4 @@ mod s1507_reformat_date;
 mod s1508_range_sum_of_sorted_subarray_sums;
 mod s1509_minimum_difference_between_largest_and_smallest_value_in_three_moves;
 mod s1510_stone_game_iv;
+mod s1512_number_of_good_pairs;
