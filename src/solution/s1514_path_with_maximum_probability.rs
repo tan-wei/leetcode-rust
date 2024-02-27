@@ -78,17 +78,20 @@ impl Solution {
             e[b].push((a, p));
         }
         while pq.len() > 0 {
-            if let Pair(prob, curr) = pq.pop().unwrap() {
-                if curr == end_node {
-                    break;
-                }
-                for &(x, p) in e[curr as usize].iter() {
-                    let t = prob * p;
-                    if t > result[x] {
-                        result[x] = t;
-                        pq.push(Pair(t, x as i32));
+            match pq.pop().unwrap() {
+                Pair(prob, curr) => {
+                    if curr == end_node {
+                        break;
+                    }
+                    for &(x, p) in e[curr as usize].iter() {
+                        let t = prob * p;
+                        if t > result[x] {
+                            result[x] = t;
+                            pq.push(Pair(t, x as i32));
+                        }
                     }
                 }
+                _ => (),
             }
         }
 
