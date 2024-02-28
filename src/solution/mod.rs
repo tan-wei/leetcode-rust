@@ -1144,3 +1144,4 @@ mod s1512_number_of_good_pairs;
 mod s1513_number_of_substrings_with_only_1s;
 mod s1514_path_with_maximum_probability;
 mod s1515_best_position_for_a_service_centre;
+mod s1518_water_bottles;
