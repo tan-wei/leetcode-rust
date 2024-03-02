@@ -1147,3 +1147,4 @@ mod s1515_best_position_for_a_service_centre;
 mod s1518_water_bottles;
 mod s1519_number_of_nodes_in_the_sub_tree_with_the_same_label;
 mod s1520_maximum_number_of_non_overlapping_substrings;
+mod s1521_find_a_value_of_a_mysterious_function_closest_to_target;
