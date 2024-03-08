@@ -107,11 +107,11 @@ pub fn get_problems() -> Option<Problems> {
         );
         h.insert(
             "Referer",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            reqwest::header::HeaderValue::from_static("www.leetcode.com"),
         );
         h.insert(
             "Origin",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            reqwest::header::HeaderValue::from_static("www.leetcode.com"),
         );
         h.insert(
             "Content-Type",
@@ -123,7 +123,7 @@ pub fn get_problems() -> Option<Problems> {
         );
         h.insert(
             "Host",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            reqwest::header::HeaderValue::from_static("www.leetcode.com"),
         );
         h.insert(
             "X-Requested-With",
