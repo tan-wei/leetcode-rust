@@ -97,10 +97,47 @@ pub async fn get_problem_async(problem_stat: StatWithStatus) -> Option<Problem> 
 }
 
 pub fn get_problems() -> Option<Problems> {
-    reqwest::blocking::get(PROBLEMS_URL)
-        .unwrap()
-        .json()
-        .unwrap()
+    let headers = {
+        let mut h = reqwest::header::HeaderMap::new();
+        h.insert(
+            "User-Agent",
+            reqwest::header::HeaderValue::from_static(
+                "Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0",
+            ),
+        );
+        h.insert(
+            "Referer",
+            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+        );
+        h.insert(
+            "Origin",
+            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+        );
+        h.insert(
+            "Content-Type",
+            reqwest::header::HeaderValue::from_static("application/json"),
+        );
+        h.insert(
+            "Accept",
+            reqwest::header::HeaderValue::from_static("application/json"),
+        );
+        h.insert(
+            "Host",
+            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+        );
+        h.insert(
+            "X-Requested-With",
+            reqwest::header::HeaderValue::from_static("XMLHttpRequest"),
+        );
+        h
+    };
+    let client = reqwest::blocking::Client::builder()
+        .default_headers(headers)
+        .build()
+        .unwrap();
+    let res = client.get(PROBLEMS_URL).send().unwrap().json();
+    println!("{:?}", res);
+    res.unwrap()
 }
 
 #[derive(Serialize, Deserialize)]
