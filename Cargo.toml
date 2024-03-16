@@ -14,6 +14,7 @@ rand = "0.6.5"
 regex = "1.3.4"
 futures = { version = "0.3.28", features = ["thread-pool"] }
 surf = "2.3.2"
+dotenv = "0.15.0"
 
 [lib]
 doctest = false
