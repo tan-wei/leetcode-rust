@@ -150,8 +150,11 @@ pub fn get_problems() -> Option<Problems> {
         );
         h.insert(
             "Cookie",
-            std::env::var("LEETCODE_COOKIE")
-                .expect("Please set LEETCODE_COOKIE in .env file or environment"),
+            reqwest::header::HeaderValue::from_str(
+                &std::env::var("LEETCODE_COOKIE")
+                    .expect("Please set LEETCODE_COOKIE in .env file or environment"),
+            )
+            .unwrap(),
         );
         h
     };
