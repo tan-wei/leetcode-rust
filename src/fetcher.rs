@@ -100,44 +100,76 @@ pub fn get_problems() -> Option<Problems> {
     let headers = {
         let mut h = reqwest::header::HeaderMap::new();
         h.insert(
-            "User-Agent",
+            "Accept",
             reqwest::header::HeaderValue::from_static(
-                "Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0",
+                "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
             ),
         );
         h.insert(
-            "Referer",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            "Accept-Encoding",
+            reqwest::header::HeaderValue::from_static("gzip, deflate, br"),
         );
         h.insert(
-            "Origin",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            "Accept-Language",
+            reqwest::header::HeaderValue::from_static("zh-CN,en-US;q=0.7,en;q=0.3"),
         );
         h.insert(
-            "Content-Type",
-            reqwest::header::HeaderValue::from_static("application/json"),
+            "Connection",
+            reqwest::header::HeaderValue::from_static("keep-alive"),
         );
         h.insert(
-            "Accept",
-            reqwest::header::HeaderValue::from_static("application/json"),
+            "User-Agent",
+            reqwest::header::HeaderValue::from_static(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+            ),
         );
+        h.insert(
+            "Sec-Fetch-Dest",
+            reqwest::header::HeaderValue::from_static("document"),
+        );
+        h.insert(
+            "Sec-Fetch-Mode",
+            reqwest::header::HeaderValue::from_static("navigate"),
+        );
+        h.insert(
+            "Sec-Fetch-Site",
+            reqwest::header::HeaderValue::from_static("none"),
+        );
+        h.insert(
+            "Sec-Fetch-User",
+            reqwest::header::HeaderValue::from_static("?1"),
+        );
+        h.insert(
+            "Upgrade-Insecure-Requests",
+            reqwest::header::HeaderValue::from_static("1"),
+        );
+
         h.insert(
             "Host",
-            reqwest::header::HeaderValue::from_static(PROBLEMS_URL),
+            reqwest::header::HeaderValue::from_static("leetcode.com"),
         );
         h.insert(
-            "X-Requested-With",
-            reqwest::header::HeaderValue::from_static("XMLHttpRequest"),
+            "Cookie",
+            reqwest::header::HeaderValue::from_str(
+                &std::env::var("LEETCODE_COOKIE")
+                    .expect("Please set LEETCODE_COOKIE in .env file or environment"),
+            )
+            .unwrap(),
         );
         h
     };
     let client = reqwest::blocking::Client::builder()
-        .default_headers(headers)
+        .connection_verbose(true)
+        .http2_prior_knowledge()
+        .gzip(true)
         .build()
         .unwrap();
-    let res = client.get(PROBLEMS_URL).send().unwrap().json();
-    println!("{:?}", res);
-    res.unwrap()
+    let get = client.get(PROBLEMS_URL).headers(headers);
+    // println!("Get: {:?}", get);
+    let reponse = get.send().unwrap();
+    // println!("Response: {:?}", reponse);
+    let result = reponse.json();
+    result.unwrap()
 }
 
 #[derive(Serialize, Deserialize)]

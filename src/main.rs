@@ -19,10 +19,13 @@ use futures::executor::ThreadPool;
 use futures::future::join_all;
 use futures::stream::StreamExt;
 use futures::task::SpawnExt;
+extern crate dotenv;
 use std::sync::{Arc, Mutex};
 
 /// main() helps to generate the submission template .rs
 fn main() {
+    dotenv::dotenv().ok();
+
     println!("Welcome to leetcode-rust system.\n");
     let mut initialized_ids = get_initialized_ids();
     loop {
