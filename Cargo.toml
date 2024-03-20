@@ -5,7 +5,11 @@ authors = ["alei <rayingecho@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-reqwest = { version = "0.11", features = ["blocking", "json"] }
+reqwest = { version = "0.11", features = [
+    "blocking",
+    "json",
+    "native-tls-alpn",
+] }
 tokio = { version = "1", features = ["full"] }
 serde = "1.0"
 serde_json = "1.0"

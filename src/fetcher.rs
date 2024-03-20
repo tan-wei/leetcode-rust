@@ -159,7 +159,8 @@ pub fn get_problems() -> Option<Problems> {
         h
     };
     let client = reqwest::blocking::Client::builder()
-        // .default_headers(headers)
+        .connection_verbose(true)
+        .http2_prior_knowledge()
         .build()
         .unwrap();
     let get = client.get(PROBLEMS_URL).headers(headers);
