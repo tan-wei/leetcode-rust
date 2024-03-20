@@ -9,6 +9,7 @@ reqwest = { version = "0.11", features = [
     "blocking",
     "json",
     "native-tls-alpn",
+    "gzip",
 ] }
 tokio = { version = "1", features = ["full"] }
 serde = "1.0"
