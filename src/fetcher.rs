@@ -165,9 +165,9 @@ pub fn get_problems() -> Option<Problems> {
         .build()
         .unwrap();
     let get = client.get(PROBLEMS_URL).headers(headers);
-    println!("Get: {:?}", get);
+    // println!("Get: {:?}", get);
     let reponse = get.send().unwrap();
-    println!("Response: {:?}", reponse);
+    // println!("Response: {:?}", reponse);
     let result = reponse.json();
     result.unwrap()
 }
