@@ -111,7 +111,7 @@ pub fn get_problems() -> Option<Problems> {
         );
         h.insert(
             "Accept-Language",
-            reqwest::header::HeaderValue::from_static("en-US;q=0.7,en;q=0.3"),
+            reqwest::header::HeaderValue::from_static("zh-CN,en-US;q=0.7,en;q=0.3"),
         );
         h.insert(
             "Connection",
@@ -120,7 +120,7 @@ pub fn get_problems() -> Option<Problems> {
         h.insert(
             "User-Agent",
             reqwest::header::HeaderValue::from_static(
-                "Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
             ),
         );
         h.insert(
@@ -159,10 +159,12 @@ pub fn get_problems() -> Option<Problems> {
         h
     };
     let client = reqwest::blocking::Client::builder()
-        .default_headers(headers)
+        // .default_headers(headers)
         .build()
         .unwrap();
-    let reponse = client.get(PROBLEMS_URL).send().unwrap();
+    let get = client.get(PROBLEMS_URL).headers(headers);
+    println!("Get: {:?}", get);
+    let reponse = get.send().unwrap();
     println!("Response: {:?}", reponse);
     let result = reponse.json();
     result.unwrap()
