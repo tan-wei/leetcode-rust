@@ -1152,3 +1152,4 @@ mod s1523_count_odd_numbers_in_an_interval_range;
 mod s1524_number_of_sub_arrays_with_odd_sum;
 mod s1525_number_of_good_ways_to_split_a_string;
 mod s1526_minimum_number_of_increments_on_subarrays_to_form_a_target_array;
+mod s1528_shuffle_string;
