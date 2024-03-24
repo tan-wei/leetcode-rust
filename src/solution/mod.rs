@@ -1155,3 +1155,4 @@ mod s1526_minimum_number_of_increments_on_subarrays_to_form_a_target_array;
 mod s1528_shuffle_string;
 mod s1529_minimum_suffix_flips;
 mod s1530_number_of_good_leaf_nodes_pairs;
+mod s1531_string_compression_ii;
