@@ -1158,3 +1158,4 @@ mod s1530_number_of_good_leaf_nodes_pairs;
 mod s1531_string_compression_ii;
 mod s1534_count_good_triplets;
 mod s1535_find_the_winner_of_an_array_game;
+mod s1536_minimum_swaps_to_arrange_a_binary_grid;
