@@ -1165,3 +1165,4 @@ mod s1540_can_convert_string_in_k_moves;
 mod s1541_minimum_insertions_to_balance_a_parentheses_string;
 mod s1542_find_longest_awesome_substring;
 mod s1544_make_the_string_great;
+mod s1545_find_kth_bit_in_nth_binary_string;
