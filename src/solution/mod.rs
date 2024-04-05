@@ -1167,3 +1167,4 @@ mod s1542_find_longest_awesome_substring;
 mod s1544_make_the_string_great;
 mod s1545_find_kth_bit_in_nth_binary_string;
 mod s1546_maximum_number_of_non_overlapping_subarrays_with_sum_equals_target;
+mod s1547_minimum_cost_to_cut_a_stick;
