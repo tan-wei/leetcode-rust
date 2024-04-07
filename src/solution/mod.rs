@@ -1169,3 +1169,4 @@ mod s1545_find_kth_bit_in_nth_binary_string;
 mod s1546_maximum_number_of_non_overlapping_subarrays_with_sum_equals_target;
 mod s1547_minimum_cost_to_cut_a_stick;
 mod s1550_three_consecutive_odds;
+mod s1551_minimum_operations_to_make_array_equal;
