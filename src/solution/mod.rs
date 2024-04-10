@@ -1172,3 +1172,4 @@ mod s1550_three_consecutive_odds;
 mod s1551_minimum_operations_to_make_array_equal;
 mod s1552_magnetic_force_between_two_balls;
 mod s1553_minimum_number_of_days_to_eat_n_oranges;
+mod s1556_thousand_separator;
