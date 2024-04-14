@@ -1176,3 +1176,4 @@ mod s1556_thousand_separator;
 mod s1557_minimum_number_of_vertices_to_reach_all_nodes;
 mod s1558_minimum_numbers_of_function_calls_to_make_target_array;
 mod s1559_detect_cycles_in_2d_grid;
+mod s1560_most_visited_sector_in_a_circular_track;
