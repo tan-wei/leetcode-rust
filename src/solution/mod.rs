@@ -1179,3 +1179,4 @@ mod s1559_detect_cycles_in_2d_grid;
 mod s1560_most_visited_sector_in_a_circular_track;
 mod s1561_maximum_number_of_coins_you_can_get;
 mod s1562_find_latest_group_of_size_m;
+mod s1563_stone_game_v;
