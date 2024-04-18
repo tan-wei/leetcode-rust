@@ -1180,3 +1180,4 @@ mod s1560_most_visited_sector_in_a_circular_track;
 mod s1561_maximum_number_of_coins_you_can_get;
 mod s1562_find_latest_group_of_size_m;
 mod s1563_stone_game_v;
+mod s1566_detect_pattern_of_length_m_repeated_k_or_more_times;
