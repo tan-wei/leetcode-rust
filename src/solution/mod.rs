@@ -1181,3 +1181,4 @@ mod s1561_maximum_number_of_coins_you_can_get;
 mod s1562_find_latest_group_of_size_m;
 mod s1563_stone_game_v;
 mod s1566_detect_pattern_of_length_m_repeated_k_or_more_times;
+mod s1567_maximum_length_of_subarray_with_positive_product;
