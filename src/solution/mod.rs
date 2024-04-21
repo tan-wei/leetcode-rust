@@ -1183,3 +1183,4 @@ mod s1563_stone_game_v;
 mod s1566_detect_pattern_of_length_m_repeated_k_or_more_times;
 mod s1567_maximum_length_of_subarray_with_positive_product;
 mod s1568_minimum_number_of_days_to_disconnect_island;
+mod s1569_number_of_ways_to_reorder_array_to_get_same_bst;
