@@ -1185,3 +1185,4 @@ mod s1567_maximum_length_of_subarray_with_positive_product;
 mod s1568_minimum_number_of_days_to_disconnect_island;
 mod s1569_number_of_ways_to_reorder_array_to_get_same_bst;
 mod s1572_matrix_diagonal_sum;
+mod s1573_number_of_ways_to_split_a_string;
