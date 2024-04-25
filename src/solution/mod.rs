@@ -1187,3 +1187,4 @@ mod s1569_number_of_ways_to_reorder_array_to_get_same_bst;
 mod s1572_matrix_diagonal_sum;
 mod s1573_number_of_ways_to_split_a_string;
 mod s1574_shortest_subarray_to_be_removed_to_make_array_sorted;
+mod s1575_count_all_possible_routes;
