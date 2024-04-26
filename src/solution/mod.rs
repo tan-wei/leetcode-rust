@@ -1188,3 +1188,4 @@ mod s1572_matrix_diagonal_sum;
 mod s1573_number_of_ways_to_split_a_string;
 mod s1574_shortest_subarray_to_be_removed_to_make_array_sorted;
 mod s1575_count_all_possible_routes;
+mod s1576_replace_all_s_to_avoid_consecutive_repeating_characters;
