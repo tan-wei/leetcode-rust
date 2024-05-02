@@ -5,7 +5,7 @@ authors = ["alei <rayingecho@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-reqwest = { version = "0.11", features = [
+reqwest = { version = "0.12", features = [
     "blocking",
     "json",
     "native-tls-alpn",
