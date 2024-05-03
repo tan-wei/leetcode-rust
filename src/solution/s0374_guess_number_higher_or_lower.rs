@@ -33,11 +33,13 @@
  */
 pub struct Solution {}
 
+use std::ptr::addr_of;
+
 // problem: https://leetcode.com/problems/guess-number-higher-or-lower/
 // discuss: https://leetcode.com/problems/guess-number-higher-or-lower/discuss/?currentPage=1&orderBy=most_votes&query=
 static mut PICK: i32 = 0;
 unsafe fn guess(num: i32) -> i32 {
-    match num.cmp(&PICK) {
+    match num.cmp(&*addr_of!(PICK)) {
         std::cmp::Ordering::Equal => 0,
         std::cmp::Ordering::Greater => -1,
         std::cmp::Ordering::Less => 1,
