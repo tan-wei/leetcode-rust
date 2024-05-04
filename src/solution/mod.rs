@@ -1196,3 +1196,4 @@ mod s1582_special_positions_in_a_binary_matrix;
 mod s1583_count_unhappy_friends;
 mod s1584_min_cost_to_connect_all_points;
 mod s1585_check_if_string_is_transformable_with_substring_sort_operations;
+mod s1588_sum_of_all_odd_length_subarrays;
