@@ -1199,3 +1199,4 @@ mod s1585_check_if_string_is_transformable_with_substring_sort_operations;
 mod s1588_sum_of_all_odd_length_subarrays;
 mod s1589_maximum_sum_obtained_of_any_permutation;
 mod s1590_make_sum_divisible_by_p;
+mod s1591_strange_printer_ii;
