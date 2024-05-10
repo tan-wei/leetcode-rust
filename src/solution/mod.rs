@@ -1202,3 +1202,4 @@ mod s1590_make_sum_divisible_by_p;
 mod s1591_strange_printer_ii;
 mod s1592_rearrange_spaces_between_words;
 mod s1593_split_a_string_into_the_max_number_of_unique_substrings;
+mod s1594_maximum_non_negative_product_in_a_matrix;
