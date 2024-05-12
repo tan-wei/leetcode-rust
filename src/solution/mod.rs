@@ -1204,3 +1204,4 @@ mod s1592_rearrange_spaces_between_words;
 mod s1593_split_a_string_into_the_max_number_of_unique_substrings;
 mod s1594_maximum_non_negative_product_in_a_matrix;
 mod s1595_minimum_cost_to_connect_two_groups_of_points;
+mod s1598_crawler_log_folder;
