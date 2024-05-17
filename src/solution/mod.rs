@@ -1209,3 +1209,4 @@ mod s1599_maximum_profit_of_operating_a_centennial_wheel;
 mod s1600_throne_inheritance;
 mod s1601_maximum_number_of_achievable_transfer_requests;
 mod s1603_design_parking_system;
+mod s1604_alert_using_same_key_card_three_or_more_times_in_a_one_hour_period;
