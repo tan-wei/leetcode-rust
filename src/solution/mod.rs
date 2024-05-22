@@ -1214,3 +1214,4 @@ mod s1605_find_valid_matrix_given_row_and_column_sums;
 mod s1606_find_servers_that_handled_most_number_of_requests;
 mod s1608_special_array_with_x_elements_greater_than_or_equal_x;
 mod s1609_even_odd_tree;
+mod s1610_maximum_number_of_visible_points;
