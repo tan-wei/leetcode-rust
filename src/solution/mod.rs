@@ -1215,3 +1215,4 @@ mod s1606_find_servers_that_handled_most_number_of_requests;
 mod s1608_special_array_with_x_elements_greater_than_or_equal_x;
 mod s1609_even_odd_tree;
 mod s1610_maximum_number_of_visible_points;
+mod s1611_minimum_one_bit_operations_to_make_integers_zero;
