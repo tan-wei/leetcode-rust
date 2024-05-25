@@ -1217,3 +1217,4 @@ mod s1609_even_odd_tree;
 mod s1610_maximum_number_of_visible_points;
 mod s1611_minimum_one_bit_operations_to_make_integers_zero;
 mod s1614_maximum_nesting_depth_of_the_parentheses;
+mod s1615_maximal_network_rank;
