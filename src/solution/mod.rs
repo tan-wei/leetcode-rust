@@ -1221,3 +1221,4 @@ mod s1615_maximal_network_rank;
 mod s1616_split_two_strings_to_make_palindrome;
 mod s1617_count_subtrees_with_max_distance_between_cities;
 mod s1619_mean_of_array_after_removing_some_elements;
+mod s1620_coordinate_with_maximum_network_quality;
