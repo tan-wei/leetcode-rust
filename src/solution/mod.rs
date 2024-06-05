@@ -1228,3 +1228,4 @@ mod s1624_largest_substring_between_two_equal_characters;
 mod s1625_lexicographically_smallest_string_after_applying_operations;
 mod s1626_best_team_with_no_conflicts;
 mod s1627_graph_connectivity_with_threshold;
+mod s1629_slowest_key;
