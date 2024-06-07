@@ -1230,3 +1230,4 @@ mod s1626_best_team_with_no_conflicts;
 mod s1627_graph_connectivity_with_threshold;
 mod s1629_slowest_key;
 mod s1630_arithmetic_subarrays;
+mod s1631_path_with_minimum_effort;
