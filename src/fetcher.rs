@@ -107,7 +107,7 @@ pub fn get_problems() -> Option<Problems> {
         );
         h.insert(
             "Accept-Encoding",
-            reqwest::header::HeaderValue::from_static("gzip, deflate, br"),
+            reqwest::header::HeaderValue::from_static("gzip, deflate, br, zstd"),
         );
         h.insert(
             "Accept-Language",
@@ -120,7 +120,7 @@ pub fn get_problems() -> Option<Problems> {
         h.insert(
             "User-Agent",
             reqwest::header::HeaderValue::from_static(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
             ),
         );
         h.insert(
@@ -148,6 +148,8 @@ pub fn get_problems() -> Option<Problems> {
             "Host",
             reqwest::header::HeaderValue::from_static("leetcode.com"),
         );
+        h.insert("TE", reqwest::header::HeaderValue::from_static("trailers"));
+        h.insert("Priority", reqwest::header::HeaderValue::from_static("u=1"));
         h.insert(
             "Cookie",
             reqwest::header::HeaderValue::from_str(
@@ -162,6 +164,9 @@ pub fn get_problems() -> Option<Problems> {
         .connection_verbose(true)
         .http2_prior_knowledge()
         .gzip(true)
+        .deflate(true)
+        .zstd(true)
+        .brotli(true)
         .build()
         .unwrap();
     let get = client.get(PROBLEMS_URL).headers(headers);
