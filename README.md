@@ -16,3 +16,4 @@ Working in progress, to do:
 * Clean lib.rs file
 * Start your leetcode journey in rust by typing `cargo run` and then input the question id
 * To solve a problem (we should start the problem first), input `solve {question_id}`
+* To passby cloudflare, please `cp .env.smaple .env`, and set `LEETCODE_COOKIE` with your cookie (could be find in Firefox or Chrome console) 
