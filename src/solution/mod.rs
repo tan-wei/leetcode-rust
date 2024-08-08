@@ -1233,3 +1233,4 @@ mod s1630_arithmetic_subarrays;
 mod s1631_path_with_minimum_effort;
 mod s1632_rank_transform_of_a_matrix;
 mod s1636_sort_array_by_increasing_frequency;
+mod s1637_widest_vertical_area_between_two_points_containing_no_points;
