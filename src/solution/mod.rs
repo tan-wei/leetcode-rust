@@ -1235,3 +1235,4 @@ mod s1632_rank_transform_of_a_matrix;
 mod s1636_sort_array_by_increasing_frequency;
 mod s1637_widest_vertical_area_between_two_points_containing_no_points;
 mod s1638_count_substrings_that_differ_by_one_character;
+mod s1639_number_of_ways_to_form_a_target_string_given_a_dictionary;
