@@ -1240,3 +1240,4 @@ mod s1640_check_array_formation_through_concatenation;
 mod s1641_count_sorted_vowel_strings;
 mod s1642_furthest_building_you_can_reach;
 mod s1643_kth_smallest_instructions;
+mod s1646_get_maximum_in_generated_array;
