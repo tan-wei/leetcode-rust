@@ -1247,3 +1247,4 @@ mod s1649_create_sorted_array_through_instructions;
 mod s1652_defuse_the_bomb;
 mod s1653_minimum_deletions_to_make_string_balanced;
 mod s1654_minimum_jumps_to_reach_home;
+mod s1655_distribute_repeating_integers;
