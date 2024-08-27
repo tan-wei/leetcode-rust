@@ -1252,3 +1252,4 @@ mod s1656_design_an_ordered_stream;
 mod s1657_determine_if_two_strings_are_close;
 mod s1658_minimum_operations_to_reduce_x_to_zero;
 mod s1659_maximize_grid_happiness;
+mod s1662_check_if_two_string_arrays_are_equivalent;
