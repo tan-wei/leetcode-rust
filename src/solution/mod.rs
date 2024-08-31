@@ -1256,3 +1256,4 @@ mod s1662_check_if_two_string_arrays_are_equivalent;
 mod s1663_smallest_string_with_a_given_numeric_value;
 mod s1664_ways_to_make_a_fair_array;
 mod s1665_minimum_initial_energy_to_finish_tasks;
+mod s1668_maximum_repeating_substring;
