@@ -1258,3 +1258,4 @@ mod s1664_ways_to_make_a_fair_array;
 mod s1665_minimum_initial_energy_to_finish_tasks;
 mod s1668_maximum_repeating_substring;
 mod s1669_merge_in_between_linked_lists;
+mod s1670_design_front_middle_back_queue;
