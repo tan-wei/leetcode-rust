@@ -1261,3 +1261,4 @@ mod s1669_merge_in_between_linked_lists;
 mod s1670_design_front_middle_back_queue;
 mod s1671_minimum_number_of_removals_to_make_mountain_array;
 mod s1672_richest_customer_wealth;
+mod s1673_find_the_most_competitive_subsequence;
