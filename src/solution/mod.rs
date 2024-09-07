@@ -1263,3 +1263,4 @@ mod s1671_minimum_number_of_removals_to_make_mountain_array;
 mod s1672_richest_customer_wealth;
 mod s1673_find_the_most_competitive_subsequence;
 mod s1674_minimum_moves_to_make_array_complementary;
+mod s1675_minimize_deviation_in_array;
