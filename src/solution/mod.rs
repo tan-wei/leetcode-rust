@@ -1268,3 +1268,4 @@ mod s1678_goal_parser_interpretation;
 mod s1679_max_number_of_k_sum_pairs;
 mod s1680_concatenation_of_consecutive_binary_numbers;
 mod s1681_minimum_incompatibility;
+mod s1684_count_the_number_of_consistent_strings;
