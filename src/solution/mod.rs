@@ -1269,3 +1269,4 @@ mod s1679_max_number_of_k_sum_pairs;
 mod s1680_concatenation_of_consecutive_binary_numbers;
 mod s1681_minimum_incompatibility;
 mod s1684_count_the_number_of_consistent_strings;
+mod s1685_sum_of_absolute_differences_in_a_sorted_array;
