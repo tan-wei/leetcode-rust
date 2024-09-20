@@ -1273,3 +1273,4 @@ mod s1685_sum_of_absolute_differences_in_a_sorted_array;
 mod s1686_stone_game_vi;
 mod s1687_delivering_boxes_from_storage_to_ports;
 mod s1688_count_of_matches_in_tournament;
+mod s1689_partitioning_into_minimum_number_of_deci_binary_numbers;
