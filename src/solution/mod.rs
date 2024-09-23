@@ -1276,3 +1276,4 @@ mod s1688_count_of_matches_in_tournament;
 mod s1689_partitioning_into_minimum_number_of_deci_binary_numbers;
 mod s1690_stone_game_vii;
 mod s1691_maximum_height_by_stacking_cuboids;
+mod s1694_reformat_phone_number;
