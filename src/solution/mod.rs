@@ -1278,3 +1278,4 @@ mod s1690_stone_game_vii;
 mod s1691_maximum_height_by_stacking_cuboids;
 mod s1694_reformat_phone_number;
 mod s1695_maximum_erasure_value;
+mod s1696_jump_game_vi;
