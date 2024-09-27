@@ -1280,3 +1280,4 @@ mod s1694_reformat_phone_number;
 mod s1695_maximum_erasure_value;
 mod s1696_jump_game_vi;
 mod s1697_checking_existence_of_edge_length_limited_paths;
+mod s1700_number_of_students_unable_to_eat_lunch;
