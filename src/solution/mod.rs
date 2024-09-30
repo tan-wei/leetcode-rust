@@ -1283,3 +1283,4 @@ mod s1697_checking_existence_of_edge_length_limited_paths;
 mod s1700_number_of_students_unable_to_eat_lunch;
 mod s1701_average_waiting_time;
 mod s1702_maximum_binary_string_after_change;
+mod s1703_minimum_adjacent_swaps_for_k_consecutive_ones;
