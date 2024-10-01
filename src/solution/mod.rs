@@ -1284,3 +1284,4 @@ mod s1700_number_of_students_unable_to_eat_lunch;
 mod s1701_average_waiting_time;
 mod s1702_maximum_binary_string_after_change;
 mod s1703_minimum_adjacent_swaps_for_k_consecutive_ones;
+mod s1704_determine_if_string_halves_are_alike;
