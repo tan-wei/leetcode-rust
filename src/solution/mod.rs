@@ -1289,3 +1289,4 @@ mod s1705_maximum_number_of_eaten_apples;
 mod s1706_where_will_the_ball_fall;
 mod s1707_maximum_xor_with_an_element_from_array;
 mod s1710_maximum_units_on_a_truck;
+mod s1711_count_good_meals;
