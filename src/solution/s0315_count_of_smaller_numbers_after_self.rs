@@ -38,7 +38,7 @@ pub struct Solution {}
 // submission codes start here
 
 impl Solution {
-    // Creit: https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/889481/24-ms-Rust-simple-solution
+    // Credit: https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/889481/24-ms-Rust-simple-solution
     pub fn count_smaller(nums: Vec<i32>) -> Vec<i32> {
         use std::collections::HashSet;
         use std::convert::{TryFrom, TryInto};
