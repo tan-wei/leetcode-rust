@@ -1294,3 +1294,4 @@ mod s1712_ways_to_split_array_into_three_subarrays;
 mod s1713_minimum_operations_to_make_a_subsequence;
 mod s1716_calculate_money_in_leetcode_bank;
 mod s1717_maximum_score_from_removing_substrings;
+mod s1718_construct_the_lexicographically_largest_valid_sequence;
