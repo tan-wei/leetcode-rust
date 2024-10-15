@@ -1298,3 +1298,4 @@ mod s1718_construct_the_lexicographically_largest_valid_sequence;
 mod s1719_number_of_ways_to_reconstruct_a_tree;
 mod s1720_decode_xored_array;
 mod s1721_swapping_nodes_in_a_linked_list;
+mod s1722_minimize_hamming_distance_after_swap_operations;
