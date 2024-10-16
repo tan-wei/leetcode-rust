@@ -1299,3 +1299,4 @@ mod s1719_number_of_ways_to_reconstruct_a_tree;
 mod s1720_decode_xored_array;
 mod s1721_swapping_nodes_in_a_linked_list;
 mod s1722_minimize_hamming_distance_after_swap_operations;
+mod s1723_find_minimum_time_to_finish_all_jobs;
