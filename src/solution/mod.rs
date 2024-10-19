@@ -1302,3 +1302,4 @@ mod s1722_minimize_hamming_distance_after_swap_operations;
 mod s1723_find_minimum_time_to_finish_all_jobs;
 mod s1725_number_of_rectangles_that_can_form_the_largest_square;
 mod s1726_tuple_with_same_product;
+mod s1727_largest_submatrix_with_rearrangements;
