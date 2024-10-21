@@ -1304,3 +1304,4 @@ mod s1725_number_of_rectangles_that_can_form_the_largest_square;
 mod s1726_tuple_with_same_product;
 mod s1727_largest_submatrix_with_rearrangements;
 mod s1728_cat_and_mouse_ii;
+mod s1732_find_the_highest_altitude;
