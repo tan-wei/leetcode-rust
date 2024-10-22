@@ -1305,3 +1305,4 @@ mod s1726_tuple_with_same_product;
 mod s1727_largest_submatrix_with_rearrangements;
 mod s1728_cat_and_mouse_ii;
 mod s1732_find_the_highest_altitude;
+mod s1733_minimum_number_of_people_to_teach;
