@@ -1309,3 +1309,4 @@ mod s1733_minimum_number_of_people_to_teach;
 mod s1734_decode_xored_permutation;
 mod s1735_count_ways_to_make_array_with_product;
 mod s1736_latest_time_by_replacing_hidden_digits;
+mod s1737_change_minimum_characters_to_satisfy_one_of_three_conditions;
