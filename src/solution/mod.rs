@@ -1313,3 +1313,4 @@ mod s1737_change_minimum_characters_to_satisfy_one_of_three_conditions;
 mod s1738_find_kth_largest_xor_coordinate_value;
 mod s1739_building_boxes;
 mod s1742_maximum_number_of_balls_in_a_box;
+mod s1743_restore_the_array_from_adjacent_pairs;
