@@ -1315,3 +1315,4 @@ mod s1739_building_boxes;
 mod s1742_maximum_number_of_balls_in_a_box;
 mod s1743_restore_the_array_from_adjacent_pairs;
 mod s1744_can_you_eat_your_favorite_candy_on_your_favorite_day;
+mod s1745_palindrome_partitioning_iv;
