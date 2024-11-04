@@ -1318,3 +1318,4 @@ mod s1744_can_you_eat_your_favorite_candy_on_your_favorite_day;
 mod s1745_palindrome_partitioning_iv;
 mod s1748_sum_of_unique_elements;
 mod s1749_maximum_absolute_sum_of_any_subarray;
+mod s1750_minimum_length_of_string_after_deleting_similar_ends;
