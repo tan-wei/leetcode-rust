@@ -1321,3 +1321,4 @@ mod s1749_maximum_absolute_sum_of_any_subarray;
 mod s1750_minimum_length_of_string_after_deleting_similar_ends;
 mod s1751_maximum_number_of_events_that_can_be_attended_ii;
 mod s1752_check_if_array_is_sorted_and_rotated;
+mod s1753_maximum_score_from_removing_stones;
