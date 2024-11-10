@@ -1324,3 +1324,4 @@ mod s1752_check_if_array_is_sorted_and_rotated;
 mod s1753_maximum_score_from_removing_stones;
 mod s1754_largest_merge_of_two_strings;
 mod s1755_closest_subsequence_sum;
+mod s1758_minimum_changes_to_make_alternating_binary_string;
