@@ -1326,3 +1326,4 @@ mod s1754_largest_merge_of_two_strings;
 mod s1755_closest_subsequence_sum;
 mod s1758_minimum_changes_to_make_alternating_binary_string;
 mod s1759_count_number_of_homogenous_substrings;
+mod s1760_minimum_limit_of_balls_in_a_bag;
