@@ -1328,3 +1328,4 @@ mod s1758_minimum_changes_to_make_alternating_binary_string;
 mod s1759_count_number_of_homogenous_substrings;
 mod s1760_minimum_limit_of_balls_in_a_bag;
 mod s1761_minimum_degree_of_a_connected_trio_in_a_graph;
+mod s1763_longest_nice_substring;
