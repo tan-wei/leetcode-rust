@@ -1332,3 +1332,4 @@ mod s1763_longest_nice_substring;
 mod s1764_form_array_by_concatenating_subarrays_of_another_array;
 mod s1765_map_of_highest_peak;
 mod s1766_tree_of_coprimes;
+mod s1768_merge_strings_alternately;
