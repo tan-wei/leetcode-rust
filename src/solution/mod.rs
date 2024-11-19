@@ -1333,3 +1333,4 @@ mod s1764_form_array_by_concatenating_subarrays_of_another_array;
 mod s1765_map_of_highest_peak;
 mod s1766_tree_of_coprimes;
 mod s1768_merge_strings_alternately;
+mod s1769_minimum_number_of_operations_to_move_all_balls_to_each_box;
