@@ -1335,3 +1335,4 @@ mod s1766_tree_of_coprimes;
 mod s1768_merge_strings_alternately;
 mod s1769_minimum_number_of_operations_to_move_all_balls_to_each_box;
 mod s1770_maximum_score_from_performing_multiplication_operations;
+mod s1771_maximize_palindrome_length_from_subsequences;
