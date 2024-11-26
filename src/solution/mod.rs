@@ -1340,3 +1340,4 @@ mod s1773_count_items_matching_a_rule;
 mod s1774_closest_dessert_cost;
 mod s1775_equal_sum_arrays_with_minimum_number_of_operations;
 mod s1776_car_fleet_ii;
+mod s1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
