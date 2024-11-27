@@ -1341,3 +1341,4 @@ mod s1774_closest_dessert_cost;
 mod s1775_equal_sum_arrays_with_minimum_number_of_operations;
 mod s1776_car_fleet_ii;
 mod s1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
+mod s1780_check_if_number_is_a_sum_of_powers_of_three;
