@@ -1344,3 +1344,4 @@ mod s1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
 mod s1780_check_if_number_is_a_sum_of_powers_of_three;
 mod s1781_sum_of_beauty_of_all_substrings;
 mod s1782_count_pairs_of_nodes;
+mod s1784_check_if_binary_string_has_at_most_one_segment_of_ones;
