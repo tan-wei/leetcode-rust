@@ -1346,3 +1346,4 @@ mod s1781_sum_of_beauty_of_all_substrings;
 mod s1782_count_pairs_of_nodes;
 mod s1784_check_if_binary_string_has_at_most_one_segment_of_ones;
 mod s1785_minimum_elements_to_add_to_form_a_given_sum;
+mod s1786_number_of_restricted_paths_from_first_to_last_node;
