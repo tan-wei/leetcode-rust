@@ -1349,3 +1349,4 @@ mod s1785_minimum_elements_to_add_to_form_a_given_sum;
 mod s1786_number_of_restricted_paths_from_first_to_last_node;
 mod s1787_make_the_xor_of_all_segments_equal_to_zero;
 mod s1790_check_if_one_string_swap_can_make_strings_equal;
+mod s1791_find_center_of_star_graph;
