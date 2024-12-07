@@ -1351,3 +1351,4 @@ mod s1787_make_the_xor_of_all_segments_equal_to_zero;
 mod s1790_check_if_one_string_swap_can_make_strings_equal;
 mod s1791_find_center_of_star_graph;
 mod s1792_maximum_average_pass_ratio;
+mod s1793_maximum_score_of_a_good_subarray;
