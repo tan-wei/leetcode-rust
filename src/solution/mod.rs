@@ -1353,3 +1353,4 @@ mod s1791_find_center_of_star_graph;
 mod s1792_maximum_average_pass_ratio;
 mod s1793_maximum_score_of_a_good_subarray;
 mod s1796_second_largest_digit_in_a_string;
+mod s1797_design_authentication_manager;
