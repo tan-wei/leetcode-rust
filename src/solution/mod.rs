@@ -1358,3 +1358,4 @@ mod s1798_maximum_number_of_consecutive_values_you_can_make;
 mod s1799_maximize_score_after_n_operations;
 mod s1800_maximum_ascending_subarray_sum;
 mod s1801_number_of_orders_in_the_backlog;
+mod s1802_maximum_value_at_a_given_index_in_a_bounded_array;
