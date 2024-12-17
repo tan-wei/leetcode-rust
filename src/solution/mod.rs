@@ -1361,3 +1361,4 @@ mod s1801_number_of_orders_in_the_backlog;
 mod s1802_maximum_value_at_a_given_index_in_a_bounded_array;
 mod s1803_count_pairs_with_xor_in_a_range;
 mod s1805_number_of_different_integers_in_a_string;
+mod s1806_minimum_number_of_operations_to_reinitialize_a_permutation;
