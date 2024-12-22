@@ -1366,3 +1366,4 @@ mod s1807_evaluate_the_bracket_pairs_of_a_string;
 mod s1808_maximize_number_of_nice_divisors;
 mod s1812_determine_color_of_a_chessboard_square;
 mod s1813_sentence_similarity_iii;
+mod s1814_count_nice_pairs_in_an_array;
