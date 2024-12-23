@@ -1367,3 +1367,4 @@ mod s1808_maximize_number_of_nice_divisors;
 mod s1812_determine_color_of_a_chessboard_square;
 mod s1813_sentence_similarity_iii;
 mod s1814_count_nice_pairs_in_an_array;
+mod s1815_maximum_number_of_groups_getting_fresh_donuts;
