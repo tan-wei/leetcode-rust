@@ -1371,3 +1371,4 @@ mod s1815_maximum_number_of_groups_getting_fresh_donuts;
 mod s1816_truncate_sentence;
 mod s1817_finding_the_users_active_minutes;
 mod s1818_minimum_absolute_sum_difference;
+mod s1819_number_of_different_subsequences_gcds;
