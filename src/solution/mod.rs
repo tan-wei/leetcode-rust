@@ -1372,3 +1372,4 @@ mod s1816_truncate_sentence;
 mod s1817_finding_the_users_active_minutes;
 mod s1818_minimum_absolute_sum_difference;
 mod s1819_number_of_different_subsequences_gcds;
+mod s1822_sign_of_the_product_of_an_array;
