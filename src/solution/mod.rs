@@ -1375,3 +1375,4 @@ mod s1819_number_of_different_subsequences_gcds;
 mod s1822_sign_of_the_product_of_an_array;
 mod s1823_find_the_winner_of_the_circular_game;
 mod s1824_minimum_sideway_jumps;
+mod s1825_finding_mk_average;
