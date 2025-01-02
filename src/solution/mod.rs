@@ -1377,3 +1377,4 @@ mod s1823_find_the_winner_of_the_circular_game;
 mod s1824_minimum_sideway_jumps;
 mod s1825_finding_mk_average;
 mod s1827_minimum_operations_to_make_the_array_increasing;
+mod s1828_queries_on_number_of_points_inside_a_circle;
