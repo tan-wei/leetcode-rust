@@ -1382,3 +1382,4 @@ mod s1829_maximum_xor_for_each_query;
 mod s1830_minimum_number_of_operations_to_make_string_sorted;
 mod s1832_check_if_the_sentence_is_pangram;
 mod s1833_maximum_ice_cream_bars;
+mod s1834_single_threaded_cpu;
