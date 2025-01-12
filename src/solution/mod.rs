@@ -1387,3 +1387,4 @@ mod s1835_find_xor_sum_of_all_pairs_bitwise_and;
 mod s1837_sum_of_digits_in_base_k;
 mod s1838_frequency_of_the_most_frequent_element;
 mod s1839_longest_substring_of_all_vowels_in_order;
+mod s1840_maximum_building_height;
