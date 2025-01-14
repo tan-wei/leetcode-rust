@@ -1389,3 +1389,4 @@ mod s1838_frequency_of_the_most_frequent_element;
 mod s1839_longest_substring_of_all_vowels_in_order;
 mod s1840_maximum_building_height;
 mod s1844_replace_all_digits_with_characters;
+mod s1845_seat_reservation_manager;
