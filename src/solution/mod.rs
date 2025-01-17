@@ -1392,3 +1392,4 @@ mod s1844_replace_all_digits_with_characters;
 mod s1845_seat_reservation_manager;
 mod s1846_maximum_element_after_decreasing_and_rearranging;
 mod s1847_closest_room;
+mod s1848_minimum_distance_to_the_target_element;
