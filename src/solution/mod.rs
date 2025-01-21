@@ -1396,3 +1396,4 @@ mod s1848_minimum_distance_to_the_target_element;
 mod s1849_splitting_a_string_into_descending_consecutive_values;
 mod s1850_minimum_adjacent_swaps_to_reach_the_kth_smallest_number;
 mod s1851_minimum_interval_to_include_each_query;
+mod s1854_maximum_population_year;
