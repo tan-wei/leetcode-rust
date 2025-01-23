@@ -1398,3 +1398,4 @@ mod s1850_minimum_adjacent_swaps_to_reach_the_kth_smallest_number;
 mod s1851_minimum_interval_to_include_each_query;
 mod s1854_maximum_population_year;
 mod s1855_maximum_distance_between_a_pair_of_values;
+mod s1856_maximum_subarray_min_product;
