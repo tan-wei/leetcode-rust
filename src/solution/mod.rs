@@ -1402,3 +1402,4 @@ mod s1856_maximum_subarray_min_product;
 mod s1857_largest_color_value_in_a_directed_graph;
 mod s1859_sorting_the_sentence;
 mod s1860_incremental_memory_leak;
+mod s1861_rotating_the_box;
