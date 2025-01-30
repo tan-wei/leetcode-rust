@@ -1405,3 +1405,4 @@ mod s1860_incremental_memory_leak;
 mod s1861_rotating_the_box;
 mod s1862_sum_of_floored_pairs;
 mod s1863_sum_of_all_subset_xor_totals;
+mod s1864_minimum_number_of_swaps_to_make_the_binary_string_alternating;
