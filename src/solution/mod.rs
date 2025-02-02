@@ -1408,3 +1408,4 @@ mod s1863_sum_of_all_subset_xor_totals;
 mod s1864_minimum_number_of_swaps_to_make_the_binary_string_alternating;
 mod s1865_finding_pairs_with_a_certain_sum;
 mod s1866_number_of_ways_to_rearrange_sticks_with_k_sticks_visible;
+mod s1869_longer_contiguous_segments_of_ones_than_zeros;
