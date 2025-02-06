@@ -1412,3 +1412,4 @@ mod s1869_longer_contiguous_segments_of_ones_than_zeros;
 mod s1870_minimum_speed_to_arrive_on_time;
 mod s1871_jump_game_vii;
 mod s1872_stone_game_viii;
+mod s1876_substrings_of_size_three_with_distinct_characters;
