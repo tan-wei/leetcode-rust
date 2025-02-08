@@ -1414,3 +1414,4 @@ mod s1871_jump_game_vii;
 mod s1872_stone_game_viii;
 mod s1876_substrings_of_size_three_with_distinct_characters;
 mod s1877_minimize_maximum_pair_sum_in_array;
+mod s1878_get_biggest_three_rhombus_sums_in_a_grid;
