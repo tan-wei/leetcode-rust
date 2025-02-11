@@ -1417,3 +1417,4 @@ mod s1877_minimize_maximum_pair_sum_in_array;
 mod s1878_get_biggest_three_rhombus_sums_in_a_grid;
 mod s1879_minimum_xor_sum_of_two_arrays;
 mod s1880_check_if_word_equals_summation_of_two_words;
+mod s1881_maximum_value_after_insertion;
