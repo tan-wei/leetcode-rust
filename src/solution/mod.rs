@@ -1420,3 +1420,4 @@ mod s1880_check_if_word_equals_summation_of_two_words;
 mod s1881_maximum_value_after_insertion;
 mod s1882_process_tasks_using_servers;
 mod s1883_minimum_skips_to_arrive_at_meeting_on_time;
+mod s1884_egg_drop_with_2_eggs_and_n_floors;
