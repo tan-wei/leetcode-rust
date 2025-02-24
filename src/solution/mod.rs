@@ -1429,3 +1429,4 @@ mod s1893_check_if_all_the_integers_in_a_range_are_covered;
 mod s1894_find_the_student_that_will_replace_the_chalk;
 mod s1895_largest_magic_square;
 mod s1896_minimum_cost_to_change_the_final_value_of_expression;
+mod s1897_redistribute_characters_to_make_all_strings_equal;
