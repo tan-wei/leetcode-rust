@@ -1431,3 +1431,4 @@ mod s1895_largest_magic_square;
 mod s1896_minimum_cost_to_change_the_final_value_of_expression;
 mod s1897_redistribute_characters_to_make_all_strings_equal;
 mod s1898_maximum_number_of_removable_characters;
+mod s1899_merge_triplets_to_form_target_triplet;
