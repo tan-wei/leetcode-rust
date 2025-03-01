@@ -1434,3 +1434,4 @@ mod s1898_maximum_number_of_removable_characters;
 mod s1899_merge_triplets_to_form_target_triplet;
 mod s1900_the_earliest_and_latest_rounds_where_players_compete;
 mod s1901_find_a_peak_element_ii;
+mod s1903_largest_odd_number_in_string;
