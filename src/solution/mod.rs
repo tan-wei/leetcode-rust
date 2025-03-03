@@ -1436,3 +1436,4 @@ mod s1900_the_earliest_and_latest_rounds_where_players_compete;
 mod s1901_find_a_peak_element_ii;
 mod s1903_largest_odd_number_in_string;
 mod s1904_the_number_of_full_rounds_you_have_played;
+mod s1905_count_sub_islands;
