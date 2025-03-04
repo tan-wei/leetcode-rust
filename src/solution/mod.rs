@@ -1437,3 +1437,4 @@ mod s1901_find_a_peak_element_ii;
 mod s1903_largest_odd_number_in_string;
 mod s1904_the_number_of_full_rounds_you_have_played;
 mod s1905_count_sub_islands;
+mod s1906_minimum_absolute_difference_queries;
