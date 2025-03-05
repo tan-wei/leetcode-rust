@@ -1438,3 +1438,4 @@ mod s1903_largest_odd_number_in_string;
 mod s1904_the_number_of_full_rounds_you_have_played;
 mod s1905_count_sub_islands;
 mod s1906_minimum_absolute_difference_queries;
+mod s1909_remove_one_element_to_make_the_array_strictly_increasing;
