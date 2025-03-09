@@ -1442,3 +1442,4 @@ mod s1909_remove_one_element_to_make_the_array_strictly_increasing;
 mod s1910_remove_all_occurrences_of_a_substring;
 mod s1911_maximum_alternating_subsequence_sum;
 mod s1912_design_movie_rental_system;
+mod s1913_maximum_product_difference_between_two_pairs;
