@@ -203,7 +203,7 @@ fn parse_discuss_link(problem: &Problem) -> String {
 }
 
 fn insert_return_in_code(return_type: &str, code: &str) -> String {
-    let re = Regex::new(r"\{[ \n]+}").unwrap();
+    let re = Regex::new(r"\{[\s\n]+\}").unwrap();
     match return_type {
         "ListNode" => re
             .replace(&code, "{\n        Some(Box::new(ListNode::new(0)))\n    }")
