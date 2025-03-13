@@ -1446,3 +1446,4 @@ mod s1913_maximum_product_difference_between_two_pairs;
 mod s1914_cyclically_rotating_a_grid;
 mod s1915_number_of_wonderful_substrings;
 mod s1916_count_ways_to_build_rooms_in_an_ant_colony;
+mod s1920_build_array_from_permutation;
