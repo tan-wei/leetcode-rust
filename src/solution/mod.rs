@@ -1449,3 +1449,4 @@ mod s1916_count_ways_to_build_rooms_in_an_ant_colony;
 mod s1920_build_array_from_permutation;
 mod s1921_eliminate_maximum_number_of_monsters;
 mod s1922_count_good_numbers;
+mod s1923_longest_common_subpath;
