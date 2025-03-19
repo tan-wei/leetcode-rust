@@ -82,7 +82,11 @@ mod tests {
     #[test]
     #[ignore]
     fn test_1926_example_2() {
-        let maze = vec![vec!['+', '+', '+'], vec!['.', '.', '.'], ['+', '+', '+']];
+        let maze = vec![
+            vec!['+', '+', '+'],
+            vec!['.', '.', '.'],
+            vec!['+', '+', '+'],
+        ];
         let entrance = vec![1, 0];
 
         let result = 2;
