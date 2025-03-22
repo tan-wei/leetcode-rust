@@ -1455,3 +1455,4 @@ mod s1926_nearest_exit_from_entrance_in_maze;
 mod s1927_sum_game;
 mod s1928_minimum_cost_to_reach_destination_in_time;
 mod s1929_concatenation_of_array;
+mod s1930_unique_length_3_palindromic_subsequences;
