@@ -1459,3 +1459,4 @@ mod s1930_unique_length_3_palindromic_subsequences;
 mod s1931_painting_a_grid_with_three_different_colors;
 mod s1932_merge_bsts_to_create_single_bst;
 mod s1935_maximum_number_of_words_you_can_type;
+mod s1936_add_minimum_number_of_rungs;
