@@ -1461,3 +1461,4 @@ mod s1932_merge_bsts_to_create_single_bst;
 mod s1935_maximum_number_of_words_you_can_type;
 mod s1936_add_minimum_number_of_rungs;
 mod s1937_maximum_number_of_points_with_cost;
+mod s1938_maximum_genetic_difference_query;
