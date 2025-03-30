@@ -1463,3 +1463,4 @@ mod s1936_add_minimum_number_of_rungs;
 mod s1937_maximum_number_of_points_with_cost;
 mod s1938_maximum_genetic_difference_query;
 mod s1941_check_if_all_characters_have_equal_number_of_occurrences;
+mod s1942_the_number_of_the_smallest_unoccupied_chair;
