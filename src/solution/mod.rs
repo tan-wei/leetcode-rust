@@ -1466,3 +1466,4 @@ mod s1941_check_if_all_characters_have_equal_number_of_occurrences;
 mod s1942_the_number_of_the_smallest_unoccupied_chair;
 mod s1943_describe_the_painting;
 mod s1944_number_of_visible_people_in_a_queue;
+mod s1945_sum_of_digits_of_string_after_convert;
