@@ -1468,3 +1468,4 @@ mod s1943_describe_the_painting;
 mod s1944_number_of_visible_people_in_a_queue;
 mod s1945_sum_of_digits_of_string_after_convert;
 mod s1946_largest_number_after_mutating_substring;
+mod s1947_maximum_compatibility_score_sum;
