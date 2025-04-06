@@ -1470,3 +1470,4 @@ mod s1945_sum_of_digits_of_string_after_convert;
 mod s1946_largest_number_after_mutating_substring;
 mod s1947_maximum_compatibility_score_sum;
 mod s1948_delete_duplicate_folders_in_system;
+mod s1952_three_divisors;
