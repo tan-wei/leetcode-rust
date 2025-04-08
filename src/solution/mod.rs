@@ -1472,3 +1472,4 @@ mod s1947_maximum_compatibility_score_sum;
 mod s1948_delete_duplicate_folders_in_system;
 mod s1952_three_divisors;
 mod s1953_maximum_number_of_weeks_for_which_you_can_work;
+mod s1954_minimum_garden_perimeter_to_collect_enough_apples;
