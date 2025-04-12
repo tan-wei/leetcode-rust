@@ -1476,3 +1476,4 @@ mod s1954_minimum_garden_perimeter_to_collect_enough_apples;
 mod s1955_count_number_of_special_subsequences;
 mod s1957_delete_characters_to_make_fancy_string;
 mod s1958_check_if_move_is_legal;
+mod s1959_minimum_total_space_wasted_with_k_resizing_operations;
