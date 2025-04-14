@@ -1478,3 +1478,4 @@ mod s1957_delete_characters_to_make_fancy_string;
 mod s1958_check_if_move_is_legal;
 mod s1959_minimum_total_space_wasted_with_k_resizing_operations;
 mod s1960_maximum_product_of_the_length_of_two_palindromic_substrings;
+mod s1961_check_if_string_is_a_prefix_of_array;
