@@ -48,8 +48,6 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use std::result;
-
     use super::*;
 
     #[test]
