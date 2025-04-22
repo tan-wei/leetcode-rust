@@ -1486,3 +1486,4 @@ mod s1967_number_of_strings_that_appear_as_substrings_in_word;
 mod s1968_array_with_elements_not_equal_to_average_of_neighbors;
 mod s1969_minimum_non_zero_product_of_the_array_elements;
 mod s1970_last_day_where_you_can_still_cross;
+mod s1971_find_if_path_exists_in_graph;
