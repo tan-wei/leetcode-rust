@@ -1489,3 +1489,4 @@ mod s1970_last_day_where_you_can_still_cross;
 mod s1971_find_if_path_exists_in_graph;
 mod s1974_minimum_time_to_type_word_using_special_typewriter;
 mod s1975_maximum_matrix_sum;
+mod s1976_number_of_ways_to_arrive_at_destination;
