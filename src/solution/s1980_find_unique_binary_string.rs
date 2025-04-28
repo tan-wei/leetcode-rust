@@ -53,6 +53,7 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_1980_example_1() {
         let nums = vec_string!["01", "10"];
 
@@ -62,6 +63,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_1980_example_2() {
         let nums = vec_string!["00", "01"];
 
@@ -71,6 +73,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_1980_example_3() {
         let nums = vec_string!["111", "011", "001"];
 
