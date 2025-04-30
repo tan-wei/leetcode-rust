@@ -1494,3 +1494,4 @@ mod s1977_number_of_ways_to_separate_numbers;
 mod s1979_find_greatest_common_divisor_of_array;
 mod s1980_find_unique_binary_string;
 mod s1981_minimize_the_difference_between_target_and_chosen_elements;
+mod s1982_find_array_given_subset_sums;
