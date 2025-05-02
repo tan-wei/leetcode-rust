@@ -1496,3 +1496,4 @@ mod s1980_find_unique_binary_string;
 mod s1981_minimize_the_difference_between_target_and_chosen_elements;
 mod s1982_find_array_given_subset_sums;
 mod s1984_minimum_difference_between_highest_and_lowest_of_k_scores;
+mod s1985_find_the_kth_largest_integer_in_the_array;
