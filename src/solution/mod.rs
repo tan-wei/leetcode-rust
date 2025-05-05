@@ -1499,3 +1499,4 @@ mod s1984_minimum_difference_between_highest_and_lowest_of_k_scores;
 mod s1985_find_the_kth_largest_integer_in_the_array;
 mod s1986_minimum_number_of_work_sessions_to_finish_the_tasks;
 mod s1987_number_of_unique_good_subsequences;
+mod s1991_find_the_middle_index_in_array;
