@@ -1500,3 +1500,4 @@ mod s1985_find_the_kth_largest_integer_in_the_array;
 mod s1986_minimum_number_of_work_sessions_to_finish_the_tasks;
 mod s1987_number_of_unique_good_subsequences;
 mod s1991_find_the_middle_index_in_array;
+mod s1992_find_all_groups_of_farmland;
