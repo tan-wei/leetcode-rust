@@ -1503,3 +1503,4 @@ mod s1991_find_the_middle_index_in_array;
 mod s1992_find_all_groups_of_farmland;
 mod s1993_operations_on_tree;
 mod s1994_the_number_of_good_subsets;
+mod s1995_count_special_quadruplets;
