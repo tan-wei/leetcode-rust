@@ -1506,3 +1506,4 @@ mod s1994_the_number_of_good_subsets;
 mod s1995_count_special_quadruplets;
 mod s1996_the_number_of_weak_characters_in_the_game;
 mod s1997_first_day_where_you_have_been_in_all_the_rooms;
+mod s1998_gcd_sort_of_an_array;
