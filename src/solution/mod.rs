@@ -1509,3 +1509,4 @@ mod s1997_first_day_where_you_have_been_in_all_the_rooms;
 mod s1998_gcd_sort_of_an_array;
 mod s2000_reverse_prefix_of_word;
 mod s2001_number_of_pairs_of_interchangeable_rectangles;
+mod s2002_maximum_product_of_the_length_of_two_palindromic_subsequences;
