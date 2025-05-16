@@ -73,7 +73,7 @@ mod tests {
 
         let result = vec![5, 1, 1, 1];
 
-        asset_eq!(
+        assert_eq!(
             Solution::smallest_missing_value_subtree(parents, nums),
             result
         );
@@ -87,7 +87,7 @@ mod tests {
 
         let result = vec![7, 1, 1, 4, 2, 1];
 
-        asset_eq!(
+        assert_eq!(
             Solution::smallest_missing_value_subtree(parents, nums),
             result
         );
@@ -101,7 +101,7 @@ mod tests {
 
         let result = vec![1, 1, 1, 1, 1, 1, 1];
 
-        asset_eq!(
+        assert_eq!(
             Solution::smallest_missing_value_subtree(parents, nums),
             result
         );
