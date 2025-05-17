@@ -1511,3 +1511,4 @@ mod s2000_reverse_prefix_of_word;
 mod s2001_number_of_pairs_of_interchangeable_rectangles;
 mod s2002_maximum_product_of_the_length_of_two_palindromic_subsequences;
 mod s2003_smallest_missing_genetic_value_in_each_subtree;
+mod s2006_count_number_of_pairs_with_absolute_difference_k;
