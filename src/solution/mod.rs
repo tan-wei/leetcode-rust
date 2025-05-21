@@ -1515,3 +1515,4 @@ mod s2006_count_number_of_pairs_with_absolute_difference_k;
 mod s2007_find_original_array_from_doubled_array;
 mod s2008_maximum_earnings_from_taxi;
 mod s2009_minimum_number_of_operations_to_make_array_continuous;
+mod s2011_final_value_of_variable_after_performing_operations;
