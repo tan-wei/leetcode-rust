@@ -1518,3 +1518,4 @@ mod s2009_minimum_number_of_operations_to_make_array_continuous;
 mod s2011_final_value_of_variable_after_performing_operations;
 mod s2012_sum_of_beauty_in_the_array;
 mod s2013_detect_squares;
+mod s2014_longest_subsequence_repeated_k_times;
