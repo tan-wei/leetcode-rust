@@ -1522,3 +1522,4 @@ mod s2014_longest_subsequence_repeated_k_times;
 mod s2016_maximum_difference_between_increasing_elements;
 mod s2017_grid_game;
 mod s2018_check_if_word_can_be_placed_in_crossword;
+mod s2019_the_score_of_students_solving_math_expression;
