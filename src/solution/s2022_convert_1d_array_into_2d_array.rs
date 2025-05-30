@@ -94,7 +94,7 @@ mod tests {
         let m = 1;
         let n = 1;
 
-        let result = vec![];
+        let result: Vec<Vec<i32>> = vec![];
 
         assert_eq!(Solution::construct2_d_array(original, m, n), result);
     }
