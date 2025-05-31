@@ -1525,3 +1525,4 @@ mod s2018_check_if_word_can_be_placed_in_crossword;
 mod s2019_the_score_of_students_solving_math_expression;
 mod s2022_convert_1d_array_into_2d_array;
 mod s2023_number_of_pairs_of_strings_with_concatenation_equal_to_target;
+mod s2024_maximize_the_confusion_of_an_exam;
