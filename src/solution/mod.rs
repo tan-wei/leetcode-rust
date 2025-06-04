@@ -1529,3 +1529,4 @@ mod s2024_maximize_the_confusion_of_an_exam;
 mod s2025_maximum_number_of_ways_to_partition_an_array;
 mod s2027_minimum_moves_to_convert_string;
 mod s2028_find_missing_observations;
+mod s2029_stone_game_ix;
