@@ -1530,3 +1530,4 @@ mod s2025_maximum_number_of_ways_to_partition_an_array;
 mod s2027_minimum_moves_to_convert_string;
 mod s2028_find_missing_observations;
 mod s2029_stone_game_ix;
+mod s2030_smallest_k_length_subsequence_with_occurrences_of_a_letter;
