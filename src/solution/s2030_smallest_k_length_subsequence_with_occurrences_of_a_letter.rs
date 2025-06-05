@@ -61,7 +61,7 @@ mod tests {
     fn test_2030_example_1() {
         let s = "leet".to_string();
         let k = 3;
-        let letter = "e".to_string();
+        let letter = 'e';
         let repetition = 1;
 
         let result = "eet".to_string();
@@ -77,7 +77,7 @@ mod tests {
     fn test_2030_example_2() {
         let s = "leetcode".to_string();
         let k = 4;
-        let letter = "e".to_string();
+        let letter = 'e';
         let repetition = 2;
 
         let result = "ecde".to_string();
@@ -93,7 +93,7 @@ mod tests {
     fn test_2030_example_3() {
         let s = "bb".to_string();
         let k = 2;
-        let letter = "eb".to_string();
+        let letter = 'b';
         let repetition = 2;
 
         let result = "bb".to_string();
