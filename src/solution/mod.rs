@@ -1531,3 +1531,4 @@ mod s2027_minimum_moves_to_convert_string;
 mod s2028_find_missing_observations;
 mod s2029_stone_game_ix;
 mod s2030_smallest_k_length_subsequence_with_occurrences_of_a_letter;
+mod s2032_two_out_of_three;
