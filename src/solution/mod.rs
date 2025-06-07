@@ -1532,3 +1532,4 @@ mod s2028_find_missing_observations;
 mod s2029_stone_game_ix;
 mod s2030_smallest_k_length_subsequence_with_occurrences_of_a_letter;
 mod s2032_two_out_of_three;
+mod s2033_minimum_operations_to_make_a_uni_value_grid;
