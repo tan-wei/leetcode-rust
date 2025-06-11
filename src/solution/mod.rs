@@ -1536,3 +1536,4 @@ mod s2033_minimum_operations_to_make_a_uni_value_grid;
 mod s2034_stock_price_fluctuation;
 mod s2035_partition_array_into_two_arrays_to_minimize_sum_difference;
 mod s2037_minimum_number_of_moves_to_seat_everyone;
+mod s2038_remove_colored_pieces_if_both_neighbors_are_the_same_color;
