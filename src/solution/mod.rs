@@ -1540,3 +1540,4 @@ mod s2038_remove_colored_pieces_if_both_neighbors_are_the_same_color;
 mod s2039_the_time_when_the_network_becomes_idle;
 mod s2040_kth_smallest_product_of_two_sorted_arrays;
 mod s2042_check_if_numbers_are_ascending_in_a_sentence;
+mod s2043_simple_bank_system;
