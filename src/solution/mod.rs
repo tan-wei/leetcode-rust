@@ -1543,3 +1543,4 @@ mod s2042_check_if_numbers_are_ascending_in_a_sentence;
 mod s2043_simple_bank_system;
 mod s2044_count_number_of_maximum_bitwise_or_subsets;
 mod s2045_second_minimum_time_to_reach_destination;
+mod s2047_number_of_valid_words_in_a_sentence;
