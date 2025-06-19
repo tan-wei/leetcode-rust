@@ -1544,3 +1544,4 @@ mod s2043_simple_bank_system;
 mod s2044_count_number_of_maximum_bitwise_or_subsets;
 mod s2045_second_minimum_time_to_reach_destination;
 mod s2047_number_of_valid_words_in_a_sentence;
+mod s2048_next_greater_numerically_balanced_number;
