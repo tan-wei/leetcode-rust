@@ -1546,3 +1546,4 @@ mod s2045_second_minimum_time_to_reach_destination;
 mod s2047_number_of_valid_words_in_a_sentence;
 mod s2048_next_greater_numerically_balanced_number;
 mod s2049_count_nodes_with_the_highest_score;
+mod s2050_parallel_courses_iii;
