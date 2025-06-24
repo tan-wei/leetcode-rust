@@ -1549,3 +1549,4 @@ mod s2049_count_nodes_with_the_highest_score;
 mod s2050_parallel_courses_iii;
 mod s2053_kth_distinct_string_in_an_array;
 mod s2054_two_best_non_overlapping_events;
+mod s2055_plates_between_candles;
