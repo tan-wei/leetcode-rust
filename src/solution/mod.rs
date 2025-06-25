@@ -1550,3 +1550,4 @@ mod s2050_parallel_courses_iii;
 mod s2053_kth_distinct_string_in_an_array;
 mod s2054_two_best_non_overlapping_events;
 mod s2055_plates_between_candles;
+mod s2056_number_of_valid_move_combinations_on_chessboard;
