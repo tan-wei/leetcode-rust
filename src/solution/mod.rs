@@ -1553,3 +1553,4 @@ mod s2055_plates_between_candles;
 mod s2056_number_of_valid_move_combinations_on_chessboard;
 mod s2057_smallest_index_with_equal_value;
 mod s2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points;
+mod s2059_minimum_operations_to_convert_number;
