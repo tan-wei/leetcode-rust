@@ -1556,3 +1556,4 @@ mod s2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points;
 mod s2059_minimum_operations_to_convert_number;
 mod s2060_check_if_an_original_string_exists_given_two_encoded_strings;
 mod s2062_count_vowel_substrings_of_a_string;
+mod s2063_vowels_of_all_substrings;
