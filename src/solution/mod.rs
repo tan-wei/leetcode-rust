@@ -1563,3 +1563,4 @@ mod s2068_check_whether_two_strings_are_almost_equivalent;
 mod s2069_walking_robot_simulation_ii;
 mod s2070_most_beautiful_item_for_each_query;
 mod s2071_maximum_number_of_tasks_you_can_assign;
+mod s2073_time_needed_to_buy_tickets;
