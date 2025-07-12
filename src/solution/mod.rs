@@ -1567,3 +1567,4 @@ mod s2073_time_needed_to_buy_tickets;
 mod s2074_reverse_nodes_in_even_length_groups;
 mod s2075_decode_the_slanted_ciphertext;
 mod s2076_process_restricted_friend_requests;
+mod s2078_two_furthest_houses_with_different_colors;
