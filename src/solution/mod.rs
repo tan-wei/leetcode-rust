@@ -1570,3 +1570,4 @@ mod s2076_process_restricted_friend_requests;
 mod s2078_two_furthest_houses_with_different_colors;
 mod s2079_watering_plants;
 mod s2080_range_frequency_queries;
+mod s2081_sum_of_k_mirror_numbers;
