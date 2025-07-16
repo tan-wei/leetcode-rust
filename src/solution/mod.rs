@@ -1571,3 +1571,4 @@ mod s2078_two_furthest_houses_with_different_colors;
 mod s2079_watering_plants;
 mod s2080_range_frequency_queries;
 mod s2081_sum_of_k_mirror_numbers;
+mod s2085_count_common_words_with_one_occurrence;
