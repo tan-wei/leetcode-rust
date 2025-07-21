@@ -1576,3 +1576,4 @@ mod s2086_minimum_number_of_food_buckets_to_feed_the_hamsters;
 mod s2087_minimum_cost_homecoming_of_a_robot_in_a_grid;
 mod s2088_count_fertile_pyramids_in_a_land;
 mod s2089_find_target_indices_after_sorting_array;
+mod s2090_k_radius_subarray_averages;
