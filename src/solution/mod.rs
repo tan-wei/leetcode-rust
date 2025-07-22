@@ -1577,3 +1577,4 @@ mod s2087_minimum_cost_homecoming_of_a_robot_in_a_grid;
 mod s2088_count_fertile_pyramids_in_a_land;
 mod s2089_find_target_indices_after_sorting_array;
 mod s2090_k_radius_subarray_averages;
+mod s2091_removing_minimum_and_maximum_from_array;
