@@ -1581,3 +1581,4 @@ mod s2091_removing_minimum_and_maximum_from_array;
 mod s2092_find_all_people_with_secret;
 mod s2094_finding_3_digit_even_numbers;
 mod s2095_delete_the_middle_node_of_a_linked_list;
+mod s2096_step_by_step_directions_from_a_binary_tree_node_to_another;
