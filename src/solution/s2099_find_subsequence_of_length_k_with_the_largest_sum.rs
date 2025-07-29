@@ -80,7 +80,7 @@ mod tests {
     #[test]
     fn test_2099_example_3() {
         let nums = vec![-1, -2, 3, 4];
-        let k = 3;
+        let k = 2;
 
         let result = vec![3, 4];
 
