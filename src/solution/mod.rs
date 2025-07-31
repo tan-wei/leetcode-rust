@@ -1586,3 +1586,4 @@ mod s2097_valid_arrangement_of_pairs;
 mod s2099_find_subsequence_of_length_k_with_the_largest_sum;
 mod s2100_find_good_days_to_rob_the_bank;
 mod s2101_detonate_the_maximum_bombs;
+mod s2102_sequentially_ordinal_rank_tracker;
