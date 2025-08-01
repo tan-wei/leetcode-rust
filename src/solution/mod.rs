@@ -1587,3 +1587,4 @@ mod s2099_find_subsequence_of_length_k_with_the_largest_sum;
 mod s2100_find_good_days_to_rob_the_bank;
 mod s2101_detonate_the_maximum_bombs;
 mod s2102_sequentially_ordinal_rank_tracker;
+mod s2103_rings_and_rods;
