@@ -1589,3 +1589,4 @@ mod s2101_detonate_the_maximum_bombs;
 mod s2102_sequentially_ordinal_rank_tracker;
 mod s2103_rings_and_rods;
 mod s2104_sum_of_subarray_ranges;
+mod s2105_watering_plants_ii;
