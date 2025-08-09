@@ -1595,3 +1595,4 @@ mod s2108_find_first_palindromic_string_in_the_array;
 mod s2109_adding_spaces_to_a_string;
 mod s2110_number_of_smooth_descent_periods_of_a_stock;
 mod s2111_minimum_operations_to_make_the_array_k_increasing;
+mod s2114_maximum_number_of_words_found_in_sentences;
