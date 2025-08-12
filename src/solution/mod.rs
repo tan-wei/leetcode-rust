@@ -1598,3 +1598,4 @@ mod s2111_minimum_operations_to_make_the_array_k_increasing;
 mod s2114_maximum_number_of_words_found_in_sentences;
 mod s2115_find_all_possible_recipes_from_given_supplies;
 mod s2116_check_if_a_parentheses_string_can_be_valid;
+mod s2117_abbreviating_the_product_of_a_range;
