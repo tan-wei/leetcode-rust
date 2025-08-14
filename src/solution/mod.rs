@@ -1600,3 +1600,4 @@ mod s2115_find_all_possible_recipes_from_given_supplies;
 mod s2116_check_if_a_parentheses_string_can_be_valid;
 mod s2117_abbreviating_the_product_of_a_range;
 mod s2119_a_number_after_a_double_reversal;
+mod s2120_execution_of_all_suffix_instructions_staying_in_a_grid;
