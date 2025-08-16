@@ -1602,3 +1602,4 @@ mod s2117_abbreviating_the_product_of_a_range;
 mod s2119_a_number_after_a_double_reversal;
 mod s2120_execution_of_all_suffix_instructions_staying_in_a_grid;
 mod s2121_intervals_between_identical_elements;
+mod s2122_recover_the_original_array;
