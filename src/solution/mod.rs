@@ -1604,3 +1604,4 @@ mod s2120_execution_of_all_suffix_instructions_staying_in_a_grid;
 mod s2121_intervals_between_identical_elements;
 mod s2122_recover_the_original_array;
 mod s2124_check_if_all_as_appears_before_all_bs;
+mod s2125_number_of_laser_beams_in_a_bank;
