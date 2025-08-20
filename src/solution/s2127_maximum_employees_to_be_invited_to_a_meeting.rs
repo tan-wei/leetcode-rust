@@ -68,7 +68,7 @@ mod tests {
     #[test]
     #[ignore]
     fn test_2127_example_1() {
-        let favorite = [2, 2, 1, 2];
+        let favorite = vec![2, 2, 1, 2];
 
         let result = 3;
 
@@ -78,7 +78,7 @@ mod tests {
     #[test]
     #[ignore]
     fn test_2127_example_2() {
-        let favorite = [1, 2, 0];
+        let favorite = vec![1, 2, 0];
 
         let result = 3;
 
@@ -88,7 +88,7 @@ mod tests {
     #[test]
     #[ignore]
     fn test_2127_example_3() {
-        let favorite = [3, 0, 1, 4, 1];
+        let favorite = vec![3, 0, 1, 4, 1];
 
         let result = 4;
 
