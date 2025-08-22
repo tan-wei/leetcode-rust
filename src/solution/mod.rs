@@ -1608,3 +1608,4 @@ mod s2125_number_of_laser_beams_in_a_bank;
 mod s2126_destroying_asteroids;
 mod s2127_maximum_employees_to_be_invited_to_a_meeting;
 mod s2129_capitalize_the_title;
+mod s2130_maximum_twin_sum_of_a_linked_list;
