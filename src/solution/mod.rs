@@ -1612,3 +1612,4 @@ mod s2130_maximum_twin_sum_of_a_linked_list;
 mod s2131_longest_palindrome_by_concatenating_two_letter_words;
 mod s2132_stamping_the_grid;
 mod s2133_check_if_every_row_and_column_contains_all_numbers;
+mod s2134_minimum_swaps_to_group_all_1s_together_ii;
