@@ -1615,3 +1615,4 @@ mod s2133_check_if_every_row_and_column_contains_all_numbers;
 mod s2134_minimum_swaps_to_group_all_1s_together_ii;
 mod s2135_count_words_obtained_after_adding_a_letter;
 mod s2136_earliest_possible_day_of_full_bloom;
+mod s2138_divide_a_string_into_groups_of_size_k;
