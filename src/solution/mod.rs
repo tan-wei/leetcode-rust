@@ -1617,3 +1617,4 @@ mod s2135_count_words_obtained_after_adding_a_letter;
 mod s2136_earliest_possible_day_of_full_bloom;
 mod s2138_divide_a_string_into_groups_of_size_k;
 mod s2139_minimum_moves_to_reach_target_score;
+mod s2140_solving_questions_with_brainpower;
