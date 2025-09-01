@@ -1618,3 +1618,4 @@ mod s2136_earliest_possible_day_of_full_bloom;
 mod s2138_divide_a_string_into_groups_of_size_k;
 mod s2139_minimum_moves_to_reach_target_score;
 mod s2140_solving_questions_with_brainpower;
+mod s2141_maximum_running_time_of_n_computers;
