@@ -1620,3 +1620,4 @@ mod s2139_minimum_moves_to_reach_target_score;
 mod s2140_solving_questions_with_brainpower;
 mod s2141_maximum_running_time_of_n_computers;
 mod s2144_minimum_cost_of_buying_candies_with_discount;
+mod s2145_count_the_hidden_sequences;
