@@ -1621,3 +1621,4 @@ mod s2140_solving_questions_with_brainpower;
 mod s2141_maximum_running_time_of_n_computers;
 mod s2144_minimum_cost_of_buying_candies_with_discount;
 mod s2145_count_the_hidden_sequences;
+mod s2146_k_highest_ranked_items_within_a_price_range;
