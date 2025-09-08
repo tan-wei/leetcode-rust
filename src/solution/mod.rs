@@ -1625,3 +1625,4 @@ mod s2146_k_highest_ranked_items_within_a_price_range;
 mod s2147_number_of_ways_to_divide_a_long_corridor;
 mod s2148_count_elements_with_strictly_smaller_and_greater_elements;
 mod s2149_rearrange_array_elements_by_sign;
+mod s2150_find_all_lonely_numbers_in_the_array;
