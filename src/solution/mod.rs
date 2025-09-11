@@ -1628,3 +1628,4 @@ mod s2149_rearrange_array_elements_by_sign;
 mod s2150_find_all_lonely_numbers_in_the_array;
 mod s2151_maximum_good_people_based_on_statements;
 mod s2154_keep_multiplying_found_values_by_two;
+mod s2155_all_divisions_with_the_highest_score_of_a_binary_array;
