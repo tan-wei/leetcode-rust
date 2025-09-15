@@ -1632,3 +1632,4 @@ mod s2155_all_divisions_with_the_highest_score_of_a_binary_array;
 mod s2156_find_substring_with_given_hash_value;
 mod s2157_groups_of_strings;
 mod s2160_minimum_sum_of_four_digit_number_after_splitting_digits;
+mod s2161_partition_array_according_to_given_pivot;
