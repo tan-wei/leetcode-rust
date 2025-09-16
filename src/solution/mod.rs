@@ -1633,3 +1633,4 @@ mod s2156_find_substring_with_given_hash_value;
 mod s2157_groups_of_strings;
 mod s2160_minimum_sum_of_four_digit_number_after_splitting_digits;
 mod s2161_partition_array_according_to_given_pivot;
+mod s2162_minimum_cost_to_set_cooking_time;
