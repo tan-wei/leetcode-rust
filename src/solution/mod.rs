@@ -1634,3 +1634,4 @@ mod s2157_groups_of_strings;
 mod s2160_minimum_sum_of_four_digit_number_after_splitting_digits;
 mod s2161_partition_array_according_to_given_pivot;
 mod s2162_minimum_cost_to_set_cooking_time;
+mod s2163_minimum_difference_in_sums_after_removal_of_elements;
