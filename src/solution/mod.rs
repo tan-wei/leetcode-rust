@@ -1637,3 +1637,4 @@ mod s2162_minimum_cost_to_set_cooking_time;
 mod s2163_minimum_difference_in_sums_after_removal_of_elements;
 mod s2164_sort_even_and_odd_indices_independently;
 mod s2165_smallest_value_of_the_rearranged_number;
+mod s2166_design_bitset;
