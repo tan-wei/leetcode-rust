@@ -1638,3 +1638,4 @@ mod s2163_minimum_difference_in_sums_after_removal_of_elements;
 mod s2164_sort_even_and_odd_indices_independently;
 mod s2165_smallest_value_of_the_rearranged_number;
 mod s2166_design_bitset;
+mod s2167_minimum_time_to_remove_all_cars_containing_illegal_goods;
