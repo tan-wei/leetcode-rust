@@ -1647,3 +1647,4 @@ mod s2176_count_equal_and_divisible_pairs_in_an_array;
 mod s2177_find_three_consecutive_integers_that_sum_to_a_given_number;
 mod s2178_maximum_split_of_positive_even_integers;
 mod s2179_count_good_triplets_in_an_array;
+mod s2180_count_integers_with_even_digit_sum;
