@@ -1649,3 +1649,4 @@ mod s2178_maximum_split_of_positive_even_integers;
 mod s2179_count_good_triplets_in_an_array;
 mod s2180_count_integers_with_even_digit_sum;
 mod s2181_merge_nodes_in_between_zeros;
+mod s2182_construct_string_with_repeat_limit;
