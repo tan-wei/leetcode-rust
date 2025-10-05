@@ -1652,3 +1652,4 @@ mod s2181_merge_nodes_in_between_zeros;
 mod s2182_construct_string_with_repeat_limit;
 mod s2183_count_array_pairs_divisible_by_k;
 mod s2185_counting_words_with_a_given_prefix;
+mod s2186_minimum_number_of_steps_to_make_two_strings_anagram_ii;
