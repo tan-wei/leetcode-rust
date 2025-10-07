@@ -1654,3 +1654,4 @@ mod s2183_count_array_pairs_divisible_by_k;
 mod s2185_counting_words_with_a_given_prefix;
 mod s2186_minimum_number_of_steps_to_make_two_strings_anagram_ii;
 mod s2187_minimum_time_to_complete_trips;
+mod s2188_minimum_time_to_finish_the_race;
