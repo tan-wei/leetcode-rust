@@ -1655,3 +1655,4 @@ mod s2185_counting_words_with_a_given_prefix;
 mod s2186_minimum_number_of_steps_to_make_two_strings_anagram_ii;
 mod s2187_minimum_time_to_complete_trips;
 mod s2188_minimum_time_to_finish_the_race;
+mod s2190_most_frequent_number_following_key_in_an_array;
