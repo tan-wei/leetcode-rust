@@ -1658,3 +1658,4 @@ mod s2188_minimum_time_to_finish_the_race;
 mod s2190_most_frequent_number_following_key_in_an_array;
 mod s2191_sort_the_jumbled_numbers;
 mod s2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
+mod s2193_minimum_number_of_moves_to_make_palindrome;
