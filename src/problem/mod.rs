@@ -1,1 +1,1 @@
-
+mod p2195_append_k_integers_with_minimal_sum;
