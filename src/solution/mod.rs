@@ -1660,3 +1660,4 @@ mod s2191_sort_the_jumbled_numbers;
 mod s2192_all_ancestors_of_a_node_in_a_directed_acyclic_graph;
 mod s2193_minimum_number_of_moves_to_make_palindrome;
 mod s2194_cells_in_a_range_on_an_excel_sheet;
+mod s2195_append_k_integers_with_minimal_sum;
