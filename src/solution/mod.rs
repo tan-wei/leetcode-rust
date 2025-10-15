@@ -1662,3 +1662,4 @@ mod s2193_minimum_number_of_moves_to_make_palindrome;
 mod s2194_cells_in_a_range_on_an_excel_sheet;
 mod s2195_append_k_integers_with_minimal_sum;
 mod s2196_create_binary_tree_from_descriptions;
+mod s2197_replace_non_coprime_numbers_in_array;
