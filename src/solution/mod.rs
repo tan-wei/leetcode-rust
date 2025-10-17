@@ -1664,3 +1664,4 @@ mod s2195_append_k_integers_with_minimal_sum;
 mod s2196_create_binary_tree_from_descriptions;
 mod s2197_replace_non_coprime_numbers_in_array;
 mod s2200_find_all_k_distant_indices_in_an_array;
+mod s2201_count_artifacts_that_can_be_extracted;
