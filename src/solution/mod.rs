@@ -1665,3 +1665,4 @@ mod s2196_create_binary_tree_from_descriptions;
 mod s2197_replace_non_coprime_numbers_in_array;
 mod s2200_find_all_k_distant_indices_in_an_array;
 mod s2201_count_artifacts_that_can_be_extracted;
+mod s2202_maximize_the_topmost_element_after_k_moves;
