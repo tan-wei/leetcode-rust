@@ -1667,3 +1667,4 @@ mod s2200_find_all_k_distant_indices_in_an_array;
 mod s2201_count_artifacts_that_can_be_extracted;
 mod s2202_maximize_the_topmost_element_after_k_moves;
 mod s2203_minimum_weighted_subgraph_with_the_required_paths;
+mod s2206_divide_array_into_equal_pairs;
