@@ -1669,3 +1669,4 @@ mod s2202_maximize_the_topmost_element_after_k_moves;
 mod s2203_minimum_weighted_subgraph_with_the_required_paths;
 mod s2206_divide_array_into_equal_pairs;
 mod s2207_maximize_number_of_subsequences_in_a_string;
+mod s2208_minimum_operations_to_halve_array_sum;
