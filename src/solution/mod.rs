@@ -1674,3 +1674,4 @@ mod s2209_minimum_white_tiles_after_covering_with_carpets;
 mod s2210_count_hills_and_valleys_in_an_array;
 mod s2211_count_collisions_on_a_road;
 mod s2212_maximum_points_in_an_archery_competition;
+mod s2213_longest_substring_of_one_repeating_character;
