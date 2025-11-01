@@ -1679,3 +1679,4 @@ mod s2215_find_the_difference_of_two_arrays;
 mod s2216_minimum_deletions_to_make_array_beautiful;
 mod s2217_find_palindrome_with_fixed_length;
 mod s2218_maximum_value_of_k_coins_from_piles;
+mod s2220_minimum_bit_flips_to_convert_number;
