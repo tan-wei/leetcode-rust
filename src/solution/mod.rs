@@ -1682,3 +1682,4 @@ mod s2218_maximum_value_of_k_coins_from_piles;
 mod s2220_minimum_bit_flips_to_convert_number;
 mod s2221_find_triangular_sum_of_an_array;
 mod s2222_number_of_ways_to_select_buildings;
+mod s2223_sum_of_scores_of_built_strings;
