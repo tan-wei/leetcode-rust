@@ -1684,3 +1684,4 @@ mod s2221_find_triangular_sum_of_an_array;
 mod s2222_number_of_ways_to_select_buildings;
 mod s2223_sum_of_scores_of_built_strings;
 mod s2224_minimum_number_of_operations_to_convert_time;
+mod s2225_find_players_with_zero_or_one_losses;
