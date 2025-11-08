@@ -79,31 +79,31 @@ impl Encrypter {
             |(key, value)| value_map[(key as u8 - b'a') as usize] = value,
         );
 
-        let mut res = Self {
+        let mut result = Self {
             value_map,
             dict_map: std::collections::HashMap::with_capacity(5),
         };
 
         for word in dictionary {
-            let key = res.encrypt(word);
-            *res.dict_map.entry(key).or_insert(0) += 1;
+            let key = result.encrypt(word);
+            *result.dict_map.entry(key).or_insert(0) += 1;
         }
 
-        res
+        result
     }
 
     fn encrypt(&self, word1: String) -> String {
-        let mut res: String = String::with_capacity(word1.len() * 2);
+        let mut result: String = String::with_capacity(word1.len() * 2);
 
         for b in word1.into_bytes() {
             if !self.value_map[(b - b'a') as usize].is_empty() {
-                res.push_str(&self.value_map[(b - b'a') as usize]);
+                result.push_str(&self.value_map[(b - b'a') as usize]);
             } else {
                 return String::new();
             }
         }
 
-        res
+        result
     }
 
     fn decrypt(&self, word2: String) -> i32 {
