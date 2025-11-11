@@ -1689,3 +1689,4 @@ mod s2226_maximum_candies_allocated_to_k_children;
 mod s2227_encrypt_and_decrypt_strings;
 mod s2231_largest_number_after_digit_swaps_by_parity;
 mod s2232_minimize_result_by_adding_parentheses_to_expression;
+mod s2233_maximum_product_after_k_increments;
