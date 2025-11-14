@@ -1692,3 +1692,4 @@ mod s2232_minimize_result_by_adding_parentheses_to_expression;
 mod s2233_maximum_product_after_k_increments;
 mod s2234_maximum_total_beauty_of_the_gardens;
 mod s2235_add_two_integers;
+mod s2236_root_equals_sum_of_children;
