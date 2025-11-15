@@ -1693,3 +1693,4 @@ mod s2233_maximum_product_after_k_increments;
 mod s2234_maximum_total_beauty_of_the_gardens;
 mod s2235_add_two_integers;
 mod s2236_root_equals_sum_of_children;
+mod s2239_find_closest_number_to_zero;
