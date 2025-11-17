@@ -1695,3 +1695,4 @@ mod s2235_add_two_integers;
 mod s2236_root_equals_sum_of_children;
 mod s2239_find_closest_number_to_zero;
 mod s2240_number_of_ways_to_buy_pens_and_pencils;
+mod s2241_design_an_atm_machine;
