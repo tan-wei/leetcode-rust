@@ -1697,3 +1697,4 @@ mod s2239_find_closest_number_to_zero;
 mod s2240_number_of_ways_to_buy_pens_and_pencils;
 mod s2241_design_an_atm_machine;
 mod s2242_maximum_score_of_a_node_sequence;
+mod s2243_calculate_digit_sum_of_a_string;
