@@ -1701,3 +1701,4 @@ mod s2243_calculate_digit_sum_of_a_string;
 mod s2244_minimum_rounds_to_complete_all_tasks;
 mod s2245_maximum_trailing_zeros_in_a_cornered_path;
 mod s2246_longest_path_with_different_adjacent_characters;
+mod s2248_intersection_of_multiple_arrays;
