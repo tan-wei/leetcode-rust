@@ -1703,3 +1703,4 @@ mod s2245_maximum_trailing_zeros_in_a_cornered_path;
 mod s2246_longest_path_with_different_adjacent_characters;
 mod s2248_intersection_of_multiple_arrays;
 mod s2249_count_lattice_points_inside_a_circle;
+mod s2250_count_number_of_rectangles_containing_each_point;
