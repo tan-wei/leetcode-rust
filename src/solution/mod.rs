@@ -1704,3 +1704,4 @@ mod s2246_longest_path_with_different_adjacent_characters;
 mod s2248_intersection_of_multiple_arrays;
 mod s2249_count_lattice_points_inside_a_circle;
 mod s2250_count_number_of_rectangles_containing_each_point;
+mod s2251_number_of_flowers_in_full_bloom;
