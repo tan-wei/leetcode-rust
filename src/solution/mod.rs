@@ -1707,3 +1707,4 @@ mod s2250_count_number_of_rectangles_containing_each_point;
 mod s2251_number_of_flowers_in_full_bloom;
 mod s2255_count_prefixes_of_a_given_string;
 mod s2256_minimum_average_difference;
+mod s2257_count_unguarded_cells_in_the_grid;
