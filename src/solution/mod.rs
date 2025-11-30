@@ -1708,3 +1708,4 @@ mod s2251_number_of_flowers_in_full_bloom;
 mod s2255_count_prefixes_of_a_given_string;
 mod s2256_minimum_average_difference;
 mod s2257_count_unguarded_cells_in_the_grid;
+mod s2258_escape_the_spreading_fire;
