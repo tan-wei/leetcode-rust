@@ -1711,3 +1711,4 @@ mod s2257_count_unguarded_cells_in_the_grid;
 mod s2258_escape_the_spreading_fire;
 mod s2259_remove_digit_from_number_to_maximize_result;
 mod s2260_minimum_consecutive_cards_to_pick_up;
+mod s2261_k_divisible_elements_subarrays;
