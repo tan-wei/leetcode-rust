@@ -1713,3 +1713,4 @@ mod s2259_remove_digit_from_number_to_maximize_result;
 mod s2260_minimum_consecutive_cards_to_pick_up;
 mod s2261_k_divisible_elements_subarrays;
 mod s2262_total_appeal_of_a_string;
+mod s2264_largest_3_same_digit_number_in_string;
