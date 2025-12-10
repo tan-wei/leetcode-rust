@@ -1718,3 +1718,4 @@ mod s2265_count_nodes_equal_to_average_of_subtree;
 mod s2266_count_number_of_texts;
 mod s2267_check_if_there_is_a_valid_parentheses_string_path;
 mod s2269_find_the_k_beauty_of_a_number;
+mod s2270_number_of_ways_to_split_array;
