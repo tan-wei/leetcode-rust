@@ -1722,3 +1722,4 @@ mod s2270_number_of_ways_to_split_array;
 mod s2271_maximum_white_tiles_covered_by_a_carpet;
 mod s2272_substring_with_largest_variance;
 mod s2273_find_resultant_array_after_removing_anagrams;
+mod s2274_maximum_consecutive_floors_without_special_floors;
