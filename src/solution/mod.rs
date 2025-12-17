@@ -1725,3 +1725,4 @@ mod s2273_find_resultant_array_after_removing_anagrams;
 mod s2274_maximum_consecutive_floors_without_special_floors;
 mod s2275_largest_combination_with_bitwise_and_greater_than_zero;
 mod s2276_count_integers_in_intervals;
+mod s2278_percentage_of_letter_in_string;
