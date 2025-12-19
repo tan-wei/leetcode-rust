@@ -1727,3 +1727,4 @@ mod s2275_largest_combination_with_bitwise_and_greater_than_zero;
 mod s2276_count_integers_in_intervals;
 mod s2278_percentage_of_letter_in_string;
 mod s2279_maximum_bags_with_full_capacity_of_rocks;
+mod s2280_minimum_lines_to_represent_a_line_chart;
