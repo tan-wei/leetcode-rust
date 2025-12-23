@@ -1731,3 +1731,4 @@ mod s2280_minimum_lines_to_represent_a_line_chart;
 mod s2281_sum_of_total_strength_of_wizards;
 mod s2283_check_if_number_has_equal_digit_count_and_digit_value;
 mod s2284_sender_with_largest_word_count;
+mod s2285_maximum_total_importance_of_roads;
