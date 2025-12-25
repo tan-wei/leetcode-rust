@@ -1733,3 +1733,4 @@ mod s2283_check_if_number_has_equal_digit_count_and_digit_value;
 mod s2284_sender_with_largest_word_count;
 mod s2285_maximum_total_importance_of_roads;
 mod s2286_booking_concert_tickets_in_groups;
+mod s2287_rearrange_characters_to_make_target_string;
