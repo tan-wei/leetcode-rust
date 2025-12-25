@@ -57,12 +57,12 @@ impl Solution {
                 f[(b - b'a') as usize] += 1;
                 f
             })
-            .into_iter()
+            .iter()
             .zip(s.bytes().fold([0; 26], |mut f, b| {
                 f[(b - b'a') as usize] += 1;
                 f
             }))
-            .flat_map(|(tf, sf)| (tf > 0).then(|| sf / tf))
+            .flat_map(|(tf, sf)| (*tf > 0).then(|| sf / tf))
             .min()
             .unwrap()
     }
