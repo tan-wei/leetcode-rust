@@ -1735,3 +1735,4 @@ mod s2285_maximum_total_importance_of_roads;
 mod s2286_booking_concert_tickets_in_groups;
 mod s2287_rearrange_characters_to_make_target_string;
 mod s2288_apply_discount_to_prices;
+mod s2289_steps_to_make_array_non_decreasing;
