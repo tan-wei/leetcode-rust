@@ -1737,3 +1737,4 @@ mod s2287_rearrange_characters_to_make_target_string;
 mod s2288_apply_discount_to_prices;
 mod s2289_steps_to_make_array_non_decreasing;
 mod s2290_minimum_obstacle_removal_to_reach_corner;
+mod s2293_min_max_game;
