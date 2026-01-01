@@ -1740,3 +1740,4 @@ mod s2290_minimum_obstacle_removal_to_reach_corner;
 mod s2293_min_max_game;
 mod s2294_partition_array_such_that_maximum_difference_is_k;
 mod s2295_replace_elements_in_an_array;
+mod s2296_design_a_text_editor;
