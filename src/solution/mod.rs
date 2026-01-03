@@ -1742,3 +1742,4 @@ mod s2294_partition_array_such_that_maximum_difference_is_k;
 mod s2295_replace_elements_in_an_array;
 mod s2296_design_a_text_editor;
 mod s2299_strong_password_checker_ii;
+mod s2300_successful_pairs_of_spells_and_potions;
