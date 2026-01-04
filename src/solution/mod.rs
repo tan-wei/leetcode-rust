@@ -1743,3 +1743,4 @@ mod s2295_replace_elements_in_an_array;
 mod s2296_design_a_text_editor;
 mod s2299_strong_password_checker_ii;
 mod s2300_successful_pairs_of_spells_and_potions;
+mod s2301_match_substring_after_replacement;
