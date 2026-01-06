@@ -1745,3 +1745,4 @@ mod s2299_strong_password_checker_ii;
 mod s2300_successful_pairs_of_spells_and_potions;
 mod s2301_match_substring_after_replacement;
 mod s2302_count_subarrays_with_score_less_than_k;
+mod s2303_calculate_amount_paid_in_taxes;
