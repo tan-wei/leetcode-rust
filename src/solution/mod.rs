@@ -1747,3 +1747,4 @@ mod s2301_match_substring_after_replacement;
 mod s2302_count_subarrays_with_score_less_than_k;
 mod s2303_calculate_amount_paid_in_taxes;
 mod s2304_minimum_path_cost_in_a_grid;
+mod s2305_fair_distribution_of_cookies;
