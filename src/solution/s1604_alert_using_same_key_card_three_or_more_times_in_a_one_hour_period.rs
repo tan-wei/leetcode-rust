@@ -78,7 +78,9 @@ mod tests {
     #[test]
     fn test_1604_example_1() {
         let key_name = vec_string!["daniel", "daniel", "daniel", "luis", "luis", "luis", "luis"];
-        let key_time = vec_string!["10:00", "10:40", "11:00", "09:00", "11:00", "13:00", "15:00"];
+        let key_time = vec_string![
+            "10:00", "10:40", "11:00", "09:00", "11:00", "13:00", "15:00"
+        ];
 
         let result = vec_string!["daniel"];
 
@@ -88,7 +90,9 @@ mod tests {
     #[test]
     fn test_1604_example_2() {
         let key_name = vec_string!["alice", "alice", "alice", "bob", "bob", "bob", "bob"];
-        let key_time = vec_string!["12:01", "12:00", "18:00", "21:00", "21:20", "21:30", "23:00"];
+        let key_time = vec_string![
+            "12:01", "12:00", "18:00", "21:00", "21:20", "21:30", "23:00"
+        ];
 
         let result = vec_string!["bob"];
 

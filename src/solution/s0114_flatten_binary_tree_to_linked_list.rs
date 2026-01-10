@@ -32,7 +32,7 @@
  * Follow up: Can you flatten the tree in-place (with O(1) extra space)?
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 // discuss: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/?currentPage=1&orderBy=most_votes&query=

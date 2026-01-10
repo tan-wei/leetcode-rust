@@ -42,7 +42,7 @@ pub struct Solution {}
 
 // submission codes start here
 
-use rand::{thread_rng, Rng};
+use rand::{Rng, thread_rng};
 use std::convert::TryInto;
 
 struct RandomizedSet {

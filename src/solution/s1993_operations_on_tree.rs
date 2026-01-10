@@ -168,14 +168,14 @@ mod tests {
     fn test_1993_example_1() {
         let mut locking_tree = LockingTree::new(vec![-1, 0, 0, 1, 1, 2, 2]);
         assert_eq!(locking_tree.lock(2, 2), true); // return true because node 2 is unlocked.
-                                                   // Node 2 will now be locked by user 2.
+        // Node 2 will now be locked by user 2.
         assert_eq!(locking_tree.unlock(2, 3), false); // return false because user 3 cannot unlock a node locked by user 2.
         assert_eq!(locking_tree.unlock(2, 2), true); // return true because node 2 was previously locked by user 2.
-                                                     // Node 2 will now be unlocked.
+        // Node 2 will now be unlocked.
         assert_eq!(locking_tree.lock(4, 5), true); // return true because node 4 is unlocked.
-                                                   // Node 4 will now be locked by user 5.
+        // Node 4 will now be locked by user 5.
         assert_eq!(locking_tree.upgrade(0, 1), true); // return true because node 0 is unlocked and has at least one locked descendant (node 4).
-                                                      // Node 0 will now be locked by user 1 and node 4 will now be unlocked.
+        // Node 0 will now be locked by user 1 and node 4 will now be unlocked.
         assert_eq!(locking_tree.lock(0, 1), false); // return false because node 0 is already locked.
     }
 }

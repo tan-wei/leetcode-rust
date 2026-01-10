@@ -81,11 +81,7 @@ impl MajorityChecker {
         let it1 = Self::lower_bound(&idx_arr, &left);
         let it2 = Self::upper_bound(&idx_arr, &right);
         let cnt = it2 - it1;
-        if cnt >= threshold {
-            node[0]
-        } else {
-            -1
-        }
+        if cnt >= threshold { node[0] } else { -1 }
     }
 
     fn find_max(

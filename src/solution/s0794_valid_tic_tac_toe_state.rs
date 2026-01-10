@@ -60,7 +60,7 @@ impl Solution {
         let mut count = 0;
 
         macro_rules! update {
-            ($row:expr, $col:expr, $incr:expr) => {
+            ($row:expr_2021, $col:expr_2021, $incr:expr_2021) => {
                 count += $incr;
                 row_sums[$row] += $incr;
                 col_sums[$col] += $incr;

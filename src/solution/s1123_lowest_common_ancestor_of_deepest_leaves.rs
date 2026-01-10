@@ -40,7 +40,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
 // discuss: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/discuss/?currentPage=1&orderBy=most_votes&query=

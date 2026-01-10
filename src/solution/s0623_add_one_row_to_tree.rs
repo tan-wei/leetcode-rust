@@ -32,7 +32,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/add-one-row-to-tree/
 // discuss: https://leetcode.com/problems/add-one-row-to-tree/discuss/?currentPage=1&orderBy=most_votes&query=

@@ -39,10 +39,12 @@ use std::ptr::addr_of;
 // discuss: https://leetcode.com/problems/guess-number-higher-or-lower/discuss/?currentPage=1&orderBy=most_votes&query=
 static mut PICK: i32 = 0;
 unsafe fn guess(num: i32) -> i32 {
-    match num.cmp(&*&raw const PICK) {
-        std::cmp::Ordering::Equal => 0,
-        std::cmp::Ordering::Greater => -1,
-        std::cmp::Ordering::Less => 1,
+    unsafe {
+        match num.cmp(&*&raw const PICK) {
+            std::cmp::Ordering::Equal => 0,
+            std::cmp::Ordering::Greater => -1,
+            std::cmp::Ordering::Less => 1,
+        }
     }
 }
 
@@ -59,22 +61,24 @@ unsafe fn guess(num: i32) -> i32 {
 
 impl Solution {
     unsafe fn guess_number(n: i32) -> i32 {
-        if n == 1 {
-            return 1;
-        }
+        unsafe {
+            if n == 1 {
+                return 1;
+            }
 
-        let (mut left, mut right) = (1, n);
-        loop {
-            let mid = left + (right - left) / 2;
-            match guess(mid) {
-                -1 => {
-                    right = mid - 1;
-                }
-                1 => {
-                    left = mid + 1;
-                }
-                _ => {
-                    return mid;
+            let (mut left, mut right) = (1, n);
+            loop {
+                let mid = left + (right - left) / 2;
+                match guess(mid) {
+                    -1 => {
+                        right = mid - 1;
+                    }
+                    1 => {
+                        left = mid + 1;
+                    }
+                    _ => {
+                        return mid;
+                    }
                 }
             }
         }

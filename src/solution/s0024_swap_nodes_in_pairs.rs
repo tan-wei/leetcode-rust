@@ -28,7 +28,7 @@
  * Follow up: Can you solve the problem without modifying the values in the list's nodes? (i.e., Only nodes themselves may be changed.)
  */
 pub struct Solution {}
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode, to_list};
 
 // problem: https://leetcode.com/problems/swap-nodes-in-pairs/
 // discuss: https://leetcode.com/problems/swap-nodes-in-pairs/discuss/?currentPage=1&orderBy=most_votes&query=

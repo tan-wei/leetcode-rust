@@ -33,7 +33,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/delete-leaves-with-a-given-value/
 // discuss: https://leetcode.com/problems/delete-leaves-with-a-given-value/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -73,11 +73,7 @@ impl Solution {
             is_target = in_root.left.is_none() && in_root.right.is_none() && in_root.val == target;
         }
 
-        if is_target {
-            None
-        } else {
-            root
-        }
+        if is_target { None } else { root }
     }
 }
 

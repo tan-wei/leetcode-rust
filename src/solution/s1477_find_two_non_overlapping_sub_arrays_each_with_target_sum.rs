@@ -60,11 +60,7 @@ impl Solution {
             dp[j + 1] = dp[j];
         }
 
-        if result == i32::MAX {
-            -1
-        } else {
-            result
-        }
+        if result == i32::MAX { -1 } else { result }
     }
 }
 

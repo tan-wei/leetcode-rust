@@ -51,11 +51,7 @@ impl Solution {
                 result = std::cmp::max(result, dp[i][j]);
             }
         }
-        if result > 2 {
-            result
-        } else {
-            0
-        }
+        if result > 2 { result } else { 0 }
     }
 }
 

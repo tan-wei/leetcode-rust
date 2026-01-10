@@ -21,7 +21,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 // discuss: https://leetcode.com/problems/all-elements-in-two-binary-search-trees/discuss/?currentPage=1&orderBy=most_votes&query=

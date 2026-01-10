@@ -101,7 +101,9 @@ mod tests {
     #[test]
     fn test_1178_example_1() {
         let words = vec_string!["aaaa", "asas", "able", "ability", "actt", "actor", "access"];
-        let puzzles = vec_string!["aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"];
+        let puzzles = vec_string![
+            "aboveyz", "abrodyz", "abslute", "absoryz", "actresz", "gaswxyz"
+        ];
         let result = vec![1, 1, 3, 2, 4, 0];
 
         assert_eq!(Solution::find_num_of_valid_words(words, puzzles), result);

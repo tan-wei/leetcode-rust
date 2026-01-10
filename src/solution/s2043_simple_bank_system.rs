@@ -108,13 +108,13 @@ mod tests {
     fn test_2043_example_1() {
         let mut bank = Bank::new(vec![10, 100, 20, 50, 30]);
         assert_eq!(bank.withdraw(3, 10), true); // return true, account 3 has a balance of $20, so it is valid to withdraw $10.
-                                                // Account 3 has $20 - $10 = $10.
+        // Account 3 has $20 - $10 = $10.
         assert_eq!(bank.transfer(5, 1, 20), true); // return true, account 5 has a balance of $30, so it is valid to transfer $20.
-                                                   // Account 5 has $30 - $20 = $10, and account 1 has $10 + $20 = $30.
+        // Account 5 has $30 - $20 = $10, and account 1 has $10 + $20 = $30.
         assert_eq!(bank.deposit(5, 20), true); // return true, it is valid to deposit $20 to account 5.
-                                               // Account 5 has $10 + $20 = $30.
+        // Account 5 has $10 + $20 = $30.
         assert_eq!(bank.transfer(3, 4, 15), false); // return false, the current balance of account 3 is $10,
-                                                    // so it is invalid to transfer $15 from it.
+        // so it is invalid to transfer $15 from it.
         assert_eq!(bank.withdraw(10, 50), false); // return false, it is invalid because account 10 does not exist.
     }
 }

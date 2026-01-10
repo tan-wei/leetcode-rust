@@ -42,7 +42,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/delete-node-in-a-bst/
 // discuss: https://leetcode.com/problems/delete-node-in-a-bst/discuss/?currentPage=1&orderBy=most_votes&query=

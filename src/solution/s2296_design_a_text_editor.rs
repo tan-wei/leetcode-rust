@@ -145,25 +145,25 @@ mod tests {
         let mut text_editor = TextEditor::new(); // The current text is "|". (The '|' character represents the cursor)
         text_editor.add_text("leetcode".to_string()); // The current text is "leetcode|".
         assert_eq!(text_editor.delete_text(4), 4); // return 4
-                                                   // The current text is "leet|".
-                                                   // 4 characters were deleted.
+        // The current text is "leet|".
+        // 4 characters were deleted.
         text_editor.add_text("practice".to_string()); // The current text is "leetpractice|".
         assert_eq!(text_editor.cursor_right(3), "etpractice".to_string()); // return "etpractice"
-                                                                           // The current text is "leetpractice|".
-                                                                           // The cursor cannot be moved beyond the actual text and thus did not move.
-                                                                           // "etpractice" is the last 10 characters to the left of the cursor.
+        // The current text is "leetpractice|".
+        // The cursor cannot be moved beyond the actual text and thus did not move.
+        // "etpractice" is the last 10 characters to the left of the cursor.
         assert_eq!(text_editor.cursor_left(8), "leet".to_string()); // return "leet"
-                                                                    // The current text is "leet|practice".
-                                                                    // "leet" is the last min(10, 4) = 4 characters to the left of the cursor.
+        // The current text is "leet|practice".
+        // "leet" is the last min(10, 4) = 4 characters to the left of the cursor.
         assert_eq!(text_editor.delete_text(10), 4); // return 4
-                                                    // The current text is "|practice".
-                                                    // Only 4 characters were deleted.
+        // The current text is "|practice".
+        // Only 4 characters were deleted.
         assert_eq!(text_editor.cursor_left(2), "".to_string()); // return ""
-                                                                // The current text is "|practice".
-                                                                // The cursor cannot be moved beyond the actual text and thus did not move.
-                                                                // "" is the last min(10, 0) = 0 characters to the left of the cursor.
+        // The current text is "|practice".
+        // The cursor cannot be moved beyond the actual text and thus did not move.
+        // "" is the last min(10, 0) = 0 characters to the left of the cursor.
         assert_eq!(text_editor.cursor_right(6), "practi".to_string()); // return "practi"
-                                                                       // The current text is "practi|ce".
-                                                                       // "practi" is the last min(10, 6) = 6 characters to the left of the cursor.}
+        // The current text is "practi|ce".
+        // "practi" is the last min(10, 6) = 6 characters to the left of the cursor.}
     }
 }

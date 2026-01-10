@@ -48,11 +48,7 @@ impl Solution {
             std::mem::swap(&mut dp0, &mut dp1);
         }
 
-        if n < 2 {
-            dp0[4]
-        } else {
-            dp1[4]
-        }
+        if n < 2 { dp0[4] } else { dp1[4] }
     }
 }
 

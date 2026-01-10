@@ -34,7 +34,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
 // discuss: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/discuss/?currentPage=1&orderBy=most_votes&query=

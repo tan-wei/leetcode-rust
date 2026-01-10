@@ -40,7 +40,7 @@ impl Solution {
     pub fn find_kth_positive(arr: Vec<i32>, k: i32) -> i32 {
         arr.iter()
             .enumerate()
-            .find(|(i, &val)| val - *i as i32 > k)
+            .find(|&(ref i, &val)| val - *i as i32 > k)
             .unwrap_or((arr.len(), &0))
             .0 as i32
             + k

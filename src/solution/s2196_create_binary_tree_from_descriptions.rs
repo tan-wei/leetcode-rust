@@ -34,7 +34,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/create-binary-tree-from-descriptions/
 // discuss: https://leetcode.com/problems/create-binary-tree-from-descriptions/discuss/?currentPage=1&orderBy=most_votes&query=

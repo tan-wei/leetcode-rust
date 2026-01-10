@@ -51,11 +51,7 @@ impl Solution {
                     result = x;
                     Some(1)
                 } else {
-                    if c + 1 == k {
-                        None
-                    } else {
-                        Some(c + 1)
-                    }
+                    if c + 1 == k { None } else { Some(c + 1) }
                 }
             });
             result

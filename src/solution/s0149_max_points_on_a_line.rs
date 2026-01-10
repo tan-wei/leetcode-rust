@@ -122,11 +122,7 @@ impl Solution {
     }
 
     fn gcd(u: i32, v: i32) -> i32 {
-        if v == 0 {
-            u
-        } else {
-            Self::gcd(v, u % v)
-        }
+        if v == 0 { u } else { Self::gcd(v, u % v) }
     }
 }
 

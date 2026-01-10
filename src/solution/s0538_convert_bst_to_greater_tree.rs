@@ -32,7 +32,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/convert-bst-to-greater-tree/
 // discuss: https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -86,8 +86,12 @@ mod tests {
 
     #[test]
     fn test_0538_example_1() {
-        let root = tree![4, 1, 6, 0, 2, 5, 7, null, null, null, 3, null, null, null, 8];
-        let result = tree![30, 36, 21, 36, 35, 26, 15, null, null, null, 33, null, null, null, 8];
+        let root = tree![
+            4, 1, 6, 0, 2, 5, 7, null, null, null, 3, null, null, null, 8
+        ];
+        let result = tree![
+            30, 36, 21, 36, 35, 26, 15, null, null, null, 33, null, null, null, 8
+        ];
 
         assert_eq!(Solution::convert_bst(root), result);
     }

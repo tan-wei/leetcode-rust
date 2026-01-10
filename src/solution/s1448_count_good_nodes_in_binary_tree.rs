@@ -44,7 +44,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 // discuss: https://leetcode.com/problems/count-good-nodes-in-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=

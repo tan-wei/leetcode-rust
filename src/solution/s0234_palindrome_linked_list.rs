@@ -23,7 +23,7 @@
  * Follow up: Could you do it in O(n) time and O(1) space?
  */
 pub struct Solution {}
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode, to_list};
 
 // problem: https://leetcode.com/problems/palindrome-linked-list/
 // discuss: https://leetcode.com/problems/palindrome-linked-list/discuss/?currentPage=1&orderBy=most_votes&query=

@@ -100,11 +100,7 @@ impl Solution {
                 multiple = true;
             }
         }
-        if multiple {
-            2
-        } else {
-            1
-        }
+        if multiple { 2 } else { 1 }
     }
 }
 

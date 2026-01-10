@@ -20,7 +20,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/serialize-and-deserialize-bst/
 // discuss: https://leetcode.com/problems/serialize-and-deserialize-bst/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -53,7 +53,7 @@ use std::rc::Rc;
 /// get "Pointer" of a Tree Node
 fn to_rc(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
     match root {
-        Some(ref node) => Some(Rc::clone(node)),
+        Some(node) => Some(Rc::clone(node)),
         None => None,
     }
 }
@@ -62,7 +62,7 @@ fn to_rc(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> 
 /// get value of a Tree Node
 fn val_of(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<i32> {
     match root {
-        Some(ref node) => {
+        Some(node) => {
             let node = node.borrow();
             Some(node.val)
         }
@@ -74,7 +74,7 @@ fn val_of(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<i32> {
 /// get left of a Tree Node
 fn left_of(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
     match root {
-        Some(ref node) => {
+        Some(node) => {
             let node = node.borrow();
             match &node.left {
                 Some(l) => Some(Rc::clone(l)),
@@ -89,7 +89,7 @@ fn left_of(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>
 /// get right of a Tree Node
 fn right_of(root: &Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
     match root {
-        Some(ref node) => {
+        Some(node) => {
             let node = node.borrow();
             match &node.right {
                 Some(r) => Some(Rc::clone(r)),

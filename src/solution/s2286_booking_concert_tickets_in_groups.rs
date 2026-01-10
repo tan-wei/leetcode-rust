@@ -91,13 +91,13 @@ mod tests {
     fn test_2286_example_1() {
         let mut bms = BookMyShow::new(2, 5); // There are 2 rows with 5 seats each
         assert_eq!(bms.gather(4, 0), vec![0, 0]); // return [0, 0]
-                                                  // The group books seats [0, 3] of row 0.
+        // The group books seats [0, 3] of row 0.
         assert_eq!(bms.gather(2, 0), vec![]); // return []
-                                              // There is only 1 seat left in row 0,
-                                              // so it is not possible to book 2 consecutive seats.
+        // There is only 1 seat left in row 0,
+        // so it is not possible to book 2 consecutive seats.
         assert_eq!(bms.scatter(5, 1), true); // return True
-                                             // The group books seat 4 of row 0 and seats [0, 3] of row 1.
+        // The group books seat 4 of row 0 and seats [0, 3] of row 1.
         assert_eq!(bms.scatter(5, 1), false); // return False
-                                              // There is only one seat left in the hall.
+        // There is only one seat left in the hall.
     }
 }

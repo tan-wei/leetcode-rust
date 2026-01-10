@@ -88,11 +88,7 @@ impl Solution {
             q = temp;
         }
 
-        if count > 0 {
-            -1
-        } else {
-            result
-        }
+        if count > 0 { -1 } else { result }
     }
 }
 

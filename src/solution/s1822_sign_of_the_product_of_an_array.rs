@@ -48,11 +48,7 @@ impl Solution {
             if num < &0 {
                 acc * -1
             } else {
-                if num == &0 {
-                    acc * 0
-                } else {
-                    acc * 1
-                }
+                if num == &0 { acc * 0 } else { acc * 1 }
             }
         })
     }

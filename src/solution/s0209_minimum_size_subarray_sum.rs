@@ -52,11 +52,7 @@ impl Solution {
                         i += 1;
                     }
                 }
-                if m == i32::MAX {
-                    0
-                } else {
-                    m
-                }
+                if m == i32::MAX { 0 } else { m }
             }
         }
     }

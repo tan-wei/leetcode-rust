@@ -48,11 +48,7 @@ impl Solution {
             .fold((0, nums[0]), |(b, x), &y| (b.max(y - x), x.min(y)))
             .0;
 
-        if r == 0 {
-            -1
-        } else {
-            r
-        }
+        if r == 0 { -1 } else { r }
     }
 }
 

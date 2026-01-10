@@ -77,7 +77,7 @@ impl AllOne {
     fn get_max_key(&self) -> String {
         self.dict
             .iter()
-            .max_by_key(|(_, &v)| v)
+            .max_by_key(|&(_, &v)| v)
             .unwrap_or((&"".to_string(), &0))
             .0
             .to_string()
@@ -86,7 +86,7 @@ impl AllOne {
     fn get_min_key(&self) -> String {
         self.dict
             .iter()
-            .min_by_key(|(_, &v)| v)
+            .min_by_key(|&(_, &v)| v)
             .unwrap_or((&"".to_string(), &0))
             .0
             .to_string()

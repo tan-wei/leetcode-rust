@@ -106,11 +106,7 @@ impl Solution {
             result += e[2];
         }
 
-        if cnt + 1 < n {
-            i32::MAX
-        } else {
-            result
-        }
+        if cnt + 1 < n { i32::MAX } else { result }
     }
 }
 

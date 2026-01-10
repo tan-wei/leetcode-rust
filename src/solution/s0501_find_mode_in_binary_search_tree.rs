@@ -30,7 +30,7 @@
  * Follow up: Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/find-mode-in-binary-search-tree/
 // discuss: https://leetcode.com/problems/find-mode-in-binary-search-tree/discuss/?currentPage=1&orderBy=most_votes&query=

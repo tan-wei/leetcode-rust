@@ -65,11 +65,7 @@ impl Solution {
             }
         }
 
-        if min > gg {
-            -1
-        } else {
-            min
-        }
+        if min > gg { -1 } else { min }
     }
     fn can_bloom(day: i32, days: &Vec<i32>, m: i32, k: i32) -> bool {
         let k = k as usize;

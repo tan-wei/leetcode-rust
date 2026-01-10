@@ -46,12 +46,12 @@ macro_rules! tree {
     () => {
         None
     };
-    ($($e:expr),*) => {
+    ($($e:expr_2021),*) => {
         {
             let vec = vec![$(stringify!($e)), *];
             let vec = vec.into_iter().map(|v| v.parse::<i32>().ok()).collect::<Vec<_>>();
             to_tree(vec)
         }
     };
-    ($($e:expr,)*) => {(tree![$($e),*])};
+    ($($e:expr_2021,)*) => {(tree![$($e),*])};
 }

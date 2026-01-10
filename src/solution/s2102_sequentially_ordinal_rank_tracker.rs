@@ -109,23 +109,23 @@ mod tests {
         tracker.add("bradford".to_string(), 2); // Add location with name="bradford" and score=2 to the system.
         tracker.add("branford".to_string(), 3); // Add location with name="branford" and score=3 to the system.
         assert_eq!(tracker.get(), "branford".to_string()); // The sorted locations, from best to worst, are: branford, bradford.
-                                                           // Note that branford precedes bradford due to its higher score (3 > 2).
-                                                           // This is the 1^st time get() is called, so return the best location: "branford".
+        // Note that branford precedes bradford due to its higher score (3 > 2).
+        // This is the 1^st time get() is called, so return the best location: "branford".
         tracker.add("alps".to_string(), 2); // Add location with name="alps" and score=2 to the system.
         assert_eq!(tracker.get(), "alps".to_string()); // Sorted locations: branford, alps, bradford.
-                                                       // Note that alps precedes bradford even though they have the same score (2).
-                                                       // This is because "alps" is lexicographically smaller than "bradford".
-                                                       // Return the 2^nd best location "alps", as it is the 2^nd time get() is called.
+        // Note that alps precedes bradford even though they have the same score (2).
+        // This is because "alps" is lexicographically smaller than "bradford".
+        // Return the 2^nd best location "alps", as it is the 2^nd time get() is called.
         tracker.add("orland".to_string(), 2); // Add location with name="orland" and score=2 to the system.
         assert_eq!(tracker.get(), "bradford".to_string()); // Sorted locations: branford, alps, bradford, orland.
-                                                           // Return "bradford", as it is the 3^rd time get() is called.
+        // Return "bradford", as it is the 3^rd time get() is called.
         tracker.add("orlando".to_string(), 3); // Add location with name="orlando" and score=3 to the system.
         assert_eq!(tracker.get(), "bradford".to_string()); // Sorted locations: branford, orlando, alps, bradford, orland.
-                                                           // Return "bradford".
+        // Return "bradford".
         tracker.add("alpine".to_string(), 2); // Add location with name="alpine" and score=2 to the system.
         assert_eq!(tracker.get(), "bradford".to_string()); // Sorted locations: branford, orlando, alpine, alps, bradford, orland.
-                                                           // Return "bradford".
+        // Return "bradford".
         assert_eq!(tracker.get(), "orland".to_string()); // Sorted locations: branford, orlando, alpine, alps, bradford, orland.
-                                                         // Return "orland".
+        // Return "orland".
     }
 }

@@ -67,11 +67,7 @@ impl Solution {
                 points.push((x1, y1));
             }
         }
-        if res == std::f64::MAX {
-            0.0
-        } else {
-            res
-        }
+        if res == std::f64::MAX { 0.0 } else { res }
     }
 
     fn edge(x1: i32, y1: i32, x2: i32, y2: i32) -> f64 {

@@ -42,7 +42,7 @@
 // discuss: https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/discuss/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
-use rand::{thread_rng, Rng};
+use rand::{Rng, thread_rng};
 
 struct Solution {
     rects: Vec<Vec<i32>>,

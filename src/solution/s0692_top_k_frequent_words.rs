@@ -83,8 +83,9 @@ mod tests {
 
     #[test]
     fn test_0692_example_2() {
-        let words =
-            vec_string!["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"];
+        let words = vec_string![
+            "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"
+        ];
         let k = 4;
         let result = vec_string!["the", "is", "sunny", "day"];
 

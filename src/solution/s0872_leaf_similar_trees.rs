@@ -25,7 +25,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/leaf-similar-trees/
 // discuss: https://leetcode.com/problems/leaf-similar-trees/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -84,7 +84,9 @@ mod tests {
     #[test]
     fn test_0872_example_1() {
         let root1 = tree![3, 5, 1, 6, 2, 9, 8, null, null, 7, 4];
-        let root2 = tree![3, 5, 1, 6, 7, 4, 2, null, null, null, null, null, null, 9, 8];
+        let root2 = tree![
+            3, 5, 1, 6, 7, 4, 2, null, null, null, null, null, null, 9, 8
+        ];
         let result = true;
 
         assert_eq!(Solution::leaf_similar(root1, root2), result);

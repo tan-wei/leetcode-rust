@@ -49,11 +49,7 @@ impl Solution {
     pub fn find_gcd(nums: Vec<i32>) -> i32 {
         let (mn, ma) = nums.iter().fold((1000, 1), |(mn, ma), &y| {
             if (y > ma) {
-                if (y < mn) {
-                    (y, y)
-                } else {
-                    (mn, y)
-                }
+                if (y < mn) { (y, y) } else { (mn, y) }
             } else if (y < mn) {
                 (y, ma)
             } else {

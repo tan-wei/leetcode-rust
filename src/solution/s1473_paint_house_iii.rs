@@ -92,11 +92,7 @@ impl Solution {
         for j in 0..n as usize {
             result = result.min(dp[m as usize - 1][j][target as usize]);
         }
-        if result == MAX {
-            -1
-        } else {
-            result
-        }
+        if result == MAX { -1 } else { result }
     }
 }
 

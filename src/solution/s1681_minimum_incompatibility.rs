@@ -62,11 +62,7 @@ impl Solution {
             &mut result,
         );
 
-        if result == std::i32::MAX {
-            -1
-        } else {
-            result
-        }
+        if result == std::i32::MAX { -1 } else { result }
     }
 
     fn dfs_helper(

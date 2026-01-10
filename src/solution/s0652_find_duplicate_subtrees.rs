@@ -28,7 +28,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/find-duplicate-subtrees/
 // discuss: https://leetcode.com/problems/find-duplicate-subtrees/discuss/?currentPage=1&orderBy=most_votes&query=

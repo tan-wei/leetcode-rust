@@ -37,7 +37,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 // discuss: https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -92,7 +92,9 @@ mod tests {
 
     #[test]
     fn test_1372_example_1() {
-        let root = tree![1, null, 1, 1, 1, null, null, 1, 1, null, 1, null, null, null, 1];
+        let root = tree![
+            1, null, 1, 1, 1, null, null, 1, 1, null, 1, null, null, null, 1
+        ];
 
         let result = 3;
 

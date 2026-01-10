@@ -13,11 +13,11 @@ impl Point {
 
 #[macro_export]
 macro_rules! point {
-    ($($e:expr),*) => {
+    ($($e:expr_2021),*) => {
         {
             let vec = vec![$($e.to_owned()), *];
             Point::new(vec[0], vec[1])
         }
     };
-    ($($e:expr,)*) => (point![$($x),*])
+    ($($e:expr_2021,)*) => (point![$($x),*])
 }

@@ -129,18 +129,20 @@ mod tests {
         let encrypter = Encrypter::new(
             vec!['a', 'b', 'c', 'd'],
             vec_string!["ei", "zf", "ei", "am"],
-            vec_string!["abcd", "acbd", "adbc", "badc", "dacb", "cadb", "cbda", "abad"],
+            vec_string![
+                "abcd", "acbd", "adbc", "badc", "dacb", "cadb", "cbda", "abad"
+            ],
         );
 
         assert_eq!(
             encrypter.encrypt("abcd".to_string()),
             "eizfeiam".to_string()
         ); // return "eizfeiam".
-           // 'a' maps to "ei", 'b' maps to "zf", 'c' maps to "ei", and 'd' maps to "am".
+        // 'a' maps to "ei", 'b' maps to "zf", 'c' maps to "ei", and 'd' maps to "am".
 
         assert_eq!(encrypter.decrypt("eizfeiam".to_string()), 2); // return 2.
-                                                                  // "ei" can map to 'a' or 'c', "zf" maps to 'b', and "am" maps to 'd'.
-                                                                  // Thus, the possible strings after decryption are "abad", "cbad", "abcd", and "cbcd".
-                                                                  // 2 of those strings, "abad" and "abcd", appear in dictionary, so the answer is 2.
+        // "ei" can map to 'a' or 'c', "zf" maps to 'b', and "am" maps to 'd'.
+        // Thus, the possible strings after decryption are "abad", "cbad", "abcd", and "cbcd".
+        // 2 of those strings, "abad" and "abcd", appear in dictionary, so the answer is 2.
     }
 }

@@ -22,7 +22,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode, to_list};
 
 // problem: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 // discuss: https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/?currentPage=1&orderBy=most_votes&query=

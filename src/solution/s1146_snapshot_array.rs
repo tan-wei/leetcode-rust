@@ -78,11 +78,7 @@ impl SnapshotArray {
             }
         }
 
-        if l >= 0 {
-            snaps[l as usize].1
-        } else {
-            0
-        }
+        if l >= 0 { snaps[l as usize].1 } else { 0 }
     }
 }
 

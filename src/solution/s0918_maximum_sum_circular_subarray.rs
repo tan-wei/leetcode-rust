@@ -48,11 +48,7 @@ impl Solution {
             max = max.max(max_curr);
             sum += num;
         }
-        if max > 0 {
-            max.max(sum - min)
-        } else {
-            max
-        }
+        if max > 0 { max.max(sum - min) } else { max }
     }
 }
 

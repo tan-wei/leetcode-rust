@@ -107,7 +107,9 @@ mod tests {
 
     #[test]
     fn test_0752_example_3() {
-        let deadends = vec_string!["8887", "8889", "8878", "8898", "8788", "8988", "7888", "9888"];
+        let deadends = vec_string![
+            "8887", "8889", "8878", "8898", "8788", "8988", "7888", "9888"
+        ];
         let target = "8888".to_string();
         let result = -1;
 

@@ -47,11 +47,7 @@ impl UnionFind {
 
     fn find(&self, i: usize) -> usize {
         let j = self.parent[i];
-        if i == j {
-            i
-        } else {
-            self.find(j)
-        }
+        if i == j { i } else { self.find(j) }
     }
 
     fn union(&mut self, mut i: usize, mut j: usize) {

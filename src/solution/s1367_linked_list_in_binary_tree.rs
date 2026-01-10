@@ -33,8 +33,8 @@
  *
  */
 pub struct Solution {}
-use crate::util::linked_list::{to_list, ListNode};
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::linked_list::{ListNode, to_list};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/linked-list-in-binary-tree/
 // discuss: https://leetcode.com/problems/linked-list-in-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -140,7 +140,9 @@ mod tests {
     #[test]
     fn test_1367_example_1() {
         let head = linked![4, 2, 8];
-        let root = tree![1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3];
+        let root = tree![
+            1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3
+        ];
 
         let result = true;
 
@@ -150,7 +152,9 @@ mod tests {
     #[test]
     fn test_1367_example_2() {
         let head = linked![1, 4, 2, 6];
-        let root = tree![1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3];
+        let root = tree![
+            1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3
+        ];
 
         let result = true;
 
@@ -160,7 +164,9 @@ mod tests {
     #[test]
     fn test_1367_example_3() {
         let head = linked![1, 4, 2, 6, 8];
-        let root = tree![1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3];
+        let root = tree![
+            1, 4, 4, null, 2, 2, null, 1, null, 6, 8, null, null, null, null, 1, 3
+        ];
 
         let result = false;
 

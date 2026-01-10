@@ -14,8 +14,8 @@ use std::io;
 use std::io::{BufRead, Write};
 use std::path::Path;
 
-use futures::executor::block_on;
 use futures::executor::ThreadPool;
+use futures::executor::block_on;
 use futures::future::join_all;
 use futures::stream::StreamExt;
 use futures::task::SpawnExt;

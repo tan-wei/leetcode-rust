@@ -98,7 +98,7 @@ mod tests {
     fn test_0710_example_1() {
         let mut solution = Solution::new(7, vec![2, 3, 5]);
         solution.pick(); // return 0, any integer from [0,1,4,6] should be ok. Note that for every call of pick,
-                         // 0, 1, 4, and 6 must be equally likely to be returned (i.e., with probability 1/4).
+        // 0, 1, 4, and 6 must be equally likely to be returned (i.e., with probability 1/4).
         solution.pick(); // return 4
         solution.pick(); // return 1
         solution.pick(); // return 6

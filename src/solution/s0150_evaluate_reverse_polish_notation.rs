@@ -152,14 +152,16 @@ mod tests {
 
     #[test]
     fn test_0150_example_3() {
-        let tokens =
-            vec_string!["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"];
+        let tokens = vec_string![
+            "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"
+        ];
         let result = 22;
 
         assert_eq!(Solution::eval_rpn(tokens), result);
 
-        let tokens =
-            vec_string!["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"];
+        let tokens = vec_string![
+            "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"
+        ];
         let result = 22;
 
         assert_eq!(Solution::eval_rpn_v2(tokens), result);

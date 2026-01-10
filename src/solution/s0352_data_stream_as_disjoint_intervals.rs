@@ -95,7 +95,7 @@ impl SummaryRanges {
                     .hr
                     .range(val..)
                     .next()
-                    .filter(|(&_, &l)| l <= val)
+                    .filter(|&(&_, &l)| l <= val)
                     .is_none()
                 {
                     self.insert(val, val);

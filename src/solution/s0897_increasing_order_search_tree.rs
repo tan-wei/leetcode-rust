@@ -21,7 +21,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/increasing-order-search-tree/
 // discuss: https://leetcode.com/problems/increasing-order-search-tree/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -82,8 +82,9 @@ mod tests {
     #[test]
     fn test_0897_example_1() {
         let root = tree![5, 3, 6, 2, 4, null, 8, 1, null, null, null, 7, 9];
-        let result =
-            tree![1, null, 2, null, 3, null, 4, null, 5, null, 6, null, 7, null, 8, null, 9];
+        let result = tree![
+            1, null, 2, null, 3, null, 4, null, 5, null, 6, null, 7, null, 8, null, 9
+        ];
 
         assert_eq!(Solution::increasing_bst(root), result);
     }

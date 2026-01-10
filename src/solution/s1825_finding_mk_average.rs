@@ -149,14 +149,14 @@ mod tests {
 
         obj.add_element(10); // current elements are [3,1,10]
         assert_eq!(obj.calculate_mk_average(), 3); // The last 3 elements are [3,1,10].
-                                                   // After removing smallest and largest 1 element the container will be [3].
-                                                   // The average of [3] equals 3/1 = 3, return 3
+        // After removing smallest and largest 1 element the container will be [3].
+        // The average of [3] equals 3/1 = 3, return 3
 
         obj.add_element(5); // current elements are [3,1,10,5]
         obj.add_element(5); // current elements are [3,1,10,5,5]
         obj.add_element(5); // current elements are [3,1,10,5,5,5]
         assert_eq!(obj.calculate_mk_average(), 5); // The last 3 elements are [5,5,5].
-                                                   // After removing smallest and largest 1 element the container will be [5].
-                                                   // The average of [5] equals 5/1 = 5, return 5
+        // After removing smallest and largest 1 element the container will be [5].
+        // The average of [5] equals 5/1 = 5, return 5
     }
 }

@@ -38,7 +38,7 @@
  * 	Could you solve this efficiently without using extra space?
  *
  */
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode, to_list};
 
 // problem: https://leetcode.com/problems/linked-list-random-node/
 // discuss: https://leetcode.com/problems/linked-list-random-node/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -63,7 +63,7 @@ use crate::util::linked_list::{to_list, ListNode};
 // }
 
 // Credit: https://leetcode.com/problems/linked-list-random-node/discuss/1494410/rust-O(1)-space
-use rand::{rngs::ThreadRng, Rng};
+use rand::{Rng, rngs::ThreadRng};
 pub struct Solution {
     head: Option<Box<ListNode>>,
     len: usize,

@@ -25,7 +25,7 @@
  * Follow up: Could you do it in one pass?
  */
 pub struct Solution {}
-use crate::util::linked_list::{to_list, ListNode};
+use crate::util::linked_list::{ListNode, to_list};
 
 // problem: https://leetcode.com/problems/reverse-linked-list-ii/
 // discuss: https://leetcode.com/problems/reverse-linked-list-ii/discuss/?currentPage=1&orderBy=most_votes&query=

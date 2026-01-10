@@ -37,7 +37,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
 // discuss: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -127,7 +127,9 @@ mod tests {
 
     #[test]
     fn test_1373_example_1() {
-        let root = tree![1, 4, 3, 2, 4, 2, 5, null, null, null, null, null, null, 4, 6];
+        let root = tree![
+            1, 4, 3, 2, 4, 2, 5, null, null, null, null, null, null, 4, 6
+        ];
 
         let result = 20;
 

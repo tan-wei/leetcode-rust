@@ -111,18 +111,18 @@ mod tests {
     fn test_2241_example_1() {
         let mut atm = ATM::new();
         atm.deposit(vec![0, 0, 1, 2, 1]); // Deposits 1 $100 banknote, 2 $200 banknotes,
-                                          // and 1 $500 banknote.
+        // and 1 $500 banknote.
         assert_eq!(atm.withdraw(600), vec![0, 0, 1, 0, 1]); // Returns [0,0,1,0,1]. The machine uses 1 $100 banknote
-                                                            // and 1 $500 banknote. The banknotes left over in the
-                                                            // machine are [0,0,0,2,0].
+        // and 1 $500 banknote. The banknotes left over in the
+        // machine are [0,0,0,2,0].
         atm.deposit(vec![0, 1, 0, 3, 1]); // Deposits 1 $50, $200, and $500 banknote.
-                                          // The banknotes in the machine are now [0,1,0,3,1].
+        // The banknotes in the machine are now [0,1,0,3,1].
         assert_eq!(atm.withdraw(600), vec![-1]); // Returns [-1]. The machine will try to use a $500 banknote
-                                                 // and then be unable to complete the remaining $100,
-                                                 // so the withdraw request will be rejected.
-                                                 // Since the request is rejected, the number of banknotes
-                                                 // in the machine is not modified.
+        // and then be unable to complete the remaining $100,
+        // so the withdraw request will be rejected.
+        // Since the request is rejected, the number of banknotes
+        // in the machine is not modified.
         assert_eq!(atm.withdraw(550), vec![0, 1, 0, 0, 1]); // Returns [0,1,0,0,1]. The machine uses 1 $50 banknote
-                                                            // and 1 $500 banknote.
+        // and 1 $500 banknote.
     }
 }

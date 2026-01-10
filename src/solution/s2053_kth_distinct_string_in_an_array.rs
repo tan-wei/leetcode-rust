@@ -61,11 +61,7 @@ impl Solution {
                 |(ans, m), x| {
                     if Some(&1) == m.get(x) {
                         k -= 1;
-                        if k == 0 {
-                            (x.clone(), m)
-                        } else {
-                            (ans, m)
-                        }
+                        if k == 0 { (x.clone(), m) } else { (ans, m) }
                     } else {
                         (ans, m)
                     }

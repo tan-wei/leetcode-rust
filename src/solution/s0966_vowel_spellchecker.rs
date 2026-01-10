@@ -98,8 +98,9 @@ mod tests {
         let queries = vec_string![
             "kite", "Kite", "KiTe", "Hare", "HARE", "Hear", "hear", "keti", "keet", "keto"
         ];
-        let result =
-            vec_string!["kite", "KiTe", "KiTe", "Hare", "hare", "", "", "KiTe", "", "KiTe"];
+        let result = vec_string![
+            "kite", "KiTe", "KiTe", "Hare", "hare", "", "", "KiTe", "", "KiTe"
+        ];
 
         assert_eq!(Solution::spellchecker(wordlist, queries), result);
     }

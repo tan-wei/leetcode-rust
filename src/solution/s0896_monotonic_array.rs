@@ -38,14 +38,14 @@ impl Solution {
     pub fn is_monotonic(nums: Vec<i32>) -> bool {
         nums.iter()
             .zip(nums.iter().skip(1))
-            .filter(|(&a, &b)| a >= b)
+            .filter(|&(&a, &b)| a >= b)
             .map(|(_, _)| 1)
             .sum::<usize>()
             == nums.len() - 1
             || nums
                 .iter()
                 .zip(nums.iter().skip(1))
-                .filter(|(&a, &b)| a <= b)
+                .filter(|&(&a, &b)| a <= b)
                 .map(|(_, _)| 1)
                 .sum::<usize>()
                 == nums.len() - 1

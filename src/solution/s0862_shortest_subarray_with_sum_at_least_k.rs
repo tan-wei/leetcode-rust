@@ -47,11 +47,7 @@ impl Solution {
             }
             q.push_back(i);
         }
-        if result <= n as i32 {
-            result
-        } else {
-            -1
-        }
+        if result <= n as i32 { result } else { -1 }
     }
 }
 

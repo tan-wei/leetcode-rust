@@ -143,13 +143,13 @@ mod tests {
         count_intervals.add(2, 3); // add [2, 3] to the set of intervals.
         count_intervals.add(7, 10); // add [7, 10] to the set of intervals.
         assert_eq!(count_intervals.count(), 6); // return 6
-                                                // the integers 2 and 3 are present in the interval [2, 3].
-                                                // the integers 7, 8, 9, and 10 are present in the interval [7, 10].
+        // the integers 2 and 3 are present in the interval [2, 3].
+        // the integers 7, 8, 9, and 10 are present in the interval [7, 10].
         count_intervals.add(5, 8); // add [5, 8] to the set of intervals.
         assert_eq!(count_intervals.count(), 8); // return 8
-                                                // the integers 2 and 3 are present in the interval [2, 3].
-                                                // the integers 5 and 6 are present in the interval [5, 8].
-                                                // the integers 7 and 8 are present in the intervals [5, 8] and [7, 10].
-                                                // the integers 9 and 10 are present in the interval [7, 10].
+        // the integers 2 and 3 are present in the interval [2, 3].
+        // the integers 5 and 6 are present in the interval [5, 8].
+        // the integers 7 and 8 are present in the intervals [5, 8] and [7, 10].
+        // the integers 9 and 10 are present in the interval [7, 10].
     }
 }

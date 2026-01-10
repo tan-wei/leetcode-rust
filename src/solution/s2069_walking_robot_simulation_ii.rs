@@ -158,11 +158,11 @@ mod tests {
         assert_eq!(robot.get_pos(), vec![4, 0]); // return [4, 0]
         assert_eq!(robot.get_dir(), "East".to_string()); // return "East"
         robot.step(2); // It moves one step East to (5, 0), and faces East.
-                       // Moving the next step East would be out of bounds, so it turns and faces North.
-                       // Then, it moves one step North to (5, 1), and faces North.
+        // Moving the next step East would be out of bounds, so it turns and faces North.
+        // Then, it moves one step North to (5, 1), and faces North.
         robot.step(1); // It moves one step North to (5, 2), and faces North (not West).
         robot.step(4); // Moving the next step North would be out of bounds, so it turns and faces West.
-                       // Then, it moves four steps West to (1, 2), and faces West.
+        // Then, it moves four steps West to (1, 2), and faces West.
         assert_eq!(robot.get_pos(), vec![1, 2]); // return [1, 2]
         assert_eq!(robot.get_dir(), "West".to_string()); // return "West"
     }

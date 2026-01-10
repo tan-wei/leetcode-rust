@@ -33,7 +33,7 @@
 // discuss: https://leetcode.com/problems/generate-random-point-in-a-circle/discuss/?currentPage=1&orderBy=most_votes&query=
 
 // submission codes start here
-use rand::{rngs::ThreadRng, Rng};
+use rand::{Rng, rngs::ThreadRng};
 
 #[derive(Default)]
 struct Solution {
@@ -58,8 +58,8 @@ impl Solution {
     }
 
     fn rand_point(&mut self) -> Vec<f64> {
-        let r = self.rng.gen::<f64>().sqrt() * self.radius;
-        let theta = self.rng.gen::<f64>() * 2.0 * std::f64::consts::PI;
+        let r = self.rng.r#gen::<f64>().sqrt() * self.radius;
+        let theta = self.rng.r#gen::<f64>() * 2.0 * std::f64::consts::PI;
         [
             self.x_center + r * theta.cos(),
             self.y_center + r * theta.sin(),

@@ -20,7 +20,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/unique-binary-search-trees-ii/
 // discuss: https://leetcode.com/problems/unique-binary-search-trees-ii/discuss/?currentPage=1&orderBy=most_votes&query=
@@ -49,11 +49,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 impl Solution {
     pub fn generate_trees(n: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {
-        if n == 0 {
-            vec![]
-        } else {
-            Self::helper(1, n)
-        }
+        if n == 0 { vec![] } else { Self::helper(1, n) }
     }
 
     fn helper(l: i32, r: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {

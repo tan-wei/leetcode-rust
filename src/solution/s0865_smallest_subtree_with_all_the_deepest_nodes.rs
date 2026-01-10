@@ -38,7 +38,7 @@
  *
  */
 pub struct Solution {}
-use crate::util::tree::{to_tree, TreeNode};
+use crate::util::tree::{TreeNode, to_tree};
 
 // problem: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 // discuss: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/discuss/?currentPage=1&orderBy=most_votes&query=

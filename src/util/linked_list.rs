@@ -24,6 +24,6 @@ pub fn to_list(vec: Vec<i32>) -> Option<Box<ListNode>> {
 
 #[macro_export]
 macro_rules! linked {
-    ($($e:expr),*) => {to_list(vec![$($e.to_owned()), *])};
-    ($($e:expr,)*) => {to_list(vec![$($e.to_owned()), *])};
+    ($($e:expr_2021),*) => {to_list(vec![$($e.to_owned()), *])};
+    ($($e:expr_2021,)*) => {to_list(vec![$($e.to_owned()), *])};
 }

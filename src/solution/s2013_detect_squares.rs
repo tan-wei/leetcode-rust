@@ -114,11 +114,11 @@ mod tests {
         detect_squares.add(vec![11, 2]);
         detect_squares.add(vec![3, 2]);
         assert_eq!(detect_squares.count(vec![11, 10]), 1); // return 1. You can choose:
-                                                           //   - The first, second, and third points
+        //   - The first, second, and third points
         assert_eq!(detect_squares.count(vec![14, 8]), 0); // return 0. The query point cannot form a square with any points in the data structure.
         detect_squares.add(vec![11, 2]); // Adding duplicate points is allowed.
         assert_eq!(detect_squares.count(vec![11, 10]), 2); // return 2. You can choose:
-                                                           //   - The first, second, and third points
-                                                           //   - The first, third, and fourth points
+        //   - The first, second, and third points
+        //   - The first, third, and fourth points
     }
 }
