@@ -1751,3 +1751,4 @@ mod s2305_fair_distribution_of_cookies;
 mod s2306_naming_a_company;
 mod s2309_greatest_english_letter_in_upper_and_lower_case;
 mod s2310_sum_of_numbers_with_units_digit_k;
+mod s2311_longest_binary_subsequence_less_than_or_equal_to_k;
