@@ -1753,3 +1753,4 @@ mod s2309_greatest_english_letter_in_upper_and_lower_case;
 mod s2310_sum_of_numbers_with_units_digit_k;
 mod s2311_longest_binary_subsequence_less_than_or_equal_to_k;
 mod s2312_selling_pieces_of_wood;
+mod s2315_count_asterisks;
