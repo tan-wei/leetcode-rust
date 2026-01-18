@@ -1757,3 +1757,4 @@ mod s2315_count_asterisks;
 mod s2316_count_unreachable_pairs_of_nodes_in_an_undirected_graph;
 mod s2317_maximum_xor_after_operations;
 mod s2318_number_of_distinct_roll_sequences;
+mod s2319_check_if_matrix_is_x_matrix;
