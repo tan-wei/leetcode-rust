@@ -1761,3 +1761,4 @@ mod s2319_check_if_matrix_is_x_matrix;
 mod s2320_count_number_of_ways_to_place_houses;
 mod s2321_maximum_score_of_spliced_array;
 mod s2322_minimum_score_after_removals_on_a_tree;
+mod s2325_decode_the_message;
