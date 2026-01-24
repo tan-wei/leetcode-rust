@@ -1763,3 +1763,4 @@ mod s2321_maximum_score_of_spliced_array;
 mod s2322_minimum_score_after_removals_on_a_tree;
 mod s2325_decode_the_message;
 mod s2326_spiral_matrix_iv;
+mod s2327_number_of_people_aware_of_a_secret;
