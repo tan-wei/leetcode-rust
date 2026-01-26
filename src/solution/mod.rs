@@ -1765,3 +1765,4 @@ mod s2325_decode_the_message;
 mod s2326_spiral_matrix_iv;
 mod s2327_number_of_people_aware_of_a_secret;
 mod s2328_number_of_increasing_paths_in_a_grid;
+mod s2331_evaluate_boolean_binary_tree;
