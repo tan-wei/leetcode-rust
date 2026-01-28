@@ -1767,3 +1767,4 @@ mod s2327_number_of_people_aware_of_a_secret;
 mod s2328_number_of_increasing_paths_in_a_grid;
 mod s2331_evaluate_boolean_binary_tree;
 mod s2332_the_latest_time_to_catch_a_bus;
+mod s2333_minimum_sum_of_squared_difference;
