@@ -1769,3 +1769,4 @@ mod s2331_evaluate_boolean_binary_tree;
 mod s2332_the_latest_time_to_catch_a_bus;
 mod s2333_minimum_sum_of_squared_difference;
 mod s2334_subarray_with_elements_greater_than_varying_threshold;
+mod s2335_minimum_amount_of_time_to_fill_cups;
