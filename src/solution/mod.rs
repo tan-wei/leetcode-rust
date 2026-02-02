@@ -1772,3 +1772,4 @@ mod s2334_subarray_with_elements_greater_than_varying_threshold;
 mod s2335_minimum_amount_of_time_to_fill_cups;
 mod s2336_smallest_number_in_infinite_set;
 mod s2337_move_pieces_to_obtain_a_string;
+mod s2338_count_the_number_of_ideal_arrays;
