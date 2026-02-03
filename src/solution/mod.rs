@@ -1773,3 +1773,4 @@ mod s2335_minimum_amount_of_time_to_fill_cups;
 mod s2336_smallest_number_in_infinite_set;
 mod s2337_move_pieces_to_obtain_a_string;
 mod s2338_count_the_number_of_ideal_arrays;
+mod s2341_maximum_number_of_pairs_in_array;
