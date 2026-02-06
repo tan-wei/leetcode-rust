@@ -1776,3 +1776,4 @@ mod s2338_count_the_number_of_ideal_arrays;
 mod s2341_maximum_number_of_pairs_in_array;
 mod s2342_max_sum_of_a_pair_with_equal_sum_of_digits;
 mod s2343_query_kth_smallest_trimmed_number;
+mod s2344_minimum_deletions_to_make_array_divisible;
