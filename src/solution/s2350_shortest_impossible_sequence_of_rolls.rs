@@ -1,0 +1,90 @@
+/**
+ * [2350] Shortest Impossible Sequence of Rolls
+ *
+ * You are given an integer array rolls of length n and an integer k. You roll a k sided dice numbered from 1 to k, n times, where the result of the i^th roll is rolls[i].
+ * Return the length of the shortest sequence of rolls so that there's no such <span data-keyword="subsequence-array">subsequence</span> in rolls.
+ * A sequence of rolls of length len is the result of rolling a k sided dice len times.
+ *  
+ * Example 1:
+ *
+ * Input: rolls = [4,2,1,2,3,3,2,4,1], k = 4
+ * Output: 3
+ * Explanation: Every sequence of rolls of length 1, [1], [2], [3], [4], can be taken from rolls.
+ * Every sequence of rolls of length 2, [1, 1], [1, 2], ..., [4, 4], can be taken from rolls.
+ * The sequence [1, 4, 2] cannot be taken from rolls, so we return 3.
+ * Note that there are other sequences that cannot be taken from rolls.
+ * Example 2:
+ *
+ * Input: rolls = [1,1,2,2], k = 2
+ * Output: 2
+ * Explanation: Every sequence of rolls of length 1, [1], [2], can be taken from rolls.
+ * The sequence [2, 1] cannot be taken from rolls, so we return 2.
+ * Note that there are other sequences that cannot be taken from rolls but [2, 1] is the shortest.
+ *
+ * Example 3:
+ *
+ * Input: rolls = [1,1,3,2,2,2,3,3], k = 4
+ * Output: 1
+ * Explanation: The sequence [4] cannot be taken from rolls, so we return 1.
+ * Note that there are other sequences that cannot be taken from rolls but [4] is the shortest.
+ *
+ *  
+ * Constraints:
+ *
+ * 	n == rolls.length
+ * 	1 <= n <= 10^5
+ * 	1 <= rolls[i] <= k <= 10^5
+ *
+ */
+pub struct Solution {}
+
+// problem: https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/
+// discuss: https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/discuss/?currentPage=1&orderBy=most_votes&query=
+
+// submission codes start here
+
+impl Solution {
+    pub fn shortest_sequence(rolls: Vec<i32>, k: i32) -> i32 {
+        0
+    }
+}
+
+// submission codes end
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    #[ignore]
+    fn test_2350_example_1() {
+        let rolls = vec![4, 2, 1, 2, 3, 3, 2, 4, 1];
+        let k = 4;
+
+        let result = 3;
+
+        assert_eq!(Solution::shortest_sequence(rolls, k), result);
+    }
+
+    #[test]
+    #[ignore]
+    fn test_2350_example_2() {
+        let rolls = vec![1, 1, 2, 2];
+        let k = 2;
+
+        let result = 2;
+
+        assert_eq!(Solution::shortest_sequence(rolls, k), result);
+    }
+
+    #[test]
+    #[ignore]
+    fn test_2350_example_3() {
+        let rolls = vec![1, 1, 3, 2, 2, 2, 3, 3];
+        let k = 4;
+
+        let result = 1;
+
+        assert_eq!(Solution::shortest_sequence(rolls, k), result);
+    }
+}

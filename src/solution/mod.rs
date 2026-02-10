@@ -1780,3 +1780,4 @@ mod s2344_minimum_deletions_to_make_array_divisible;
 mod s2347_best_poker_hand;
 mod s2348_number_of_zero_filled_subarrays;
 mod s2349_design_a_number_container_system;
+mod s2350_shortest_impossible_sequence_of_rolls;
