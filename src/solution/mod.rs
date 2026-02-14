@@ -1784,3 +1784,4 @@ mod s2350_shortest_impossible_sequence_of_rolls;
 mod s2351_first_letter_to_appear_twice;
 mod s2352_equal_row_and_column_pairs;
 mod s2353_design_a_food_rating_system;
+mod s2354_number_of_excellent_pairs;
