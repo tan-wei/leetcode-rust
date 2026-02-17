@@ -1787,3 +1787,4 @@ mod s2353_design_a_food_rating_system;
 mod s2354_number_of_excellent_pairs;
 mod s2357_make_array_zero_by_subtracting_equal_amounts;
 mod s2358_maximum_number_of_groups_entering_a_competition;
+mod s2359_find_closest_node_to_given_two_nodes;
