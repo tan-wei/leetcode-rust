@@ -1789,3 +1789,4 @@ mod s2357_make_array_zero_by_subtracting_equal_amounts;
 mod s2358_maximum_number_of_groups_entering_a_competition;
 mod s2359_find_closest_node_to_given_two_nodes;
 mod s2360_longest_cycle_in_a_graph;
+mod s2363_merge_similar_items;
