@@ -1791,3 +1791,4 @@ mod s2359_find_closest_node_to_given_two_nodes;
 mod s2360_longest_cycle_in_a_graph;
 mod s2363_merge_similar_items;
 mod s2364_count_number_of_bad_pairs;
+mod s2365_task_scheduler_ii;
