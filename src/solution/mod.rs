@@ -1794,3 +1794,4 @@ mod s2364_count_number_of_bad_pairs;
 mod s2365_task_scheduler_ii;
 mod s2366_minimum_replacements_to_sort_the_array;
 mod s2367_number_of_arithmetic_triplets;
+mod s2368_reachable_nodes_with_restrictions;
