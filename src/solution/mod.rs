@@ -1796,3 +1796,4 @@ mod s2366_minimum_replacements_to_sort_the_array;
 mod s2367_number_of_arithmetic_triplets;
 mod s2368_reachable_nodes_with_restrictions;
 mod s2369_check_if_there_is_a_valid_partition_for_the_array;
+mod s2370_longest_ideal_subsequence;
