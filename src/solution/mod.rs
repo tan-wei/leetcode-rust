@@ -1797,3 +1797,4 @@ mod s2367_number_of_arithmetic_triplets;
 mod s2368_reachable_nodes_with_restrictions;
 mod s2369_check_if_there_is_a_valid_partition_for_the_array;
 mod s2370_longest_ideal_subsequence;
+mod s2373_largest_local_values_in_a_matrix;
