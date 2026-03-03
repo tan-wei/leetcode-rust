@@ -1801,3 +1801,4 @@ mod s2373_largest_local_values_in_a_matrix;
 mod s2374_node_with_highest_edge_score;
 mod s2375_construct_smallest_number_from_di_string;
 mod s2376_count_special_integers;
+mod s2379_minimum_recolors_to_get_k_consecutive_black_blocks;
