@@ -1804,3 +1804,4 @@ mod s2376_count_special_integers;
 mod s2379_minimum_recolors_to_get_k_consecutive_black_blocks;
 mod s2380_time_needed_to_rearrange_a_binary_string;
 mod s2381_shifting_letters_ii;
+mod s2382_maximum_segment_sum_after_removals;
