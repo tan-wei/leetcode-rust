@@ -1806,3 +1806,4 @@ mod s2380_time_needed_to_rearrange_a_binary_string;
 mod s2381_shifting_letters_ii;
 mod s2382_maximum_segment_sum_after_removals;
 mod s2383_minimum_hours_of_training_to_win_a_competition;
+mod s2384_largest_palindromic_number;
