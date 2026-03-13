@@ -1811,3 +1811,4 @@ mod s2385_amount_of_time_for_binary_tree_to_be_infected;
 mod s2386_find_the_k_sum_of_an_array;
 mod s2389_longest_subsequence_with_limited_sum;
 mod s2390_removing_stars_from_a_string;
+mod s2391_minimum_amount_of_time_to_collect_garbage;
