@@ -91,7 +91,7 @@ mod tests {
         let row_conditions = vec![vec![1, 2], vec![2, 3], vec![3, 1], vec![2, 3]];
         let col_conditions = vec![vec![2, 1]];
 
-        let result = vec![];
+        let result: Vec<Vec<i32>> = vec![];
 
         assert_eq!(
             Solution::build_matrix(k, row_conditions, col_conditions),
