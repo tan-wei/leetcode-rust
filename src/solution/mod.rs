@@ -1814,3 +1814,4 @@ mod s2390_removing_stars_from_a_string;
 mod s2391_minimum_amount_of_time_to_collect_garbage;
 mod s2392_build_a_matrix_with_conditions;
 mod s2395_find_subarrays_with_equal_sum;
+mod s2396_strictly_palindromic_number;
