@@ -44,8 +44,6 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use core::assert_eq;
-
     use super::*;
 
     #[test]
