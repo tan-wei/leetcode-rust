@@ -1817,3 +1817,4 @@ mod s2395_find_subarrays_with_equal_sum;
 mod s2396_strictly_palindromic_number;
 mod s2397_maximum_rows_covered_by_columns;
 mod s2398_maximum_number_of_robots_within_budget;
+mod s2399_check_distances_between_same_letters;
