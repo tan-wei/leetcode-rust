@@ -43,14 +43,14 @@ impl Solution {
             .filter(|num| num % 2 == 0)
             .fold(
                 (std::collections::HashMap::new(), -1, 0),
-                |(mut map, mut el, mut cnt), num| {
+                |(mut map, mut elem, mut count), num| {
                     let mut entry = map.entry(num).or_insert(0);
                     *entry += 1;
-                    if *entry == cnt && num < el || *entry > cnt {
-                        el = num;
-                        cnt = *entry;
+                    if *entry == count && num < elem || *entry > count {
+                        elem = num;
+                        count = *entry;
                     }
-                    (map, el, cnt)
+                    (map, elem, count)
                 },
             )
             .1
