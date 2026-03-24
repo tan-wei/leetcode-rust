@@ -1822,3 +1822,4 @@ mod s2400_number_of_ways_to_reach_a_position_after_exactly_k_steps;
 mod s2401_longest_nice_subarray;
 mod s2402_meeting_rooms_iii;
 mod s2404_most_frequent_even_element;
+mod s2405_optimal_partition_of_string;
