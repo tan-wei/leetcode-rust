@@ -1824,3 +1824,4 @@ mod s2402_meeting_rooms_iii;
 mod s2404_most_frequent_even_element;
 mod s2405_optimal_partition_of_string;
 mod s2406_divide_intervals_into_minimum_number_of_groups;
+mod s2407_longest_increasing_subsequence_ii;
