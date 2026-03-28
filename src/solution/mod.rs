@@ -1826,3 +1826,4 @@ mod s2405_optimal_partition_of_string;
 mod s2406_divide_intervals_into_minimum_number_of_groups;
 mod s2407_longest_increasing_subsequence_ii;
 mod s2409_count_days_spent_together;
+mod s2410_maximum_matching_of_players_with_trainers;
