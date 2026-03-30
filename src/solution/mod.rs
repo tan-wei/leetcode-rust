@@ -1828,3 +1828,4 @@ mod s2407_longest_increasing_subsequence_ii;
 mod s2409_count_days_spent_together;
 mod s2410_maximum_matching_of_players_with_trainers;
 mod s2411_smallest_subarrays_with_maximum_bitwise_or;
+mod s2412_minimum_money_required_before_transactions;
