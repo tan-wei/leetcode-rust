@@ -1833,3 +1833,4 @@ mod s2413_smallest_even_multiple;
 mod s2414_length_of_the_longest_alphabetical_continuous_substring;
 mod s2415_reverse_odd_levels_of_binary_tree;
 mod s2416_sum_of_prefix_scores_of_strings;
+mod s2418_sort_the_people;
