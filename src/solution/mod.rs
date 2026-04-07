@@ -1836,3 +1836,4 @@ mod s2416_sum_of_prefix_scores_of_strings;
 mod s2418_sort_the_people;
 mod s2419_longest_subarray_with_maximum_bitwise_and;
 mod s2420_find_all_good_indices;
+mod s2421_number_of_good_paths;
