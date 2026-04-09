@@ -1838,3 +1838,4 @@ mod s2419_longest_subarray_with_maximum_bitwise_and;
 mod s2420_find_all_good_indices;
 mod s2421_number_of_good_paths;
 mod s2423_remove_letter_to_equalize_frequency;
+mod s2424_longest_uploaded_prefix;
