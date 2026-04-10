@@ -1839,3 +1839,4 @@ mod s2420_find_all_good_indices;
 mod s2421_number_of_good_paths;
 mod s2423_remove_letter_to_equalize_frequency;
 mod s2424_longest_uploaded_prefix;
+mod s2425_bitwise_xor_of_all_pairings;
