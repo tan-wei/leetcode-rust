@@ -1842,3 +1842,4 @@ mod s2424_longest_uploaded_prefix;
 mod s2425_bitwise_xor_of_all_pairings;
 mod s2426_number_of_pairs_satisfying_inequality;
 mod s2427_number_of_common_factors;
+mod s2428_maximum_sum_of_an_hourglass;
