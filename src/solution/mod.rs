@@ -1843,3 +1843,4 @@ mod s2425_bitwise_xor_of_all_pairings;
 mod s2426_number_of_pairs_satisfying_inequality;
 mod s2427_number_of_common_factors;
 mod s2428_maximum_sum_of_an_hourglass;
+mod s2429_minimize_xor;
