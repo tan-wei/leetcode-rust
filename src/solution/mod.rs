@@ -1845,3 +1845,4 @@ mod s2427_number_of_common_factors;
 mod s2428_maximum_sum_of_an_hourglass;
 mod s2429_minimize_xor;
 mod s2430_maximum_deletions_on_a_string;
+mod s2432_the_employee_that_worked_on_the_longest_task;
