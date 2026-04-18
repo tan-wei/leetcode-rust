@@ -1847,3 +1847,4 @@ mod s2429_minimize_xor;
 mod s2430_maximum_deletions_on_a_string;
 mod s2432_the_employee_that_worked_on_the_longest_task;
 mod s2433_find_the_original_array_of_prefix_xor;
+mod s2434_using_a_robot_to_print_the_lexicographically_smallest_string;
