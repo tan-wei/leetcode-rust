@@ -1853,3 +1853,4 @@ mod s2437_number_of_valid_clock_times;
 mod s2438_range_product_queries_of_powers;
 mod s2439_minimize_maximum_of_array;
 mod s2440_create_components_with_same_value;
+mod s2441_largest_positive_integer_that_exists_with_its_negative;
