@@ -1856,3 +1856,4 @@ mod s2440_create_components_with_same_value;
 mod s2441_largest_positive_integer_that_exists_with_its_negative;
 mod s2442_count_number_of_distinct_integers_after_reverse_operations;
 mod s2443_sum_of_number_and_its_reverse;
+mod s2444_count_subarrays_with_fixed_bounds;
