@@ -1859,3 +1859,4 @@ mod s2443_sum_of_number_and_its_reverse;
 mod s2444_count_subarrays_with_fixed_bounds;
 mod s2446_determine_if_two_events_have_conflict;
 mod s2447_number_of_subarrays_with_gcd_equal_to_k;
+mod s2448_minimum_cost_to_make_array_equal;
