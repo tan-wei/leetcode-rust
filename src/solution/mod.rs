@@ -1865,3 +1865,4 @@ mod s2451_odd_string_difference;
 mod s2452_words_within_two_edits_of_dictionary;
 mod s2453_destroy_sequential_targets;
 mod s2454_next_greater_element_iv;
+mod s2455_average_value_of_even_numbers_that_are_divisible_by_three;
