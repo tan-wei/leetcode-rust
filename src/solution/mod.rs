@@ -1869,3 +1869,4 @@ mod s2455_average_value_of_even_numbers_that_are_divisible_by_three;
 mod s2456_most_popular_video_creator;
 mod s2457_minimum_addition_to_make_integer_beautiful;
 mod s2458_height_of_binary_tree_after_subtree_removal_queries;
+mod s2460_apply_operations_to_an_array;
