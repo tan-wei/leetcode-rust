@@ -1872,3 +1872,4 @@ mod s2458_height_of_binary_tree_after_subtree_removal_queries;
 mod s2460_apply_operations_to_an_array;
 mod s2461_maximum_sum_of_distinct_subarrays_with_length_k;
 mod s2462_total_cost_to_hire_k_workers;
+mod s2463_minimum_total_distance_traveled;
