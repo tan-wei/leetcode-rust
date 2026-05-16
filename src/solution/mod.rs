@@ -1875,3 +1875,4 @@ mod s2462_total_cost_to_hire_k_workers;
 mod s2463_minimum_total_distance_traveled;
 mod s2465_number_of_distinct_averages;
 mod s2466_count_ways_to_build_good_strings;
+mod s2467_most_profitable_path_in_a_tree;
