@@ -1878,3 +1878,4 @@ mod s2466_count_ways_to_build_good_strings;
 mod s2467_most_profitable_path_in_a_tree;
 mod s2468_split_message_based_on_limit;
 mod s2469_convert_the_temperature;
+mod s2470_number_of_subarrays_with_lcm_equal_to_k;
