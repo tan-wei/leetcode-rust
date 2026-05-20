@@ -1879,3 +1879,4 @@ mod s2467_most_profitable_path_in_a_tree;
 mod s2468_split_message_based_on_limit;
 mod s2469_convert_the_temperature;
 mod s2470_number_of_subarrays_with_lcm_equal_to_k;
+mod s2471_minimum_number_of_operations_to_sort_a_binary_tree_by_level;
