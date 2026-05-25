@@ -1884,3 +1884,4 @@ mod s2472_maximum_number_of_non_overlapping_palindrome_substrings;
 mod s2475_number_of_unequal_triplets_in_array;
 mod s2477_minimum_fuel_cost_to_report_to_the_capital;
 mod s2478_number_of_beautiful_partitions;
+mod s2481_minimum_cuts_to_divide_a_circle;
