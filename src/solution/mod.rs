@@ -1889,3 +1889,4 @@ mod s2482_difference_between_ones_and_zeros_in_row_and_column;
 mod s2483_minimum_penalty_for_a_shop;
 mod s2484_count_palindromic_subsequences;
 mod s2485_find_the_pivot_integer;
+mod s2486_append_characters_to_string_to_make_subsequence;
