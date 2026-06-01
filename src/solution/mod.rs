@@ -1891,3 +1891,4 @@ mod s2484_count_palindromic_subsequences;
 mod s2485_find_the_pivot_integer;
 mod s2486_append_characters_to_string_to_make_subsequence;
 mod s2487_remove_nodes_from_linked_list;
+mod s2488_count_subarrays_with_median_k;
