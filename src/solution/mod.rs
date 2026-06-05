@@ -1895,3 +1895,4 @@ mod s2488_count_subarrays_with_median_k;
 mod s2490_circular_sentence;
 mod s2491_divide_players_into_teams_of_equal_skill;
 mod s2492_minimum_score_of_a_path_between_two_cities;
+mod s2493_divide_nodes_into_the_maximum_number_of_groups;
