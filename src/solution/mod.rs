@@ -1896,3 +1896,4 @@ mod s2490_circular_sentence;
 mod s2491_divide_players_into_teams_of_equal_skill;
 mod s2492_minimum_score_of_a_path_between_two_cities;
 mod s2493_divide_nodes_into_the_maximum_number_of_groups;
+mod s2496_maximum_value_of_a_string_in_an_array;
