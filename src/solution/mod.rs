@@ -1898,3 +1898,4 @@ mod s2492_minimum_score_of_a_path_between_two_cities;
 mod s2493_divide_nodes_into_the_maximum_number_of_groups;
 mod s2496_maximum_value_of_a_string_in_an_array;
 mod s2497_maximum_star_sum_of_a_graph;
+mod s2498_frog_jump_ii;
