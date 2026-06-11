@@ -1901,3 +1901,4 @@ mod s2497_maximum_star_sum_of_a_graph;
 mod s2498_frog_jump_ii;
 mod s2499_minimum_total_cost_to_make_arrays_unequal;
 mod s2500_delete_greatest_value_in_each_row;
+mod s2501_longest_square_streak_in_an_array;
