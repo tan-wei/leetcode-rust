@@ -1903,3 +1903,4 @@ mod s2499_minimum_total_cost_to_make_arrays_unequal;
 mod s2500_delete_greatest_value_in_each_row;
 mod s2501_longest_square_streak_in_an_array;
 mod s2502_design_memory_allocator;
+mod s2503_maximum_number_of_points_from_grid_queries;
