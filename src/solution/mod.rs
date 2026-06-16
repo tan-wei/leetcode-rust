@@ -1906,3 +1906,4 @@ mod s2502_design_memory_allocator;
 mod s2503_maximum_number_of_points_from_grid_queries;
 mod s2506_count_pairs_of_similar_strings;
 mod s2507_smallest_value_after_replacing_with_sum_of_prime_factors;
+mod s2508_add_edges_to_make_degrees_of_all_nodes_even;
