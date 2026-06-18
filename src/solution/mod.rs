@@ -1908,3 +1908,4 @@ mod s2506_count_pairs_of_similar_strings;
 mod s2507_smallest_value_after_replacing_with_sum_of_prime_factors;
 mod s2508_add_edges_to_make_degrees_of_all_nodes_even;
 mod s2509_cycle_length_queries_in_a_tree;
+mod s2511_maximum_enemy_forts_that_can_be_captured;
