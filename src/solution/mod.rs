@@ -1910,3 +1910,4 @@ mod s2508_add_edges_to_make_degrees_of_all_nodes_even;
 mod s2509_cycle_length_queries_in_a_tree;
 mod s2511_maximum_enemy_forts_that_can_be_captured;
 mod s2512_reward_top_k_students;
+mod s2513_minimize_the_maximum_of_two_arrays;
