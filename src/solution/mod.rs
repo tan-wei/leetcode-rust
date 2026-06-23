@@ -1913,3 +1913,4 @@ mod s2512_reward_top_k_students;
 mod s2513_minimize_the_maximum_of_two_arrays;
 mod s2514_count_anagrams;
 mod s2515_shortest_distance_to_target_string_in_a_circular_array;
+mod s2516_take_k_of_each_character_from_left_and_right;
