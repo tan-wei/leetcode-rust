@@ -1915,3 +1915,4 @@ mod s2514_count_anagrams;
 mod s2515_shortest_distance_to_target_string_in_a_circular_array;
 mod s2516_take_k_of_each_character_from_left_and_right;
 mod s2517_maximum_tastiness_of_candy_basket;
+mod s2518_number_of_great_partitions;
