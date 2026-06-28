@@ -1918,3 +1918,4 @@ mod s2517_maximum_tastiness_of_candy_basket;
 mod s2518_number_of_great_partitions;
 mod s2520_count_the_digits_that_divide_a_number;
 mod s2521_distinct_prime_factors_of_product_of_array;
+mod s2522_partition_string_into_substrings_with_values_at_most_k;
