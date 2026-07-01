@@ -1921,3 +1921,4 @@ mod s2521_distinct_prime_factors_of_product_of_array;
 mod s2522_partition_string_into_substrings_with_values_at_most_k;
 mod s2523_closest_prime_numbers_in_range;
 mod s2525_categorize_box_according_to_criteria;
+mod s2526_find_consecutive_integers_from_a_data_stream;
