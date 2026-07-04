@@ -1924,3 +1924,4 @@ mod s2525_categorize_box_according_to_criteria;
 mod s2526_find_consecutive_integers_from_a_data_stream;
 mod s2527_find_xor_beauty_of_array;
 mod s2528_maximize_the_minimum_powered_city;
+mod s2529_maximum_count_of_positive_integer_and_negative_integer;
