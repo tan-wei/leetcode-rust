@@ -1928,3 +1928,4 @@ mod s2529_maximum_count_of_positive_integer_and_negative_integer;
 mod s2530_maximal_score_after_applying_k_operations;
 mod s2531_make_number_of_distinct_characters_equal;
 mod s2532_time_to_cross_a_bridge;
+mod s2535_difference_between_element_sum_and_digit_sum_of_an_array;
