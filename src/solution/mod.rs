@@ -1930,3 +1930,4 @@ mod s2531_make_number_of_distinct_characters_equal;
 mod s2532_time_to_cross_a_bridge;
 mod s2535_difference_between_element_sum_and_digit_sum_of_an_array;
 mod s2536_increment_submatrices_by_one;
+mod s2537_count_the_number_of_good_subarrays;
