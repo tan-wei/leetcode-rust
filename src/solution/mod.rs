@@ -1932,3 +1932,4 @@ mod s2535_difference_between_element_sum_and_digit_sum_of_an_array;
 mod s2536_increment_submatrices_by_one;
 mod s2537_count_the_number_of_good_subarrays;
 mod s2538_difference_between_maximum_and_minimum_price_sum;
+mod s2540_minimum_common_value;
