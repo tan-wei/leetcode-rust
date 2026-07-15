@@ -1935,3 +1935,4 @@ mod s2538_difference_between_maximum_and_minimum_price_sum;
 mod s2540_minimum_common_value;
 mod s2541_minimum_operations_to_make_array_equal_ii;
 mod s2542_maximum_subsequence_score;
+mod s2543_check_if_point_is_reachable;
