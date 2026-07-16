@@ -1936,3 +1936,4 @@ mod s2540_minimum_common_value;
 mod s2541_minimum_operations_to_make_array_equal_ii;
 mod s2542_maximum_subsequence_score;
 mod s2543_check_if_point_is_reachable;
+mod s2544_alternating_digit_sum;
