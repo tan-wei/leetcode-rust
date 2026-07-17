@@ -1937,3 +1937,4 @@ mod s2541_minimum_operations_to_make_array_equal_ii;
 mod s2542_maximum_subsequence_score;
 mod s2543_check_if_point_is_reachable;
 mod s2544_alternating_digit_sum;
+mod s2545_sort_the_students_by_their_kth_score;
