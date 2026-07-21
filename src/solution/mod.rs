@@ -1941,3 +1941,4 @@ mod s2545_sort_the_students_by_their_kth_score;
 mod s2546_apply_bitwise_operations_to_make_strings_equal;
 mod s2547_minimum_cost_to_split_an_array;
 mod s2549_count_distinct_numbers_on_board;
+mod s2550_count_collisions_of_monkeys_on_a_polygon;
