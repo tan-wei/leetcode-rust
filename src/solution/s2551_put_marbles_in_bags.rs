@@ -61,7 +61,7 @@ mod tests {
 
         let result = 4;
 
-        assert_eq!(Solution::put_marbles(wiights, k), result);
+        assert_eq!(Solution::put_marbles(weights, k), result);
     }
 
     #[test]
@@ -72,6 +72,6 @@ mod tests {
 
         let result = 0;
 
-        assert_eq!(Solution::put_marbles(wiights, k), result);
+        assert_eq!(Solution::put_marbles(weights, k), result);
     }
 }
