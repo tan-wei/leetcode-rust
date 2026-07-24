@@ -33,19 +33,20 @@
  */
 pub struct Solution {}
 
-use std::ptr::addr_of;
-
 // problem: https://leetcode.com/problems/guess-number-higher-or-lower/
 // discuss: https://leetcode.com/problems/guess-number-higher-or-lower/discuss/?currentPage=1&orderBy=most_votes&query=
-static mut PICK: i32 = 0;
+std::thread_local! {
+    static PICK: std::cell::Cell<i32> = const { std::cell::Cell::new(0) };
+}
+
 unsafe fn guess(num: i32) -> i32 {
-    unsafe {
-        match num.cmp(&*&raw const PICK) {
+    PICK.with(|pick| {
+        match num.cmp(&pick.get()) {
             std::cmp::Ordering::Equal => 0,
             std::cmp::Ordering::Greater => -1,
             std::cmp::Ordering::Less => 1,
         }
-    }
+    })
 }
 
 // submission codes start here
@@ -93,36 +94,31 @@ mod tests {
 
     #[test]
     fn test_0374_example_1() {
-        unsafe {
-            PICK = 6;
-        }
+        PICK.with(|pick| pick.set(6));
         let n = 10;
 
         unsafe {
-            assert_eq!(Solution::guess_number(n), *&raw const PICK);
+            assert_eq!(Solution::guess_number(n), 6);
         }
     }
 
     #[test]
     fn test_0374_example_2() {
-        unsafe {
-            PICK = 1;
-        }
+        PICK.with(|pick| pick.set(1));
         let n = 1;
+
         unsafe {
-            assert_eq!(Solution::guess_number(n), *&raw const PICK);
+            assert_eq!(Solution::guess_number(n), 1);
         }
     }
 
     #[test]
     fn test_0374_example_3() {
-        unsafe {
-            PICK = 1;
-        }
+        PICK.with(|pick| pick.set(1));
         let n = 2;
 
         unsafe {
-            assert_eq!(Solution::guess_number(n), *&raw const PICK);
+            assert_eq!(Solution::guess_number(n), 1);
         }
     }
 }
