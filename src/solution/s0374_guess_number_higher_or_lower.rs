@@ -40,12 +40,10 @@ std::thread_local! {
 }
 
 unsafe fn guess(num: i32) -> i32 {
-    PICK.with(|pick| {
-        match num.cmp(&pick.get()) {
-            std::cmp::Ordering::Equal => 0,
-            std::cmp::Ordering::Greater => -1,
-            std::cmp::Ordering::Less => 1,
-        }
+    PICK.with(|pick| match num.cmp(&pick.get()) {
+        std::cmp::Ordering::Equal => 0,
+        std::cmp::Ordering::Greater => -1,
+        std::cmp::Ordering::Less => 1,
     })
 }
 
