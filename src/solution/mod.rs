@@ -1946,3 +1946,4 @@ mod s2551_put_marbles_in_bags;
 mod s2552_count_increasing_quadruplets;
 mod s2553_separate_the_digits_in_an_array;
 mod s2554_maximum_number_of_integers_to_choose_from_a_range_i;
+mod s2555_maximize_win_from_two_segments;
