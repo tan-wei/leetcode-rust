@@ -1949,3 +1949,4 @@ mod s2554_maximum_number_of_integers_to_choose_from_a_range_i;
 mod s2555_maximize_win_from_two_segments;
 mod s2556_disconnect_path_in_a_binary_matrix_by_at_most_one_flip;
 mod s2558_take_gifts_from_the_richest_pile;
+mod s2559_count_vowel_strings_in_ranges;
