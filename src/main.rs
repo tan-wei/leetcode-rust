@@ -27,38 +27,53 @@ fn main() {
     dotenv::dotenv().ok();
 
     println!("Welcome to leetcode-rust system.\n");
+    let mut command_arg = {
+        let args: Vec<String> = env::args().skip(1).collect();
+        if args.is_empty() {
+            None
+        } else {
+            Some(args.join(" "))
+        }
+    };
     let mut initialized_ids = get_initialized_ids();
     loop {
-        println!(
-            "Please enter a frontend problem id, \n\
+        if command_arg.is_none() {
+            println!(
+                "Please enter a frontend problem id, \n\
             or \"random\" to generate a random one, \n\
             or \"solve $i\" to move problem to solution/, \n\
             or \"all\" to initialize all problems \n"
-        );
+            );
+        }
         let mut is_random = false;
         let mut is_solving = false;
         let mut id: u32 = 0;
-        let mut id_arg = String::new();
-        io::stdin()
-            .read_line(&mut id_arg)
-            .expect("Failed to read line");
-        let id_arg = id_arg.trim();
+        let is_one_shot = command_arg.is_some();
+        let id_arg = if let Some(arg) = command_arg.take() {
+            arg
+        } else {
+            let mut id_arg = String::new();
+            io::stdin()
+                .read_line(&mut id_arg)
+                .expect("Failed to read line");
+            id_arg.trim().to_string()
+        };
 
         let random_pattern = Regex::new(r"^random$").unwrap();
         let solving_pattern = Regex::new(r"^solve (\d+)$").unwrap();
         let all_pattern = Regex::new(r"^all$").unwrap();
 
-        if random_pattern.is_match(id_arg) {
+        if random_pattern.is_match(&id_arg) {
             println!("You select random mode.");
             id = generate_random_id(&initialized_ids);
             is_random = true;
             println!("Generate random problem: {}", &id);
-        } else if solving_pattern.is_match(id_arg) {
+        } else if solving_pattern.is_match(&id_arg) {
             // solve a problem
             // move it from problem/ to solution/
             is_solving = true;
             id = solving_pattern
-                .captures(id_arg)
+                .captures(&id_arg)
                 .unwrap()
                 .get(1)
                 .unwrap()
@@ -67,7 +82,7 @@ fn main() {
                 .unwrap();
             deal_solving(&id);
             break;
-        } else if all_pattern.is_match(id_arg) {
+        } else if all_pattern.is_match(&id_arg) {
             // deal all problems
             let pool = ThreadPool::new().unwrap();
             let mut tasks = vec![];
@@ -124,6 +139,9 @@ fn main() {
                 .unwrap_or_else(|_| panic!("not a number: {}", id_arg));
             if initialized_ids.contains(&id) {
                 println!("The problem you chose has been initialized in problem/");
+                if is_one_shot {
+                    break;
+                }
                 continue;
             }
         }
@@ -142,6 +160,9 @@ fn main() {
         if code.is_none() {
             println!("Problem {} has no rust version.", &id);
             initialized_ids.push(problem.question_id);
+            if is_one_shot {
+                break;
+            }
             continue;
         }
         let code = code.unwrap();
