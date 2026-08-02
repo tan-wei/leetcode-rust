@@ -1953,3 +1953,4 @@ mod s2559_count_vowel_strings_in_ranges;
 mod s2560_house_robber_iv;
 mod s2561_rearranging_fruits;
 mod s2562_find_the_array_concatenation_value;
+mod s2563_count_the_number_of_fair_pairs;
