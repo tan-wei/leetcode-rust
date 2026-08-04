@@ -1955,3 +1955,4 @@ mod s2561_rearranging_fruits;
 mod s2562_find_the_array_concatenation_value;
 mod s2563_count_the_number_of_fair_pairs;
 mod s2564_substring_xor_queries;
+mod s2565_subsequence_with_the_minimum_score;
