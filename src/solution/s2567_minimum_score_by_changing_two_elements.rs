@@ -1,0 +1,78 @@
+/**
+2566. Maximum Difference by Remapping a Digit
+ * [2567] Minimum Score by Changing Two Elements
+ *
+ * You are given an integer array nums.
+ *
+ * 	The low score of nums is the minimum absolute difference between any two integers.
+ * 	The high score of nums is the maximum absolute difference between any two integers.
+ * 	The score of nums is the sum of the high and low scores.
+ *
+ * Return the minimum score after changing two elements of nums.
+ *
+ * Example 1:
+ * <div class="example-block">
+ * Input: <span class="example-io">nums = [1,4,7,8,5]</span>
+ * Output: <span class="example-io">3</span>
+ * Explanation:
+ *
+ * 	Change nums[0] and nums[1] to be 6 so that nums becomes [6,6,7,8,5].
+ * 	The low score is the minimum absolute difference: |6 - 6| = 0.
+ * 	The high score is the maximum absolute difference: |8 - 5| = 3.
+ * 	The sum of high and low score is 3.
+ * </div>
+ * Example 2:
+ * <div class="example-block">
+ * Input: <span class="example-io">nums = [1,4,3]</span>
+ * Output: <span class="example-io">0</span>
+ * Explanation:
+ *
+ * 	Change nums[1] and nums[2] to 1 so that nums becomes [1,1,1].
+ * 	The sum of maximum absolute difference and minimum absolute difference is 0.
+ * </div>
+ *
+ * Constraints:
+ *
+ * 	3 <= nums.length <= 10^5
+ * 	1 <= nums[i] <= 10^9
+ *
+ */
+pub struct Solution {}
+
+// problem: https://leetcode.com/problems/minimum-score-by-changing-two-elements/
+// discuss: https://leetcode.com/problems/minimum-score-by-changing-two-elements/discuss/?currentPage=1&orderBy=most_votes&query=
+
+// submission codes start here
+
+impl Solution {
+    pub fn minimize_sum(nums: Vec<i32>) -> i32 {
+        0
+    }
+}
+
+// submission codes end
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    #[ignore]
+    fn test_2567_example_1() {
+        let nums = vec![1, 4, 7, 8, 5];
+
+        let result = 3;
+
+        assert_eq!(Solution::minimize_sum(nums), result);
+    }
+
+    #[test]
+    #[ignore]
+    fn test_2567_example_2() {
+        let nums = vec![1, 4, 3];
+
+        let result = 0;
+
+        assert_eq!(Solution::minimize_sum(nums), result);
+    }
+}

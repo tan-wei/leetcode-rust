@@ -1957,3 +1957,4 @@ mod s2563_count_the_number_of_fair_pairs;
 mod s2564_substring_xor_queries;
 mod s2565_subsequence_with_the_minimum_score;
 mod s2566_maximum_difference_by_remapping_a_digit;
+mod s2567_minimum_score_by_changing_two_elements;
