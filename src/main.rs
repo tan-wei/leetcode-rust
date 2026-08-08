@@ -100,10 +100,7 @@ fn main() {
                             return;
                         }
                         let problem = problem.unwrap();
-                        let code = problem
-                            .code_definition
-                            .iter()
-                            .find(|&d| d.value == "rust");
+                        let code = problem.code_definition.iter().find(|&d| d.value == "rust");
                         if code.is_none() {
                             println!("Problem {} has no rust version.", problem.question_id);
                             return;
@@ -127,7 +124,6 @@ fn main() {
             }
             block_on(join_all(tasks));
             let mut lib_file = fs::OpenOptions::new()
-                
                 .append(true)
                 .open("./src/problem/mod.rs")
                 .unwrap();
@@ -153,10 +149,7 @@ fn main() {
                 id
             )
         });
-        let code = problem
-            .code_definition
-            .iter()
-            .find(|&d| d.value == "rust");
+        let code = problem.code_definition.iter().find(|&d| d.value == "rust");
         if code.is_none() {
             println!("Problem {} has no rust version.", id);
             initialized_ids.push(problem.question_id);
@@ -378,7 +371,6 @@ fn deal_problem(problem: &Problem, code: &CodeDefinition, write_mod_file: bool) 
 
     if write_mod_file {
         let mut lib_file = fs::OpenOptions::new()
-            
             .append(true)
             .open("./src/problem/mod.rs")
             .unwrap();
