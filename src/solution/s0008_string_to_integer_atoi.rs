@@ -110,11 +110,7 @@ impl Solution {
             _ => return 0,
         };
         let mut res = 0i32;
-        let overflow = if sign > 0 {
-            std::i32::MAX
-        } else {
-            std::i32::MIN
-        };
+        let overflow = if sign > 0 { i32::MAX } else { i32::MIN };
         for c in s
             .chars()
             .skip_while(|x| x.is_whitespace())
@@ -155,11 +151,7 @@ impl Solution {
                     .and_then(|acc| acc.checked_add(n.to_digit(10).unwrap() as i32))
             })
             .map(|n| n * sign)
-            .unwrap_or(if sign > 0 {
-                std::i32::MAX
-            } else {
-                std::i32::MIN
-            })
+            .unwrap_or(if sign > 0 { i32::MAX } else { i32::MIN })
     }
 }
 

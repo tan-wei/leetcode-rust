@@ -56,7 +56,7 @@ impl Solution {
                         return y;
                     }
                 }
-                std::i32::MIN // unreachable!()
+                i32::MIN // unreachable!()
             }
         }
     }

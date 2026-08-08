@@ -46,7 +46,7 @@ impl Solution {
             for j in 0..cols {
                 if mat[i][j] != 0 {
                     let mut up = i32::MAX;
-                    let mut left = std::i32::MAX;
+                    let mut left = i32::MAX;
                     if i > 0 {
                         up = result[i - 1][j];
                     }

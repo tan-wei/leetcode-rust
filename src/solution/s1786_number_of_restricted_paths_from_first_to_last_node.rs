@@ -57,7 +57,7 @@ impl Solution {
             res
         };
         // Step1: use dijkstra to calc all shortest path from i to n.
-        let mut distances = vec![std::i32::MAX; n + 1];
+        let mut distances = vec![i32::MAX; n + 1];
         distances[n] = 0;
         let mut pq = std::collections::BinaryHeap::new();
         pq.push((std::cmp::Reverse(0), n));

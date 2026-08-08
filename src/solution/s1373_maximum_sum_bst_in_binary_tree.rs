@@ -87,8 +87,8 @@ impl Solution {
             None => Status {
                 is_bst: true,
                 sum: 0,
-                max_left: std::i32::MIN,
-                min_right: std::i32::MAX,
+                max_left: i32::MIN,
+                min_right: i32::MAX,
             },
             Some(node) => {
                 let node = node.borrow();
@@ -106,8 +106,8 @@ impl Solution {
                     Status {
                         is_bst: false,
                         sum: 0,
-                        max_left: std::i32::MIN,
-                        min_right: std::i32::MAX,
+                        max_left: i32::MIN,
+                        min_right: i32::MAX,
                     }
                 };
                 if s.is_bst {

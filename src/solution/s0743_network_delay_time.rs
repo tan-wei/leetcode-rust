@@ -54,7 +54,7 @@ impl Solution {
             res
         };
 
-        let mut distances = vec![std::i32::MAX; n + 1];
+        let mut distances = vec![i32::MAX; n + 1];
         distances[k] = 0;
         let mut visited = vec![false; n + 1];
         let mut pq = std::collections::BinaryHeap::new();

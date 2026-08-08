@@ -47,7 +47,7 @@ pub struct Solution {}
 
 impl Solution {
     pub fn find_min(nums: Vec<i32>) -> i32 {
-        let mut cur = std::i32::MAX;
+        let mut cur = i32::MAX;
         let (mut left, mut right) = (0, nums.len() - 1);
 
         while right >= left {

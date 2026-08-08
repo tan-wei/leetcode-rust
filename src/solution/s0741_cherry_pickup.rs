@@ -51,11 +51,11 @@ impl Solution {
     // Credit: https://leetcode.com/problems/cherry-pickup/discuss/817454/Rust-translated-0ms-100
     pub fn cherry_pickup(grid: Vec<Vec<i32>>) -> i32 {
         let n = grid.len();
-        let mut dp = vec![vec![std::i32::MIN; n]; n];
+        let mut dp = vec![vec![i32::MIN; n]; n];
         dp[0][0] = grid[0][0];
 
         for t in 1..2 * n - 1 {
-            let mut dp2 = vec![vec![std::i32::MIN; n]; n];
+            let mut dp2 = vec![vec![i32::MIN; n]; n];
             let (r1, r2) = if n - 1 < t {
                 (t + 1 - n, n - 1)
             } else {

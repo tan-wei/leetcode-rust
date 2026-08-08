@@ -46,7 +46,7 @@ impl Solution {
     pub fn min_area_free_rect(points: Vec<Vec<i32>>) -> f64 {
         let mut hm: std::collections::HashMap<Cross, Vec<Point>> = std::collections::HashMap::new();
         let n = points.len();
-        let mut res = std::f64::MAX;
+        let mut res = f64::MAX;
         for i in 0..n {
             for j in i + 1..n {
                 let x1 = points[i][0];
@@ -67,7 +67,7 @@ impl Solution {
                 points.push((x1, y1));
             }
         }
-        if res == std::f64::MAX { 0.0 } else { res }
+        if res == f64::MAX { 0.0 } else { res }
     }
 
     fn edge(x1: i32, y1: i32, x2: i32, y2: i32) -> f64 {

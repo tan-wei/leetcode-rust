@@ -54,14 +54,14 @@ impl Solution {
     // Credit: https://leetcode.com/problems/minimize-deviation-in-array/solutions/3188337/just-a-runnable-solution/
     pub fn minimum_deviation(nums: Vec<i32>) -> i32 {
         let mut nums = nums;
-        let mut min = std::i32::MAX;
+        let mut min = i32::MAX;
         for num in nums.iter_mut() {
             if *num % 2 == 1 {
                 *num *= 2;
             }
             min = min.min(*num);
         }
-        let mut result = std::i32::MAX;
+        let mut result = i32::MAX;
         let mut heap = std::collections::BinaryHeap::new();
 
         for num in nums {

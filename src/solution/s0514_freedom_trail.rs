@@ -51,7 +51,7 @@ impl Solution {
         let mut d = vec![vec![0; key.len() + 1]; ring.len()];
         for k_pos in (0..key.len()).rev() {
             for r_pos in (0..ring.len()) {
-                let mut min_so_far = std::i32::MAX;
+                let mut min_so_far = i32::MAX;
                 for r_idx in &index[(key.as_bytes()[k_pos] - 'a' as u8) as usize] {
                     // find the clockwise rotation from current position r_pos to
                     // position r_idx pointing at the desired character key[k_pos]

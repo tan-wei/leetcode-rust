@@ -77,7 +77,7 @@ impl Solution {
         if dp[start][end] != 0 {
             return dp[start][end];
         }
-        let mut res = i32::max_value();
+        let mut res = i32::MAX;
         for i in start..(end + 1) {
             let amt = i as i32;
             let tmp =

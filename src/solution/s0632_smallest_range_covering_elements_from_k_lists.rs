@@ -60,7 +60,7 @@ impl Solution {
     pub fn smallest_range(nums: Vec<Vec<i32>>) -> Vec<i32> {
         let n = nums.len();
         let mut heap = std::collections::BinaryHeap::<Point>::new();
-        let mut max = std::i32::MIN;
+        let mut max = i32::MIN;
         for g in 0..n {
             let val = nums[g][0];
             if val > max {
@@ -74,7 +74,7 @@ impl Solution {
         }
         let mut start = -1;
         let mut end = -1;
-        let mut range = std::i32::MAX;
+        let mut range = i32::MAX;
 
         while heap.len() == n {
             let mut curr = heap.pop().unwrap();

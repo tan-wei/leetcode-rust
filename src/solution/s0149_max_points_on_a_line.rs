@@ -35,7 +35,6 @@ impl Solution {
     pub fn max_points(points: Vec<Vec<i32>>) -> i32 {
         use std::cmp::max;
         use std::collections::HashMap;
-        use std::i32::MAX;
 
         fn max_points_on_a_line_containing_point_i(
             points: &Vec<Vec<i32>>,
@@ -47,7 +46,7 @@ impl Solution {
                 if delta_x == 0 {
                     return (0, 0);
                 } else if delta_y == 0 {
-                    return (MAX, MAX);
+                    return (i32::MAX, i32::MAX);
                 } else if delta_x < 0 {
                     delta_x = -delta_x;
                     delta_y = -delta_y;

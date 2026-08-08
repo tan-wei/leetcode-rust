@@ -57,7 +57,7 @@ impl Solution {
                 // hit memoized cache at key (start, end)
                 return (max_leaf.clone(), min_sum.clone());
             } else {
-                let mut min_sum = std::i32::MAX;
+                let mut min_sum = i32::MAX;
                 let mut max_left: i32 = 0;
                 let mut max_right: i32 = 0;
 

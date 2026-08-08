@@ -63,9 +63,9 @@ impl Solution {
         let n = hand.len();
         let board: Vec<char> = board.chars().collect();
         let hand: Vec<char> = hand.chars().collect();
-        let mut res = std::i32::MAX;
+        let mut res = i32::MAX;
         Self::dfs(0, 0, board, &mut res, &hand, n);
-        if res == std::i32::MAX { -1 } else { res }
+        if res == i32::MAX { -1 } else { res }
     }
 
     fn dfs(start: usize, state: u32, board: Vec<char>, res: &mut i32, hand: &[char], n: usize) {

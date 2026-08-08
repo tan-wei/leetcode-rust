@@ -61,7 +61,7 @@ impl Solution {
             return if dp.iter().all(|&x| x == 0) {
                 0
             } else {
-                std::i32::MIN
+                i32::MIN
             };
         }
         dp[requests[i][0] as usize] -= 1;

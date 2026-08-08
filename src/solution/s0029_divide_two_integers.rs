@@ -49,7 +49,7 @@ impl Solution {
     pub fn divide(dividend: i32, divisor: i32) -> i32 {
         match dividend.checked_div(divisor) {
             Some(i) => i,
-            None => std::i32::MAX,
+            None => i32::MAX,
         }
     }
 }

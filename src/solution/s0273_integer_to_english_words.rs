@@ -71,7 +71,7 @@ impl Solution {
             x @ 100..=999 => Self::magnitude("Hundred", x, 100),
             x @ 1000..=999999 => Self::magnitude("Thousand", x, 1000),
             x @ 1000000..=999999999 => Self::magnitude("Million", x, 1000000),
-            x @ 1000000000..=std::i32::MAX => Self::magnitude("Billion", x, 1000000000),
+            x @ 1000000000..=i32::MAX => Self::magnitude("Billion", x, 1000000000),
             _ => unimplemented!(),
         }
     }

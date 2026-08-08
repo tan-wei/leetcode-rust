@@ -54,7 +54,7 @@ impl Solution {
             }
         }
 
-        let mut min = i32::max_value();
+        let mut min = i32::MAX;
         let mut result = 0;
         for mid in (left..=right).rev() {
             let v = Self::helper(&arr, target, mid);

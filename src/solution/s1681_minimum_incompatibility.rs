@@ -50,7 +50,7 @@ impl Solution {
         let k = k as usize;
         let mut buckets =
             vec![std::collections::VecDeque::with_capacity(nums.len() / k as usize); k as usize];
-        let mut result = std::i32::MAX;
+        let mut result = i32::MAX;
 
         Self::dfs_helper(
             0,
@@ -62,7 +62,7 @@ impl Solution {
             &mut result,
         );
 
-        if result == std::i32::MAX { -1 } else { result }
+        if result == i32::MAX { -1 } else { result }
     }
 
     fn dfs_helper(

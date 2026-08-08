@@ -61,7 +61,7 @@ impl Solution {
             count
         }
 
-        let mut dp = vec![std::i32::MAX; target as usize + 4];
+        let mut dp = vec![i32::MAX; target as usize + 4];
         dp[0] = 0;
         dp[1] = 1;
         dp[2] = 4;

@@ -45,7 +45,7 @@ impl Solution {
         let n = n as usize;
         let mut al = vec![vec![]; n + 1];
         let mut cnt = vec![0; n + 1];
-        let mut result = std::i32::MAX;
+        let mut result = i32::MAX;
 
         for e in edges.iter() {
             let t1 = e[0].min(e[1]) as usize;
@@ -65,7 +65,7 @@ impl Solution {
             }
         }
 
-        if result == std::i32::MAX { -1 } else { result }
+        if result == i32::MAX { -1 } else { result }
     }
 }
 

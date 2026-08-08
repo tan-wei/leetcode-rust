@@ -64,7 +64,7 @@ impl Solution {
             return v;
         }
 
-        let mut result = i32::max_value();
+        let mut result = i32::MAX;
 
         for k in i + 1..j {
             let min_score_i = values[i] * values[j] * values[k]

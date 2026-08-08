@@ -44,10 +44,10 @@ impl Solution {
     pub fn min_stickers(stickers: Vec<String>, target: String) -> i32 {
         let n = target.len();
         let n2 = 1 << n;
-        let mut dp = vec![u32::max_value() as u32; n2];
+        let mut dp = vec![u32::MAX as u32; n2];
         dp[0] = 0;
         for i in 0..n2 {
-            if dp[i] == u32::max_value() {
+            if dp[i] == u32::MAX {
                 continue;
             }
             for s in &stickers {

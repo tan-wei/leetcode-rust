@@ -85,7 +85,7 @@ struct Skiplist {
 impl Skiplist {
     fn new() -> Self {
         Skiplist {
-            start: new_link(std::i32::MIN),
+            start: new_link(i32::MIN),
         }
     }
 
@@ -131,7 +131,7 @@ impl Skiplist {
             let left_node = match left_nodes.pop() {
                 Some(left_node) => left_node,
                 None => {
-                    let new_start = new_link(std::i32::MIN);
+                    let new_start = new_link(i32::MIN);
                     new_start.borrow_mut().down = Some(self.start.clone());
                     self.start = new_start;
                     self.start.clone()

@@ -39,7 +39,7 @@ impl Solution {
     // Credit: https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/1313574/Rust-translated-%22Prefix-Sum-on-1D-Array-using-Sorted-Container%22
     pub fn max_sum_submatrix(matrix: Vec<Vec<i32>>, k: i32) -> i32 {
         let (row, col) = (matrix.len(), matrix[0].len());
-        let mut result = std::i32::MIN;
+        let mut result = i32::MIN;
         for i in 0..row {
             let mut rowsum = vec![0; col];
             for r in matrix.iter().skip(i) {

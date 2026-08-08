@@ -61,7 +61,7 @@ impl Solution {
             }
 
             num = s[idx..i + 1].parse::<i64>().unwrap();
-            if num > std::i32::MAX as i64 {
+            if num > i32::MAX as i64 {
                 break;
             }
             let size = result.len();

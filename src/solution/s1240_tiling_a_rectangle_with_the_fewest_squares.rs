@@ -60,7 +60,7 @@ impl Solution {
         if memo[n as usize][m as usize] != -1 {
             return memo[n as usize][m as usize];
         };
-        let mut result = std::i32::MAX;
+        let mut result = i32::MAX;
         for i in 1..=n {
             let nn = n - i;
             let mm = m - i;

@@ -40,7 +40,7 @@ pub struct Solution {}
 impl Solution {
     pub fn find132pattern(nums: Vec<i32>) -> bool {
         let mut stack = Vec::new();
-        let mut k = i32::min_value();
+        let mut k = i32::MIN;
         for num in nums.into_iter().rev() {
             if k > num {
                 return true;
