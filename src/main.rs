@@ -67,7 +67,7 @@ fn main() {
             println!("You select random mode.");
             id = generate_random_id(&initialized_ids);
             is_random = true;
-            println!("Generate random problem: {}", &id);
+            println!("Generate random problem: {}", id);
         } else if solving_pattern.is_match(&id_arg) {
             // solve a problem
             // move it from problem/ to solution/
@@ -103,7 +103,7 @@ fn main() {
                         let code = problem
                             .code_definition
                             .iter()
-                            .find(|&d| d.value == "rust".to_string());
+                            .find(|&d| d.value == "rust");
                         if code.is_none() {
                             println!("Problem {} has no rust version.", problem.question_id);
                             return;
@@ -120,14 +120,14 @@ fn main() {
                         let code = code.unwrap();
                         // not sure this can be async
                         // maybe should use async-std io
-                        async { deal_problem(&problem, &code, false) }.await
+                        async { deal_problem(&problem, code, false) }.await
                     })
                     .unwrap(),
                 );
             }
             block_on(join_all(tasks));
             let mut lib_file = fs::OpenOptions::new()
-                .write(true)
+                
                 .append(true)
                 .open("./src/problem/mod.rs")
                 .unwrap();
@@ -156,9 +156,9 @@ fn main() {
         let code = problem
             .code_definition
             .iter()
-            .find(|&d| d.value == "rust".to_string());
+            .find(|&d| d.value == "rust");
         if code.is_none() {
-            println!("Problem {} has no rust version.", &id);
+            println!("Problem {} has no rust version.", id);
             initialized_ids.push(problem.question_id);
             if is_one_shot {
                 break;
@@ -166,7 +166,7 @@ fn main() {
             continue;
         }
         let code = code.unwrap();
-        deal_problem(&problem, &code, true);
+        deal_problem(&problem, code, true);
         break;
     }
 }
@@ -227,37 +227,37 @@ fn insert_return_in_code(return_type: &str, code: &str) -> String {
     let re = Regex::new(r"\{[\s\n]+\}").unwrap();
     match return_type {
         "ListNode" => re
-            .replace(&code, "{\n        Some(Box::new(ListNode::new(0)))\n    }")
+            .replace(code, "{\n        Some(Box::new(ListNode::new(0)))\n    }")
             .to_string(),
-        "ListNode[]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
+        "ListNode[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "TreeNode" => re
             .replace(
-                &code,
+                code,
                 "{\n        Some(Rc::new(RefCell::new(TreeNode::new(0))))\n    }",
             )
             .to_string(),
-        "boolean" => re.replace(&code, "{\n        false\n    }").to_string(),
-        "character" => re.replace(&code, "{\n        '0'\n    }").to_string(),
-        "character[][]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "double" => re.replace(&code, "{\n        0f64\n    }").to_string(),
-        "double[]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "int[]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "integer" => re.replace(&code, "{\n        0\n    }").to_string(),
-        "integer[]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "integer[][]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<String>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<TreeNode>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<boolean>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<double>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<integer>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<list<integer>>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<list<string>>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
-        "list<string>" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
+        "boolean" => re.replace(code, "{\n        false\n    }").to_string(),
+        "character" => re.replace(code, "{\n        '0'\n    }").to_string(),
+        "character[][]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "double" => re.replace(code, "{\n        0f64\n    }").to_string(),
+        "double[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "int[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "integer" => re.replace(code, "{\n        0\n    }").to_string(),
+        "integer[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "integer[][]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<String>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<TreeNode>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<boolean>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<double>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<integer>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<list<integer>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<list<string>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<string>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "null" => code.to_string(),
         "string" => re
-            .replace(&code, "{\n        String::new()\n    }")
+            .replace(code, "{\n        String::new()\n    }")
             .to_string(),
-        "string[]" => re.replace(&code, "{\n        vec![]\n    }").to_string(),
+        "string[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "void" => code.to_string(),
         "NestedInteger" => code.to_string(),
         "Node" => code.to_string(),
@@ -378,7 +378,7 @@ fn deal_problem(problem: &Problem, code: &CodeDefinition, write_mod_file: bool) 
 
     if write_mod_file {
         let mut lib_file = fs::OpenOptions::new()
-            .write(true)
+            
             .append(true)
             .open("./src/problem/mod.rs")
             .unwrap();
