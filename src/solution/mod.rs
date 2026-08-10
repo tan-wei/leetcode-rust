@@ -1961,3 +1961,4 @@ mod s2567_minimum_score_by_changing_two_elements;
 mod s2568_minimum_impossible_or;
 mod s2569_handling_sum_queries_after_update;
 mod s2570_merge_two_2d_arrays_by_summing_values;
+mod s2571_minimum_operations_to_reduce_an_integer_to_0;
