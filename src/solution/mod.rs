@@ -1966,3 +1966,4 @@ mod s2572_count_the_number_of_square_free_subsets;
 mod s2573_find_the_string_with_lcp;
 mod s2574_left_and_right_sum_differences;
 mod s2575_find_the_divisibility_array_of_a_string;
+mod s2576_find_the_maximum_number_of_marked_indices;
