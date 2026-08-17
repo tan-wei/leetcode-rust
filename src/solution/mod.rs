@@ -1968,3 +1968,4 @@ mod s2574_left_and_right_sum_differences;
 mod s2575_find_the_divisibility_array_of_a_string;
 mod s2576_find_the_maximum_number_of_marked_indices;
 mod s2577_minimum_time_to_visit_a_cell_in_a_grid;
+mod s2578_split_with_minimum_sum;
