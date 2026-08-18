@@ -218,6 +218,7 @@ fn parse_discuss_link(problem: &Problem) -> String {
 
 fn insert_return_in_code(return_type: &str, code: &str) -> String {
     let re = Regex::new(r"\{[\s\n]+\}").unwrap();
+
     match return_type {
         "ListNode" => re
             .replace(code, "{\n        Some(Box::new(ListNode::new(0)))\n    }")
@@ -235,6 +236,9 @@ fn insert_return_in_code(return_type: &str, code: &str) -> String {
         "double" => re.replace(code, "{\n        0f64\n    }").to_string(),
         "double[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "int[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "long" => re.replace(code, "{\n        0i64\n    }").to_string(),
+        "long[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "long[][]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "integer" => re.replace(code, "{\n        0\n    }").to_string(),
         "integer[]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "integer[][]" => re.replace(code, "{\n        vec![]\n    }").to_string(),
