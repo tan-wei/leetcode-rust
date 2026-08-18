@@ -1969,3 +1969,4 @@ mod s2575_find_the_divisibility_array_of_a_string;
 mod s2576_find_the_maximum_number_of_marked_indices;
 mod s2577_minimum_time_to_visit_a_cell_in_a_grid;
 mod s2578_split_with_minimum_sum;
+mod s2579_count_total_number_of_colored_cells;
