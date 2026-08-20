@@ -1971,3 +1971,4 @@ mod s2577_minimum_time_to_visit_a_cell_in_a_grid;
 mod s2578_split_with_minimum_sum;
 mod s2579_count_total_number_of_colored_cells;
 mod s2580_count_ways_to_group_overlapping_ranges;
+mod s2581_count_number_of_possible_root_nodes;
