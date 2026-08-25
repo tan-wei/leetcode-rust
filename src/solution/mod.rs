@@ -1976,3 +1976,4 @@ mod s2582_pass_the_pillow;
 mod s2583_kth_largest_sum_in_a_binary_tree;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
+mod s2857_count_pairs_of_points_with_distance_k;
