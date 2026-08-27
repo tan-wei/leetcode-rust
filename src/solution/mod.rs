@@ -1978,3 +1978,4 @@ mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
 mod s2858_minimum_edge_reversals_so_every_node_is_reachable;
+mod s2859_sum_of_values_at_indices_with_k_set_bits;
