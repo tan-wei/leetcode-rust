@@ -1980,3 +1980,4 @@ mod s2857_count_pairs_of_points_with_distance_k;
 mod s2858_minimum_edge_reversals_so_every_node_is_reachable;
 mod s2859_sum_of_values_at_indices_with_k_set_bits;
 mod s2860_happy_students;
+mod s2861_maximum_number_of_alloys;
