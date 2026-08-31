@@ -1982,3 +1982,4 @@ mod s2859_sum_of_values_at_indices_with_k_set_bits;
 mod s2860_happy_students;
 mod s2861_maximum_number_of_alloys;
 mod s2862_maximum_element_sum_of_a_complete_subset_of_indices;
+mod s2864_maximum_odd_binary_number;
