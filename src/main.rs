@@ -263,39 +263,35 @@ fn insert_return_in_code(return_type: &str, code: &str) -> String {
 }
 
 fn build_desc(content: &str) -> String {
-    // TODO: fix this shit
-    content
-        .replace("<strong>", "")
-        .replace("</strong>", "")
-        .replace("<strong class=\"example\">", "")
-        .replace("<em>", "")
-        .replace("</em>", "")
-        .replace("</p>", "")
-        .replace("<p>", "")
-        .replace("<b>", "")
-        .replace("</b>", "")
-        .replace("<pre>", "")
-        .replace("</pre>", "")
-        .replace("<ul>", "")
-        .replace("</ul>", "")
-        .replace("<li>", "")
-        .replace("</li>", "")
-        .replace("<code>", "")
-        .replace("</code>", "")
-        .replace("<i>", "")
-        .replace("</i>", "")
-        .replace("<sub>", "")
-        .replace("</sub>", "")
-        .replace("</sup>", "")
-        .replace("<sup>", "^")
+    // Remove HTML tags (with or without attributes) — handles <tag>, </tag>, <tag attr="...">, <tag />
+    let re_tag = Regex::new(r"</?[a-zA-Z][^>]*>").unwrap();
+    // Replace <sup> with ^ (keep this specific one)
+    let content = content.replace("<sup>", "^").replace("</sup>", "");
+    let content = re_tag.replace_all(&content, "");
+
+    // HTML entities
+    let content = content
+        .replace("&amp;", "&")
         .replace("&nbsp;", " ")
         .replace("&gt;", ">")
         .replace("&lt;", "<")
         .replace("&quot;", "\"")
         .replace("&minus;", "-")
         .replace("&#39;", "'")
+        .replace("&apos;", "'")
+        .replace("&frasl;", "/")
+        .replace("&le;", "\u{2264}")     // ≤
+        .replace("&ge;", "\u{2265}")     // ≥
+        .replace("&ldquo;", "\u{201c}")  // "
+        .replace("&rdquo;", "\u{201d}")  // "
+        .replace("&thinsp;", " ");
+
+    // Collapse multiple newlines and format as comment lines
+    let content = content
         .replace("\n\n", "\n")
-        .replace("\n", "\n * ")
+        .replace("\n", "\n * ");
+
+    content.to_string()
 }
 
 fn deal_solving(id: &u32) {
