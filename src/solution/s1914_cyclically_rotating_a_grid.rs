@@ -5,15 +5,15 @@
  *
  * The matrix is composed of several layers, which is shown in the below image, where each color is its own layer:
  *
- * 
+ *
  *
  * A cyclic rotation of the matrix is done by cyclically rotating each layer in the matrix. To cyclically rotate a layer once, each element in the layer will take the place of the adjacent element in the counter-clockwise direction. An example rotation is shown below:
- * 
+ *
  * Return the matrix after applying k cyclic rotations to it.
  *
  *  
  * Example 1:
- * 
+ *
  *
  * Input: grid = [[40,10],[30,20]], k = 1
  * Output: [[10,20],[40,30]]

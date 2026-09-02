@@ -7,13 +7,13 @@
  *  
  *  
  * Example 1:
- * 
+ *
  * Input: root = [2,2,5,null,null,5,7]
  * Output: 5
  * Explanation: The smallest value is 2, the second smallest value is 5.
  *
  * Example 2:
- * 
+ *
  * Input: root = [2,2,2]
  * Output: -1
  * Explanation: The smallest value is 2, but there isn't any second smallest value.

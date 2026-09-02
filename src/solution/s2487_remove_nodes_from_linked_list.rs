@@ -6,7 +6,7 @@
  * Return the head of the modified linked list.
  *  
  * Example 1:
- * 
+ *
  * Input: head = [5,2,13,3,8]
  * Output: [13,8]
  * Explanation: The nodes that should be removed are 5, 2 and 3.

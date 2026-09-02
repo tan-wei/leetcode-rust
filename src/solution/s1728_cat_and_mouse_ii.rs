@@ -28,13 +28,13 @@
  * Given a rows x cols matrix grid and two integers catJump and mouseJump, return true if Mouse can win the game if both Cat and Mouse play optimally, otherwise return false.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = ["####F","#C...","M...."], catJump = 1, mouseJump = 2
  * Output: true
  * Explanation: Cat cannot catch Mouse on its turn nor can it get the food before Mouse.
  *
  * Example 2:
- * 
+ *
  * Input: grid = ["M.C...F"], catJump = 1, mouseJump = 4
  * Output: true
  *

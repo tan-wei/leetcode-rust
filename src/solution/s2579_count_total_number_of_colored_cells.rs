@@ -7,7 +7,7 @@
  * 	Every minute thereafter, color blue every uncolored cell that touches a blue cell.
  *
  * Below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.
- * 
+ *
  * Return the number of colored cells at the end of n minutes.
  *  
  * Example 1:

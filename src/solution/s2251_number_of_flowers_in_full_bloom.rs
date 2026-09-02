@@ -5,14 +5,14 @@
  * Return an integer array answer of size n, where answer[i] is the number of flowers that are in full bloom when the i^th person arrives.
  *  
  * Example 1:
- * 
+ *
  * Input: flowers = [[1,6],[3,7],[9,12],[4,13]], people = [2,3,7,11]
  * Output: [1,2,2,2]
  * Explanation: The figure above shows the times when the flowers are in full bloom and when the people arrive.
  * For each person, we return the number of flowers in full bloom during their arrival.
  *
  * Example 2:
- * 
+ *
  * Input: flowers = [[1,10],[3,3]], people = [3,3,2]
  * Output: [2,2,1]
  * Explanation: The figure above shows the times when the flowers are in full bloom and when the people arrive.

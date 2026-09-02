@@ -13,7 +13,7 @@
  * Note: There must be no consecutive horizontal lines of equal height in the output skyline. For instance, [...,[2 3],[4 5],[7 5],[11 5],[12 7],...] is not acceptable; the three lines of height 5 should be merged into one in the final output as such: [...,[2 3],[4 5],[12 7],...]
  *  
  * Example 1:
- * 
+ *
  * Input: buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
  * Output: [[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]
  * Explanation:

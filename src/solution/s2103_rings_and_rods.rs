@@ -11,7 +11,7 @@
  * Return the number of rods that have all three colors of rings on them.
  *  
  * Example 1:
- * 
+ *
  * Input: rings = "B0B6G0R6R0R6G9"
  * Output: 1
  * Explanation:
@@ -21,7 +21,7 @@
  * Thus, the number of rods with all three colors is 1.
  *
  * Example 2:
- * 
+ *
  * Input: rings = "B0R0G0R9R0B0G0"
  * Output: 1
  * Explanation:

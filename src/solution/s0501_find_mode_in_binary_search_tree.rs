@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,null,2,2]
  * Output: [2]
  *

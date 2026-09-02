@@ -8,7 +8,7 @@
  * Return the minimum number of liters of fuel to reach the capital city.
  *  
  * Example 1:
- * 
+ *
  * Input: roads = [[0,1],[0,2],[0,3]], seats = 5
  * Output: 3
  * Explanation:
@@ -19,7 +19,7 @@
  * It can be proven that 3 is the minimum number of liters of fuel needed.
  *
  * Example 2:
- * 
+ *
  * Input: roads = [[3,1],[3,2],[1,0],[0,4],[0,5],[4,6]], seats = 2
  * Output: 7
  * Explanation:
@@ -34,7 +34,7 @@
  * It can be proven that 7 is the minimum number of liters of fuel needed.
  *
  * Example 3:
- * 
+ *
  * Input: roads = [], seats = 1
  * Output: 0
  * Explanation: No representatives need to travel to the capital city.

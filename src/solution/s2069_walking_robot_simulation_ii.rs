@@ -3,10 +3,10 @@
  *
  * A width x height grid is on an XY-plane with the bottom-left cell at (0, 0) and the top-right cell at (width - 1, height - 1). The grid is aligned with the four cardinal directions ("North", "East", "South", and "West"). A robot is initially at cell (0, 0) facing direction "East".
  * The robot can be instructed to move for a specific number of steps. For each step, it does the following.
- * 
+ *
  * 	Attempts to move forward one cell in the direction it is facing.
  * 	If the cell the robot is moving to is out of bounds, the robot instead turns 90 degrees counterclockwise and retries the step.
- * 
+ *
  * After the robot finishes moving the number of steps required, it stops and awaits the next instruction.
  * Implement the Robot class:
  *
@@ -17,7 +17,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["Robot", "step", "step", "getPos", "getDir", "step", "step", "step", "getPos", "getDir"]
  * [[6, 3], [2], [2], [], [], [2], [1], [4], [], []]

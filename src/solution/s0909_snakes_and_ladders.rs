@@ -20,7 +20,7 @@
  * Return the least number of moves required to reach the square n^2. If it is not possible to reach the square, return -1.
  *  
  * Example 1:
- * 
+ *
  * Input: board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
  * Output: 4
  * Explanation:

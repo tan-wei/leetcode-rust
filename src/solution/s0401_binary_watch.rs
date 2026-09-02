@@ -5,7 +5,7 @@
  *
  * 	For example, the below binary watch reads "4:51".
  *
- * 
+ *
  * Given an integer turnedOn which represents the number of LEDs that are currently on, return all possible times the watch could represent. You may return the answer in any order.
  * The hour must not contain a leading zero.
  *

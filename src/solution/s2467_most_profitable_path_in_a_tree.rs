@@ -22,7 +22,7 @@
  * Return the maximum net income Alice can have if she travels towards the optimal leaf node.
  *  
  * Example 1:
- * 
+ *
  * Input: edges = [[0,1],[1,2],[1,3],[3,4]], bob = 3, amount = [-2,4,2,-4,6]
  * Output: 6
  * Explanation:
@@ -39,7 +39,7 @@
  * It is not possible for Alice to get a higher net income.
  *
  * Example 2:
- * 
+ *
  * Input: edges = [[0,1]], bob = 1, amount = [-7280,2350]
  * Output: -7280
  * Explanation:

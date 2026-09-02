@@ -280,16 +280,14 @@ fn build_desc(content: &str) -> String {
         .replace("&#39;", "'")
         .replace("&apos;", "'")
         .replace("&frasl;", "/")
-        .replace("&le;", "\u{2264}")     // ≤
-        .replace("&ge;", "\u{2265}")     // ≥
-        .replace("&ldquo;", "\u{201c}")  // "
-        .replace("&rdquo;", "\u{201d}")  // "
+        .replace("&le;", "\u{2264}") // ≤
+        .replace("&ge;", "\u{2265}") // ≥
+        .replace("&ldquo;", "\u{201c}") // "
+        .replace("&rdquo;", "\u{201d}") // "
         .replace("&thinsp;", " ");
 
     // Collapse multiple newlines and format as comment lines
-    let content = content
-        .replace("\n\n", "\n")
-        .replace("\n", "\n * ");
+    let content = content.replace("\n\n", "\n").replace("\n", "\n * ");
 
     content.to_string()
 }

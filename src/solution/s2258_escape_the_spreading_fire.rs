@@ -13,14 +13,14 @@
  * A cell is adjacent to another cell if the former is directly north, east, south, or west of the latter (i.e., their sides are touching).
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]
  * Output: 3
  * Explanation: The figure above shows the scenario where you stay in the initial position for 3 minutes.
  * You will still be able to safely reach the safehouse.
  * Staying for more than 3 minutes will not allow you to safely reach the safehouse.
  * Example 2:
- * 
+ *
  * Input: grid = [[0,0,0,0],[0,1,2,0],[0,2,0,0]]
  * Output: -1
  * Explanation: The figure above shows the scenario where you immediately move towards the safehouse.
@@ -28,7 +28,7 @@
  * Thus, -1 is returned.
  *
  * Example 3:
- * 
+ *
  * Input: grid = [[0,0,0],[2,2,0],[1,2,0]]
  * Output: 1000000000
  * Explanation: The figure above shows the initial grid.

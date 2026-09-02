@@ -13,7 +13,7 @@
  * Return the number of different GCDs among all non-empty subsequences of nums.
  *  
  * Example 1:
- * 
+ *
  * Input: nums = [6,10,3]
  * Output: 5
  * Explanation: The figure shows all the non-empty subsequences and their GCDs.

@@ -7,7 +7,7 @@
  * The test cases are guaranteed so that the ray will meet a receptor eventually.
  *  
  * Example 1:
- * 
+ *
  * Input: p = 2, q = 1
  * Output: 2
  * Explanation: The ray meets receptor 2 the first time it gets reflected back to the left wall.

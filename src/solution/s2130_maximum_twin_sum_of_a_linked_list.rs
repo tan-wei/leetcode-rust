@@ -9,7 +9,7 @@
  * Given the head of a linked list with even length, return the maximum twin sum of the linked list.
  *  
  * Example 1:
- * 
+ *
  * Input: head = [5,4,2,1]
  * Output: 6
  * Explanation:
@@ -18,7 +18,7 @@
  * Thus, the maximum twin sum of the linked list is 6.
  *
  * Example 2:
- * 
+ *
  * Input: head = [4,2,2,3]
  * Output: 7
  * Explanation:
@@ -28,7 +28,7 @@
  * Thus, the maximum twin sum of the linked list is max(7, 4) = 7.
  *
  * Example 3:
- * 
+ *
  * Input: head = [1,100000]
  * Output: 100001
  * Explanation:

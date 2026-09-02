@@ -6,14 +6,14 @@
  * Return the length of the longest path in the tree such that no pair of adjacent nodes on the path have the same character assigned to them.
  *  
  * Example 1:
- * 
+ *
  * Input: parent = [-1,0,0,1,1,2], s = "abacbe"
  * Output: 3
  * Explanation: The longest path where each two adjacent nodes have different characters in the tree is the path: 0 -> 1 -> 3. The length of this path is 3, so 3 is returned.
  * It can be proven that there is no longer path that satisfies the conditions.
  *
  * Example 2:
- * 
+ *
  * Input: parent = [-1,0,0,0], s = "aabc"
  * Output: 3
  * Explanation: The longest path where each two adjacent nodes have different characters is the path: 2 -> 0 -> 3. The length of this path is 3, so 3 is returned.

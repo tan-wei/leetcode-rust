@@ -10,12 +10,12 @@
  * The length of a clear path is the number of visited cells of this path.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[0,1],[1,0]]
  * Output: 2
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[0,0,0],[1,1,0],[1,1,0]]
  * Output: 4
  *

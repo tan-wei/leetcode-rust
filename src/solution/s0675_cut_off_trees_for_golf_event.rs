@@ -13,13 +13,13 @@
  * You are guaranteed that no two trees have the same height, and there is at least one tree needs to be cut off.
  *  
  * Example 1:
- * 
+ *
  * Input: forest = [[1,2,3],[0,0,4],[7,6,5]]
  * Output: 6
  * Explanation: Following the path above allows you to cut off the trees from shortest to tallest in 6 steps.
  *
  * Example 2:
- * 
+ *
  * Input: forest = [[1,2,3],[0,0,0],[7,6,5]]
  * Output: -1
  * Explanation: The trees in the bottom row cannot be accessed as the middle row is blocked.

@@ -6,7 +6,7 @@
  * Return the matrix after sorting it.
  *  
  * Example 1:
- * 
+ *
  * Input: score = [[10,6,9,1],[7,5,11,2],[4,8,3,15]], k = 2
  * Output: [[7,5,11,2],[10,6,9,1],[4,8,3,15]]
  * Explanation: In the above diagram, S denotes the student, while E denotes the exam.
@@ -15,7 +15,7 @@
  * - The student with index 2 scored 3 in exam 2, which is the lowest score, so they got third place.
  *
  * Example 2:
- * 
+ *
  * Input: score = [[3,4],[5,6]], k = 0
  * Output: [[5,6],[3,4]]
  * Explanation: In the above diagram, S denotes the student, while E denotes the exam.

@@ -7,7 +7,7 @@
  * Return the minimum number of taps that should be open to water the whole garden, If the garden cannot be watered return -1.
  *
  * Example 1:
- * 
+ *
  * Input: n = 5, ranges = [3,4,1,1,0,0]
  * Output: 1
  * Explanation: The tap at point 0 can cover the interval [-3,3]

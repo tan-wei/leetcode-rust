@@ -4,7 +4,7 @@
  * Given an m x n binary matrix mat, return the number of submatrices that have all ones.
  *  
  * Example 1:
- * 
+ *
  * Input: mat = [[1,0,1],[1,1,0],[1,1,0]]
  * Output: 13
  * Explanation:
@@ -16,7 +16,7 @@
  * Total number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.
  *
  * Example 2:
- * 
+ *
  * Input: mat = [[0,1,1,0],[0,1,1,1],[1,1,1,0]]
  * Output: 24
  * Explanation:

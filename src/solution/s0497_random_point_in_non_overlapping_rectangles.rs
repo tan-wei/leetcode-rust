@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["Solution", "pick", "pick", "pick", "pick", "pick"]
  * [[[[-2, -2, 1, 1], [2, 2, 4, 6]]], [], [], [], [], []]

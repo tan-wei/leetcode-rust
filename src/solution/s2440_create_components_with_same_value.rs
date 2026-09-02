@@ -7,7 +7,7 @@
  * Return the maximum number of edges you can delete, such that every connected component in the tree has the same value.
  *  
  * Example 1:
- * 
+ *
  * Input: nums = [6,2,2,2,6], edges = [[0,1],[1,2],[1,3],[3,4]]
  * Output: 2
  * Explanation: The above figure shows how we can delete the edges [0,1] and [3,4]. The created components are nodes [0], [1,2,3] and [4]. The sum of the values in each component equals 6. It can be proven that no better deletion exists, so the answer is 2.

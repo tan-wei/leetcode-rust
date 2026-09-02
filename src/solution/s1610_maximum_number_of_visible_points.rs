@@ -11,7 +11,7 @@
  * Return the maximum number of points you can see.
  *  
  * Example 1:
- * 
+ *
  * Input: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
  * Output: 3
  * Explanation: The shaded region represents your field of view. All points can be made visible in your field of view, including [3,3] even though [2,2] is in front and in the same line of sight.
@@ -23,7 +23,7 @@
  * Explanation: All points can be made visible in your field of view, including the one at your location.
  *
  * Example 3:
- * 
+ *
  * Input: points = [[1,0],[2,1]], angle = 13, location = [1,1]
  * Output: 1
  * Explanation: You can only see one of the two points, as shown above.

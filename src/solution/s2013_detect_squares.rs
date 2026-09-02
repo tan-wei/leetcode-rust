@@ -15,7 +15,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["DetectSquares", "add", "add", "add", "count", "count", "add", "count"]
  * [[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]

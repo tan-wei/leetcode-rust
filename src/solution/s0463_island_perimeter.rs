@@ -6,7 +6,7 @@
  * The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
  * Output: 16
  * Explanation: The perimeter is the 16 yellow stripes in the image above.

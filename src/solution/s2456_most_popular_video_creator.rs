@@ -11,7 +11,7 @@
  * Return a 2D array of strings answer where answer[i] = [creatorsi, idi] means that creatorsi has the highest popularity and idi is the id of their most popular video. The answer can be returned in any order.
  *  
  * Example 1:
- * 
+ *
  * Input: creators = ["alice","bob","alice","chris"], ids = ["one","two","three","four"], views = [5,10,5,4]
  * Output: [["alice","one"],["bob","two"]]
  * Explanation:
@@ -21,15 +21,15 @@
  * alice and bob are the most popular creators.
  * For bob, the video with the highest view count is "two".
  * For alice, the videos with the highest view count are "one" and "three". Since "one" is lexicographically smaller than "three", it is included in the answer.
- * 
+ *
  * Example 2:
- * 
+ *
  * Input: creators = ["alice","alice","alice"], ids = ["a","b","c"], views = [1,2,2]
  * Output: [["alice","b"]]
  * Explanation:
  * The videos with id "b" and "c" have the highest view count.
  * Since "b" is lexicographically smaller than "c", it is included in the answer.
- * 
+ *
  *  
  * Constraints:
  *

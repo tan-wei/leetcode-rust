@@ -15,7 +15,7 @@
  * Return true if you can make s a valid parentheses string. Otherwise, return false.
  *  
  * Example 1:
- * 
+ *
  * Input: s = "))()))", locked = "010100"
  * Output: true
  * Explanation: locked[1] == '1' and locked[3] == '1', so we cannot change s[1] or s[3].

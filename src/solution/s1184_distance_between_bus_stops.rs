@@ -10,7 +10,7 @@
  *  
  * Example 1:
  *
- * 
+ *
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 1
@@ -21,7 +21,7 @@
  *
  * Example 2:
  *
- * 
+ *
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 2
@@ -33,7 +33,7 @@
  *
  * Example 3:
  *
- * 
+ *
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 3

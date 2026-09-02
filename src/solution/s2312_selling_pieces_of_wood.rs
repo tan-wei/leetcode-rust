@@ -7,7 +7,7 @@
  * Note that you can cut the piece of wood as many times as you want.
  *  
  * Example 1:
- * 
+ *
  * Input: m = 3, n = 5, prices = [[1,4,2],[2,2,7],[2,1,3]]
  * Output: 19
  * Explanation: The diagram above shows a possible scenario. It consists of:
@@ -18,7 +18,7 @@
  * It can be shown that 19 is the maximum amount of money that can be earned.
  *
  * Example 2:
- * 
+ *
  * Input: m = 4, n = 6, prices = [[3,2,10],[1,4,2],[4,1,3]]
  * Output: 32
  * Explanation: The diagram above shows a possible scenario. It consists of:

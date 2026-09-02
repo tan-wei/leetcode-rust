@@ -7,11 +7,11 @@
  * 	The right node has the value 2 * val + 1.
  *
  * You are also given a 2D integer array queries of length m, where queries[i] = [ai, bi]. For each query, solve the following problem:
- * 
+ *
  * 	Add an edge between the nodes with values ai and bi.
  * 	Find the length of the cycle in the graph.
  * 	Remove the added edge between nodes with values ai and bi.
- * 
+ *
  * Note that:
  *
  * 	A cycle is a path that starts and ends at the same node, and each edge in the path is visited only once.
@@ -21,7 +21,7 @@
  * Return an array answer of length m where answer[i] is the answer to the i^th query.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 3, queries = [[5,3],[4,7],[2,3]]
  * Output: [4,5,3]
  * Explanation: The diagrams above show the tree of 2^3 - 1 nodes. Nodes colored in red describe the nodes in the cycle after adding the edge.
@@ -30,7 +30,7 @@
  * - After adding the edge between nodes 2 and 3, the graph contains a cycle of nodes [2,1,3]. Thus answer to the third query is 3. We delete the added edge.
  *
  * Example 2:
- * 
+ *
  * Input: n = 2, queries = [[1,2]]
  * Output: [2]
  * Explanation: The diagram above shows the tree of 2^2 - 1 nodes. Nodes colored in red describe the nodes in the cycle after adding the edge.

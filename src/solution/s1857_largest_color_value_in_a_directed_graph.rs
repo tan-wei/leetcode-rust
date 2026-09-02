@@ -12,7 +12,7 @@
  *  
  * Example 1:
  *
- * 
+ *
  *
  *
  * Input: colors = "abaca", edges = [[0,1],[0,2],[2,3],[3,4]]
@@ -22,7 +22,7 @@
  *
  * Example 2:
  *
- * 
+ *
  *
  *
  * Input: colors = "a", edges = [[0,0]]

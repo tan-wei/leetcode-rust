@@ -6,7 +6,7 @@
  * Return the number of ways of cutting the pizza such that each piece contains at least one apple. Since the answer can be a huge number, return this modulo 10^9 + 7.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: pizza = ["A..","AAA","..."], k = 3
  * Output: 3

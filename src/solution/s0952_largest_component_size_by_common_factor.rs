@@ -9,17 +9,17 @@
  * Return the size of the largest connected component in the graph.
  *  
  * Example 1:
- * 
+ *
  * Input: nums = [4,6,15,35]
  * Output: 4
  *
  * Example 2:
- * 
+ *
  * Input: nums = [20,50,9,63]
  * Output: 2
  *
  * Example 3:
- * 
+ *
  * Input: nums = [2,3,6,7,4,12,21,39]
  * Output: 8
  *

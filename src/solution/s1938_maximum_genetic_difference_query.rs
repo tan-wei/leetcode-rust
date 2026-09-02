@@ -6,7 +6,7 @@
  * Return an array ans where ans[i] is the answer to the i^th query.
  *  
  * Example 1:
- * 
+ *
  * Input: parents = [-1,0,1,1], queries = [[0,2],[3,2],[2,5]]
  * Output: [2,3,7]
  * Explanation: The queries are processed as follows:
@@ -15,7 +15,7 @@
  * - [2,5]: The node with the maximum genetic difference is 2, with a difference of 5 XOR 2 = 7.
  *
  * Example 2:
- * 
+ *
  * Input: parents = [3,7,-1,2,0,7,0,2], queries = [[4,6],[1,15],[0,5]]
  * Output: [6,14,7]
  * Explanation: The queries are processed as follows:

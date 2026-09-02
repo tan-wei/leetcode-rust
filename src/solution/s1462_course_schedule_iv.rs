@@ -10,7 +10,7 @@
  * Return a boolean array answer, where answer[j] is the answer to the j^th query.
  *  
  * Example 1:
- * 
+ *
  * Input: numCourses = 2, prerequisites = [[1,0]], queries = [[0,1],[1,0]]
  * Output: [false,true]
  * Explanation: The pair [1, 0] indicates that you have to take course 1 before you can take course 0.
@@ -23,7 +23,7 @@
  * Explanation: There are no prerequisites, and each course is independent.
  *
  * Example 3:
- * 
+ *
  * Input: numCourses = 3, prerequisites = [[1,2],[1,0],[2,0]], queries = [[1,0],[1,2]]
  * Output: [true,true]
  *

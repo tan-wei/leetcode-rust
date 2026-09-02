@@ -18,7 +18,7 @@
  * The lexicographically smallest subsequence among them is "eet".
  *
  * Example 2:
- * 
+ *
  * Input: s = "leetcode", k = 4, letter = "e", repetition = 2
  * Output: "ecde"
  * Explanation: "ecde" is the lexicographically smallest subsequence of length 4 that has the letter "e" appear at least 2 times.

@@ -1,7 +1,7 @@
 /**
  * [1521] Find a Value of a Mysterious Function Closest to Target
  *
- * 
+ *
  * Winston was given the above mysterious function func. He has an integer array arr and an integer target and he wants to find the values l and r that make the value |func(arr, l, r) - target| minimum possible.
  * Return the minimum possible value of |func(arr, l, r) - target|.
  * Notice that func should be called with the values l and r where 0 <= l, r < arr.length.

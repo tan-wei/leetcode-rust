@@ -6,7 +6,7 @@
  * How many possible unique paths are there?
  *  
  * Example 1:
- * 
+ *
  * Input: m = 3, n = 7
  * Output: 28
  *

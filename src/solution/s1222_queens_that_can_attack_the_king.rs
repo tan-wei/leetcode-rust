@@ -6,13 +6,13 @@
  * Return the coordinates of the black queens that can directly attack the king. You may return the answer in any order.
  *  
  * Example 1:
- * 
+ *
  * Input: queens = [[0,1],[1,0],[4,0],[0,4],[3,3],[2,4]], king = [0,0]
  * Output: [[0,1],[1,0],[3,3]]
  * Explanation: The diagram above shows the three queens that can directly attack the king and the three queens that cannot attack the king (i.e., marked with red dashes).
  *
  * Example 2:
- * 
+ *
  * Input: queens = [[0,0],[1,1],[2,2],[3,4],[3,5],[4,4],[4,5]], king = [3,3]
  * Output: [[2,2],[3,4],[4,4]]
  * Explanation: The diagram above shows the three queens that can directly attack the king and the three queens that cannot attack the king (i.e., marked with red dashes).

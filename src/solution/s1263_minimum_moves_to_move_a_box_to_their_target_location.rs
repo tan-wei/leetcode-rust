@@ -15,7 +15,7 @@
  * Return the minimum number of pushes to move the box to the target. If there is no way to reach the target, return -1.
  *
  * Example 1:
- * 
+ *
  * Input: grid = vec![vec!["#","#","#","#","#","#"],
  *                ["#","T","#","#","#","#"],
  *                ["#",".",".","B",".","#"],

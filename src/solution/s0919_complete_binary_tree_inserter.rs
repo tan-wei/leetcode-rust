@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["CBTInserter", "insert", "insert", "get_root"]
  * [[[1, 2]], [3], [4], []]

@@ -6,7 +6,7 @@
  * Return an array containing all the safe nodes of the graph. The answer should be sorted in ascending order.
  *  
  * Example 1:
- * 
+ *
  * Input: graph = [[1,2],[2,3],[5],[0],[5],[],[]]
  * Output: [2,4,5,6]
  * Explanation: The given graph is shown above.

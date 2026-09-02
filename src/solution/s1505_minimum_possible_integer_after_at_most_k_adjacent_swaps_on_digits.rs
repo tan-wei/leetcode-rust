@@ -5,7 +5,7 @@
  * Return the minimum integer you can obtain also as a string.
  *  
  * Example 1:
- * 
+ *
  * Input: num = "4321", k = 4
  * Output: "1342"
  * Explanation: The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.

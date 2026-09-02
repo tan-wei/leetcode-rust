@@ -5,7 +5,7 @@
  * Return true if you can make this square and false otherwise.
  *  
  * Example 1:
- * 
+ *
  * Input: matchsticks = [1,1,2,2,2]
  * Output: true
  * Explanation: You can form a square with length 2, one side of the square came two sticks with length 1.

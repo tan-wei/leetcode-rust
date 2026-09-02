@@ -6,7 +6,7 @@
  * Return the minimum number of operations to make the grid uni-value. If it is not possible, return -1.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[2,4],[6,8]], x = 2
  * Output: 4
  * Explanation: We can make every element equal to 4 by doing the following:
@@ -16,13 +16,13 @@
  * A total of 4 operations were used.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[1,5],[2,3]], x = 1
  * Output: 5
  * Explanation: We can make every element equal to 3.
  *
  * Example 3:
- * 
+ *
  * Input: grid = [[1,2],[3,4]], x = 2
  * Output: -1
  * Explanation: It is impossible to make every element equal.

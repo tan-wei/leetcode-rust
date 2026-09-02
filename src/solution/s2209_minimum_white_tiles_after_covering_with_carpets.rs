@@ -10,7 +10,7 @@
  * Return the minimum number of white tiles still visible.
  *  
  * Example 1:
- * 
+ *
  * Input: floor = "10110101", numCarpets = 2, carpetLen = 2
  * Output: 2
  * Explanation:
@@ -18,7 +18,7 @@
  * No other way of covering the tiles with the carpets can leave less than 2 white tiles visible.
  *
  * Example 2:
- * 
+ *
  * Input: floor = "11111", numCarpets = 2, carpetLen = 3
  * Output: 0
  * Explanation:

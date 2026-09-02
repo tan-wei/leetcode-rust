@@ -5,13 +5,13 @@
  * Return the number of ways to color the grid with no two adjacent cells having the same color. Since the answer can be very large, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * 
+ *
  * Input: m = 1, n = 1
  * Output: 3
  * Explanation: The three possible colorings are shown in the image above.
  *
  * Example 2:
- * 
+ *
  * Input: m = 1, n = 2
  * Output: 6
  * Explanation: The six possible colorings are shown in the image above.

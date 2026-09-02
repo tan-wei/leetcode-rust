@@ -7,14 +7,14 @@
  * Given the integer n and the array roads, return the maximal network rank of the entire infrastructure.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: n = 4, roads = [[0,1],[0,3],[1,2],[1,3]]
  * Output: 4
  * Explanation: The network rank of cities 0 and 1 is 4 as there are 4 roads that are connected to either 0 or 1. The road between 0 and 1 is only counted once.
  *
  * Example 2:
- * 
+ *
  *
  * Input: n = 5, roads = [[0,1],[0,3],[1,2],[1,3],[2,3],[2,4]]
  * Output: 5

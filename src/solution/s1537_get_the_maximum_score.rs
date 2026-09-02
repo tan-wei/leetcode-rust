@@ -12,7 +12,7 @@
  * Return the maximum score you can obtain of all possible valid paths. Since the answer may be too large, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * 
+ *
  * Input: nums1 = [2,4,5,8,10], nums2 = [4,6,8,9]
  * Output: 30
  * Explanation: Valid paths:

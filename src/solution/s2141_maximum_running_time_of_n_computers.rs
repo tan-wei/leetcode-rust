@@ -7,7 +7,7 @@
  * Return the maximum number of minutes you can run all the n computers simultaneously.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 2, batteries = [3,3,3]
  * Output: 4
  * Explanation:
@@ -18,7 +18,7 @@
  * We can run the two computers simultaneously for at most 4 minutes, so we return 4.
  *
  * Example 2:
- * 
+ *
  * Input: n = 2, batteries = [1,1,1,1]
  * Output: 2
  * Explanation:

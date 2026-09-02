@@ -6,17 +6,17 @@
  * Note that the nodes have no values and that we only use the node numbers in this problem.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 4, leftChild = [1,-1,3,-1], rightChild = [2,-1,-1,-1]
  * Output: true
  *
  * Example 2:
- * 
+ *
  * Input: n = 4, leftChild = [1,-1,3,-1], rightChild = [2,3,-1,-1]
  * Output: false
  *
  * Example 3:
- * 
+ *
  * Input: n = 2, leftChild = [1,0], rightChild = [-1,-1]
  * Output: false
  *

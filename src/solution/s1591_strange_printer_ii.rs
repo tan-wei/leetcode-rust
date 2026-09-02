@@ -10,12 +10,12 @@
  * Return true if it is possible to print the matrix targetGrid, otherwise, return false.
  *  
  * Example 1:
- * 
+ *
  * Input: targetGrid = [[1,1,1,1],[1,2,2,1],[1,2,2,1],[1,1,1,1]]
  * Output: true
  *
  * Example 2:
- * 
+ *
  * Input: targetGrid = [[1,1,1,1],[1,1,3,3],[1,1,3,4],[5,5,1,4]]
  * Output: true
  *

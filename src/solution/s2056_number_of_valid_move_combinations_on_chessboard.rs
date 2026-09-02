@@ -18,19 +18,19 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: pieces = ["rook"], positions = [[1,1]]
  * Output: 15
  * Explanation: The image above shows the possible squares the piece can move to.
  *
  * Example 2:
- * 
+ *
  * Input: pieces = ["queen"], positions = [[1,1]]
  * Output: 22
  * Explanation: The image above shows the possible squares the piece can move to.
  *
  * Example 3:
- * 
+ *
  * Input: pieces = ["bishop"], positions = [[4,3]]
  * Output: 12
  * Explanation: The image above shows the possible squares the piece can move to.

@@ -17,7 +17,7 @@
  * 4. Two houses are placed, one on each side of the street.
  *
  * Example 2:
- * 
+ *
  * Input: n = 2
  * Output: 9
  * Explanation: The 9 possible arrangements are shown in the diagram above.

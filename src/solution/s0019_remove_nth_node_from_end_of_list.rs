@@ -5,7 +5,7 @@
  * Follow up: Could you do this in one pass?
  *  
  * Example 1:
- * 
+ *
  * Input: head = [1,2,3,4,5], n = 2
  * Output: [1,2,3,5]
  *

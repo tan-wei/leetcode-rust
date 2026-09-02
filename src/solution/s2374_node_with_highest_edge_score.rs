@@ -7,7 +7,7 @@
  * Return the node with the highest edge score. If multiple nodes have the same edge score, return the node with the smallest index.
  *  
  * Example 1:
- * 
+ *
  * Input: edges = [1,0,0,0,0,7,7,5]
  * Output: 7
  * Explanation:
@@ -18,7 +18,7 @@
  * Node 7 has the highest edge score so return 7.
  *
  * Example 2:
- * 
+ *
  * Input: edges = [2,0,0,2]
  * Output: 0
  * Explanation:

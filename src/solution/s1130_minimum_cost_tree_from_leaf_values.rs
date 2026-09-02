@@ -11,14 +11,14 @@
  * A node is a leaf if and only if it has zero children.
  *  
  * Example 1:
- * 
+ *
  * Input: arr = [6,2,4]
  * Output: 32
  * Explanation: There are two possible trees shown.
  * The first has a non-leaf node sum 36, and the second has non-leaf node sum 32.
  *
  * Example 2:
- * 
+ *
  * Input: arr = [4,11]
  * Output: 44
  *

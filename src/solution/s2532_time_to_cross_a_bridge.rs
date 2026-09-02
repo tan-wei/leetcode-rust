@@ -23,7 +23,7 @@
  * Return the elapsed minutes at which the last box reaches the left side of the bridge.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 1, k = 3, time = [[1,1,2,1],[1,1,3,1],[1,1,4,1]]
  * Output: 6
  * Explanation:
@@ -33,17 +33,17 @@
  * From 2 to 6 minutes: worker 2 crosses the bridge to the left.
  * From 6 to 7 minutes: worker 2 puts a box at the left warehouse.
  * The whole process ends after 7 minutes. We return 6 because the problem asks for the instance of time at which the last worker reaches the left side of the bridge.
- * 
+ *
  * Example 2:
- * 
+ *
  * Input: n = 3, k = 2, time = [[1,5,1,8],[10,10,10,10]]
  * Output: 37
  * Explanation:
  *
- * 
+ *
  *
  * The last box reaches the left side at 37 seconds. Notice, how we do not put the last boxes down, as that would take more time, and they are already on the left with the workers.
- * 
+ *
  *  
  * Constraints:
  *

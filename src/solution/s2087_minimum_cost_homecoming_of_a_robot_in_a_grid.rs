@@ -10,7 +10,7 @@
  * Return the minimum total cost for this robot to return home.
  *  
  * Example 1:
- * 
+ *
  * Input: startPos = [1, 0], homePos = [2, 3], rowCosts = [5, 4, 3], colCosts = [8, 2, 6, 7]
  * Output: 18
  * Explanation: One optimal path is that:

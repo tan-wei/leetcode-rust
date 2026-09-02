@@ -16,7 +16,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: points = [[1,1],[3,4],[-1,0]]
  * Output: 7
  * Explanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   

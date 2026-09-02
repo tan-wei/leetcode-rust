@@ -10,14 +10,14 @@
  *
  *  
  * Example 1:
- * 
+ *
  *
  * Input: root = [1,4,3,2,4,2,5,null,null,null,null,null,null,4,6]
  * Output: 20
  * Explanation: Maximum sum in a valid Binary search tree is obtained in root node with key equal to 3.
  *
  * Example 2:
- * 
+ *
  *
  * Input: root = [4,3,null,1,2]
  * Output: 2

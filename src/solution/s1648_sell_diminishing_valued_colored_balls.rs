@@ -7,7 +7,7 @@
  * Return the maximum total value that you can attain after selling orders colored balls. As the answer may be too large, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * 
+ *
  * Input: inventory = [2,5], orders = 4
  * Output: 14
  * Explanation: Sell the 1st color 1 time (2) and the 2nd color 3 times (5 + 4 + 3).

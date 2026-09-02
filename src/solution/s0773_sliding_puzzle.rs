@@ -6,19 +6,19 @@
  * Given the puzzle board board, return the least number of moves required so that the state of the board is solved. If it is impossible for the state of the board to be solved, return -1.
  *  
  * Example 1:
- * 
+ *
  * Input: board = [[1,2,3],[4,0,5]]
  * Output: 1
  * Explanation: Swap the 0 and the 5 in one move.
  *
  * Example 2:
- * 
+ *
  * Input: board = [[1,2,3],[5,4,0]]
  * Output: -1
  * Explanation: No number of moves will make the board solved.
  *
  * Example 3:
- * 
+ *
  * Input: board = [[4,1,2],[5,0,3]]
  * Output: 5
  * Explanation: 5 is the smallest number of moves that solves the board.

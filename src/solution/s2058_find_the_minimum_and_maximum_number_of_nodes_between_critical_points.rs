@@ -8,13 +8,13 @@
  * Given a linked list head, return an array of length 2 containing [minDistance, maxDistance] where minDistance is the minimum distance between any two distinct critical points and maxDistance is the maximum distance between any two distinct critical points. If there are fewer than two critical points, return [-1, -1].
  *  
  * Example 1:
- * 
+ *
  * Input: head = [3,1]
  * Output: [-1,-1]
  * Explanation: There are no critical points in [3,1].
  *
  * Example 2:
- * 
+ *
  * Input: head = [5,3,1,2,5,1,2]
  * Output: [1,3]
  * Explanation: There are three critical points:
@@ -25,7 +25,7 @@
  * The maximum distance is between the third and the sixth node. maxDistance = 6 - 3 = 3.
  *
  * Example 3:
- * 
+ *
  * Input: head = [1,3,2,2,3,2,2,2,7]
  * Output: [3,3]
  * Explanation: There are two critical points:

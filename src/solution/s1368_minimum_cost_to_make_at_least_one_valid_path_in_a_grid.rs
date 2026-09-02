@@ -14,7 +14,7 @@
  * Return the minimum cost to make the grid have at least one valid path.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[1,1,1,1],[2,2,2,2],[1,1,1,1],[2,2,2,2]]
  * Output: 3
  * Explanation: You will start at point (0, 0).
@@ -22,13 +22,13 @@
  * The total cost = 3.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[1,1,3],[3,2,2],[1,1,4]]
  * Output: 0
  * Explanation: You can follow the path from (0, 0) to (2, 2).
  *
  * Example 3:
- * 
+ *
  * Input: grid = [[1,2],[4,3]]
  * Output: 1
  *

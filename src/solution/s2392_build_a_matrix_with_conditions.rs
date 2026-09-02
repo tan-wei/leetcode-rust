@@ -16,7 +16,7 @@
  * Return any matrix that satisfies the conditions. If no answer exists, return an empty matrix.
  *  
  * Example 1:
- * 
+ *
  * Input: k = 3, rowConditions = [[1,2],[3,2]], colConditions = [[2,1],[3,2]]
  * Output: [[3,0,0],[0,0,1],[0,2,0]]
  * Explanation: The diagram above shows a valid example of a matrix that satisfies all the conditions.

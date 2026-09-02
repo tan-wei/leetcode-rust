@@ -8,7 +8,7 @@
  *  
  * Example 1:
  *
- * 
+ *
  *
  *
  * Input: root = [3,1,4,3,null,1,5]
@@ -21,7 +21,7 @@
  *
  * Example 2:
  *
- * 
+ *
  *
  *
  * Input: root = [3,3,null,4,2]

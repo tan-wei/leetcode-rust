@@ -11,7 +11,7 @@
  * Return the maximum number of connecting lines we can draw in this way.
  *  
  * Example 1:
- * 
+ *
  * Input: nums1 = [1,4,2], nums2 = [1,2,4]
  * Output: 2
  * Explanation: We can draw 2 uncrossed lines as in the diagram.

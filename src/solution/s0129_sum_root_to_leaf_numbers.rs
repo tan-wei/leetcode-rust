@@ -10,7 +10,7 @@
  * A leaf node is a node with no children.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,2,3]
  * Output: 25
  * Explanation:
@@ -19,7 +19,7 @@
  * Therefore, sum = 12 + 13 = 25.
  *
  * Example 2:
- * 
+ *
  * Input: root = [4,9,0,5,1]
  * Output: 1026
  * Explanation:

@@ -7,7 +7,7 @@
  * Note that two nodes are on the same level if they have the same distance from the root.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [5,8,9,2,1,3,7,4,6], k = 2
  * Output: 13
  * Explanation: The level sums are the following:
@@ -18,7 +18,7 @@
  * The 2^nd largest level sum is 13.
  *
  * Example 2:
- * 
+ *
  * Input: root = [1,2,null,3], k = 1
  * Output: 3
  * Explanation: The largest level sum is 3.

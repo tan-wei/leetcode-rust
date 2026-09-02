@@ -6,17 +6,17 @@
  * Return true if your path crosses itself, and false if it does not.
  *  
  * Example 1:
- * 
+ *
  * Input: distance = [2,1,1,2]
  * Output: true
  *
  * Example 2:
- * 
+ *
  * Input: distance = [1,2,3,4]
  * Output: false
  *
  * Example 3:
- * 
+ *
  * Input: distance = [1,1,1,1]
  * Output: true
  *

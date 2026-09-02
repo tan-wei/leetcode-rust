@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: root = [4,8,5,0,1,null,6]
  * Output: 5
  * Explanation:
@@ -20,7 +20,7 @@
  * For the node with value 6: The average of its subtree is 6 / 1 = 6.
  *
  * Example 2:
- * 
+ *
  * Input: root = [1]
  * Output: 1
  * Explanation: For the node with value 1: The average of its subtree is 1 / 1 = 1.

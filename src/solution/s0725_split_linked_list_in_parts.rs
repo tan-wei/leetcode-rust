@@ -7,7 +7,7 @@
  * Return an array of the k parts.
  *  
  * Example 1:
- * 
+ *
  * Input: head = [1,2,3], k = 5
  * Output: [[1],[2],[3],[],[]]
  * Explanation:
@@ -15,7 +15,7 @@
  * The last element output[4] is null, but its string representation as a ListNode is [].
  *
  * Example 2:
- * 
+ *
  * Input: head = [1,2,3,4,5,6,7,8,9,10], k = 3
  * Output: [[1,2,3,4],[5,6,7],[8,9,10]]
  * Explanation:

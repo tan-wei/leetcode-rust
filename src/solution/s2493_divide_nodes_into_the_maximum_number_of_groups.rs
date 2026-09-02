@@ -11,7 +11,7 @@
  * Return the maximum number of groups (i.e., maximum m) into which you can divide the nodes. Return -1 if it is impossible to group the nodes with the given conditions.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 6, edges = [[1,2],[1,4],[1,5],[2,6],[2,3],[4,6]]
  * Output: 4
  * Explanation: As shown in the image we:

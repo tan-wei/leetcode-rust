@@ -2,10 +2,10 @@
  * [307] Range Sum Query - Mutable
  *
  * Given an integer array nums, handle multiple queries of the following types:
- * 
+ *
  * 	Update the value of an element in nums.
  * 	Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
- * 
+ *
  * Implement the NumArray class:
  *
  * 	NumArray(int[] nums) Initializes the object with the integer array nums.

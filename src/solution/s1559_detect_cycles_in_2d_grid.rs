@@ -7,23 +7,23 @@
  * Return true if any cycle of the same value exists in grid, otherwise, return false.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: grid = [["a","a","a","a"],["a","b","b","a"],["a","b","b","a"],["a","a","a","a"]]
  * Output: true
  * Explanation: There are two valid cycles shown in different colors in the image below:
- * 
+ *
  *
  * Example 2:
- * 
+ *
  *
  * Input: grid = [["c","c","c","a"],["c","d","c","c"],["c","c","e","c"],["f","c","c","c"]]
  * Output: true
  * Explanation: There is only one valid cycle highlighted in the image below:
- * 
+ *
  *
  * Example 3:
- * 
+ *
  *
  * Input: grid = [["a","b","b"],["b","z","b"],["b","b","a"]]
  * Output: false

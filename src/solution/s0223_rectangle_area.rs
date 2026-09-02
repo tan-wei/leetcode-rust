@@ -6,7 +6,7 @@
  * The second rectangle is defined by its bottom-left corner (bx1, by1) and its top-right corner (bx2, by2).
  *  
  * Example 1:
- * 
+ *
  * Input: ax1 = -3, ay1 = 0, ax2 = 3, ay2 = 4, bx1 = 0, by1 = -1, bx2 = 9, by2 = 2
  * Output: 45
  *

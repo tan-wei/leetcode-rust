@@ -7,7 +7,7 @@
  * Return the number of ways to divide the corridor. Since the answer may be very large, return it modulo 10^9 + 7. If there is no way, return 0.
  *  
  * Example 1:
- * 
+ *
  * Input: corridor = "SSPPSPS"
  * Output: 3
  * Explanation: There are 3 different ways to divide the corridor.
@@ -15,14 +15,14 @@
  * Note that in each of the ways, each section has exactly two seats.
  *
  * Example 2:
- * 
+ *
  * Input: corridor = "PPSPSP"
  * Output: 1
  * Explanation: There is only 1 way to divide the corridor, by not installing any additional dividers.
  * Installing any would create some section that does not have exactly two seats.
  *
  * Example 3:
- * 
+ *
  * Input: corridor = "S"
  * Output: 0
  * Explanation: There is no way to divide the corridor because there will always be a section that does not have exactly two seats.

@@ -13,14 +13,14 @@
  * Return the constructed matrix res.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,2]
  * Output:
  * [["","1",""],
  *  ["2","",""]]
  *
  * Example 2:
- * 
+ *
  * Input: root = [1,2,3,null,4]
  * Output:
  * [["","","","1","","",""],

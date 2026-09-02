@@ -8,14 +8,14 @@
  * Return an array of integers ans, where ans[j] should be 1 if the cell in the j^th query was illuminated, or 0 if the lamp was not.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 5, lamps = [[0,0],[4,4]], queries = [[1,1],[1,0]]
  * Output: [1,0]
  * Explanation: We have the initial grid with all lamps turned off. In the above picture we see the grid after turning on the lamp at grid[0][0] then turning on the lamp at grid[4][4].
  * The 0^th query asks if the lamp at grid[1][1] is illuminated or not (the blue square). It is illuminated, so set ans[0] = 1. Then, we turn off all lamps in the red square.
- * 
+ *
  * The 1^st query asks if the lamp at grid[1][0] is illuminated or not (the blue square). It is not illuminated, so set ans[1] = 0. Then, we turn off all lamps in the red rectangle.
- * 
+ *
  *
  * Example 2:
  *

@@ -7,17 +7,17 @@
  * Note: The bottom face of each shape counts toward its surface area.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[1,2],[3,4]]
  * Output: 34
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[1,1,1],[1,0,1],[1,1,1]]
  * Output: 32
  *
  * Example 3:
- * 
+ *
  * Input: grid = [[2,2,2],[2,1,2],[2,2,2]]
  * Output: 46
  *

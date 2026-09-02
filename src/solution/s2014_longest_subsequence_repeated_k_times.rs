@@ -10,7 +10,7 @@
  * Return the longest subsequence repeated k times in string s. If multiple such subsequences are found, return the lexicographically largest one. If there is no such subsequence, return an empty string.
  *  
  * Example 1:
- * 
+ *
  * Input: s = "letsleetcode", k = 2
  * Output: "let"
  * Explanation: There are two longest subsequences repeated 2 times: "let" and "ete".

@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: neededApples = 1
  * Output: 8
  * Explanation: A square plot of side length 1 does not contain any apples.

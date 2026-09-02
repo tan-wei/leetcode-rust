@@ -6,7 +6,7 @@
  * Return the total area. Since the answer may be too large, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * 
+ *
  * Input: rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]
  * Output: 6
  * Explanation: A total area of 6 is covered by all three rectangles, as illustrated in the picture.

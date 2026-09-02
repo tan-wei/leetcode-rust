@@ -12,8 +12,8 @@
  * Return the maximum number of rows that can be covered by a set of numSelect columns.
  *  
  * Example 1:
- * 
- * 
+ *
+ *
  * Input: matrix = [[0,0,0],[1,0,1],[0,1,1],[0,0,1]], numSelect = 2
  * Output: 3
  * Explanation:
@@ -25,15 +25,15 @@
  * - Row 3 is covered because matrix[2][2] == 1 and 2 is present in s.
  * Thus, we can cover three rows.
  * Note that s = {1, 2} will also cover 3 rows, but it can be shown that no more than three rows can be covered.
- * 
+ *
  * Example 2:
- * 
- * 
+ *
+ *
  * Input: matrix = [[1],[0]], numSelect = 1
  * Output: 2
  * Explanation:
  * Selecting the only column will result in both rows being covered since the entire matrix is selected.
- * 
+ *
  *  
  * Constraints:
  *

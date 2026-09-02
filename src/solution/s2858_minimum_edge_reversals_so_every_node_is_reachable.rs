@@ -8,7 +8,7 @@
  * Return an integer array answer, where answer[i] is the  minimum number of edge reversals required so it is possible to reach any other node starting from node i through a sequence of directed edges.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: n = 4, edges = [[2,0],[2,1],[1,3]]
  * Output: [1,1,0,2]
@@ -23,7 +23,7 @@
  * So, answer[3] = 2.
  *
  * Example 2:
- * 
+ *
  *
  * Input: n = 3, edges = [[1,2],[2,0]]
  * Output: [2,0,1]

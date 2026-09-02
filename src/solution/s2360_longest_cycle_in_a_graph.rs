@@ -7,14 +7,14 @@
  * A cycle is a path that starts and ends at the same node.
  *  
  * Example 1:
- * 
+ *
  * Input: edges = [3,3,4,2,3]
  * Output: 3
  * Explanation: The longest cycle in the graph is the cycle: 2 -> 4 -> 3 -> 2.
  * The length of this cycle is 3, so 3 is returned.
  *
  * Example 2:
- * 
+ *
  * Input: edges = [2,-1,3,1]
  * Output: -1
  * Explanation: There are no cycles in this graph.

@@ -7,17 +7,17 @@
  * Return the number of walls used to quarantine all the infected regions. If the world will become fully infected, return the number of walls used.
  *  
  * Example 1:
- * 
+ *
  * Input: isInfected = [[0,1,0,0,0,0,0,1],[0,1,0,0,0,0,0,1],[0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0]]
  * Output: 10
  * Explanation: There are 2 contaminated regions.
  * On the first day, add 5 walls to quarantine the viral region on the left. The board after the virus spreads is:
- * 
+ *
  * On the second day, add 5 walls to quarantine the viral region on the right. The virus is fully contained.
- * 
+ *
  *
  * Example 2:
- * 
+ *
  * Input: isInfected = [[1,1,1],[1,0,1],[1,1,1]]
  * Output: 4
  * Explanation: Even though there is only one cell saved, there are 4 walls built.

@@ -6,7 +6,7 @@
  * Notice that you circulate the track in ascending order of sector numbers in the counter-clockwise direction (See the first example).
  *  
  * Example 1:
- * 
+ *
  * Input: n = 4, rounds = [1,3,1,2]
  * Output: [1,2]
  * Explanation: The marathon starts at sector 1. The order of the visited sectors is as follows:

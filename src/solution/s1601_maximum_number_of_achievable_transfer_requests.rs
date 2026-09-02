@@ -7,7 +7,7 @@
  * Return the maximum number of achievable requests.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
  * Output: 5
  * Explantion: Let's see the requests:
@@ -20,7 +20,7 @@
  * We can achieve the requests of users y, a and z by swapping the places in the 3 buildings.
  *
  * Example 2:
- * 
+ *
  * Input: n = 3, requests = [[0,0],[1,2],[2,1]]
  * Output: 3
  * Explantion: Let's see the requests:

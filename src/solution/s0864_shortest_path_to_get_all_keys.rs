@@ -15,18 +15,18 @@
  * Return the lowest number of moves to acquire all keys. If it is impossible, return -1.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = ["@.a..","###.#","b.A.B"]
  * Output: 8
  * Explanation: Note that the goal is to obtain all the keys not to open all the locks.
  *
  * Example 2:
- * 
+ *
  * Input: grid = ["@..aA","..B#.","....b"]
  * Output: 6
  *
  * Example 3:
- * 
+ *
  * Input: grid = ["@Aa"]
  * Output: -1
  *

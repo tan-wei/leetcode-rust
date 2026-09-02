@@ -5,7 +5,7 @@
  *
  * Here, board = ["abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"], as shown in the diagram below.
  *
- * 
+ *
  *
  * We may make the following moves:
  *

@@ -16,7 +16,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: n = 2, artifacts = [[0,0,0,0],[0,1,1,1]], dig = [[0,0],[0,1]]
  * Output: 1
  * Explanation:
@@ -26,7 +26,7 @@
  * Thus, we return 1.
  *
  * Example 2:
- * 
+ *
  * Input: n = 2, artifacts = [[0,0,0,0],[0,1,1,1]], dig = [[0,0],[0,1],[1,1]]
  * Output: 2
  * Explanation: Both the red and blue artifacts have all parts uncovered (labeled with a 'D') and can be extracted, so we return 2.

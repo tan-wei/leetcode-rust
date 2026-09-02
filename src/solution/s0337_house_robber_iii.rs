@@ -6,13 +6,13 @@
  * Given the root of the binary tree, return the maximum amount of money the thief can rob without alerting the police.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [3,2,3,null,3,null,1]
  * Output: 7
  * Explanation: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
  *
  * Example 2:
- * 
+ *
  * Input: root = [3,4,5,1,3,null,1]
  * Output: 9
  * Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.

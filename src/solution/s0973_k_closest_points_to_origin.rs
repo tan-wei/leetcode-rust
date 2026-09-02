@@ -6,7 +6,7 @@
  * You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in).
  *  
  * Example 1:
- * 
+ *
  * Input: points = [[1,3],[-2,2]], k = 1
  * Output: [[-2,2]]
  * Explanation:

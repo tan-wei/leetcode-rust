@@ -3,7 +3,7 @@
  *
  * You are given two positive integers left and right with left <= right. Calculate the product of all integers in the inclusive range [left, right].
  * Since the product may be very large, you will abbreviate it following these steps:
- * 
+ *
  * 	Count all trailing zeros in the product and remove them. Let us denote this count as C.
  *
  * 		For example, there are 3 trailing zeros in 1000, and there are 0 trailing zeros in 546.
@@ -19,7 +19,7 @@
  * 		For example, 12345678987600000 will be represented as "12345...89876e5".
  *
  *
- * 
+ *
  * Return a string denoting the abbreviated product of all integers in the inclusive range [left, right].
  *  
  * Example 1:

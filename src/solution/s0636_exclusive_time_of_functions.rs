@@ -8,7 +8,7 @@
  * Return the exclusive time of each function in an array, where the value at the i^th index represents the exclusive time for the function with ID i.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]
  * Output: [3,4]
  * Explanation:

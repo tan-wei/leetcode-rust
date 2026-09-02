@@ -6,7 +6,7 @@
  * Given a list piles, where piles[i] is a list of integers denoting the composition of the i^th pile from top to bottom, and a positive integer k, return the maximum total value of coins you can have in your wallet if you choose exactly k coins optimally.
  *  
  * Example 1:
- * 
+ *
  * Input: piles = [[1,100,3],[7,8,9]], k = 2
  * Output: 101
  * Explanation:

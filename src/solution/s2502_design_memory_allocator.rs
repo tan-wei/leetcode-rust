@@ -3,10 +3,10 @@
  *
  * You are given an integer n representing the size of a 0-indexed memory array. All memory units are initially free.
  * You have a memory allocator with the following functionalities:
- * 
+ *
  * 	Allocate a block of size consecutive free memory units and assign it the id mID.
  * 	Free all memory units with the given id mID.
- * 
+ *
  * Note that:
  *
  * 	Multiple blocks can be allocated to the same mID.

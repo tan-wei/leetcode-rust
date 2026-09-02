@@ -7,7 +7,7 @@
  * Return a 2D list of grid coordinates result where result[i] = [ri, ci] denotes that rain water can flow from cell (ri, ci) to both the Pacific and Atlantic oceans.
  *  
  * Example 1:
- * 
+ *
  * Input: heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]
  * Output: [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]
  *

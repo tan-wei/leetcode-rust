@@ -7,7 +7,7 @@
  * The level of a node is the number of edges along the path between it and the root node.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,4,3,7,6,8,5,null,null,null,null,9,null,10]
  * Output: 3
  * Explanation:
@@ -18,7 +18,7 @@
  * It can be proven that 3 is the minimum number of operations needed.
  *
  * Example 2:
- * 
+ *
  * Input: root = [1,3,2,7,6,5,4]
  * Output: 3
  * Explanation:
@@ -29,7 +29,7 @@
  * It can be proven that 3 is the minimum number of operations needed.
  *
  * Example 3:
- * 
+ *
  * Input: root = [1,2,3,4,5,6]
  * Output: 0
  * Explanation: Each level is already sorted in increasing order so return 0.

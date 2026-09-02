@@ -2,11 +2,11 @@
  * [2280] Minimum Lines to Represent a Line Chart
  *
  * You are given a 2D integer array stockPrices where stockPrices[i] = [dayi, pricei] indicates the price of the stock on day dayi is pricei. A line chart is created from the array by plotting the points on an XY plane with the X-axis representing the day and the Y-axis representing the price and connecting adjacent points. One such example is shown below:
- * 
+ *
  * Return the minimum number of lines needed to represent the line chart.
  *  
  * Example 1:
- * 
+ *
  * Input: stockPrices = [[1,7],[2,6],[3,5],[4,4],[5,4],[6,3],[7,2],[8,1]]
  * Output: 3
  * Explanation:
@@ -18,7 +18,7 @@
  * It can be shown that it is not possible to represent the line chart using less than 3 lines.
  *
  * Example 2:
- * 
+ *
  * Input: stockPrices = [[3,4],[1,2],[7,8],[2,3]]
  * Output: 1
  * Explanation:

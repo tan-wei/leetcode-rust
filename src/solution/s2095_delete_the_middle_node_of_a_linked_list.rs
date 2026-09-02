@@ -8,7 +8,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: head = [1,3,4,7,1,2,6]
  * Output: [1,3,4,1,2,6]
  * Explanation:
@@ -17,7 +17,7 @@
  * We return the new list after removing this node.
  *
  * Example 2:
- * 
+ *
  * Input: head = [1,2,3,4]
  * Output: [1,2,4]
  * Explanation:
@@ -25,7 +25,7 @@
  * For n = 4, node 2 with value 3 is the middle node, which is marked in red.
  *
  * Example 3:
- * 
+ *
  * Input: head = [2,1]
  * Output: [2]
  * Explanation:

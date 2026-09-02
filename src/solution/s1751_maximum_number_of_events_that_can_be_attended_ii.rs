@@ -6,20 +6,20 @@
  * Return the maximum sum of values that you can receive by attending events.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: events = [[1,2,4],[3,4,3],[2,3,1]], k = 2
  * Output: 7
  * Explanation: Choose the green events, 0 and 1 (0-indexed) for a total value of 4 + 3 = 7.
  * Example 2:
- * 
+ *
  *
  * Input: events = [[1,2,4],[3,4,3],[2,3,10]], k = 2
  * Output: 10
  * Explanation: Choose event 2 for a total value of 10.
  * Notice that you cannot attend any other event as they overlap, and that you do not have to attend k events.
  * Example 3:
- * 
+ *
  *
  * Input: events = [[1,1,1],[2,2,2],[3,3,3],[4,4,4]], k = 3
  * Output: 9

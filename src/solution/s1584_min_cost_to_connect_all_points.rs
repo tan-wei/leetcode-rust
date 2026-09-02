@@ -6,11 +6,11 @@
  * Return the minimum cost to make all points connected. All points are connected if there is exactly one simple path between any two points.
  *  
  * Example 1:
- * 
+ *
  * Input: points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
  * Output: 20
  * Explanation:
- * 
+ *
  * We can connect the points as shown above to get the minimum cost of 20.
  * Notice that there is a unique path between every pair of points.
  *

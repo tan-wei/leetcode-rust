@@ -5,7 +5,7 @@
  * Given an m x n integer grid, return the size (i.e., the side length k) of the largest magic square that can be found within this grid.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[7,1,4,5,6],[2,5,1,6,4],[1,5,4,3,2],[1,2,7,3,4]]
  * Output: 3
  * Explanation: The largest magic square has a size of 3.
@@ -15,7 +15,7 @@
  * - Diagonal sums: 5+4+3 = 6+4+2 = 12
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[5,1,3,1],[9,3,3,1],[1,3,3,8]]
  * Output: 2
  *

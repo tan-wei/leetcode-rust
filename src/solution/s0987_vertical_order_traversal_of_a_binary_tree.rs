@@ -7,7 +7,7 @@
  * Return the vertical order traversal of the binary tree.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [3,9,20,null,null,15,7]
  * Output: [[9],[3,15],[20],[7]]
  * Explanation:
@@ -16,7 +16,7 @@
  * Column 1: Only node 20 is in this column.
  * Column 2: Only node 7 is in this column.
  * Example 2:
- * 
+ *
  * Input: root = [1,2,3,4,5,6,7]
  * Output: [[4],[2],[1,5,6],[3],[7]]
  * Explanation:
@@ -29,7 +29,7 @@
  * Column 2: Only node 7 is in this column.
  *
  * Example 3:
- * 
+ *
  * Input: root = [1,2,3,4,6,5,7]
  * Output: [[4],[2],[1,5,6],[3],[7]]
  * Explanation:

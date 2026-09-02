@@ -5,11 +5,11 @@
  * Notice that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [4,2,7,1,3], val = 5
  * Output: [4,2,7,1,3,5]
  * Explanation: Another accepted tree is:
- * 
+ *
  *
  * Example 2:
  *

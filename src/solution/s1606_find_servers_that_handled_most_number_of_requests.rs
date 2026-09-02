@@ -12,7 +12,7 @@
  * Return a list containing the IDs (0-indexed) of the busiest server(s). You may return the IDs in any order.
  *  
  * Example 1:
- * 
+ *
  * Input: k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3]
  * Output: [1]
  * Explanation:

@@ -7,12 +7,12 @@
  * If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
  *  
  * Example 1:
- * 
+ *
  * Input: mat = [[1,2],[3,4]], r = 1, c = 4
  * Output: [[1,2,3,4]]
  *
  * Example 2:
- * 
+ *
  * Input: mat = [[1,2],[3,4]], r = 2, c = 4
  * Output: [[1,2],[3,4]]
  *

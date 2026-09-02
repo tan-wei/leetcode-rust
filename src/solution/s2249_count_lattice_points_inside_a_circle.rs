@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: circles = [[2,2,1]]
  * Output: 5
  * Explanation:
@@ -18,7 +18,7 @@
  * Other points such as (1, 1) and (1, 3), which are shown in red, are not considered inside the circle.
  * Hence, the number of lattice points present inside at least one circle is 5.
  * Example 2:
- * 
+ *
  * Input: circles = [[2,2,2],[3,4,1]]
  * Output: 16
  * Explanation:

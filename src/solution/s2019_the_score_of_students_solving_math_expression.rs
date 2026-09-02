@@ -2,10 +2,10 @@
  * [2019] The Score of Students Solving Math Expression
  *
  * You are given a string s that contains digits 0-9, addition symbols '+', and multiplication symbols '*' only, representing a valid math expression of single digit numbers (e.g., 3+5*2). This expression was given to n elementary school students. The students were instructed to get the answer of the expression by following this order of operations:
- * 
+ *
  * 	Compute multiplication, reading from left to right; Then,
  * 	Compute addition, reading from left to right.
- * 
+ *
  * You are given an integer array answers of length n, which are the submitted answers of the students in no particular order. You are asked to grade the answers, by following these rules:
  *
  * 	If an answer equals the correct answer of the expression, this student will be rewarded 5 points;
@@ -15,7 +15,7 @@
  * Return the sum of the points of the students.
  *  
  * Example 1:
- * 
+ *
  * Input: s = "7+3*1*2", answers = [20,13,42]
  * Output: 7
  * Explanation: As illustrated above, the correct answer of the expression is 13, therefore one student is rewarded 5 points: [20,13,42]

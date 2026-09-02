@@ -10,7 +10,7 @@
  * Return the number of minutes needed for the entire tree to be infected.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,5,3,null,4,10,6,9,2], start = 3
  * Output: 4
  * Explanation: The following nodes are infected during:
@@ -22,7 +22,7 @@
  * It takes 4 minutes for the whole tree to be infected so we return 4.
  *
  * Example 2:
- * 
+ *
  * Input: root = [1], start = 1
  * Output: 0
  * Explanation: At minute 0, the only node in the tree is infected so we return 0.

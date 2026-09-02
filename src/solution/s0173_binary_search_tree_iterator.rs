@@ -11,7 +11,7 @@
  * You may assume that next() calls will always be valid. That is, there will be at least a next number in the in-order traversal when next() is called.
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["BSTIterator", "next", "next", "hasNext", "next", "hasNext", "next", "hasNext", "next", "hasNext"]
  * [[[7, 3, 15, null, null, 9, 20]], [], [], [], [], [], [], [], [], []]

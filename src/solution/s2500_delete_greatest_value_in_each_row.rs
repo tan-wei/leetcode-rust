@@ -11,7 +11,7 @@
  * Return the answer after performing the operations described above.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[1,2,4],[3,3,1]]
  * Output: 8
  * Explanation: The diagram above shows the removed values in each step.
@@ -21,7 +21,7 @@
  * The final answer = 4 + 3 + 1 = 8.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[10]]
  * Output: 10
  * Explanation: The diagram above shows the removed values in each step.

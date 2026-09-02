@@ -11,7 +11,7 @@
  * Return an array answer of size n where answer[i] is the column that the ball falls out of at the bottom after dropping the ball from the i^th column at the top, or -1 if the ball gets stuck in the box.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: grid = [[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]
  * Output: [1,-1,-1,-1,-1]

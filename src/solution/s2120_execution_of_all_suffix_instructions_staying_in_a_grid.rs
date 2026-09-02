@@ -11,7 +11,7 @@
  * Return an array answer of length m where answer[i] is the number of instructions the robot can execute if the robot begins executing from the i^th instruction in s.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 3, startPos = [0,1], s = "RRDDLU"
  * Output: [1,5,4,3,1,0]
  * Explanation: Starting from startPos and beginning execution from the i^th instruction:
@@ -23,7 +23,7 @@
  * - 5^th:      "U". If moving up, it would move off the grid.
  *
  * Example 2:
- * 
+ *
  * Input: n = 2, startPos = [1,1], s = "LURD"
  * Output: [4,1,0,0]
  * Explanation:
@@ -33,7 +33,7 @@
  * - 3^rd:    "D".
  *
  * Example 3:
- * 
+ *
  * Input: n = 1, startPos = [0,0], s = "LRUD"
  * Output: [0,0,0,0]
  * Explanation: No matter which instruction the robot begins execution from, it would move off the grid.

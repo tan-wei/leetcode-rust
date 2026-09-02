@@ -6,7 +6,7 @@
  * Return the least time until you can reach the bottom right square (n - 1, n - 1) if you start at the top left square (0, 0).
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[0,2],[1,3]]
  * Output: 3
  * Explanation:
@@ -16,7 +16,7 @@
  * When the depth of water is 3, we can swim anywhere inside the grid.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]
  * Output: 16
  * Explanation: The final route is shown.

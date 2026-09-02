@@ -10,7 +10,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: root = [3,5,1,6,2,0,8,null,null,7,4]
  * Output: [2,7,4]
  * Explanation: We return the node with value 2, colored in yellow in the diagram.

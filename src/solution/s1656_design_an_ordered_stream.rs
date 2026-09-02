@@ -10,7 +10,7 @@
  *
  *  
  * Example:
- * 
+ *
  *
  * Input
  * ["OrderedStream", "insert", "insert", "insert", "insert", "insert"]

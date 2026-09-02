@@ -5,13 +5,13 @@
  * Return true if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return false otherwise.
  *  
  * Example 1:
- * 
+ *
  * Input: path = "NES"
  * Output: false
  * Explanation: Notice that the path doesn't cross any point more than once.
  *
  * Example 2:
- * 
+ *
  * Input: path = "NESWW"
  * Output: true
  * Explanation: Notice that the path visits the origin twice.

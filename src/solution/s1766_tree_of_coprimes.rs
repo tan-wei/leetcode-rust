@@ -8,7 +8,7 @@
  * Return an array ans of size n, where ans[i] is the closest ancestor to node i such that nums[i] and nums[ans[i]] are coprime, or -1 if there is no such ancestor.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: nums = [2,3,3,2], edges = [[0,1],[1,2],[1,3]]
  * Output: [-1,0,0,1]
@@ -21,7 +21,7 @@
  *   closest valid ancestor.
  *
  * Example 2:
- * 
+ *
  *
  * Input: nums = [5,6,10,2,3,6,15], edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]]
  * Output: [-1,0,-1,0,0,0,-1]

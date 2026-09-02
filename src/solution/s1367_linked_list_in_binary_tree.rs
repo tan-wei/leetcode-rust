@@ -6,14 +6,14 @@
  * In this context downward path means a path that starts at some node and goes downwards.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: head = [4,2,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
  * Output: true
  * Explanation: Nodes in blue form a subpath in the binary Tree.  
  *
  * Example 2:
- * 
+ *
  *
  * Input: head = [1,4,2,6], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
  * Output: true

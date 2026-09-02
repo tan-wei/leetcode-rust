@@ -7,14 +7,14 @@
  * Return the minimum number of days to disconnect the grid.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[0,1,1,0],[0,1,1,0],[0,0,0,0]]
  * Output: 2
  * Explanation: We need at least 2 days to get a disconnected grid.
  * Change land grid[1][1] and grid[0][2] to water and get 2 disconnected island.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[1,1]]
  * Output: 2
  * Explanation: Grid of full water is also disconnected ([[1,1]] -> [[0,0]]), 0 islands.

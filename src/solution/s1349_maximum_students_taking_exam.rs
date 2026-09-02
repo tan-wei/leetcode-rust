@@ -6,7 +6,7 @@
  * Students must be placed in seats in good condition.
  *  
  * Example 1:
- * 
+ *
  * Input: seats = [["#",".","#","#",".","#"],
  *                 [".","#","#","#","#","."],
  *                 ["#",".","#","#",".","#"]]

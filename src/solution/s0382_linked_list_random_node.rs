@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input
  * ["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
  * [[[1, 2, 3]], [], [], [], [], []]

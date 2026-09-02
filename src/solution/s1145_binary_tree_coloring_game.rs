@@ -8,7 +8,7 @@
  * You are the second player. If it is possible to choose such a y to ensure you win the game, return true. If it is not possible, return false.
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,2,3,4,5,6,7,8,9,10,11], n = 11, x = 3
  * Output: true
  * Explanation: The second player can choose the node with value 2.

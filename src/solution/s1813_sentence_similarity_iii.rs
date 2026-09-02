@@ -11,26 +11,26 @@
  * Given two sentences sentence1 and sentence2, return true if sentence1 and sentence2 are similar. Otherwise, return false.
  *  
  * Example 1:
- * 
+ *
  * Input: sentence1 = "My name is Haley", sentence2 = "My Haley"
  * Output: true
  * Explanation:
  * sentence2 can be turned to sentence1 by inserting "name is" between "My" and "Haley".
- * 
+ *
  * Example 2:
- * 
+ *
  * Input: sentence1 = "of", sentence2 = "A lot of words"
  * Output: false
  * Explanation:
  * No single sentence can be inserted inside one of the sentences to make it equal to the other.
- * 
+ *
  * Example 3:
- * 
+ *
  * Input: sentence1 = "Eating right now", sentence2 = "Eating"
  * Output: true
  * Explanation:
  * sentence2 can be turned to sentence1 by inserting "right now" at the end of the sentence.
- * 
+ *
  *  
  * Constraints:
  *

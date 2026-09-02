@@ -6,13 +6,13 @@
  * Given the integer r, return the maximum number of darts that can lie on the dartboard.
  *  
  * Example 1:
- * 
+ *
  * Input: darts = [[-2,0],[2,0],[0,2],[0,-2]], r = 2
  * Output: 4
  * Explanation: Circle dartboard with center in (0,0) and radius = 2 contain all points.
  *
  * Example 2:
- * 
+ *
  * Input: darts = [[-3,0],[3,0],[2,6],[5,4],[0,9],[7,8]], r = 5
  * Output: 5
  * Explanation: Circle dartboard with center in (0,4) and radius = 5 contain all points except the point (7,8).

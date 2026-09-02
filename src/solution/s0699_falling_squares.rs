@@ -8,7 +8,7 @@
  * Return an integer array ans where ans[i] represents the height described above after dropping the i^th square.
  *  
  * Example 1:
- * 
+ *
  * Input: positions = [[1,2],[2,3],[6,1]]
  * Output: [2,5,5]
  * Explanation:

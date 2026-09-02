@@ -7,21 +7,21 @@
  * Return the last day where it is possible to walk from the top to the bottom by only walking on land cells.
  *  
  * Example 1:
- * 
+ *
  * Input: row = 2, col = 2, cells = [[1,1],[2,1],[1,2],[2,2]]
  * Output: 2
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.
  * The last day where it is possible to cross from top to bottom is on day 2.
  *
  * Example 2:
- * 
+ *
  * Input: row = 2, col = 2, cells = [[1,1],[1,2],[2,1],[2,2]]
  * Output: 1
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.
  * The last day where it is possible to cross from top to bottom is on day 1.
  *
  * Example 3:
- * 
+ *
  * Input: row = 3, col = 3, cells = [[1,2],[2,1],[3,3],[2,2],[1,1],[1,3],[2,3],[3,2],[3,1]]
  * Output: 3
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.

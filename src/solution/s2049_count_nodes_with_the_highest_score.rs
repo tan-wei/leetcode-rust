@@ -6,7 +6,7 @@
  * Return the number of nodes that have the highest score.
  *  
  * Example 1:
- * 
+ *
  * Input: parents = [-1,2,0,2,0]
  * Output: 3
  * Explanation:
@@ -18,7 +18,7 @@
  * The highest score is 4, and three nodes (node 1, node 3, and node 4) have the highest score.
  *
  * Example 2:
- * 
+ *
  * Input: parents = [-1,2,0]
  * Output: 2
  * Explanation:

@@ -10,7 +10,7 @@
  * Return the minimum cost needed to move all the chips to the same position.
  *  
  * Example 1:
- * 
+ *
  * Input: position = [1,2,3]
  * Output: 1
  * Explanation: First step: Move the chip at position 3 to position 1 with cost = 0.
@@ -18,7 +18,7 @@
  * Total cost is 1.
  *
  * Example 2:
- * 
+ *
  * Input: position = [2,2,2,3,3]
  * Output: 2
  * Explanation: We can move the two chips at position  3 to position 2. Each move has cost = 1. The total cost = 2.

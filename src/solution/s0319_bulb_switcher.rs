@@ -6,7 +6,7 @@
  * Return the number of bulbs that are on after n rounds.
  *  
  * Example 1:
- * 
+ *
  * Input: n = 3
  * Output: 1
  * Explanation: At first, the three bulbs are [off, off, off].

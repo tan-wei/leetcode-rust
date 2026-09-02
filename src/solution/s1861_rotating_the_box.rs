@@ -12,7 +12,7 @@
  * Return an n x m matrix representing the box after the rotation described above.
  *  
  * Example 1:
- * 
+ *
  *
  * Input: boxGrid = [["#",".","#"]]
  * Output: [["."],
@@ -20,7 +20,7 @@
  *          ["#"]]
  *
  * Example 2:
- * 
+ *
  *
  * Input: boxGrid = [["#",".","*","."],
  *               ["#","#","*","."]]
@@ -30,7 +30,7 @@
  *          [".","."]]
  *
  * Example 3:
- * 
+ *
  *
  * Input: boxGrid = [["#","#","*",".","*","."],
  *               ["#","#","#","*",".","."],

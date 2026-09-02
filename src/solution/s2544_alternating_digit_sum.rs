@@ -38,7 +38,7 @@
  * .spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
  * .spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
  * .spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
- * 
+ *
  *
  */
 pub struct Solution {}

@@ -17,7 +17,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: towers = [[1,2,5],[2,1,7],[3,1,9]], radius = 2
  * Output: [2,1]
  * Explanation: At coordinate (2, 1) the total quality is 13.

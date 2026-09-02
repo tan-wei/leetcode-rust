@@ -23,13 +23,13 @@
  * An ancestor of a node is any node on the path from the root to that node (excluding the node itself). The root has no ancestors.
  *  
  * Example 1:
- * 
+ *
  * Input: pairs = [[1,2],[2,3]]
  * Output: 1
  * Explanation: There is exactly one valid rooted tree, which is shown in the above figure.
  *
  * Example 2:
- * 
+ *
  * Input: pairs = [[1,2],[2,3],[1,3]]
  * Output: 2
  * Explanation: There are multiple valid rooted trees. Three of them are shown in the above figures.

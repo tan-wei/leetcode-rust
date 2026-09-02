@@ -9,7 +9,7 @@
  * Return true if so, or false otherwise.
  *  
  * Example 1:
- * 
+ *
  * Input: s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
  * Output: true
  * Explanation: The numbers in s are: 1, 3, 4, 6, 12.
@@ -22,7 +22,7 @@
  * Explanation: The numbers in s are: 5, 5. They are not strictly increasing.
  *
  * Example 3:
- * 
+ *
  * Input: s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s"
  * Output: false
  * Explanation: The numbers in s are: 7, 51, 50, 60. They are not strictly increasing.

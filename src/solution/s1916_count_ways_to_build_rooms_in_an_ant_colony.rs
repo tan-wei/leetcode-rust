@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  *
  * Input: prevRoom = [-1,0,1]
  * Output: 1
@@ -17,7 +17,7 @@
  *
  *
  * Example 2:
- * 
+ *
  *
  *
  * Input: prevRoom = [-1,0,0,1,2]

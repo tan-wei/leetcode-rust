@@ -17,7 +17,7 @@
  * Return true if there exists a valid parentheses string path in the grid. Otherwise, return false.
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [["(","(","("],[")","(",")"],["(","(",")"],["(","(",")"]]
  * Output: true
  * Explanation: The above diagram shows two possible paths that form valid parentheses strings.
@@ -26,7 +26,7 @@
  * Note that there may be other valid parentheses string paths.
  *
  * Example 2:
- * 
+ *
  * Input: grid = [[")",")"],["(","("]]
  * Output: false
  * Explanation: The two possible paths form the parentheses strings "))(" and ")((". Since neither of them are valid parentheses strings, we return false.

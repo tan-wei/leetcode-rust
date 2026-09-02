@@ -9,7 +9,7 @@
  * Return an integer array answer where answer[i] is the answer to the i^th query.
  *  
  * Example 1:
- * 
+ *
  * Input: s = "**|**|***|", queries = [[2,5],[5,9]]
  * Output: [2,3]
  * Explanation:
@@ -17,7 +17,7 @@
  * - queries[1] has three plates between candles.
  *
  * Example 2:
- * 
+ *
  * Input: s = "***|**|*****|**||**|*", queries = [[1,17],[4,5],[14,17],[5,11],[15,16]]
  * Output: [9,0,0,0,0]
  * Explanation:

@@ -12,7 +12,7 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: points = [[1,2,3],[1,5,1],[3,1,1]]
  * Output: 9
  * Explanation:
@@ -22,7 +22,7 @@
  * Your final score is 11 - 2 = 9.
  *
  * Example 2:
- * 
+ *
  * Input: points = [[1,5],[2,3],[4,2]]
  * Output: 11
  * Explanation:

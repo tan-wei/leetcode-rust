@@ -10,7 +10,7 @@
  * Given bottom and allowed, return true if you can build the pyramid all the way to the top such that every triangular pattern in the pyramid is in allowed, or false otherwise.
  *  
  * Example 1:
- * 
+ *
  * Input: bottom = "BCD", allowed = ["BCC","CDE","CEA","FFF"]
  * Output: true
  * Explanation: The allowed triangular patterns are shown on the right.
@@ -18,7 +18,7 @@
  * There are three triangular patterns in the pyramid, which are "BCC", "CDE", and "CEA". All are allowed.
  *
  * Example 2:
- * 
+ *
  * Input: bottom = "AAAA", allowed = ["AAB","AAC","BCD","BBE","DEF"]
  * Output: false
  * Explanation: The allowed triangular patterns are shown on the right.

@@ -13,7 +13,7 @@
  * Return the earliest second starting from which the network becomes idle.
  *  
  * Example 1:
- * 
+ *
  * Input: edges = [[0,1],[1,2]], patience = [0,2,1]
  * Output: 8
  * Explanation:
@@ -37,7 +37,7 @@
  * This is the time when the network becomes idle.
  *
  * Example 2:
- * 
+ *
  * Input: edges = [[0,1],[0,2],[1,2]], patience = [0,10,10]
  * Output: 3
  * Explanation: Data servers 1 and 2 receive a reply back at the beginning of second 2.

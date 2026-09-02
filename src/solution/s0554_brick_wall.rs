@@ -6,7 +6,7 @@
  * Given the 2D array wall that contains the information about the wall, return the minimum number of crossed bricks after drawing such a vertical line.
  *  
  * Example 1:
- * 
+ *
  * Input: wall = [[1,2,2,1],[3,1,2],[1,3,2],[2,4],[3,1,2],[1,3,1,1]]
  * Output: 2
  *

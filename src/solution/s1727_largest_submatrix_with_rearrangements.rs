@@ -5,14 +5,14 @@
  * Return the area of the largest submatrix within matrix where every element of the submatrix is 1 after reordering the columns optimally.
  *  
  * Example 1:
- * 
+ *
  * Input: matrix = [[0,0,1],[1,1,1],[1,0,1]]
  * Output: 4
  * Explanation: You can rearrange the columns as shown above.
  * The largest submatrix of 1s, in bold, has an area of 4.
  *
  * Example 2:
- * 
+ *
  * Input: matrix = [[1,0,1,0,1]]
  * Output: 3
  * Explanation: You can rearrange the columns as shown above.

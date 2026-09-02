@@ -6,7 +6,7 @@
  * Return the maximum number of white tiles that can be covered by the carpet.
  *  
  * Example 1:
- * 
+ *
  * Input: tiles = [[1,5],[10,11],[12,18],[20,25],[30,32]], carpetLen = 10
  * Output: 9
  * Explanation: Place the carpet starting on tile 10.
@@ -15,7 +15,7 @@
  * It can be shown that the carpet cannot cover more than 9 white tiles.
  *
  * Example 2:
- * 
+ *
  * Input: tiles = [[10,11],[1,1]], carpetLen = 2
  * Output: 2
  * Explanation: Place the carpet starting on tile 10.

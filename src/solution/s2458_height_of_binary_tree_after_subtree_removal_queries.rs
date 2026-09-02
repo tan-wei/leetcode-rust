@@ -14,14 +14,14 @@
  *
  *  
  * Example 1:
- * 
+ *
  * Input: root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]
  * Output: [2]
  * Explanation: The diagram above shows the tree after removing the subtree rooted at node with value 4.
  * The height of the tree is 2 (The path 1 -> 3 -> 2).
  *
  * Example 2:
- * 
+ *
  * Input: root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]
  * Output: [3,2,3,2]
  * Explanation: We have the following queries:

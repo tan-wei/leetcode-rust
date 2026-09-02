@@ -7,7 +7,7 @@
  * Return that maximum distance to the closest person.
  *  
  * Example 1:
- * 
+ *
  * Input: seats = [1,0,0,0,1,0,1]
  * Output: 2
  * Explanation:

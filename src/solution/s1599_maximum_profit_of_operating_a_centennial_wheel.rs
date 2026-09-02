@@ -7,7 +7,7 @@
  * Return the minimum number of rotations you need to perform to maximize your profit. If there is no scenario where the profit is positive, return -1.
  *  
  * Example 1:
- * 
+ *
  * Input: customers = [8,3], boardingCost = 5, runningCost = 6
  * Output: 3
  * Explanation: The numbers written on the gondolas are the number of people currently there.

@@ -5,14 +5,14 @@
  * Given a row x col grid of integers, how many 3 x 3 "magic square" subgrids are there?  (Each subgrid is contiguous).
  *  
  * Example 1:
- * 
+ *
  * Input: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
  * Output: 1
  * Explanation:
  * The following subgrid is a 3 x 3 magic square:
- * 
+ *
  * while this one is not:
- * 
+ *
  * In total, there is only one magic square inside the given grid.
  *
  * Example 2:
