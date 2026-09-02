@@ -6,21 +6,21 @@
  * A node is called the deepest if it has the largest depth possible among any node in the entire tree.
  * The subtree of a node is a tree consisting of that node, plus the set of all descendants of that node.
  *  
- * <strong class="example">Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png" style="width: 600px; height: 510px;" />
+ * Example 1:
+ * 
  * Input: root = [3,5,1,6,2,0,8,null,null,7,4]
  * Output: [2,7,4]
  * Explanation: We return the node with value 2, colored in yellow in the diagram.
  * The nodes coloured in blue are the deepest nodes of the tree.
  * Notice that nodes 5, 3 and 2 contain the deepest nodes in the tree but node 2 is the smallest subtree among them, so we return it.
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: root = [1]
  * Output: [1]
  * Explanation: The root is the deepest node in the tree.
  *
- * <strong class="example">Example 3:
+ * Example 3:
  *
  * Input: root = [0,1,3,null,2]
  * Output: [2]
@@ -34,7 +34,7 @@
  * 	The values of the nodes in the tree are unique.
  *
  *  
- * Note: This question is the same as 1123: <a href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/" target="_blank">https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/</a>
+ * Note: This question is the same as 1123: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
  *
  */
 pub struct Solution {}

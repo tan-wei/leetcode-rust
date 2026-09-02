@@ -5,7 +5,7 @@
  *
  * 	For example, the below binary watch reads "4:51".
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/binarywatch.jpg" style="width: 500px; height: 500px;" />
+ * 
  * Given an integer turnedOn which represents the number of LEDs that are currently on, return all possible times the watch could represent. You may return the answer in any order.
  * The hour must not contain a leading zero.
  *

@@ -7,7 +7,7 @@
  * The subtree rooted at a node x contains node x and all of its descendant nodes.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/23/case-1.png" style="width: 204px; height: 167px;" />
+ * 
  * Input: parents = [-1,0,0,2], nums = [1,2,3,4]
  * Output: [5,1,1,1]
  * Explanation: The answer for each subtree is calculated as follows:
@@ -17,7 +17,7 @@
  * - 3: The subtree contains only node 3 with value 4. 1 is the smallest missing value.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/23/case-2.png" style="width: 247px; height: 168px;" />
+ * 
  * Input: parents = [-1,0,1,0,3,3], nums = [5,4,6,2,1,3]
  * Output: [7,1,1,4,2,1]
  * Explanation: The answer for each subtree is calculated as follows:

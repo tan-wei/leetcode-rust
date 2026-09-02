@@ -6,7 +6,7 @@
  * Return an array answer of length n where answer[i] is the number of people the i^th person can see to their right in the queue.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/29/queue-plane.jpg" style="width: 600px; height: 247px;" />
+ * 
  *
  * Input: heights = [10,6,8,5,11,9]
  * Output: [3,1,2,1,1,0]

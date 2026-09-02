@@ -5,12 +5,12 @@
  * The subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/freq1-tree.jpg" style="width: 207px; height: 183px;" />
+ * 
  * Input: root = [5,2,-3]
  * Output: [2,-3,4]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/freq2-tree.jpg" style="width: 207px; height: 183px;" />
+ * 
  * Input: root = [5,2,-5]
  * Output: [2]
  *

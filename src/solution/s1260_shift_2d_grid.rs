@@ -11,12 +11,12 @@
  * Return the 2D grid after applying shift operation k times.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/11/05/e1.png" style="width: 400px; height: 178px;" />
+ * 
  * Input: grid = [[1,2,3],[4,5,6],[7,8,9]], k = 1
  * Output: [[9,1,2],[3,4,5],[6,7,8]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/11/05/e2.png" style="width: 400px; height: 166px;" />
+ * 
  * Input: grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4
  * Output: [[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]
  *

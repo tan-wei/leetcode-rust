@@ -1,7 +1,7 @@
 /**
  * [0461] Hamming Distance
  *
- * The <a href="https://en.wikipedia.org/wiki/Hamming_distance" target="_blank">Hamming distance</a> between two integers is the number of positions at which the corresponding bits are different.
+ * The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
  * Given two integers x and y, return the Hamming distance between them.
  *  
  * Example 1:
@@ -11,7 +11,7 @@
  * Explanation:
  * 1   (0 0 0 1)
  * 4   (0 1 0 0)
- *        &uarr;   &uarr;
+ *        ↑   ↑
  * The above arrows point to positions where the corresponding bits are different.
  *
  * Example 2:

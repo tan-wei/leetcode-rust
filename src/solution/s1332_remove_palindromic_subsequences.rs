@@ -16,14 +16,14 @@
  *
  * Input: s = "abb"
  * Output: 2
- * Explanation: "<u>a</u>bb" -> "<u>bb</u>" -> "".
+ * Explanation: "abb" -> "bb" -> "".
  * Remove palindromic subsequence "a" then "bb".
  *
  * Example 3:
  *
  * Input: s = "baabb"
  * Output: 2
- * Explanation: "<u>baa</u>b<u>b</u>" -> "<u>b</u>" -> "".
+ * Explanation: "baabb" -> "b" -> "".
  * Remove palindromic subsequence "baab" then "b".
  *
  *  

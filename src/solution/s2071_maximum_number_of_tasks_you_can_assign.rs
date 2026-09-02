@@ -7,7 +7,7 @@
  *  
  * Example 1:
  *
- * Input: tasks = [<u>3</u>,<u>2</u>,<u>1</u>], workers = [<u>0</u>,<u>3</u>,<u>3</u>], pills = 1, strength = 1
+ * Input: tasks = [3,2,1], workers = [0,3,3], pills = 1, strength = 1
  * Output: 3
  * Explanation:
  * We can assign the magical pill and tasks as follows:
@@ -18,7 +18,7 @@
  *
  * Example 2:
  *
- * Input: tasks = [<u>5</u>,4], workers = [<u>0</u>,0,0], pills = 1, strength = 5
+ * Input: tasks = [5,4], workers = [0,0,0], pills = 1, strength = 5
  * Output: 1
  * Explanation:
  * We can assign the magical pill and tasks as follows:
@@ -27,7 +27,7 @@
  *
  * Example 3:
  *
- * Input: tasks = [<u>10</u>,<u>15</u>,30], workers = [<u>0</u>,<u>10</u>,10,10,10], pills = 3, strength = 10
+ * Input: tasks = [10,15,30], workers = [0,10,10,10,10], pills = 3, strength = 10
  * Output: 2
  * Explanation:
  * We can assign the magical pills and tasks as follows:

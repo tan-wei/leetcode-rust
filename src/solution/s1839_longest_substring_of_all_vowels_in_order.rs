@@ -12,12 +12,12 @@
  *  
  * Example 1:
  *
- * Input: word = "aeiaaio<u>aaaaeiiiiouuu</u>ooaauuaeiu"
+ * Input: word = "aeiaaioaaaaeiiiiouuuooaauuaeiu"
  * Output: 13
  * Explanation: The longest beautiful substring in word is "aaaaeiiiiouuu" of length 13.
  * Example 2:
  *
- * Input: word = "aeeeiiiioooauuu<u>aeiou</u>"
+ * Input: word = "aeeeiiiioooauuuaeiou"
  * Output: 5
  * Explanation: The longest beautiful substring in word is "aeiou" of length 5.
  *

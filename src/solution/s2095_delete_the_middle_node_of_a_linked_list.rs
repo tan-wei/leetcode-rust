@@ -2,13 +2,13 @@
  * [2095] Delete the Middle Node of a Linked List
  *
  * You are given the head of a linked list. Delete the middle node, and return the head of the modified linked list.
- * The middle node of a linked list of size n is the &lfloor;n / 2&rfloor;^th node from the start using 0-based indexing, where &lfloor;x&rfloor; denotes the largest integer less than or equal to x.
+ * The middle node of a linked list of size n is the ⌊n / 2⌋^th node from the start using 0-based indexing, where ⌊x⌋ denotes the largest integer less than or equal to x.
  *
  * 	For n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/16/eg1drawio.png" style="width: 500px; height: 77px;" />
+ * 
  * Input: head = [1,3,4,7,1,2,6]
  * Output: [1,3,4,1,2,6]
  * Explanation:
@@ -17,7 +17,7 @@
  * We return the new list after removing this node.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/16/eg2drawio.png" style="width: 250px; height: 43px;" />
+ * 
  * Input: head = [1,2,3,4]
  * Output: [1,2,4]
  * Explanation:
@@ -25,7 +25,7 @@
  * For n = 4, node 2 with value 3 is the middle node, which is marked in red.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/16/eg3drawio.png" style="width: 150px; height: 58px;" />
+ * 
  * Input: head = [2,1]
  * Output: [2]
  * Explanation:

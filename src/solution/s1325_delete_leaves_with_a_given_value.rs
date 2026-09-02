@@ -5,7 +5,7 @@
  * Note that once you delete a leaf node with value target, if its parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you cannot).
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/09/sample_1_1684.png" style="width: 500px; height: 112px;" />
+ * 
  *
  * Input: root = [1,2,3,2,null,2,4], target = 2
  * Output: [1,null,3,null,4]
@@ -13,13 +13,13 @@
  * After removing, new nodes become leaf nodes with value (target = 2) (Picture in center).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/09/sample_2_1684.png" style="width: 400px; height: 154px;" />
+ * 
  *
  * Input: root = [1,3,3,3,2], target = 3
  * Output: [1,3,null,null,2]
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/15/sample_3_1684.png" style="width: 500px; height: 166px;" />
+ * 
  *
  * Input: root = [1,2,null,2,null,2], target = 2
  * Output: [1]

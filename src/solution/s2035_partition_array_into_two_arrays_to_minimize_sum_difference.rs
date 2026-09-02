@@ -5,7 +5,7 @@
  * Return the minimum possible absolute difference.
  *  
  * Example 1:
- * <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/10/02/ex1.png" style="width: 240px; height: 106px;" />
+ * 
  * Input: nums = [3,9,7,3]
  * Output: 2
  * Explanation: One optimal partition is: [3,9] and [7,3].
@@ -19,7 +19,7 @@
  * The absolute difference between the sums of the arrays is abs((-36) - (36)) = 72.
  *
  * Example 3:
- * <img alt="example-3" src="https://assets.leetcode.com/uploads/2021/10/02/ex3.png" style="width: 316px; height: 106px;" />
+ * 
  * Input: nums = [2,-1,0,4,-2,-9]
  * Output: 0
  * Explanation: One optimal partition is: [2,4,-9] and [-1,0,-2].

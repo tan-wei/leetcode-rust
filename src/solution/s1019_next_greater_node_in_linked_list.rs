@@ -6,12 +6,12 @@
  * Return an integer array answer where answer[i] is the value of the next greater node of the i^th node (1-indexed). If the i^th node does not have a next greater node, set answer[i] = 0.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/05/linkedlistnext1.jpg" style="width: 304px; height: 133px;" />
+ * 
  * Input: head = [2,1,5]
  * Output: [5,5,0]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/05/linkedlistnext2.jpg" style="width: 500px; height: 113px;" />
+ * 
  * Input: head = [2,7,4,3,5]
  * Output: [7,0,5,5,0]
  *

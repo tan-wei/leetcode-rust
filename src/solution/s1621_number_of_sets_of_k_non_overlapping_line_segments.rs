@@ -5,7 +5,7 @@
  * Return the number of ways we can draw k non-overlapping line segments. Since this number can be huge, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/07/ex1.png" style="width: 179px; height: 222px;" />
+ * 
  * Input: n = 4, k = 2
  * Output: 5
  * Explanation: The two line segments are shown in red and blue.

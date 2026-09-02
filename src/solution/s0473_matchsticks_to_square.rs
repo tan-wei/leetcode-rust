@@ -5,7 +5,7 @@
  * Return true if you can make this square and false otherwise.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/09/matchsticks1-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: matchsticks = [1,1,2,2,2]
  * Output: true
  * Explanation: You can form a square with length 2, one side of the square came two sticks with length 1.

@@ -16,7 +16,7 @@
  *
  * Input: n = 4, index = 2,  maxSum = 6
  * Output: 2
- * Explanation: nums = [1,2,<u>2</u>,1] is one array that satisfies all the conditions.
+ * Explanation: nums = [1,2,2,1] is one array that satisfies all the conditions.
  * There are no arrays that satisfy all the conditions and have nums[2] == 3, so 2 is the maximum nums[2].
  *
  * Example 2:

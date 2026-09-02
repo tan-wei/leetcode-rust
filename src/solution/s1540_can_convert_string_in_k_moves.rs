@@ -2,7 +2,7 @@
  * [1540] Can Convert String in K Moves
  *
  * Given two strings s and t, your goal is to convert s into t in k moves or less.
- * During the i^th (<font face="monospace">1 <= i <= k) </font>move you can:
+ * During the i^th (1 <= i <= k) move you can:
  *
  * 	Choose any index j (1-indexed) from s, such that 1 <= j <= s.length and j has not been chosen in any previous move, and shift the character at that index i times.
  * 	Do nothing.

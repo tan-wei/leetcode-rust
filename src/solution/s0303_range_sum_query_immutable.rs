@@ -2,9 +2,9 @@
  * [303] Range Sum Query - Immutable
  *
  * Given an integer array nums, handle multiple queries of the following type:
- * <ol>
+ * 
  * 	Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
- * </ol>
+ * 
  * Implement the NumArray class:
  *
  * 	NumArray(int[] nums) Initializes the object with the integer array nums.

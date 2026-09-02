@@ -6,16 +6,16 @@
  *
  * 	Move one cell to the right if there are no blocked cells there. This move keeps the horizontal/vertical position of the snake as it is.
  * 	Move down one cell if there are no blocked cells there. This move keeps the horizontal/vertical position of the snake as it is.
- * 	Rotate clockwise if it's in a horizontal position and the two cells under it are both empty. In that case the snake moves from (r, c) and (r, c+1) to (r, c) and (r+1, c).<br />
- * 	<img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image-2.png" style="width: 300px; height: 134px;" />
- * 	Rotate counterclockwise if it's in a vertical position and the two cells to its right are both empty. In that case the snake moves from (r, c) and (r+1, c) to (r, c) and (r, c+1).<br />
- * 	<img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image-1.png" style="width: 300px; height: 121px;" />
+ * 	Rotate clockwise if it's in a horizontal position and the two cells under it are both empty. In that case the snake moves from (r, c) and (r, c+1) to (r, c) and (r+1, c).
+ * 	
+ * 	Rotate counterclockwise if it's in a vertical position and the two cells to its right are both empty. In that case the snake moves from (r, c) and (r+1, c) to (r, c) and (r, c+1).
+ * 	
  *
  * Return the minimum number of moves to reach the target.
  * If there is no way to reach the target, return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/24/image.png" style="width: 400px; height: 439px;" />
+ * 
  *
  * Input: grid = [[0,0,0,0,0,1],
  *                [1,1,0,0,1,0],

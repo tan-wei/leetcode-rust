@@ -8,7 +8,7 @@
  *  
  * Example 1:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/02/test_sample_1.png" style="width: 263px; height: 156px;" />
+ * 
  *
  *
  * Input: root = [3,1,4,3,null,1,5]
@@ -21,7 +21,7 @@
  *
  * Example 2:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/02/test_sample_2.png" style="width: 157px; height: 161px;" />
+ * 
  *
  *
  * Input: root = [3,3,null,4,2]

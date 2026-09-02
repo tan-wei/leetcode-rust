@@ -5,7 +5,7 @@
  * Given n the number of rows of the grid, return the number of ways you can paint this grid. As the answer may grow large, the answer must be computed modulo 10^9 + 7.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/03/26/e1.png" style="width: 400px; height: 257px;" />
+ * 
  * Input: n = 1
  * Output: 12
  * Explanation: There are 12 possible way to paint the grid as shown.

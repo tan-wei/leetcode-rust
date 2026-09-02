@@ -7,7 +7,7 @@
  * Given an integer n and two integer arrays left and right, the positions of the ants moving to the left and the right, return the moment when the last ant(s) fall out of the plank.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants.jpg" style="width: 450px; height: 610px;" />
+ * 
  * Input: n = 4, left = [4,3], right = [0,1]
  * Output: 4
  * Explanation: In the image above:
@@ -18,13 +18,13 @@
  * The last moment when an ant was on the plank is t = 4 seconds. After that, it falls immediately out of the plank. (i.e., We can say that at t = 4.0000000001, there are no ants on the plank).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants2.jpg" style="width: 639px; height: 101px;" />
+ * 
  * Input: n = 7, left = [], right = [0,1,2,3,4,5,6,7]
  * Output: 7
  * Explanation: All ants are going to the right, the ant at index 0 needs 7 seconds to fall.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/ants3.jpg" style="width: 639px; height: 100px;" />
+ * 
  * Input: n = 7, left = [0,1,2,3,4,5,6,7], right = []
  * Output: 7
  * Explanation: All ants are going to the left, the ant at index 7 needs 7 seconds to fall.

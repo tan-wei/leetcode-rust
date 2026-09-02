@@ -6,7 +6,7 @@
  * Return the minimum number of semesters needed to take all courses. The testcases will be generated such that it is possible to take every course.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/22/leetcode_parallel_courses_1.png" style="width: 269px; height: 147px;" />
+ * 
  * Input: n = 4, relations = [[2,1],[3,1],[1,4]], k = 2
  * Output: 3
  * Explanation: The figure above represents the given graph.
@@ -15,7 +15,7 @@
  * In the third semester, you can take course 4.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/22/leetcode_parallel_courses_2.png" style="width: 271px; height: 211px;" />
+ * 
  * Input: n = 5, relations = [[2,1],[3,1],[4,1],[1,5]], k = 2
  * Output: 4
  * Explanation: The figure above represents the given graph.

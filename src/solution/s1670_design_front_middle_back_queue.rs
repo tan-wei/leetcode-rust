@@ -14,8 +14,8 @@
  *
  * Notice that when there are two middle position choices, the operation is performed on the frontmost middle position choice. For example:
  *
- * 	Pushing 6 into the middle of [1, 2, 3, 4, 5] results in [1, 2, <u>6</u>, 3, 4, 5].
- * 	Popping the middle from [1, 2, <u>3</u>, 4, 5, 6] returns 3 and results in [1, 2, 4, 5, 6].
+ * 	Pushing 6 into the middle of [1, 2, 3, 4, 5] results in [1, 2, 6, 3, 4, 5].
+ * 	Popping the middle from [1, 2, 3, 4, 5, 6] returns 3 and results in [1, 2, 4, 5, 6].
  *
  *  
  * Example 1:
@@ -27,10 +27,10 @@
  * [null, null, null, null, null, 1, 3, 4, 2, -1]
  * Explanation:
  * FrontMiddleBackQueue q = new FrontMiddleBackQueue();
- * q.pushFront(1);   // [<u>1</u>]
- * q.pushBack(2);    // [1, <u>2</u>]
- * q.pushMiddle(3);  // [1, <u>3</u>, 2]
- * q.pushMiddle(4);  // [1, <u>4</u>, 3, 2]
+ * q.pushFront(1);   // [1]
+ * q.pushBack(2);    // [1, 2]
+ * q.pushMiddle(3);  // [1, 3, 2]
+ * q.pushMiddle(4);  // [1, 4, 3, 2]
  * q.popFront();     // return 1 -> [4, 3, 2]
  * q.popMiddle();    // return 3 -> [4, 2]
  * q.popMiddle();    // return 4 -> [2]

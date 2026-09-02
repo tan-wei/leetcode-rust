@@ -5,7 +5,7 @@
  * If there exist multiple answers, you can return any of them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/24/lc-prepost.jpg" style="width: 304px; height: 265px;" />
+ * 
  * Input: preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]
  * Output: [1,2,3,4,5,6,7]
  *

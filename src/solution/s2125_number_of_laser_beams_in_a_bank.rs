@@ -11,7 +11,7 @@
  * Return the total number of laser beams in the bank.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/24/laser1.jpg" style="width: 400px; height: 368px;" />
+ * 
  * Input: bank = ["011001","000000","010100","001000"]
  * Output: 8
  * Explanation: Between each of the following device pairs, there is one beam. In total, there are 8 beams:
@@ -27,7 +27,7 @@
  * This is because the 2^nd row contains security devices, which breaks the second condition.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/24/laser2.jpg" style="width: 244px; height: 325px;" />
+ * 
  * Input: bank = ["000","111","000"]
  * Output: 0
  * Explanation: There does not exist two devices located on two different rows.

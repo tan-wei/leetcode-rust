@@ -11,13 +11,13 @@
  *     else return x's oldest child who's not in curOrder
  *
  * For example, assume we have a kingdom that consists of the king, his children Alice and Bob (Alice is older than Bob), and finally Alice's son Jack.
- * <ol>
+ * 
  * 	In the beginning, curOrder will be ["king"].
  * 	Calling Successor(king, curOrder) will return Alice, so we append to curOrder to get ["king", "Alice"].
  * 	Calling Successor(Alice, curOrder) will return Jack, so we append to curOrder to get ["king", "Alice", "Jack"].
  * 	Calling Successor(Jack, curOrder) will return Bob, so we append to curOrder to get ["king", "Alice", "Jack", "Bob"].
  * 	Calling Successor(Bob, curOrder) will return null. Thus the order of inheritance will be ["king", "Alice", "Jack", "Bob"].
- * </ol>
+ * 
  * Using the above function, we can always obtain a unique order of inheritance.
  * Implement the ThroneInheritance class:
  *
@@ -43,7 +43,7 @@
  * t.birth("bob", "alex"); // order: king > andy > matthew > bob > alex > catherine
  * t.birth("bob", "asha"); // order: king > andy > matthew > bob > alex > asha > catherine
  * t.getInheritanceOrder(); // return ["king", "andy", "matthew", "bob", "alex", "asha", "catherine"]
- * t.death("bob"); // order: king > andy > matthew > <s>bob</s> > alex > asha > catherine
+ * t.death("bob"); // order: king > andy > matthew > bob > alex > asha > catherine
  * t.getInheritanceOrder(); // return ["king", "andy", "matthew", "alex", "asha", "catherine"]
  *
  *  

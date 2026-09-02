@@ -7,7 +7,7 @@
  * The i^th rectangle contains the j^th point if 0 <= xj <= li and 0 <= yj <= hi. Note that points that lie on the edges of a rectangle are also considered to be contained by that rectangle.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example1.png" style="width: 300px; height: 509px;" />
+ * 
  * Input: rectangles = [[1,2],[2,3],[2,5]], points = [[2,1],[1,4]]
  * Output: [2,1]
  * Explanation:
@@ -19,7 +19,7 @@
  * Therefore, we return [2, 1].
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/02/example2.png" style="width: 300px; height: 312px;" />
+ * 
  * Input: rectangles = [[1,1],[2,2],[3,3]], points = [[1,3],[1,1]]
  * Output: [1,3]
  * Explanation:

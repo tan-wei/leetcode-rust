@@ -12,18 +12,18 @@
  * Given a string word, return true if word can be placed in board, or false otherwise.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex1-1.png" style="width: 478px; height: 180px;" />
+ * 
  * Input: board = [["#", " ", "#"], [" ", " ", "#"], ["#", "c", " "]], word = "abc"
  * Output: true
  * Explanation: The word "abc" can be placed as shown above (top to bottom).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex2-1.png" style="width: 180px; height: 180px;" />
+ * 
  * Input: board = [[" ", "#", "a"], [" ", "#", "c"], [" ", "#", "a"]], word = "ac"
  * Output: false
  * Explanation: It is impossible to place the word because there will always be a space/letter above or below it.
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/04/crossword-ex3-1.png" style="width: 478px; height: 180px;" />
+ * 
  * Input: board = [["#", " ", "#"], [" ", " ", "#"], ["#", " ", "c"]], word = "ca"
  * Output: true
  * Explanation: The word "ca" can be placed as shown above (right to left).

@@ -5,7 +5,7 @@
  * Return true if the circle and rectangle are overlapped otherwise return false. In other words, check if there is any point (xi, yi) that belongs to the circle and the rectangle at the same time.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_4_1728.png" style="width: 258px; height: 167px;" />
+ * 
  * Input: radius = 1, xCenter = 0, yCenter = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1
  * Output: true
  * Explanation: Circle and rectangle share the point (1,0).
@@ -16,7 +16,7 @@
  * Output: false
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_2_1728.png" style="width: 150px; height: 135px;" />
+ * 
  * Input: radius = 1, xCenter = 0, yCenter = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1
  * Output: true
  *

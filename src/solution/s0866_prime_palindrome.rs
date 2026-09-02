@@ -12,13 +12,13 @@
  *
  * The test cases are generated so that the answer always exists and is in the range [2, 2 * 10^8].
  *  
- * <strong class="example">Example 1:
+ * Example 1:
  * Input: n = 6
  * Output: 7
- * <strong class="example">Example 2:
+ * Example 2:
  * Input: n = 8
  * Output: 11
- * <strong class="example">Example 3:
+ * Example 3:
  * Input: n = 13
  * Output: 101
  *  

@@ -9,7 +9,7 @@
  * Given an integer n, return the minimum possible number of boxes touching the floor.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/3-boxes.png" style="width: 135px; height: 143px;" />
+ * 
  *
  * Input: n = 3
  * Output: 3
@@ -17,7 +17,7 @@
  * These boxes are placed in the corner of the room, where the corner is on the left side.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/4-boxes.png" style="width: 135px; height: 179px;" />
+ * 
  *
  * Input: n = 4
  * Output: 3
@@ -25,7 +25,7 @@
  * These boxes are placed in the corner of the room, where the corner is on the left side.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/10-boxes.png" style="width: 271px; height: 257px;" />
+ * 
  *
  * Input: n = 10
  * Output: 6

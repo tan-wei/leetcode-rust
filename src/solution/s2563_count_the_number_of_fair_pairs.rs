@@ -25,8 +25,8 @@
  *
  * 	1 <= nums.length <= 10^5
  * 	nums.length == n
- * 	<font face="monospace">-10^9</font> <= nums[i] <= 10^9
- * 	<font face="monospace">-10^9 <= lower <= upper <= 10^9</font>
+ * 	-10^9 <= nums[i] <= 10^9
+ * 	-10^9 <= lower <= upper <= 10^9
  *
  */
 pub struct Solution {}

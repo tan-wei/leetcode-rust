@@ -6,7 +6,7 @@
  * A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters. A string is palindromic if it reads the same forward and backward.
  *  
  * Example 1:
- * <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/08/24/two-palindromic-subsequences.png" style="width: 550px; height: 124px;" />
+ * 
  * Input: s = "leetcodecom"
  * Output: 9
  * Explanation: An optimal solution is to choose "ete" for the 1^st subsequence and "cdc" for the 2^nd subsequence.

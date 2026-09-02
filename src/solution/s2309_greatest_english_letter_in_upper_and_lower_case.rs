@@ -6,14 +6,14 @@
  *  
  * Example 1:
  *
- * Input: s = "l<u>Ee</u>TcOd<u>E</u>"
+ * Input: s = "lEeTcOdE"
  * Output: "E"
  * Explanation:
  * The letter 'E' is the only letter to appear in both lower and upper case.
  *
  * Example 2:
  *
- * Input: s = "a<u>rR</u>AzFif"
+ * Input: s = "arRAzFif"
  * Output: "R"
  * Explanation:
  * The letter 'R' is the greatest letter to appear in both lower and upper case.

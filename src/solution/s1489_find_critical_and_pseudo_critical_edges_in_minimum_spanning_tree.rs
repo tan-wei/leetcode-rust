@@ -6,18 +6,18 @@
  * Note that you can return the indices of the edges in any order.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/04/ex1.png" style="width: 259px; height: 262px;" />
+ * 
  *
  * Input: n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
  * Output: [[0,1],[2,3,4,5]]
  * Explanation: The figure above describes the graph.
  * The following figure shows all the possible MSTs:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/04/msts.png" style="width: 540px; height: 553px;" />
+ * 
  * Notice that the two edges 0 and 1 appear in all MSTs, therefore they are critical edges, so we return them in the first list of the output.
  * The edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are considered pseudo-critical edges. We add them to the second list of the output.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/04/ex2.png" style="width: 247px; height: 253px;" />
+ * 
  *
  * Input: n = 4, edges = [[0,1,1],[1,2,1],[2,3,1],[0,3,1]]
  * Output: [[],[0,1,2,3]]

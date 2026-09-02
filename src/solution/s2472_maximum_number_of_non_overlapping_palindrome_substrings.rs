@@ -14,7 +14,7 @@
  *
  * Input: s = "abaccdbbd", k = 3
  * Output: 2
- * Explanation: We can select the substrings underlined in s = "<u>aba</u>cc<u>dbbd</u>". Both "aba" and "dbbd" are palindromes and have a length of at least k = 3.
+ * Explanation: We can select the substrings underlined in s = "abaccdbbd". Both "aba" and "dbbd" are palindromes and have a length of at least k = 3.
  * It can be shown that we cannot find a selection with more than two valid substrings.
  *
  * Example 2:

@@ -2,7 +2,7 @@
  * [2266] Count Number of Texts
  *
  * Alice is texting Bob using her phone. The mapping of digits to letters is shown in the figure below.
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/15/1200px-telephone-keypad2svg.png" style="width: 200px; height: 162px;" />
+ * 
  * In order to add a letter, Alice has to press the key of the corresponding digit i times, where i is the position of the letter in the key.
  *
  * 	For example, to add the letter 's', Alice has to press '7' four times. Similarly, to add the letter 'k', Alice has to press '5' twice.

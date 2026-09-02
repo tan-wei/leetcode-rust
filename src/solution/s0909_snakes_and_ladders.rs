@@ -1,7 +1,7 @@
 /**
  * [0909] Snakes and Ladders
  *
- * You are given an n x n integer matrix board where the cells are labeled from 1 to n^2 in a <a href="https://en.wikipedia.org/wiki/Boustrophedon" target="_blank">Boustrophedon style</a> starting from the bottom left of the board (i.e. board[n - 1][0]) and alternating direction each row.
+ * You are given an n x n integer matrix board where the cells are labeled from 1 to n^2 in a Boustrophedon style starting from the bottom left of the board (i.e. board[n - 1][0]) and alternating direction each row.
  * You start on square 1 of the board. In each move, starting from square curr, do the following:
  *
  * 	Choose a destination square next with a label in the range [curr + 1, min(curr + 6, n^2)].
@@ -20,7 +20,7 @@
  * Return the least number of moves required to reach the square n^2. If it is not possible to reach the square, return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/09/23/snakes.png" style="width: 500px; height: 394px;" />
+ * 
  * Input: board = [[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]
  * Output: 4
  * Explanation:

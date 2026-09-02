@@ -11,21 +11,21 @@
  * Return the maximum number of edges you can remove, or return -1 if Alice and Bob cannot fully traverse the graph.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex1.png" style="width: 179px; height: 191px;" />
+ * 
  *
  * Input: n = 4, edges = [[3,1,2],[3,2,3],[1,1,3],[1,2,4],[1,1,2],[2,3,4]]
  * Output: 2
  * Explanation: If we remove the 2 edges [1,1,2] and [1,1,3]. The graph will still be fully traversable by Alice and Bob. Removing any additional edge will not make it so. So the maximum number of edges we can remove is 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex2.png" style="width: 178px; height: 190px;" />
+ * 
  *
  * Input: n = 4, edges = [[3,1,2],[3,2,3],[1,1,4],[2,1,4]]
  * Output: 0
  * Explanation: Notice that removing any edge will not make the graph fully traversable by Alice and Bob.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/19/ex3.png" style="width: 178px; height: 190px;" />
+ * 
  *
  * Input: n = 4, edges = [[3,2,3],[1,1,2],[2,3,4]]
  * Output: -1

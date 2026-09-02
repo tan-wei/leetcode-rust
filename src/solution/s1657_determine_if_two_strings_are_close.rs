@@ -5,12 +5,12 @@
  *
  * 	Operation 1: Swap any two existing characters.
  *
- * 		For example, a<u>b</u>cd<u>e</u> -> a<u>e</u>cd<u>b</u>
+ * 		For example, abcde -> aecdb
  *
  *
  * 	Operation 2: Transform every occurrence of one existing character into another existing character, and do the same with the other character.
  *
- * 		For example, <u>aa</u>c<u>abb</u> -> <u>bb</u>c<u>baa</u> (all a's turn into b's, and all b's turn into a's)
+ * 		For example, aacabb -> bbcbaa (all a's turn into b's, and all b's turn into a's)
  *
  *
  *
@@ -22,8 +22,8 @@
  * Input: word1 = "abc", word2 = "bca"
  * Output: true
  * Explanation: You can attain word2 from word1 in 2 operations.
- * Apply Operation 1: "a<u>bc</u>" -> "a<u>cb</u>"
- * Apply Operation 1: "<u>a</u>c<u>b</u>" -> "<u>b</u>c<u>a</u>"
+ * Apply Operation 1: "abc" -> "acb"
+ * Apply Operation 1: "acb" -> "bca"
  *
  * Example 2:
  *
@@ -36,9 +36,9 @@
  * Input: word1 = "cabbba", word2 = "abbccc"
  * Output: true
  * Explanation: You can attain word2 from word1 in 3 operations.
- * Apply Operation 1: "ca<u>b</u>bb<u>a</u>" -> "ca<u>a</u>bb<u>b</u>"
- * Apply Operation 2: "<u>c</u>aa<u>bbb</u>" -> "<u>b</u>aa<u>ccc</u>"
- * Apply Operation 2: "<u>baa</u>ccc" -> "<u>abb</u>ccc"
+ * Apply Operation 1: "cabbba" -> "caabbb"
+ * Apply Operation 2: "caabbb" -> "baaccc"
+ * Apply Operation 2: "baaccc" -> "abbccc"
  *
  *  
  * Constraints:

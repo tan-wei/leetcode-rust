@@ -11,9 +11,9 @@
  * Output: 3
  * Explanation:
  * As shown below, there are 3 ways you can generate "rabbit" from S.
- * <u>rabb</u>b<u>it</u>
- * <u>ra</u>b<u>bbit</u>
- * <u>rab</u>b<u>bit</u>
+ * rabbbit
+ * rabbbit
+ * rabbbit
  *
  * Example 2:
  *
@@ -21,11 +21,11 @@
  * Output: 5
  * Explanation:
  * As shown below, there are 5 ways you can generate "bag" from S.
- * <u>ba</u>b<u>g</u>bag
- * <u>ba</u>bgba<u>g</u>
- * <u>b</u>abgb<u>ag</u>
- * ba<u>b</u>gb<u>ag</u>
- * babg<u>bag</u>
+ * babgbag
+ * babgbag
+ * babgbag
+ * babgbag
+ * babgbag
  *  
  * Constraints:
  *

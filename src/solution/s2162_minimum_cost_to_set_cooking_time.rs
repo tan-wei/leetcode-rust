@@ -19,7 +19,7 @@
  * Remember that one minute consists of 60 seconds.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/30/1.png" style="width: 506px; height: 210px;" />
+ * 
  * Input: startAt = 1, moveCost = 2, pushCost = 1, targetSeconds = 600
  * Output: 6
  * Explanation: The following are the possible ways to set the cooking time.
@@ -34,7 +34,7 @@
  *   The cost is: 2 + 1 + 2 + 1 + 2 + 1 = 9.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/30/2.png" style="width: 505px; height: 73px;" />
+ * 
  * Input: startAt = 0, moveCost = 1, pushCost = 2, targetSeconds = 76
  * Output: 6
  * Explanation: The optimal way is to push two digits: 7 6, interpreted as 76 seconds.

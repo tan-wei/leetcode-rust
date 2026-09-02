@@ -1,7 +1,7 @@
 /**
  * [0501] Find Mode in Binary Search Tree
  *
- * Given the root of a binary search tree (BST) with duplicates, return all the <a href="https://en.wikipedia.org/wiki/Mode_(statistics)" target="_blank">mode(s)</a> (i.e., the most frequently occurred element) in it.
+ * Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.
  * If the tree has more than one mode, return them in any order.
  * Assume a BST is defined as follows:
  *
@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/mode-tree.jpg" style="width: 142px; height: 222px;" />
+ * 
  * Input: root = [1,null,2,2]
  * Output: [2]
  *

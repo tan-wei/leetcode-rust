@@ -11,16 +11,16 @@
  * Return the step-by-step directions of the shortest path from node s to node t.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/15/eg1.png" style="width: 214px; height: 163px;" />
+ * 
  * Input: root = [5,1,2,3,null,6,4], startValue = 3, destValue = 6
  * Output: "UURL"
- * Explanation: The shortest path is: 3 &rarr; 1 &rarr; 5 &rarr; 2 &rarr; 6.
+ * Explanation: The shortest path is: 3 → 1 → 5 → 2 → 6.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/15/eg2.png" style="width: 74px; height: 102px;" />
+ * 
  * Input: root = [2,1], startValue = 2, destValue = 1
  * Output: "L"
- * Explanation: The shortest path is: 2 &rarr; 1.
+ * Explanation: The shortest path is: 2 → 1.
  *
  *  
  * Constraints:

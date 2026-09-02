@@ -6,15 +6,15 @@
  * Given edges and the integers n, source, and destination, return true if there is a valid path from source to destination, or false otherwise.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex1.png" style="width: 141px; height: 121px;" />
+ * 
  * Input: n = 3, edges = [[0,1],[1,2],[2,0]], source = 0, destination = 2
  * Output: true
  * Explanation: There are two paths from vertex 0 to vertex 2:
- * - 0 &rarr; 1 &rarr; 2
- * - 0 &rarr; 2
+ * - 0 → 1 → 2
+ * - 0 → 2
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/14/validpath-ex2.png" style="width: 281px; height: 141px;" />
+ * 
  * Input: n = 6, edges = [[0,1],[0,2],[3,5],[5,4],[4,3]], source = 0, destination = 5
  * Output: false
  * Explanation: There is no path from vertex 0 to vertex 5.

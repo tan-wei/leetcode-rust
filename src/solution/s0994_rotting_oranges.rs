@@ -11,7 +11,7 @@
  * Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" style="width: 650px; height: 137px;" />
+ * 
  * Input: grid = [[2,1,1],[1,1,0],[0,1,1]]
  * Output: 4
  *

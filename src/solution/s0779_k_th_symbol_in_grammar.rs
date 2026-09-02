@@ -11,7 +11,7 @@
  *
  * Input: n = 1, k = 1
  * Output: 0
- * Explanation: row 1: <u>0</u>
+ * Explanation: row 1: 0
  *
  * Example 2:
  *
@@ -19,7 +19,7 @@
  * Output: 0
  * Explanation:
  * row 1: 0
- * row 2: <u>0</u>1
+ * row 2: 01
  *
  * Example 3:
  *
@@ -27,7 +27,7 @@
  * Output: 1
  * Explanation:
  * row 1: 0
- * row 2: 0<u>1</u>
+ * row 2: 01
  *
  *  
  * Constraints:

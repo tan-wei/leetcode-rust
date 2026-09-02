@@ -11,7 +11,7 @@
  * 	void leave(int p) Indicates that the student sitting at seat p will leave the room. It is guaranteed that there will be a student sitting at seat p.
  *
  *  
- * <strong class="example">Example 1:
+ * Example 1:
  *
  * Input
  * ["ExamRoom", "seat", "seat", "seat", "seat", "leave", "seat"]

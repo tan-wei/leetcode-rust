@@ -1,7 +1,7 @@
 /**
  * [229] Majority Element II
  *
- * Given an integer array of size n, find all elements that appear more than &lfloor; n/3 &rfloor; times.
+ * Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
  * Follow-up: Could you solve the problem in linear time and in O(1) space?
  *  
  * Example 1:

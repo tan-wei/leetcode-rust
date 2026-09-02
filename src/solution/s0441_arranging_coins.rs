@@ -5,13 +5,13 @@
  * Given the integer n, return the number of complete rows of the staircase you will build.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/09/arrangecoins1-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: n = 5
  * Output: 2
  * Explanation: Because the 3^rd row is incomplete, we return 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/09/arrangecoins2-grid.jpg" style="width: 333px; height: 333px;" />
+ * 
  * Input: n = 8
  * Output: 3
  * Explanation: Because the 4^th row is incomplete, we return 3.

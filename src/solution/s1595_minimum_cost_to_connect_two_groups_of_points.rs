@@ -6,7 +6,7 @@
  * Return the minimum cost it takes to connect the two groups.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/03/ex1.jpg" style="width: 322px; height: 243px;" />
+ * 
  * Input: cost = [[15, 96], [36, 2]]
  * Output: 17
  * Explanation: The optimal way of connecting the groups is:
@@ -15,7 +15,7 @@
  * This results in a total cost of 17.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/03/ex2.jpg" style="width: 322px; height: 403px;" />
+ * 
  * Input: cost = [[1, 3, 5], [4, 1, 1], [1, 5, 3]]
  * Output: 4
  * Explanation: The optimal way of connecting the groups is:

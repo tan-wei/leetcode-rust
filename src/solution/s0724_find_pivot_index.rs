@@ -37,7 +37,7 @@
  * 	-1000 <= nums[i] <= 1000
  *
  *  
- * Note: This question is the same as 1991: <a href="https://leetcode.com/problems/find-the-middle-index-in-array/" target="_blank">https://leetcode.com/problems/find-the-middle-index-in-array/</a>
+ * Note: This question is the same as 1991: https://leetcode.com/problems/find-the-middle-index-in-array/
  *
  */
 pub struct Solution {}

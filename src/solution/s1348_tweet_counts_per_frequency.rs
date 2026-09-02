@@ -14,7 +14,7 @@
  *
  * 	TweetCounts() Initializes the TweetCounts object.
  * 	void recordTweet(String tweetName, int time) Stores the tweetName at the recorded time (in seconds).
- * 	List<Integer> getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime) Returns a list of integers representing the number of tweets with tweetName in each time chunk for the given period of time [startTime, endTime] (in seconds) and frequency freq.
+ * 	List getTweetCountsPerFrequency(String freq, String tweetName, int startTime, int endTime) Returns a list of integers representing the number of tweets with tweetName in each time chunk for the given period of time [startTime, endTime] (in seconds) and frequency freq.
  *
  * 		freq is one of "minute", "hour", or "day" representing a frequency of every minute, hour, or day respectively.
  *

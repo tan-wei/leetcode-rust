@@ -6,13 +6,13 @@
  * Every row of the matrix is interpreted as a binary number, and the score of the matrix is the sum of these numbers.
  * Return the highest possible score after making any number of moves (including zero moves).
  *  
- * <strong class="example">Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-toogle1.jpg" style="width: 500px; height: 299px;" />
+ * Example 1:
+ * 
  * Input: grid = [[0,0,1,1],[1,0,1,0],[1,1,0,0]]
  * Output: 39
  * Explanation: 0b1111 + 0b1001 + 0b1111 = 15 + 9 + 15 = 39
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: grid = [[0]]
  * Output: 1

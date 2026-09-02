@@ -2,11 +2,11 @@
  * [36] Valid Sudoku
  *
  * Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
- * <ol>
+ * 
  * 	Each row must contain the digits 1-9 without repetition.
  * 	Each column must contain the digits 1-9 without repetition.
  * 	Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
- * </ol>
+ * 
  * Note:
  *
  * 	A Sudoku board (partially filled) could be valid but is not necessarily solvable.
@@ -14,7 +14,7 @@
  *
  *  
  * Example 1:
- * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" style="height:250px; width:250px" />
+ * 
  * Input: board =
  * [["5","3",".",".","7",".",".",".","."]
  * ,["6",".",".","1","9","5",".",".","."]

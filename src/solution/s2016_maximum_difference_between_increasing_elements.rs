@@ -6,7 +6,7 @@
  *  
  * Example 1:
  *
- * Input: nums = [7,<u>1</u>,<u>5</u>,4]
+ * Input: nums = [7,1,5,4]
  * Output: 4
  * Explanation:
  * The maximum difference occurs with i = 1 and j = 2, nums[j] - nums[i] = 5 - 1 = 4.
@@ -21,7 +21,7 @@
  *
  * Example 3:
  *
- * Input: nums = [<u>1</u>,5,2,<u>10</u>]
+ * Input: nums = [1,5,2,10]
  * Output: 9
  * Explanation:
  * The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.

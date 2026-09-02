@@ -15,7 +15,7 @@
  *
  * Input: nums = [2,4,12], start = 2, goal = 12
  * Output: 2
- * Explanation: We can go from 2 &rarr; 14 &rarr; 12 with the following 2 operations.
+ * Explanation: We can go from 2 → 14 → 12 with the following 2 operations.
  * - 2 + 12 = 14
  * - 14 - 2 = 12
  *
@@ -23,7 +23,7 @@
  *
  * Input: nums = [3,5,7], start = 0, goal = -4
  * Output: 2
- * Explanation: We can go from 0 &rarr; 3 &rarr; -4 with the following 2 operations.
+ * Explanation: We can go from 0 → 3 → -4 with the following 2 operations.
  * - 0 + 3 = 3
  * - 3 - 7 = -4
  * Note that the last operation sets x out of the range 0 <= x <= 1000, which is valid.

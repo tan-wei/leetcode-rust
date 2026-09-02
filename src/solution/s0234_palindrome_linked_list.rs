@@ -4,12 +4,12 @@
  * Given the head of a singly linked list, return true if it is a palindrome.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/03/pal1linked-list.jpg" style="width: 422px; height: 62px;" />
+ * 
  * Input: head = [1,2,2,1]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/03/pal2linked-list.jpg" style="width: 182px; height: 62px;" />
+ * 
  * Input: head = [1,2]
  * Output: false
  *

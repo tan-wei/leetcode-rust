@@ -11,7 +11,7 @@
  * Note: The test cases are generated such that it is possible to complete every course (i.e., the graph is a directed acyclic graph).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/07/ex1.png" style="width: 392px; height: 232px;" />
+ * 
  *
  * Input: n = 3, relations = [[1,3],[2,3]], time = [3,2,5]
  * Output: 8
@@ -21,7 +21,7 @@
  * Thus, the earliest time we can start course 3 is at month 3, and the total time required is 3 + 5 = 8 months.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/07/ex2.png" style="width: 500px; height: 365px;" />
+ * 
  *
  * Input: n = 5, relations = [[1,5],[2,5],[3,5],[3,4],[4,5]], time = [1,2,3,4,5]
  * Output: 12

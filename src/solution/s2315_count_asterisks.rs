@@ -9,7 +9,7 @@
  *
  * Input: s = "l|*e*et|c**o|*de|"
  * Output: 2
- * Explanation: The considered characters are underlined: "<u>l</u>|*e*et|<u>c**o</u>|*de|".
+ * Explanation: The considered characters are underlined: "l|*e*et|c**o|*de|".
  * The characters between the first and second '|' are excluded from the answer.
  * Also, the characters between the third and fourth '|' are excluded from the answer.
  * There are 2 asterisks considered. Therefore, we return 2.
@@ -23,7 +23,7 @@
  *
  * Input: s = "yo|uar|e**|b|e***au|tifu|l"
  * Output: 5
- * Explanation: The considered characters are underlined: "<u>yo</u>|uar|<u>e**</u>|b|<u>e***au</u>|tifu|<u>l</u>". There are 5 asterisks considered. Therefore, we return 5.
+ * Explanation: The considered characters are underlined: "yo|uar|e**|b|e***au|tifu|l". There are 5 asterisks considered. Therefore, we return 5.
  *  
  * Constraints:
  *

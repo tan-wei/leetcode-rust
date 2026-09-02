@@ -6,7 +6,7 @@
  * A full binary tree is a binary tree where each node has exactly 0 or 2 children.
  *  
  * Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/22/fivetrees.png" style="width: 700px; height: 400px;" />
+ * 
  * Input: n = 7
  * Output: [[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,null,null,null,null,0,0],[0,0,0,0,0,null,null,0,0]]
  *

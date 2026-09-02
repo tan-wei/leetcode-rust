@@ -12,7 +12,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-40-26-diagram-drawio-diagrams-net.png" style="width: 300px; height: 300px;" />
+ * 
  * Input: points = [[1,2,3],[1,5,1],[3,1,1]]
  * Output: 9
  * Explanation:
@@ -22,7 +22,7 @@
  * Your final score is 11 - 2 = 9.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/12/screenshot-2021-07-12-at-13-42-14-diagram-drawio-diagrams-net.png" style="width: 200px; height: 299px;" />
+ * 
  * Input: points = [[1,5],[2,3],[4,2]]
  * Output: 11
  * Explanation:

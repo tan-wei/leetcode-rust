@@ -19,20 +19,20 @@
  * Input: nums = [1,2,3], multipliers = [3,2,1]
  * Output: 14
  * Explanation: An optimal solution is as follows:
- * - Choose from the end, [1,2,<u>3</u>], adding 3 * 3 = 9 to the score.
- * - Choose from the end, [1,<u>2</u>], adding 2 * 2 = 4 to the score.
- * - Choose from the end, [<u>1</u>], adding 1 * 1 = 1 to the score.
+ * - Choose from the end, [1,2,3], adding 3 * 3 = 9 to the score.
+ * - Choose from the end, [1,2], adding 2 * 2 = 4 to the score.
+ * - Choose from the end, [1], adding 1 * 1 = 1 to the score.
  * The total score is 9 + 4 + 1 = 14.
  * Example 2:
  *
  * Input: nums = [-5,-3,-3,-2,7,1], multipliers = [-10,-5,3,4,6]
  * Output: 102
  * Explanation: An optimal solution is as follows:
- * - Choose from the start, [<u>-5</u>,-3,-3,-2,7,1], adding -5 * -10 = 50 to the score.
- * - Choose from the start, [<u>-3</u>,-3,-2,7,1], adding -3 * -5 = 15 to the score.
- * - Choose from the start, [<u>-3</u>,-2,7,1], adding -3 * 3 = -9 to the score.
- * - Choose from the end, [-2,7,<u>1</u>], adding 1 * 4 = 4 to the score.
- * - Choose from the end, [-2,<u>7</u>], adding 7 * 6 = 42 to the score.
+ * - Choose from the start, [-5,-3,-3,-2,7,1], adding -5 * -10 = 50 to the score.
+ * - Choose from the start, [-3,-3,-2,7,1], adding -3 * -5 = 15 to the score.
+ * - Choose from the start, [-3,-2,7,1], adding -3 * 3 = -9 to the score.
+ * - Choose from the end, [-2,7,1], adding 1 * 4 = 4 to the score.
+ * - Choose from the end, [-2,7], adding 7 * 6 = 42 to the score.
  * The total score is 50 + 15 - 9 + 4 + 42 = 102.
  *
  *  

@@ -6,7 +6,7 @@
  * Students must be placed in seats in good condition.
  *  
  * Example 1:
- * <img height="200" src="https://assets.leetcode.com/uploads/2020/01/29/image.png" width="339" />
+ * 
  * Input: seats = [["#",".","#","#",".","#"],
  *                 [".","#","#","#","#","."],
  *                 ["#",".","#","#",".","#"]]
@@ -36,7 +36,7 @@
  *  
  * Constraints:
  *
- * 	seats contains only characters '.'<font face="sans-serif, Arial, Verdana, Trebuchet MS"> and</font>'#'.
+ * 	seats contains only characters '.' and'#'.
  * 	m == seats.length
  * 	n == seats[i].length
  * 	1 <= m <= 8

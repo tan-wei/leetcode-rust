@@ -7,7 +7,7 @@
  * Return a 2D array containing the 4-length arrays described above for each group of farmland in land. If there are no groups of farmland, return an empty array. You may return the answer in any order.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-23-15-copy-of-diagram-drawio-diagrams-net.png" style="width: 300px; height: 300px;" />
+ * 
  * Input: land = [[1,0,0],[0,1,1],[0,1,1]]
  * Output: [[0,0,0,0],[1,1,2,2]]
  * Explanation:
@@ -15,14 +15,14 @@
  * The second group has a top left corner at land[1][1] and a bottom right corner at land[2][2].
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-30-26-copy-of-diagram-drawio-diagrams-net.png" style="width: 200px; height: 200px;" />
+ * 
  * Input: land = [[1,1],[1,1]]
  * Output: [[0,0,1,1]]
  * Explanation:
  * The first group has a top left corner at land[0][0] and a bottom right corner at land[1][1].
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/screenshot-2021-07-27-at-12-32-24-copy-of-diagram-drawio-diagrams-net.png" style="width: 100px; height: 100px;" />
+ * 
  * Input: land = [[0]]
  * Output: []
  * Explanation:

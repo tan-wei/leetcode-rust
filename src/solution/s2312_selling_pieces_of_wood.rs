@@ -7,7 +7,7 @@
  * Note that you can cut the piece of wood as many times as you want.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/27/ex1.png" style="width: 239px; height: 150px;" />
+ * 
  * Input: m = 3, n = 5, prices = [[1,4,2],[2,2,7],[2,1,3]]
  * Output: 19
  * Explanation: The diagram above shows a possible scenario. It consists of:
@@ -18,7 +18,7 @@
  * It can be shown that 19 is the maximum amount of money that can be earned.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/27/ex2new.png" style="width: 250px; height: 175px;" />
+ * 
  * Input: m = 4, n = 6, prices = [[3,2,10],[1,4,2],[4,1,3]]
  * Output: 32
  * Explanation: The diagram above shows a possible scenario. It consists of:

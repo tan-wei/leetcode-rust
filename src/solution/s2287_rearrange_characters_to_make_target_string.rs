@@ -39,7 +39,7 @@
  * 	s and target consist of lowercase English letters.
  *
  *  
- * Note: This question is the same as <a href="https://leetcode.com/problems/maximum-number-of-balloons/description/" target="_blank"> 1189: Maximum Number of Balloons.</a>
+ * Note: This question is the same as  1189: Maximum Number of Balloons.
  *
  */
 pub struct Solution {}

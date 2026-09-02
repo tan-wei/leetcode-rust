@@ -6,7 +6,7 @@
  *
  * 	age[y] <= 0.5 * age[x] + 7
  * 	age[y] > age[x]
- * 	age[y] > 100 &amp;&amp; age[x] < 100
+ * 	age[y] > 100 && age[x] < 100
  *
  * Otherwise, x will send a friend request to y.
  * Note that if x sends a request to y, y will not necessarily send a request to x. Also, a person will not send a friend request to themself.

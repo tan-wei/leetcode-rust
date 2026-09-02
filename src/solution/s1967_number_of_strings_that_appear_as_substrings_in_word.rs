@@ -9,9 +9,9 @@
  * Input: patterns = ["a","abc","bc","d"], word = "abc"
  * Output: 3
  * Explanation:
- * - "a" appears as a substring in "<u>a</u>bc".
- * - "abc" appears as a substring in "<u>abc</u>".
- * - "bc" appears as a substring in "a<u>bc</u>".
+ * - "a" appears as a substring in "abc".
+ * - "abc" appears as a substring in "abc".
+ * - "bc" appears as a substring in "abc".
  * - "d" does not appear as a substring in "abc".
  * 3 of the strings in patterns appear as a substring in word.
  *
@@ -20,8 +20,8 @@
  * Input: patterns = ["a","b","c"], word = "aaaaabbbbb"
  * Output: 2
  * Explanation:
- * - "a" appears as a substring in "a<u>a</u>aaabbbbb".
- * - "b" appears as a substring in "aaaaabbbb<u>b</u>".
+ * - "a" appears as a substring in "aaaaabbbbb".
+ * - "b" appears as a substring in "aaaaabbbbb".
  * - "c" does not appear as a substring in "aaaaabbbbb".
  * 2 of the strings in patterns appear as a substring in word.
  *
@@ -29,7 +29,7 @@
  *
  * Input: patterns = ["a","a","a"], word = "ab"
  * Output: 3
- * Explanation: Each of the patterns appears as a substring in word "<u>a</u>b".
+ * Explanation: Each of the patterns appears as a substring in word "ab".
  *
  *  
  * Constraints:

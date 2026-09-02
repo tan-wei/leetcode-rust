@@ -5,12 +5,12 @@
  * You are also given a 2D integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting nodes ai and bi.
  * A star graph is a subgraph of the given graph having a center node containing 0 or more neighbors. In other words, it is a subset of edges of the given graph such that there exists a common node for all edges.
  * The image below shows star graphs with 3 and 4 neighbors respectively, centered at the blue node.
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/07/max-star-sum-descdrawio.png" style="width: 400px; height: 179px;" />
+ * 
  * The star sum is the sum of the values of all the nodes present in the star graph.
  * Given an integer k, return the maximum star sum of a star graph containing at most k edges.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/07/max-star-sum-example1drawio.png" style="width: 300px; height: 291px;" />
+ * 
  * Input: vals = [1,2,3,4,10,-10,-20], edges = [[0,1],[1,2],[1,3],[3,4],[3,5],[3,6]], k = 2
  * Output: 16
  * Explanation: The above diagram represents the input graph.

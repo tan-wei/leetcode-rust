@@ -3,10 +3,10 @@
  *
  * Alice and Bob take turns playing a game, with Alice starting first.
  * You are given a string num of even length consisting of digits and '?' characters. On each turn, a player will do the following if there is still at least one '?' in num:
- * <ol>
+ * 
  * 	Choose an index i where num[i] == '?'.
  * 	Replace num[i] with any digit between '0' and '9'.
- * </ol>
+ * 
  * The game ends when there are no more '?' characters in num.
  * For Bob to win, the sum of the digits in the first half of num must be equal to the sum of the digits in the second half. For Alice to win, the sums must not be equal.
  *

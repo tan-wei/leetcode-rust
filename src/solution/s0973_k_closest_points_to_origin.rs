@@ -2,11 +2,11 @@
  * [0973] K Closest Points to Origin
  *
  * Given an array of points where points[i] = [xi, yi] represents a point on the X-Y plane and an integer k, return the k closest points to the origin (0, 0).
- * The distance between two points on the X-Y plane is the Euclidean distance (i.e., &radic;(x1 - x2)^2 + (y1 - y2)^2).
+ * The distance between two points on the X-Y plane is the Euclidean distance (i.e., √(x1 - x2)^2 + (y1 - y2)^2).
  * You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/03/closestplane1.jpg" style="width: 400px; height: 400px;" />
+ * 
  * Input: points = [[1,3],[-2,2]], k = 1
  * Output: [[-2,2]]
  * Explanation:

@@ -8,7 +8,7 @@
  * Return the maximum possible cost amongst all possible root choices.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/12/01/example14.png" style="width: 556px; height: 231px;" />
+ * 
  * Input: n = 6, edges = [[0,1],[1,2],[1,3],[3,4],[3,5]], price = [9,8,7,6,10,5]
  * Output: 24
  * Explanation: The diagram above denotes the tree after rooting it at node 2. The first part (colored in red) shows the path with the maximum price sum. The second part (colored in blue) shows the path with the minimum price sum.
@@ -17,7 +17,7 @@
  * The difference between the maximum and minimum price sum is 24. It can be proved that 24 is the maximum cost.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/24/p1_example2.png" style="width: 352px; height: 184px;" />
+ * 
  * Input: n = 3, edges = [[0,1],[1,2]], price = [1,1,1]
  * Output: 2
  * Explanation: The diagram above denotes the tree after rooting it at node 0. The first part (colored in red) shows the path with the maximum price sum. The second part (colored in blue) shows the path with the minimum price sum.

@@ -5,7 +5,7 @@
  * A leaf is a node with no children.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/12/paths-tree.jpg" style="width: 207px; height: 293px;" />
+ * 
  * Input: root = [1,2,3,null,5]
  * Output: ["1->2->5","1->3"]
  *

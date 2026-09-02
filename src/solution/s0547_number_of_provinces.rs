@@ -7,12 +7,12 @@
  * Return the total number of provinces.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/24/graph1.jpg" style="width: 222px; height: 142px;" />
+ * 
  * Input: isConnected = [[1,1,0],[1,1,0],[0,0,1]]
  * Output: 2
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/24/graph2.jpg" style="width: 222px; height: 142px;" />
+ * 
  * Input: isConnected = [[1,0,0],[0,1,0],[0,0,1]]
  * Output: 3
  *

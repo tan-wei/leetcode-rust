@@ -10,21 +10,21 @@
  *
  * Input: groups = [[1,-1,-1],[3,-2,0]], nums = [1,-1,0,1,-1,-1,3,-2,0]
  * Output: true
- * Explanation: You can choose the 0^th subarray as [1,-1,0,<u>1,-1,-1</u>,3,-2,0] and the 1^st one as [1,-1,0,1,-1,-1,<u>3,-2,0</u>].
+ * Explanation: You can choose the 0^th subarray as [1,-1,0,1,-1,-1,3,-2,0] and the 1^st one as [1,-1,0,1,-1,-1,3,-2,0].
  * These subarrays are disjoint as they share no common nums[k] element.
  *
  * Example 2:
  *
  * Input: groups = [[10,-2],[1,2,3,4]], nums = [1,2,3,4,10,-2]
  * Output: false
- * Explanation: Note that choosing the subarrays [<u>1,2,3,4</u>,10,-2] and [1,2,3,4,<u>10,-2</u>] is incorrect because they are not in the same order as in groups.
+ * Explanation: Note that choosing the subarrays [1,2,3,4,10,-2] and [1,2,3,4,10,-2] is incorrect because they are not in the same order as in groups.
  * [10,-2] must come before [1,2,3,4].
  *
  * Example 3:
  *
  * Input: groups = [[1,2,3],[3,4]], nums = [7,7,1,2,3,4,7,7]
  * Output: false
- * Explanation: Note that choosing the subarrays [7,7,<u>1,2,3</u>,4,7,7] and [7,7,1,2,<u>3,4</u>,7,7] is invalid because they are not disjoint.
+ * Explanation: Note that choosing the subarrays [7,7,1,2,3,4,7,7] and [7,7,1,2,3,4,7,7] is invalid because they are not disjoint.
  * They share a common elements nums[4] (0-indexed).
  *
  *  
@@ -32,7 +32,7 @@
  *
  * 	groups.length == n
  * 	1 <= n <= 10^3
- * 	1 <= groups[i].length, sum(groups[i].length) <= 10^<span style="font-size: 10.8333px;">3</span>
+ * 	1 <= groups[i].length, sum(groups[i].length) <= 10^3
  * 	1 <= nums.length <= 10^3
  * 	-10^7 <= groups[i][j], nums[k] <= 10^7
  *

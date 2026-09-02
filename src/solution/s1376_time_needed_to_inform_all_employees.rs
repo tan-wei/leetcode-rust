@@ -14,7 +14,7 @@
  * Explanation: The head of the company is the only employee in the company.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/27/graph.png" style="width: 404px; height: 174px;" />
+ * 
  * Input: n = 6, headID = 2, manager = [2,2,-1,2,2,2], informTime = [0,0,1,0,0,0]
  * Output: 1
  * Explanation: The head of the company with id = 2 is the direct manager of all the employees in the company and needs 1 minute to inform them all.

@@ -4,7 +4,7 @@
  * Given the root of a binary tree, return the inorder traversal of its nodes' values.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg" style="width: 202px; height: 324px;" />
+ * 
  * Input: root = [1,null,2,3]
  * Output: [1,3,2]
  *
@@ -19,12 +19,12 @@
  * Output: [1]
  *
  * Example 4:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_5.jpg" style="width: 202px; height: 202px;" />
+ * 
  * Input: root = [1,2]
  * Output: [2,1]
  *
  * Example 5:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_4.jpg" style="width: 202px; height: 202px;" />
+ * 
  * Input: root = [1,null,2]
  * Output: [1,2]
  *

@@ -12,10 +12,10 @@
  * Implement the MovieRentingSystem class:
  *
  * 	MovieRentingSystem(int n, int[][] entries) Initializes the MovieRentingSystem object with n shops and the movies in entries.
- * 	List<Integer> search(int movie) Returns a list of shops that have an unrented copy of the given movie as described above.
+ * 	List search(int movie) Returns a list of shops that have an unrented copy of the given movie as described above.
  * 	void rent(int shop, int movie) Rents the given movie from the given shop.
  * 	void drop(int shop, int movie) Drops off a previously rented movie at the given shop.
- * 	List<List<Integer>> report() Returns a list of cheapest rented movies as described above.
+ * 	List> report() Returns a list of cheapest rented movies as described above.
  *
  * Note: The test cases will be generated such that rent will only be called if the shop has an unrented copy of the movie, and drop will only be called if the shop had previously rented out the movie.
  *  

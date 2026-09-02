@@ -25,7 +25,7 @@
  * 	1 <= num < 2^31
  *
  *  
- * Note: This question is the same as 1009: <a href="https://leetcode.com/problems/complement-of-base-10-integer/" target="_blank">https://leetcode.com/problems/complement-of-base-10-integer/</a>
+ * Note: This question is the same as 1009: https://leetcode.com/problems/complement-of-base-10-integer/
  *
  */
 pub struct Solution {}

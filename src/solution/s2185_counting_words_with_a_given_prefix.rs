@@ -7,9 +7,9 @@
  *  
  * Example 1:
  *
- * Input: words = ["pay","<u>at</u>tention","practice","<u>at</u>tend"], pref = "at"
+ * Input: words = ["pay","attention","practice","attend"], pref = "at"
  * Output: 2
- * Explanation: The 2 strings that contain "at" as a prefix are: "<u>at</u>tention" and "<u>at</u>tend".
+ * Explanation: The 2 strings that contain "at" as a prefix are: "attention" and "attend".
  *
  * Example 2:
  *

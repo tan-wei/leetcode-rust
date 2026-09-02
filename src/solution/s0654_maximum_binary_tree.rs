@@ -2,15 +2,15 @@
  * [0654] Maximum Binary Tree
  *
  * You are given an integer array nums with no duplicates. A maximum binary tree can be built recursively from nums using the following algorithm:
- * <ol>
+ * 
  * 	Create a root node whose value is the maximum value in nums.
  * 	Recursively build the left subtree on the subarray prefix to the left of the maximum value.
  * 	Recursively build the right subtree on the subarray suffix to the right of the maximum value.
- * </ol>
+ * 
  * Return the maximum binary tree built from nums.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/24/tree1.jpg" style="width: 302px; height: 421px;" />
+ * 
  * Input: nums = [3,2,1,6,0,5]
  * Output: [6,3,5,null,2,0,null,null,1]
  * Explanation: The recursive calls are as follow:
@@ -25,7 +25,7 @@
  *         - Empty array, so no child.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/24/tree2.jpg" style="width: 182px; height: 301px;" />
+ * 
  * Input: nums = [3,2,1]
  * Output: [3,null,2,null,1]
  *

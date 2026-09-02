@@ -5,7 +5,7 @@
  * Given an integer n, return the number of distinct solutions to the n-queens puzzle.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/queens.jpg" style="width: 600px; height: 268px;" />
+ * 
  * Input: n = 4
  * Output: 2
  * Explanation: There are two distinct solutions to the 4-queens puzzle as shown.

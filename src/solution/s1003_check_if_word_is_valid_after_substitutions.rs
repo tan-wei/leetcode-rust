@@ -13,14 +13,14 @@
  * Input: s = "aabcbc"
  * Output: true
  * Explanation:
- * "" -> "<u>abc</u>" -> "a<u>abc</u>bc"
+ * "" -> "abc" -> "aabcbc"
  * Thus, "aabcbc" is valid.
  * Example 2:
  *
  * Input: s = "abcabcababcc"
  * Output: true
  * Explanation:
- * "" -> "<u>abc</u>" -> "abc<u>abc</u>" -> "abcabc<u>abc</u>" -> "abcabcab<u>abc</u>c"
+ * "" -> "abc" -> "abcabc" -> "abcabcabc" -> "abcabcababcc"
  * Thus, "abcabcababcc" is valid.
  *
  * Example 3:

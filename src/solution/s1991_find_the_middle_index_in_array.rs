@@ -8,14 +8,14 @@
  *  
  * Example 1:
  *
- * Input: nums = [2,3,-1,<u>8</u>,4]
+ * Input: nums = [2,3,-1,8,4]
  * Output: 3
  * Explanation: The sum of the numbers before index 3 is: 2 + 3 + -1 = 4
  * The sum of the numbers after index 3 is: 4 = 4
  *
  * Example 2:
  *
- * Input: nums = [1,-1,<u>4</u>]
+ * Input: nums = [1,-1,4]
  * Output: 2
  * Explanation: The sum of the numbers before index 2 is: 1 + -1 = 0
  * The sum of the numbers after index 2 is: 0
@@ -33,7 +33,7 @@
  * 	-1000 <= nums[i] <= 1000
  *
  *  
- * Note: This question is the same as 724: <a href="https://leetcode.com/problems/find-pivot-index/" target="_blank">https://leetcode.com/problems/find-pivot-index/</a>
+ * Note: This question is the same as 724: https://leetcode.com/problems/find-pivot-index/
  *
  */
 pub struct Solution {}

@@ -29,7 +29,7 @@
  * 	1 <= nums[i] <= 10^9
  *
  *
- * Note: This question is the same as 846: <a href="https://leetcode.com/problems/hand-of-straights/" target="_blank">https://leetcode.com/problems/hand-of-straights/</a>
+ * Note: This question is the same as 846: https://leetcode.com/problems/hand-of-straights/
  */
 pub struct Solution {}
 

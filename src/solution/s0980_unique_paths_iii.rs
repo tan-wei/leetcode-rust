@@ -11,7 +11,7 @@
  * Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/02/lc-unique1.jpg" style="width: 324px; height: 245px;" />
+ * 
  * Input: grid = [[1,0,0,0],[0,0,0,0],[0,0,2,-1]]
  * Output: 2
  * Explanation: We have the following two paths:
@@ -19,7 +19,7 @@
  * 2. (0,0),(1,0),(2,0),(2,1),(1,1),(0,1),(0,2),(0,3),(1,3),(1,2),(2,2)
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/02/lc-unique2.jpg" style="width: 324px; height: 245px;" />
+ * 
  * Input: grid = [[1,0,0,0],[0,0,0,0],[0,0,0,2]]
  * Output: 4
  * Explanation: We have the following four paths:
@@ -29,7 +29,7 @@
  * 4. (0,0),(1,0),(2,0),(2,1),(1,1),(0,1),(0,2),(0,3),(1,3),(1,2),(2,2),(2,3)
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/02/lc-unique3-.jpg" style="width: 164px; height: 165px;" />
+ * 
  * Input: grid = [[0,1],[2,0]]
  * Output: 0
  * Explanation: There is no path that walks over every empty square exactly once.

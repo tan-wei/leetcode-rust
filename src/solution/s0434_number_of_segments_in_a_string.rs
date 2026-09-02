@@ -29,7 +29,7 @@
  * Constraints:
  *
  * 	0 <= s.length <= 300
- * 	s consists of lower-case and upper-case English letters, digits or one of the following characters "!@#$%^&amp;*()_+-=',.:".
+ * 	s consists of lower-case and upper-case English letters, digits or one of the following characters "!@#$%^&*()_+-=',.:".
  * 	The only space character in s is ' '.
  *
  */

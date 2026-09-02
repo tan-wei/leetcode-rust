@@ -11,7 +11,7 @@
  *  
  * Example 1:
  *
- * Input: nums = [<u>2</u>,3,3,<u>2</u>,<u>2</u>], k = 2, p = 2
+ * Input: nums = [2,3,3,2,2], k = 2, p = 2
  * Output: 11
  * Explanation:
  * The elements at indices 0, 3, and 4 are divisible by p = 2.

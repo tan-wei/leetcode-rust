@@ -12,7 +12,7 @@
  * Note that there can be multiple edges between the same two nodes.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/08/winword_2021-06-08_00-58-39.png" style="width: 529px; height: 305px;" />
+ * 
  * Input: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
  * Output: [6,5]
  * Explanation: The calculations for incident(a, b) are shown in the table above.

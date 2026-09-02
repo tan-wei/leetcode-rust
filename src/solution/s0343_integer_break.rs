@@ -8,13 +8,13 @@
  *
  * Input: n = 2
  * Output: 1
- * Explanation: 2 = 1 + 1, 1 &times; 1 = 1.
+ * Explanation: 2 = 1 + 1, 1 × 1 = 1.
  *
  * Example 2:
  *
  * Input: n = 10
  * Output: 36
- * Explanation: 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.
+ * Explanation: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.
  *
  *  
  * Constraints:

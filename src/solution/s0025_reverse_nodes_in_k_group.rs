@@ -10,12 +10,12 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex1.jpg" style="width: 542px; height: 222px;" />
+ * 
  * Input: head = [1,2,3,4,5], k = 2
  * Output: [2,1,4,3,5]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg" style="width: 542px; height: 222px;" />
+ * 
  * Input: head = [1,2,3,4,5], k = 3
  * Output: [3,2,1,4,5]
  *

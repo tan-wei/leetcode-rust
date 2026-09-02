@@ -6,17 +6,17 @@
  * Two trees are duplicate if they have the same structure with the same node values.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/16/e1.jpg" style="width: 450px; height: 354px;" />
+ * 
  * Input: root = [1,2,3,4,null,2,4,null,null,4]
  * Output: [[2,4],[4]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/16/e2.jpg" style="width: 321px; height: 201px;" />
+ * 
  * Input: root = [2,1,1]
  * Output: [[1]]
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/16/e33.jpg" style="width: 450px; height: 303px;" />
+ * 
  * Input: root = [2,2,2,3,null,3,null]
  * Output: [[2,3],[3]]
  *

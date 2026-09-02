@@ -10,7 +10,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/01/sketch1.png" style="width: 600px; height: 510px;" />
+ * 
  * Input: root = [3,5,1,6,2,0,8,null,null,7,4]
  * Output: [2,7,4]
  * Explanation: We return the node with value 2, colored in yellow in the diagram.
@@ -36,7 +36,7 @@
  * 	The values of the nodes in the tree are unique.
  *
  *  
- * Note: This question is the same as 865: <a href="https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/" target="_blank">https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/</a>
+ * Note: This question is the same as 865: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
  *
  */
 pub struct Solution {}

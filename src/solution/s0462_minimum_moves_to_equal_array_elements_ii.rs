@@ -11,7 +11,7 @@
  * Output: 2
  * Explanation:
  * Only two moves are needed (remember each move increments or decrements one element):
- * [<u>1</u>,2,3]  =>  [2,2,<u>3</u>]  =>  [2,2,2]
+ * [1,2,3]  =>  [2,2,3]  =>  [2,2,2]
  *
  * Example 2:
  *

@@ -10,15 +10,15 @@
  * Return the minimum total cost for this robot to return home.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/11/eg-1.png" style="width: 282px; height: 217px;" />
+ * 
  * Input: startPos = [1, 0], homePos = [2, 3], rowCosts = [5, 4, 3], colCosts = [8, 2, 6, 7]
  * Output: 18
  * Explanation: One optimal path is that:
  * Starting from (1, 0)
- * -> It goes down to (<u>2</u>, 0). This move costs rowCosts[2] = 3.
- * -> It goes right to (2, <u>1</u>). This move costs colCosts[1] = 2.
- * -> It goes right to (2, <u>2</u>). This move costs colCosts[2] = 6.
- * -> It goes right to (2, <u>3</u>). This move costs colCosts[3] = 7.
+ * -> It goes down to (2, 0). This move costs rowCosts[2] = 3.
+ * -> It goes right to (2, 1). This move costs colCosts[1] = 2.
+ * -> It goes right to (2, 2). This move costs colCosts[2] = 6.
+ * -> It goes right to (2, 3). This move costs colCosts[3] = 7.
  * The total cost is 3 + 2 + 6 + 7 = 18
  * Example 2:
  *

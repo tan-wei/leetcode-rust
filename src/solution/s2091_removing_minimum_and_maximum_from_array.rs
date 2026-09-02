@@ -8,7 +8,7 @@
  *  
  * Example 1:
  *
- * Input: nums = [2,<u>10</u>,7,5,4,<u>1</u>,8,6]
+ * Input: nums = [2,10,7,5,4,1,8,6]
  * Output: 5
  * Explanation:
  * The minimum element in the array is nums[5], which is 1.
@@ -18,7 +18,7 @@
  *
  * Example 2:
  *
- * Input: nums = [0,<u>-4</u>,<u>19</u>,1,8,-2,-3,5]
+ * Input: nums = [0,-4,19,1,8,-2,-3,5]
  * Output: 3
  * Explanation:
  * The minimum element in the array is nums[1], which is -4.
@@ -28,7 +28,7 @@
  *
  * Example 3:
  *
- * Input: nums = [<u>101</u>]
+ * Input: nums = [101]
  * Output: 1
  * Explanation:  
  * There is only one element in the array, which makes it both the minimum and maximum element.

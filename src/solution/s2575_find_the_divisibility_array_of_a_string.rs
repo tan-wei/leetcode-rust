@@ -25,9 +25,9 @@
  * Constraints:
  *
  * 	1 <= n <= 10^5
- * 	<font face="monospace">word.length == n</font>
- * 	<font face="monospace">word</font><font face="monospace"> consists of digits from 0 to 9</font>
- * 	<font face="monospace">1 <= m <= 10^9</font>
+ * 	word.length == n
+ * 	word consists of digits from 0 to 9
+ * 	1 <= m <= 10^9
  *
  */
 pub struct Solution {}

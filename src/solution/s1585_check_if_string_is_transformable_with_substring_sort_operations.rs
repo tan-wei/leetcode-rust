@@ -5,7 +5,7 @@
  *
  * 	Choose a non-empty substring in s and sort it in place so the characters are in ascending order.
  *
- * 		For example, applying the operation on the underlined substring in "1<u>4234</u>" results in "1<u>2344</u>".
+ * 		For example, applying the operation on the underlined substring in "14234" results in "12344".
  *
  *
  *
@@ -17,16 +17,16 @@
  * Input: s = "84532", t = "34852"
  * Output: true
  * Explanation: You can transform s into t using the following sort operations:
- * "84<u>53</u>2" (from index 2 to 3) -> "84<u>35</u>2"
- * "<u>843</u>52" (from index 0 to 2) -> "<u>348</u>52"
+ * "84532" (from index 2 to 3) -> "84352"
+ * "84352" (from index 0 to 2) -> "34852"
  *
  * Example 2:
  *
  * Input: s = "34521", t = "23415"
  * Output: true
  * Explanation: You can transform s into t using the following sort operations:
- * "<u>3452</u>1" -> "<u>2345</u>1"
- * "234<u>51</u>" -> "234<u>15</u>"
+ * "34521" -> "23451"
+ * "23451" -> "23415"
  *
  * Example 3:
  *

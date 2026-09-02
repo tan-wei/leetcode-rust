@@ -7,7 +7,7 @@
  *  
  * Example 1:
  *
- * Input: s = "le<u>e</u>etcode"
+ * Input: s = "leeetcode"
  * Output: "leetcode"
  * Explanation:
  * Remove an 'e' from the first group of 'e's to create "leetcode".
@@ -15,7 +15,7 @@
  *
  * Example 2:
  *
- * Input: s = "<u>a</u>aab<u>aa</u>aa"
+ * Input: s = "aaabaaaa"
  * Output: "aabaa"
  * Explanation:
  * Remove an 'a' from the first group of 'a's to create "aabaaaa".

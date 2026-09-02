@@ -9,27 +9,27 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/19/d1.JPG" style="width: 200px; height: 212px;" />
+ * 
  *
  * Input: prevRoom = [-1,0,1]
  * Output: 1
- * Explanation: There is only one way to build the additional rooms: 0 &rarr; 1 &rarr; 2
+ * Explanation: There is only one way to build the additional rooms: 0 → 1 → 2
  *
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/19/d2.JPG" style="width: 200px; height: 239px;" />
+ * 
  *
  *
  * Input: prevRoom = [-1,0,0,1,2]
  * Output: 6
  * Explanation:
  * The 6 ways are:
- * 0 &rarr; 1 &rarr; 3 &rarr; 2 &rarr; 4
- * 0 &rarr; 2 &rarr; 4 &rarr; 1 &rarr; 3
- * 0 &rarr; 1 &rarr; 2 &rarr; 3 &rarr; 4
- * 0 &rarr; 1 &rarr; 2 &rarr; 4 &rarr; 3
- * 0 &rarr; 2 &rarr; 1 &rarr; 3 &rarr; 4
- * 0 &rarr; 2 &rarr; 1 &rarr; 4 &rarr; 3
+ * 0 → 1 → 3 → 2 → 4
+ * 0 → 2 → 4 → 1 → 3
+ * 0 → 1 → 2 → 3 → 4
+ * 0 → 1 → 2 → 4 → 3
+ * 0 → 2 → 1 → 3 → 4
+ * 0 → 2 → 1 → 4 → 3
  *
  *
  *  

@@ -4,7 +4,7 @@
  * You are given an integer array nums (0-indexed). In one operation, you can choose an element of the array and increment it by 1.
  *
  *
- * 	For example, if nums = [1,2,3], you can choose to increment nums[1] to make nums = [1,<u>3</u>,3].
+ * 	For example, if nums = [1,2,3], you can choose to increment nums[1] to make nums = [1,3,3].
  *
  *
  * Return the minimum number of operations needed to make nums strictly increasing.
@@ -18,9 +18,9 @@
  * Input: nums = [1,1,1]
  * Output: 3
  * Explanation: You can do the following operations:
- * 1) Increment nums[2], so nums becomes [1,1,<u>2</u>].
- * 2) Increment nums[1], so nums becomes [1,<u>2</u>,2].
- * 3) Increment nums[2], so nums becomes [1,2,<u>3</u>].
+ * 1) Increment nums[2], so nums becomes [1,1,2].
+ * 2) Increment nums[1], so nums becomes [1,2,2].
+ * 3) Increment nums[2], so nums becomes [1,2,3].
  *
  *
  * Example 2:

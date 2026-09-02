@@ -6,13 +6,13 @@
  * Notice that you can return the vertices in any order.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled22.png" style="width: 231px; height: 181px;" />
+ * 
  *
  * Input: n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]
  * Output: [0,3]
  * Explanation: It's not possible to reach all the nodes from a single vertex. From 0 we can reach [0,1,2,5]. From 3 we can reach [3,4,2,5]. So we output [0,3].
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/07/untitled.png" style="width: 201px; height: 201px;" />
+ * 
  *
  * Input: n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]
  * Output: [0,2,3]

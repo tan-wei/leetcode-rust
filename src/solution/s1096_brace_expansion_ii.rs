@@ -26,8 +26,8 @@
  * Formally, the three rules for our grammar:
  *
  * 	For every lowercase letter x, we have R(x) = {x}.
- * 	For expressions e1, e2, ... , ek with k >= 2, we have R({e1, e2, ...}) = R(e1) &cup; R(e2) &cup; ...
- * 	For expressions e1 and e2, we have R(e1 + e2) = {a + b for (a, b) in R(e1) &times; R(e2)}, where + denotes concatenation, and &times; denotes the cartesian product.
+ * 	For expressions e1, e2, ... , ek with k >= 2, we have R({e1, e2, ...}) = R(e1) ∪ R(e2) ∪ ...
+ * 	For expressions e1 and e2, we have R(e1 + e2) = {a + b for (a, b) in R(e1) × R(e2)}, where + denotes concatenation, and × denotes the cartesian product.
  *
  * Given an expression representing a set of words under the given grammar, return the sorted list of words that the expression represents.
  *  

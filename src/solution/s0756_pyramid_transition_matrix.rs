@@ -10,7 +10,7 @@
  * Given bottom and allowed, return true if you can build the pyramid all the way to the top such that every triangular pattern in the pyramid is in allowed, or false otherwise.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/26/pyramid1-grid.jpg" style="width: 600px; height: 232px;" />
+ * 
  * Input: bottom = "BCD", allowed = ["BCC","CDE","CEA","FFF"]
  * Output: true
  * Explanation: The allowed triangular patterns are shown on the right.
@@ -18,7 +18,7 @@
  * There are three triangular patterns in the pyramid, which are "BCC", "CDE", and "CEA". All are allowed.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/26/pyramid2-grid.jpg" style="width: 600px; height: 359px;" />
+ * 
  * Input: bottom = "AAAA", allowed = ["AAB","AAC","BCD","BBE","DEF"]
  * Output: false
  * Explanation: The allowed triangular patterns are shown on the right.

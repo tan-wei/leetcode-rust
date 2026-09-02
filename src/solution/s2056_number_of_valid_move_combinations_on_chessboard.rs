@@ -18,19 +18,19 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a1.png" style="width: 215px; height: 215px;" />
+ * 
  * Input: pieces = ["rook"], positions = [[1,1]]
  * Output: 15
  * Explanation: The image above shows the possible squares the piece can move to.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a2.png" style="width: 215px; height: 215px;" />
+ * 
  * Input: pieces = ["queen"], positions = [[1,1]]
  * Output: 22
  * Explanation: The image above shows the possible squares the piece can move to.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/23/a3.png" style="width: 214px; height: 215px;" />
+ * 
  * Input: pieces = ["bishop"], positions = [[4,3]]
  * Output: 12
  * Explanation: The image above shows the possible squares the piece can move to.

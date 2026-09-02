@@ -6,7 +6,7 @@
  * Given a 0-indexed integer array favorite, where favorite[i] denotes the favorite person of the i^th employee, return the maximum number of employees that can be invited to the meeting.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/14/ex1.png" style="width: 236px; height: 195px;" />
+ * 
  * Input: favorite = [2,2,1,2]
  * Output: 3
  * Explanation:
@@ -28,7 +28,7 @@
  * The maximum number of employees that can be invited to the meeting is 3.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/14/ex2.png" style="width: 219px; height: 220px;" />
+ * 
  * Input: favorite = [3,0,1,4,1]
  * Output: 4
  * Explanation:

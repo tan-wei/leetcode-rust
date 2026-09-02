@@ -6,7 +6,7 @@
  * Return the number of steps in the shortest path from the entrance to the nearest exit, or -1 if no such path exists.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearest1-grid.jpg" style="width: 333px; height: 253px;" />
+ * 
  * Input: maze = [["+","+",".","+"],[".",".",".","+"],["+","+","+","."]], entrance = [1,2]
  * Output: 1
  * Explanation: There are 3 exits in this maze at [1,0], [0,2], and [2,3].
@@ -17,7 +17,7 @@
  * Thus, the nearest exit is [0,2], which is 1 step away.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearesr2-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: maze = [["+","+","+"],[".",".","."],["+","+","+"]], entrance = [1,0]
  * Output: 2
  * Explanation: There is 1 exit in this maze at [1,2].
@@ -27,7 +27,7 @@
  * Thus, the nearest exit is [1,2], which is 2 steps away.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/04/nearest3-grid.jpg" style="width: 173px; height: 93px;" />
+ * 
  * Input: maze = [[".","+"]], entrance = [0,0]
  * Output: -1
  * Explanation: There are no exits in this maze.

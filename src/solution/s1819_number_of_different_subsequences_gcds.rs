@@ -8,12 +8,12 @@
  *
  * A subsequence of an array is a sequence that can be formed by removing some elements (possibly none) of the array.
  *
- * 	For example, [2,5,10] is a subsequence of [1,2,1,<u>2</u>,4,1,<u>5</u>,<u>10</u>].
+ * 	For example, [2,5,10] is a subsequence of [1,2,1,2,4,1,5,10].
  *
  * Return the number of different GCDs among all non-empty subsequences of nums.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/17/image-1.png" style="width: 149px; height: 309px;" />
+ * 
  * Input: nums = [6,10,3]
  * Output: 5
  * Explanation: The figure shows all the non-empty subsequences and their GCDs.

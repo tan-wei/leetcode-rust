@@ -4,7 +4,7 @@
  * Given a linked list, swap every two adjacent nodes and return its head.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg" style="width: 422px; height: 222px;" />
+ * 
  * Input: head = [1,2,3,4]
  * Output: [2,1,4,3]
  *

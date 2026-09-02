@@ -6,14 +6,14 @@
  * Return the number of unoccupied cells that are not guarded.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/10/example1drawio2.png" style="width: 300px; height: 204px;" />
+ * 
  * Input: m = 4, n = 6, guards = [[0,0],[1,1],[2,3]], walls = [[0,1],[2,2],[1,4]]
  * Output: 7
  * Explanation: The guarded and unguarded cells are shown in red and green respectively in the above diagram.
  * There are a total of 7 unguarded cells, so we return 7.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/10/example2drawio.png" style="width: 200px; height: 201px;" />
+ * 
  * Input: m = 3, n = 3, guards = [[1,1]], walls = [[0,1],[1,0],[2,1],[1,2]]
  * Output: 4
  * Explanation: The unguarded cells are shown in green in the above diagram.

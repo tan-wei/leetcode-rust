@@ -5,15 +5,15 @@
  * Calculate the total area covered by all rectangles in the plane. Any area covered by two or more rectangles should only be counted once.
  * Return the total area. Since the answer may be too large, return it modulo 10^9 + 7.
  *  
- * <strong class="example">Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/06/rectangle_area_ii_pic.png" style="width: 600px; height: 450px;" />
+ * Example 1:
+ * 
  * Input: rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]
  * Output: 6
  * Explanation: A total area of 6 is covered by all three rectangles, as illustrated in the picture.
  * From (1,1) to (2,2), the green and red rectangles overlap.
  * From (1,0) to (2,3), all three rectangles overlap.
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: rectangles = [[0,0,1000000000,1000000000]]
  * Output: 49

@@ -7,21 +7,21 @@
  * Return the last day where it is possible to walk from the top to the bottom by only walking on land cells.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/1.png" style="width: 624px; height: 162px;" />
+ * 
  * Input: row = 2, col = 2, cells = [[1,1],[2,1],[1,2],[2,2]]
  * Output: 2
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.
  * The last day where it is possible to cross from top to bottom is on day 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/2.png" style="width: 504px; height: 178px;" />
+ * 
  * Input: row = 2, col = 2, cells = [[1,1],[1,2],[2,1],[2,2]]
  * Output: 1
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.
  * The last day where it is possible to cross from top to bottom is on day 1.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/27/3.png" style="width: 666px; height: 167px;" />
+ * 
  * Input: row = 3, col = 3, cells = [[1,2],[2,1],[3,3],[2,2],[1,1],[1,3],[2,3],[3,2],[3,1]]
  * Output: 3
  * Explanation: The above image depicts how the matrix changes each day starting from day 0.

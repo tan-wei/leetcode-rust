@@ -5,13 +5,13 @@
  * Return the number of ways to color the grid with no two adjacent cells having the same color. Since the answer can be very large, return it modulo 10^9 + 7.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/22/colorthegrid.png" style="width: 200px; height: 50px;" />
+ * 
  * Input: m = 1, n = 1
  * Output: 3
  * Explanation: The three possible colorings are shown in the image above.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/22/copy-of-colorthegrid.png" style="width: 321px; height: 121px;" />
+ * 
  * Input: m = 1, n = 2
  * Output: 6
  * Explanation: The six possible colorings are shown in the image above.

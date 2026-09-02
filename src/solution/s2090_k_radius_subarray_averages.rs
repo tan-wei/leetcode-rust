@@ -10,7 +10,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/07/eg1.png" style="width: 343px; height: 119px;" />
+ * 
  * Input: nums = [7,4,3,9,1,8,5,2,6], k = 3
  * Output: [-1,-1,-1,5,4,4,-1,-1,-1]
  * Explanation:

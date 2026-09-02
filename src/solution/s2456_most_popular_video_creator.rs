@@ -11,25 +11,25 @@
  * Return a 2D array of strings answer where answer[i] = [creatorsi, idi] means that creatorsi has the highest popularity and idi is the id of their most popular video. The answer can be returned in any order.
  *  
  * Example 1:
- * <div class="example-block">
- * Input: <span class="example-io">creators = ["alice","bob","alice","chris"], ids = ["one","two","three","four"], views = [5,10,5,4]</span>
- * Output: <span class="example-io">[["alice","one"],["bob","two"]]</span>
+ * 
+ * Input: creators = ["alice","bob","alice","chris"], ids = ["one","two","three","four"], views = [5,10,5,4]
+ * Output: [["alice","one"],["bob","two"]]
  * Explanation:
- * The popularity of alice is 5 + 5 = 10.<br />
- * The popularity of bob is 10.<br />
- * The popularity of chris is 4.<br />
- * alice and bob are the most popular creators.<br />
- * For bob, the video with the highest view count is "two".<br />
+ * The popularity of alice is 5 + 5 = 10.
+ * The popularity of bob is 10.
+ * The popularity of chris is 4.
+ * alice and bob are the most popular creators.
+ * For bob, the video with the highest view count is "two".
  * For alice, the videos with the highest view count are "one" and "three". Since "one" is lexicographically smaller than "three", it is included in the answer.
- * </div>
+ * 
  * Example 2:
- * <div class="example-block">
- * Input: <span class="example-io">creators = ["alice","alice","alice"], ids = ["a","b","c"], views = [1,2,2]</span>
- * Output: <span class="example-io">[["alice","b"]]</span>
+ * 
+ * Input: creators = ["alice","alice","alice"], ids = ["a","b","c"], views = [1,2,2]
+ * Output: [["alice","b"]]
  * Explanation:
- * The videos with id "b" and "c" have the highest view count.<br />
+ * The videos with id "b" and "c" have the highest view count.
  * Since "b" is lexicographically smaller than "c", it is included in the answer.
- * </div>
+ * 
  *  
  * Constraints:
  *

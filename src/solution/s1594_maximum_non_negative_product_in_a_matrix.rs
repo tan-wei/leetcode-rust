@@ -7,19 +7,19 @@
  * Notice that the modulo is performed after getting the maximum product.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product1.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: grid = [[-1,-2,-3],[-2,-3,-3],[-3,-3,-2]]
  * Output: -1
  * Explanation: It is not possible to get non-negative product in the path from (0, 0) to (2, 2), so return -1.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product2.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: grid = [[1,-2,1],[1,-2,1],[3,-4,1]]
  * Output: 8
  * Explanation: Maximum non-negative product is shown (1 * 1 * -2 * -4 * 1 = 8).
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/product3.jpg" style="width: 164px; height: 165px;" />
+ * 
  * Input: grid = [[1,3],[0,-4]]
  * Output: 0
  * Explanation: Maximum non-negative product is shown (1 * 0 * -4 = 0).

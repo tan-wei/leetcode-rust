@@ -3,17 +3,17 @@
  *
  * You are given a 0-indexed binary string s which represents a sequence of train cars. s[i] = '0' denotes that the i^th car does not contain illegal goods and s[i] = '1' denotes that the i^th car does contain illegal goods.
  * As the train conductor, you would like to get rid of all the cars containing illegal goods. You can do any of the following three operations any number of times:
- * <ol>
+ * 
  * 	Remove a train car from the left end (i.e., remove s[0]) which takes 1 unit of time.
  * 	Remove a train car from the right end (i.e., remove s[s.length - 1]) which takes 1 unit of time.
  * 	Remove a train car from anywhere in the sequence which takes 2 units of time.
- * </ol>
+ * 
  * Return the minimum time to remove all the cars containing illegal goods.
  * Note that an empty sequence of cars is considered to have no cars containing illegal goods.
  *  
  * Example 1:
  *
- * Input: s = "<u>11</u>00<u>1</u>0<u>1</u>"
+ * Input: s = "1100101"
  * Output: 5
  * Explanation:
  * One way to remove all the cars containing illegal goods from the sequence is to
@@ -30,7 +30,7 @@
  *
  * Example 2:
  *
- * Input: s = "00<u>1</u>0"
+ * Input: s = "0010"
  * Output: 2
  * Explanation:
  * One way to remove all the cars containing illegal goods from the sequence is to

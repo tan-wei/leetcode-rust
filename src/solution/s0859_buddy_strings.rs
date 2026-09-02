@@ -7,19 +7,19 @@
  * 	For example, swapping at indices 0 and 2 in "abcd" results in "cbad".
  *
  *  
- * <strong class="example">Example 1:
+ * Example 1:
  *
  * Input: s = "ab", goal = "ba"
  * Output: true
  * Explanation: You can swap s[0] = 'a' and s[1] = 'b' to get "ba", which is equal to goal.
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: s = "ab", goal = "ab"
  * Output: false
  * Explanation: The only letters you can swap are s[0] = 'a' and s[1] = 'b', which results in "ba" != goal.
  *
- * <strong class="example">Example 3:
+ * Example 3:
  *
  * Input: s = "aa", goal = "aa"
  * Output: true

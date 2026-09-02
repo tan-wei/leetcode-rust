@@ -5,12 +5,12 @@
  * The length of the path between two nodes is represented by the number of edges between them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/13/ex1.jpg" style="width: 571px; height: 302px;" />
+ * 
  * Input: root = [5,4,5,1,1,5]
  * Output: 2
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/13/ex2.jpg" style="width: 571px; height: 302px;" />
+ * 
  * Input: root = [1,4,5,4,4,5]
  * Output: 2
  *

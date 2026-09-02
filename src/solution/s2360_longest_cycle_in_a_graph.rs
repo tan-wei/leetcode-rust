@@ -7,14 +7,14 @@
  * A cycle is a path that starts and ends at the same node.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/06/08/graph4drawio-5.png" style="width: 335px; height: 191px;" />
+ * 
  * Input: edges = [3,3,4,2,3]
  * Output: 3
  * Explanation: The longest cycle in the graph is the cycle: 2 -> 4 -> 3 -> 2.
  * The length of this cycle is 3, so 3 is returned.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/06/07/graph4drawio-1.png" style="width: 171px; height: 161px;" />
+ * 
  * Input: edges = [2,-1,3,1]
  * Output: -1
  * Explanation: There are no cycles in this graph.

@@ -8,9 +8,9 @@
  *  
  * Example 1:
  *
- * Input: n = 5, paths = [[0,1,<u>2,3</u>,4],
- *                        [<u>2,3</u>,4],
- *                        [4,0,1,<u>2,3</u>]]
+ * Input: n = 5, paths = [[0,1,2,3,4],
+ *                        [2,3,4],
+ *                        [4,0,1,2,3]]
  * Output: 2
  * Explanation: The longest common subpath is [2,3].
  *
@@ -22,8 +22,8 @@
  *
  * Example 3:
  *
- * Input: n = 5, paths = [[<u>0</u>,1,2,3,4],
- *                        [4,3,2,1,<u>0</u>]]
+ * Input: n = 5, paths = [[0,1,2,3,4],
+ *                        [4,3,2,1,0]]
  * Output: 1
  * Explanation: The possible longest common subpaths are [0], [1], [2], [3], and [4]. All have a length of 1.
  *  

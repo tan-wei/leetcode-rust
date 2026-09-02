@@ -10,8 +10,8 @@
  * Input: source = [1,2,3,4], target = [2,1,4,5], allowedSwaps = [[0,1],[2,3]]
  * Output: 1
  * Explanation: source can be transformed the following way:
- * - Swap indices 0 and 1: source = [<u>2</u>,<u>1</u>,3,4]
- * - Swap indices 2 and 3: source = [2,1,<u>4</u>,<u>3</u>]
+ * - Swap indices 0 and 1: source = [2,1,3,4]
+ * - Swap indices 2 and 3: source = [2,1,4,3]
  * The Hamming distance of source and target is 1 as they differ in 1 position: index 3.
  *
  * Example 2:

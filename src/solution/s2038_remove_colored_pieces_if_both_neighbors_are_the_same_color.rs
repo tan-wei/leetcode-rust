@@ -16,7 +16,7 @@
  * Input: colors = "AAABABB"
  * Output: true
  * Explanation:
- * A<u>A</u>ABABB -> AABABB
+ * AAABABB -> AABABB
  * Alice moves first.
  * She removes the second 'A' from the left since that is the only 'A' whose neighbors are both 'A'.
  * Now it's Bob's turn.
@@ -37,10 +37,10 @@
  * Input: colors = "ABBBBBBBAAA"
  * Output: false
  * Explanation:
- * ABBBBBBBA<u>A</u>A -> ABBBBBBBAA
+ * ABBBBBBBAAA -> ABBBBBBBAA
  * Alice moves first.
  * Her only option is to remove the second to last 'A' from the right.
- * ABBBB<u>B</u>BBAA -> ABBBBBBAA
+ * ABBBBBBBAA -> ABBBBBBAA
  * Next is Bob's turn.
  * He has many options for which 'B' piece to remove. He can pick any.
  * On Alice's second turn, she has no more pieces that she can remove.

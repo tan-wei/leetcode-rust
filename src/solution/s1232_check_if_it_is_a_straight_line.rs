@@ -5,13 +5,13 @@
  *  
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/15/untitled-diagram-2.jpg" style="width: 336px; height: 336px;" />
+ * 
  *
  * Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/09/untitled-diagram-1.jpg" style="width: 348px; height: 336px;" />
+ * 
  *
  * Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
  * Output: false

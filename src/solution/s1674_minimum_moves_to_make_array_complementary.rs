@@ -9,7 +9,7 @@
  *
  * Input: nums = [1,2,4,3], limit = 4
  * Output: 1
- * Explanation: In 1 move, you can change nums to [1,2,<u>2</u>,3] (underlined elements are changed).
+ * Explanation: In 1 move, you can change nums to [1,2,2,3] (underlined elements are changed).
  * nums[0] + nums[3] = 1 + 3 = 4.
  * nums[1] + nums[2] = 2 + 2 = 4.
  * nums[2] + nums[1] = 2 + 2 = 4.
@@ -20,7 +20,7 @@
  *
  * Input: nums = [1,2,2,1], limit = 2
  * Output: 2
- * Explanation: In 2 moves, you can change nums to [<u>2</u>,2,2,<u>2</u>]. You cannot change any number to 3 since 3 > limit.
+ * Explanation: In 2 moves, you can change nums to [2,2,2,2]. You cannot change any number to 3 since 3 > limit.
  *
  * Example 3:
  *

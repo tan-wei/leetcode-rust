@@ -15,7 +15,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/01/image.png" style="width: 869px; height: 504px;" />
+ * 
  * Input
  * ["DetectSquares", "add", "add", "add", "count", "count", "add", "count"]
  * [[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]

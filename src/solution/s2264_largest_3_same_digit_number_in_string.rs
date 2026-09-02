@@ -15,14 +15,14 @@
  *  
  * Example 1:
  *
- * Input: num = "6<u>777</u>133339"
+ * Input: num = "6777133339"
  * Output: "777"
  * Explanation: There are two distinct good integers: "777" and "333".
  * "777" is the largest, so we return "777".
  *
  * Example 2:
  *
- * Input: num = "23<u>000</u>19"
+ * Input: num = "2300019"
  * Output: "000"
  * Explanation: "000" is the only good integer.
  *

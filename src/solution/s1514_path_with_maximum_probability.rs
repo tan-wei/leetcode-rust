@@ -6,20 +6,20 @@
  * If there is no path from start to end, return 0. Your answer will be accepted if it differs from the correct answer by at most 1e-5.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex1.png" style="width: 187px; height: 186px;" />
+ * 
  *
  * Input: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.2], start = 0, end = 2
  * Output: 0.25000
  * Explanation: There are two paths from start to end, one having a probability of success = 0.2 and the other has 0.5 * 0.5 = 0.25.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex2.png" style="width: 189px; height: 186px;" />
+ * 
  *
  * Input: n = 3, edges = [[0,1],[1,2],[0,2]], succProb = [0.5,0.5,0.3], start = 0, end = 2
  * Output: 0.30000
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/20/1558_ex3.png" style="width: 215px; height: 191px;" />
+ * 
  *
  * Input: n = 3, edges = [[0,1]], succProb = [0.5], start = 0, end = 2
  * Output: 0.00000

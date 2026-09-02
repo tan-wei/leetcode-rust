@@ -19,9 +19,9 @@
  * Input: s = "leet**cod*e"
  * Output: "lecoe"
  * Explanation: Performing the removals from left to right:
- * - The closest character to the 1^st star is 't' in "lee<u>t</u>**cod*e". s becomes "lee*cod*e".
- * - The closest character to the 2^nd star is 'e' in "le<u>e</u>*cod*e". s becomes "lecod*e".
- * - The closest character to the 3^rd star is 'd' in "leco<u>d</u>*e". s becomes "lecoe".
+ * - The closest character to the 1^st star is 't' in "leet**cod*e". s becomes "lee*cod*e".
+ * - The closest character to the 2^nd star is 'e' in "lee*cod*e". s becomes "lecod*e".
+ * - The closest character to the 3^rd star is 'd' in "lecod*e". s becomes "lecoe".
  * There are no more stars, so we return "lecoe".
  * Example 2:
  *

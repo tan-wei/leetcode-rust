@@ -7,17 +7,17 @@
  * Note: The bottom face of each shape counts toward its surface area.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/08/tmp-grid2.jpg" style="width: 162px; height: 162px;" />
+ * 
  * Input: grid = [[1,2],[3,4]]
  * Output: 34
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/08/tmp-grid4.jpg" style="width: 242px; height: 242px;" />
+ * 
  * Input: grid = [[1,1,1],[1,0,1],[1,1,1]]
  * Output: 32
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/08/tmp-grid5.jpg" style="width: 242px; height: 242px;" />
+ * 
  * Input: grid = [[2,2,2],[2,1,2],[2,2,2]]
  * Output: 46
  *

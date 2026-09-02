@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/16/getrand-linked-list.jpg" style="width: 302px; height: 62px;" />
+ * 
  * Input
  * ["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
  * [[[1, 2, 3]], [], [], [], [], []]

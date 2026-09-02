@@ -10,9 +10,9 @@
  * Input: target = "10111"
  * Output: 3
  * Explanation: Initially, s = "00000".
- * Choose index i = 2: "00<u>000</u>" -> "00<u>111</u>"
- * Choose index i = 0: "<u>00111</u>" -> "<u>11000</u>"
- * Choose index i = 1: "1<u>1000</u>" -> "1<u>0111</u>"
+ * Choose index i = 2: "00000" -> "00111"
+ * Choose index i = 0: "00111" -> "11000"
+ * Choose index i = 1: "11000" -> "10111"
  * We need at least 3 flip operations to form target.
  *
  * Example 2:
@@ -20,9 +20,9 @@
  * Input: target = "101"
  * Output: 3
  * Explanation: Initially, s = "000".
- * Choose index i = 0: "<u>000</u>" -> "<u>111</u>"
- * Choose index i = 1: "1<u>11</u>" -> "1<u>00</u>"
- * Choose index i = 2: "10<u>0</u>" -> "10<u>1</u>"
+ * Choose index i = 0: "000" -> "111"
+ * Choose index i = 1: "111" -> "100"
+ * Choose index i = 2: "100" -> "101"
  * We need at least 3 flip operations to form target.
  *
  * Example 3:

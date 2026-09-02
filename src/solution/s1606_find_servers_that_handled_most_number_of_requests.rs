@@ -12,7 +12,7 @@
  * Return a list containing the IDs (0-indexed) of the busiest server(s). You may return the IDs in any order.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/08/load-1.png" style="width: 389px; height: 221px;" />
+ * 
  * Input: k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3]
  * Output: [1]
  * Explanation:

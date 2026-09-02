@@ -17,7 +17,7 @@
  * Input: s = "111000"
  * Output: 2
  * Explanation: Use the first operation two times to make s = "100011".
- * Then, use the second operation on the third and sixth elements to make s = "10<u>1</u>01<u>0</u>".
+ * Then, use the second operation on the third and sixth elements to make s = "101010".
  *
  * Example 2:
  *
@@ -29,7 +29,7 @@
  *
  * Input: s = "1110"
  * Output: 1
- * Explanation: Use the second operation on the second element to make s = "1<u>0</u>10".
+ * Explanation: Use the second operation on the second element to make s = "1010".
  *
  *  
  * Constraints:

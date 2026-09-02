@@ -12,7 +12,7 @@
  * Given an integer array destination and an integer k, return the k^th lexicographically smallest instructions that will take Bob to destination.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/12/ex1.png" style="width: 300px; height: 229px;" />
+ * 
  *
  * Input: destination = [2,3], k = 1
  * Output: "HHHVV"
@@ -20,13 +20,13 @@
  * ["HHHVV", "HHVHV", "HHVVH", "HVHHV", "HVHVH", "HVVHH", "VHHHV", "VHHVH", "VHVHH", "VVHHH"].
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/12/ex2.png" style="width: 300px; height: 229px;" />
+ * 
  *
  * Input: destination = [2,3], k = 2
  * Output: "HHVHV"
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/12/ex3.png" style="width: 300px; height: 229px;" />
+ * 
  *
  * Input: destination = [2,3], k = 3
  * Output: "HHVVH"

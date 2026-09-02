@@ -7,12 +7,12 @@
  * If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/reshape1-grid.jpg" style="width: 613px; height: 173px;" />
+ * 
  * Input: mat = [[1,2],[3,4]], r = 1, c = 4
  * Output: [[1,2,3,4]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/reshape2-grid.jpg" style="width: 453px; height: 173px;" />
+ * 
  * Input: mat = [[1,2],[3,4]], r = 2, c = 4
  * Output: [[1,2],[3,4]]
  *

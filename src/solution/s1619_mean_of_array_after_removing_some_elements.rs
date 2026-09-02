@@ -25,7 +25,7 @@
  *
  * 	20 <= arr.length <= 1000
  * 	arr.length is a multiple of 20.
- * 	<font face="monospace">0 <= arr[i] <= 10^5</font>
+ * 	0 <= arr[i] <= 10^5
  *
  */
 pub struct Solution {}

@@ -18,7 +18,7 @@
  *  
  * Constraints:
  *
- * 	<span>1 <= nums.length <= </span>10^4
+ * 	1 <= nums.length <= 10^4
  * 	-10^4 <= nums[i] <= 10^4
  * 	nums is sorted in non-decreasing order.
  *

@@ -23,9 +23,9 @@
  * Explanation
  * MapSum mapSum = new MapSum();
  * mapSum.insert("apple", 3);  
- * mapSum.sum("ap");           // return 3 (<u>ap</u>ple = 3)
+ * mapSum.sum("ap");           // return 3 (apple = 3)
  * mapSum.insert("app", 2);    
- * mapSum.sum("ap");           // return 5 (<u>ap</u>ple + <u>ap</u>p = 3 + 2 = 5)
+ * mapSum.sum("ap");           // return 5 (apple + app = 3 + 2 = 5)
  *
  *  
  * Constraints:

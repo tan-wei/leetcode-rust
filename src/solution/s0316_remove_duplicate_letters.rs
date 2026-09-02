@@ -20,7 +20,7 @@
  * 	s consists of lowercase English letters.
  *
  *  
- * Note: This question is the same as 1081: <a href="https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/" target="_blank">https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/</a>
+ * Note: This question is the same as 1081: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
  *
  */
 pub struct Solution {}

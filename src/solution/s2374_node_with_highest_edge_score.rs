@@ -7,7 +7,7 @@
  * Return the node with the highest edge score. If multiple nodes have the same edge score, return the node with the smallest index.
  *  
  * Example 1:
- * <img src="https://assets.leetcode.com/uploads/2022/06/20/image-20220620195403-1.png" style="width: 450px; height: 260px;" />
+ * 
  * Input: edges = [1,0,0,0,0,7,7,5]
  * Output: 7
  * Explanation:
@@ -18,7 +18,7 @@
  * Node 7 has the highest edge score so return 7.
  *
  * Example 2:
- * <img src="https://assets.leetcode.com/uploads/2022/06/20/image-20220620200212-3.png" style="width: 150px; height: 155px;" />
+ * 
  * Input: edges = [2,0,0,2]
  * Output: 0
  * Explanation:

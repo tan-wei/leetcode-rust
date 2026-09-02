@@ -5,7 +5,7 @@
  * Count and return the number of maximum integers in the matrix after performing all the operations.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/02/ex1.jpg" style="width: 750px; height: 176px;" />
+ * 
  * Input: m = 3, n = 3, ops = [[2,2],[3,3]]
  * Output: 4
  * Explanation: The maximum integer in M is 2, and there are four of it in M. So return 4.

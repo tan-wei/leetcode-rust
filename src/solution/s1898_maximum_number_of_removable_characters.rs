@@ -10,17 +10,17 @@
  *
  * Input: s = "abcacb", p = "ab", removable = [3,1,0]
  * Output: 2
- * Explanation: After removing the characters at indices 3 and 1, "a<s>b</s>c<s>a</s>cb" becomes "accb".
- * "ab" is a subsequence of "<u>a</u>cc<u>b</u>".
- * If we remove the characters at indices 3, 1, and 0, "<s>ab</s>c<s>a</s>cb" becomes "ccb", and "ab" is no longer a subsequence.
+ * Explanation: After removing the characters at indices 3 and 1, "abcacb" becomes "accb".
+ * "ab" is a subsequence of "accb".
+ * If we remove the characters at indices 3, 1, and 0, "abcacb" becomes "ccb", and "ab" is no longer a subsequence.
  * Hence, the maximum k is 2.
  *
  * Example 2:
  *
  * Input: s = "abcbddddd", p = "abcd", removable = [3,2,1,4,5,6]
  * Output: 1
- * Explanation: After removing the character at index 3, "abc<s>b</s>ddddd" becomes "abcddddd".
- * "abcd" is a subsequence of "<u>abcd</u>dddd".
+ * Explanation: After removing the character at index 3, "abcbddddd" becomes "abcddddd".
+ * "abcd" is a subsequence of "abcddddd".
  *
  * Example 3:
  *

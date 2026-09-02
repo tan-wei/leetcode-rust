@@ -1,7 +1,7 @@
 /**
  * [150] Evaluate Reverse Polish Notation
  *
- * Evaluate the value of an arithmetic expression in <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation" target="_blank">Reverse Polish Notation</a>.
+ * Evaluate the value of an arithmetic expression in Reverse Polish Notation.
  * Valid operators are +, -, *, and /. Each operand may be an integer or another expression.
  * Note that division between two integers should truncate toward zero.
  * It is guaranteed that the given RPN expression is always valid. That means the expression would always evaluate to a result, and there will not be any division by zero operation.

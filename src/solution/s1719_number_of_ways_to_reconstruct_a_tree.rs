@@ -23,13 +23,13 @@
  * An ancestor of a node is any node on the path from the root to that node (excluding the node itself). The root has no ancestors.
  *  
  * Example 1:
- * <img src="https://assets.leetcode.com/uploads/2020/12/03/trees2.png" style="width: 208px; height: 221px;" />
+ * 
  * Input: pairs = [[1,2],[2,3]]
  * Output: 1
  * Explanation: There is exactly one valid rooted tree, which is shown in the above figure.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/03/tree.png" style="width: 234px; height: 241px;" />
+ * 
  * Input: pairs = [[1,2],[2,3],[1,3]]
  * Output: 2
  * Explanation: There are multiple valid rooted trees. Three of them are shown in the above figures.

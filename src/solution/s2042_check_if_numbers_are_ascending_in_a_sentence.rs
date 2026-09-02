@@ -9,7 +9,7 @@
  * Return true if so, or false otherwise.
  *  
  * Example 1:
- * <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/09/30/example1.png" style="width: 637px; height: 48px;" />
+ * 
  * Input: s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
  * Output: true
  * Explanation: The numbers in s are: 1, 3, 4, 6, 12.
@@ -19,13 +19,13 @@
  *
  * Input: s = "hello world 5 x 5"
  * Output: false
- * Explanation: The numbers in s are: <u>5</u>, <u>5</u>. They are not strictly increasing.
+ * Explanation: The numbers in s are: 5, 5. They are not strictly increasing.
  *
  * Example 3:
- * <img alt="example-3" src="https://assets.leetcode.com/uploads/2021/09/30/example3.png" style="width: 794px; height: 48px;" />
+ * 
  * Input: s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s"
  * Output: false
- * Explanation: The numbers in s are: 7, <u>51</u>, <u>50</u>, 60. They are not strictly increasing.
+ * Explanation: The numbers in s are: 7, 51, 50, 60. They are not strictly increasing.
  *
  *  
  * Constraints:

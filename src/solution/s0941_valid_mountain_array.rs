@@ -11,7 +11,7 @@
  * 		arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
  *
  *
- * <img src="https://assets.leetcode.com/uploads/2019/10/20/hint_valid_mountain_array.png" width="500" />
+ * 
  *  
  * Example 1:
  * Input: arr = [2,1]

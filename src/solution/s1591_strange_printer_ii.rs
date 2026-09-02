@@ -10,12 +10,12 @@
  * Return true if it is possible to print the matrix targetGrid, otherwise, return false.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/print1.jpg" style="width: 600px; height: 175px;" />
+ * 
  * Input: targetGrid = [[1,1,1,1],[1,2,2,1],[1,2,2,1],[1,1,1,1]]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/23/print2.jpg" style="width: 600px; height: 367px;" />
+ * 
  * Input: targetGrid = [[1,1,1,1],[1,1,3,3],[1,1,3,4],[5,5,1,4]]
  * Output: true
  *

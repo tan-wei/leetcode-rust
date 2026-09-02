@@ -13,7 +13,7 @@
  * Return the difference matrix diff.
  *  
  * Example 1:
- * <img src="https://assets.leetcode.com/uploads/2022/11/06/image-20221106171729-5.png" style="width: 400px; height: 208px;" />
+ * 
  * Input: grid = [[0,1,1],[1,0,1],[0,0,1]]
  * Output: [[0,0,4],[0,0,4],[-2,-2,2]]
  * Explanation:
@@ -28,7 +28,7 @@
  * - diff[2][2] = onesRow2 + onesCol2 - zerosRow2 - zerosCol2 = 1 + 3 - 2 - 0 = 2
  *
  * Example 2:
- * <img src="https://assets.leetcode.com/uploads/2022/11/06/image-20221106171747-6.png" style="width: 358px; height: 150px;" />
+ * 
  * Input: grid = [[1,1,1],[1,1,1]]
  * Output: [[5,5,5],[5,5,5]]
  * Explanation:

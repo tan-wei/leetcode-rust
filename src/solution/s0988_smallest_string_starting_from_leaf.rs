@@ -10,17 +10,17 @@
  * A leaf of a node is a node that has no children.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/01/30/tree1.png" style="width: 534px; height: 358px;" />
+ * 
  * Input: root = [0,1,2,3,4,3,4]
  * Output: "dba"
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/01/30/tree2.png" style="width: 534px; height: 358px;" />
+ * 
  * Input: root = [25,1,3,1,3,0,2]
  * Output: "adz"
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/02/01/tree3.png" style="height: 490px; width: 468px;" />
+ * 
  * Input: root = [2,2,1,null,1,0,null,0]
  * Output: "abc"
  *

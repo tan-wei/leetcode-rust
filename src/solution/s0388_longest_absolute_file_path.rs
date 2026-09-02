@@ -2,7 +2,7 @@
  * [0388] Longest Absolute File Path
  *
  * Suppose we have a file system that stores both files and directories. An example of one system is represented in the following picture:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/28/mdir.jpg" style="width: 681px; height: 322px;" />
+ * 
  * Here, we have dir as the only directory in the root. dir contains two subdirectories, subdir1 and subdir2. subdir1 contains a file file1.ext and subdirectory subsubdir1. subdir2 contains a subdirectory subsubdir2, which contains a file file2.ext.
  * In text form, it looks like this (with ⟶ representing the tab character):
  *
@@ -19,13 +19,13 @@
  * Given a string input representing the file system in the explained format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/28/dir1.jpg" style="width: 401px; height: 202px;" />
+ * 
  * Input: input = "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"
  * Output: 20
  * Explanation: We have only one file, and the absolute path is "dir/subdir2/file.ext" of length 20.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/28/dir2.jpg" style="width: 641px; height: 322px;" />
+ * 
  * Input: input = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
  * Output: 32
  * Explanation: We have two files:

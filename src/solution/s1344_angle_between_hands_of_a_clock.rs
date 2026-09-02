@@ -5,17 +5,17 @@
  * Answers within 10^-5 of the actual value will be accepted as correct.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_1_1673.png" style="width: 300px; height: 296px;" />
+ * 
  * Input: hour = 12, minutes = 30
  * Output: 165
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_2_1673.png" style="width: 300px; height: 301px;" />
+ * 
  * Input: hour = 3, minutes = 30
  * Output: 75
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/26/sample_3_1673.png" style="width: 300px; height: 301px;" />
+ * 
  * Input: hour = 3, minutes = 15
  * Output: 7.5
  *

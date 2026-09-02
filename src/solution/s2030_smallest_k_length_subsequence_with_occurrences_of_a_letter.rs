@@ -11,14 +11,14 @@
  * Input: s = "leet", k = 3, letter = "e", repetition = 1
  * Output: "eet"
  * Explanation: There are four subsequences of length 3 that have the letter 'e' appear at least 1 time:
- * - "lee" (from "<u>lee</u>t")
- * - "let" (from "<u>le</u>e<u>t</u>")
- * - "let" (from "<u>l</u>e<u>et</u>")
- * - "eet" (from "l<u>eet</u>")
+ * - "lee" (from "leet")
+ * - "let" (from "leet")
+ * - "let" (from "leet")
+ * - "eet" (from "leet")
  * The lexicographically smallest subsequence among them is "eet".
  *
  * Example 2:
- * <img alt="example-2" src="https://assets.leetcode.com/uploads/2021/09/13/smallest-k-length-subsequence.png" style="width: 339px; height: 67px;" />
+ * 
  * Input: s = "leetcode", k = 4, letter = "e", repetition = 2
  * Output: "ecde"
  * Explanation: "ecde" is the lexicographically smallest subsequence of length 4 that has the letter "e" appear at least 2 times.

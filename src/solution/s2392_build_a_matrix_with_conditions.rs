@@ -16,16 +16,16 @@
  * Return any matrix that satisfies the conditions. If no answer exists, return an empty matrix.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/07/06/gridosdrawio.png" style="width: 211px; height: 211px;" />
+ * 
  * Input: k = 3, rowConditions = [[1,2],[3,2]], colConditions = [[2,1],[3,2]]
  * Output: [[3,0,0],[0,0,1],[0,2,0]]
  * Explanation: The diagram above shows a valid example of a matrix that satisfies all the conditions.
  * The row conditions are the following:
- * - Number 1 is in row <u>1</u>, and number 2 is in row <u>2</u>, so 1 is above 2 in the matrix.
- * - Number 3 is in row <u>0</u>, and number 2 is in row <u>2</u>, so 3 is above 2 in the matrix.
+ * - Number 1 is in row 1, and number 2 is in row 2, so 1 is above 2 in the matrix.
+ * - Number 3 is in row 0, and number 2 is in row 2, so 3 is above 2 in the matrix.
  * The column conditions are the following:
- * - Number 2 is in column <u>1</u>, and number 1 is in column <u>2</u>, so 2 is left of 1 in the matrix.
- * - Number 3 is in column <u>0</u>, and number 2 is in column <u>1</u>, so 3 is left of 2 in the matrix.
+ * - Number 2 is in column 1, and number 1 is in column 2, so 2 is left of 1 in the matrix.
+ * - Number 3 is in column 0, and number 2 is in column 1, so 3 is left of 2 in the matrix.
  * Note that there may be multiple correct answers.
  *
  * Example 2:

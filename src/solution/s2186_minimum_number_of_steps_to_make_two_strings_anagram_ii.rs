@@ -7,11 +7,11 @@
  *  
  * Example 1:
  *
- * Input: s = "<u>lee</u>tco<u>de</u>", t = "co<u>a</u>t<u>s</u>"
+ * Input: s = "leetcode", t = "coats"
  * Output: 7
  * Explanation:
- * - In 2 steps, we can append the letters in "as" onto s = "leetcode", forming s = "leetcode<u>as</u>".
- * - In 5 steps, we can append the letters in "leede" onto t = "coats", forming t = "coats<u>leede</u>".
+ * - In 2 steps, we can append the letters in "as" onto s = "leetcode", forming s = "leetcodeas".
+ * - In 5 steps, we can append the letters in "leede" onto t = "coats", forming t = "coatsleede".
  * "leetcodeas" and "coatsleede" are now anagrams of each other.
  * We used a total of 2 + 5 = 7 steps.
  * It can be shown that there is no way to make them anagrams of each other with less than 7 steps.

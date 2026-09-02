@@ -4,12 +4,12 @@
  * Given the head of a linked list, rotate the list to the right by k places.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg" style="width: 600px; height: 254px;" />
+ * 
  * Input: head = [1,2,3,4,5], k = 2
  * Output: [4,5,1,2,3]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg" style="width: 472px; height: 542px;" />
+ * 
  * Input: head = [0,1,2], k = 4
  * Output: [2,0,1]
  *

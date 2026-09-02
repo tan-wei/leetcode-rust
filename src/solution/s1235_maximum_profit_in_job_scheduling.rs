@@ -6,7 +6,7 @@
  * If you choose a job that ends at time X you will be able to start another job that starts at time X.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/10/sample1_1584.png" style="width: 380px; height: 154px;" />
+ * 
  *
  * Input: startTime = [1,2,3,3], endTime = [3,4,5,6], profit = [50,10,40,70]
  * Output: 120
@@ -14,7 +14,7 @@
  * Time range [1-3]+[3-6] , we get profit of 120 = 50 + 70.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/10/sample22_1584.png" style="width: 600px; height: 112px;" />
+ * 
  *
  * Input: startTime = [1,2,3,4,6], endTime = [3,5,10,6,9], profit = [20,20,100,70,60]
  * Output: 150
@@ -22,7 +22,7 @@
  * Profit obtained 150 = 20 + 70 + 60.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/10/sample3_1584.png" style="width: 400px; height: 112px;" />
+ * 
  *
  * Input: startTime = [1,1,1], endTime = [2,3,4], profit = [5,6,4]
  * Output: 6

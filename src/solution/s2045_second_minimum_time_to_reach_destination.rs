@@ -15,7 +15,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/e1.png" style="width: 200px; height: 250px;" /> &emsp; &emsp; &emsp; &emsp;<img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/e2.png" style="width: 200px; height: 250px;" />
+ *         
  * Input: n = 5, edges = [[1,2],[1,3],[1,4],[3,4],[4,5]], time = 3, change = 5
  * Output: 13
  * Explanation:
@@ -35,7 +35,7 @@
  * Hence the second minimum time is 13 minutes.      
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/29/eg2.png" style="width: 225px; height: 50px;" />
+ * 
  * Input: n = 2, edges = [[1,2]], time = 3, change = 2
  * Output: 11
  * Explanation:

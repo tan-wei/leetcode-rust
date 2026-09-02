@@ -13,10 +13,10 @@
  * Input: nums = [1,2,2,1], k = 1
  * Output: 4
  * Explanation: The pairs with an absolute difference of 1 are:
- * - [<u>1</u>,<u>2</u>,2,1]
- * - [<u>1</u>,2,<u>2</u>,1]
- * - [1,<u>2</u>,2,<u>1</u>]
- * - [1,2,<u>2</u>,<u>1</u>]
+ * - [1,2,2,1]
+ * - [1,2,2,1]
+ * - [1,2,2,1]
+ * - [1,2,2,1]
  *
  * Example 2:
  *
@@ -29,9 +29,9 @@
  * Input: nums = [3,2,1,5,4], k = 2
  * Output: 3
  * Explanation: The pairs with an absolute difference of 2 are:
- * - [<u>3</u>,2,<u>1</u>,5,4]
- * - [<u>3</u>,2,1,<u>5</u>,4]
- * - [3,<u>2</u>,1,5,<u>4</u>]
+ * - [3,2,1,5,4]
+ * - [3,2,1,5,4]
+ * - [3,2,1,5,4]
  *
  *  
  * Constraints:

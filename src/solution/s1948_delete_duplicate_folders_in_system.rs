@@ -25,7 +25,7 @@
  * Return the 2D array ans containing the paths of the remaining folders after deleting all the marked folders. The paths may be returned in any order.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder1.jpg" style="width: 200px; height: 218px;" />
+ * 
  * Input: paths = [["a"],["c"],["d"],["a","b"],["c","b"],["d","a"]]
  * Output: [["d"],["d","a"]]
  * Explanation: The file structure is as shown.
@@ -33,7 +33,7 @@
  * folder named "b".
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder2.jpg" style="width: 200px; height: 355px;" />
+ * 
  * Input: paths = [["a"],["c"],["a","b"],["c","b"],["a","b","x"],["a","b","x","y"],["w"],["w","y"]]
  * Output: [["c"],["c","b"],["a"],["a","b"]]
  * Explanation: The file structure is as shown.
@@ -41,7 +41,7 @@
  * Note that folders "/a" and "/c" are identical after the deletion, but they are not deleted because they were not marked beforehand.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/19/lc-dupfolder3.jpg" style="width: 200px; height: 201px;" />
+ * 
  * Input: paths = [["a","b"],["c","d"],["c"],["a"]]
  * Output: [["c"],["c","d"],["a"],["a","b"]]
  * Explanation: All folders are unique in the file system.

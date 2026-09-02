@@ -20,7 +20,7 @@
  * A half-closed segment [a, b) is the section of the number line between points a and b including point a and not including point b.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/18/1.png" style="width: 529px; height: 241px;" />
+ * 
  * Input: segments = [[1,4,5],[4,7,7],[1,7,9]]
  * Output: [[1,4,14],[4,7,16]]
  * Explanation: The painting can be described as follows:
@@ -28,7 +28,7 @@
  * - [4,7) is colored {7,9} (with a sum of 16) from the second and third segments.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/18/2.png" style="width: 532px; height: 219px;" />
+ * 
  * Input: segments = [[1,7,9],[6,8,15],[8,10,7]]
  * Output: [[1,6,9],[6,7,24],[7,8,15],[8,10,7]]
  * Explanation: The painting can be described as follows:
@@ -38,7 +38,7 @@
  * - [8,10) is colored 7 from the third segment.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/04/c1.png" style="width: 529px; height: 289px;" />
+ * 
  * Input: segments = [[1,4,5],[1,4,7],[4,7,1],[4,7,11]]
  * Output: [[1,4,12],[4,7,12]]
  * Explanation: The painting can be described as follows:

@@ -1,7 +1,7 @@
 /**
  * [1081] Smallest Subsequence of Distinct Characters
  *
- * Given a string s, return the <span data-keyword="lexicographically-smaller-string">lexicographically smallest</span> <span data-keyword="subsequence-string">subsequence</span> of s that contains all the distinct characters of s exactly once.
+ * Given a string s, return the lexicographically smallest subsequence of s that contains all the distinct characters of s exactly once.
  *  
  * Example 1:
  *
@@ -20,7 +20,7 @@
  * 	s consists of lowercase English letters.
  *
  *  
- * Note: This question is the same as 316: <a href="https://leetcode.com/problems/remove-duplicate-letters/" target="_blank">https://leetcode.com/problems/remove-duplicate-letters/</a>
+ * Note: This question is the same as 316: https://leetcode.com/problems/remove-duplicate-letters/
  */
 pub struct Solution {}
 

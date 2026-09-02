@@ -1,11 +1,11 @@
 /**
  * [28] Implement strStr()
  *
- * Implement <a href="http://www.cplusplus.com/reference/cstring/strstr/" target="_blank">strStr()</a>.
+ * Implement strStr().
  * Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
  * Clarification:
  * What should we return when needle is an empty string? This is a great question to ask during an interview.
- * For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's <a href="http://www.cplusplus.com/reference/cstring/strstr/" target="_blank">strstr()</a> and Java's <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)" target="_blank">indexOf()</a>.
+ * For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
  *  
  * Example 1:
  * Input: haystack = "hello", needle = "ll"

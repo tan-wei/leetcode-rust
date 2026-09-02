@@ -9,7 +9,7 @@
  *
  *  
  * Example 1:
- * <img src="https://assets.leetcode.com/uploads/2022/03/15/image-20220315203925-1.png" style="width: 300px; height: 212px;" />
+ * 
  * Input: root = [4,8,5,0,1,null,6]
  * Output: 5
  * Explanation:
@@ -20,7 +20,7 @@
  * For the node with value 6: The average of its subtree is 6 / 1 = 6.
  *
  * Example 2:
- * <img src="https://assets.leetcode.com/uploads/2022/03/26/image-20220326133920-1.png" style="width: 80px; height: 76px;" />
+ * 
  * Input: root = [1]
  * Output: 1
  * Explanation: For the node with value 1: The average of its subtree is 1 / 1 = 1.

@@ -5,11 +5,11 @@
  * Notice that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/05/insertbst.jpg" style="width: 752px; height: 221px;" />
+ * 
  * Input: root = [4,2,7,1,3], val = 5
  * Output: [4,2,7,1,3,5]
  * Explanation: Another accepted tree is:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/05/bst.jpg" style="width: 352px; height: 301px;" />
+ * 
  *
  * Example 2:
  *

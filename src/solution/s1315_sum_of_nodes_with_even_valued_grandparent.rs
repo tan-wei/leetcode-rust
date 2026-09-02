@@ -5,13 +5,13 @@
  * A grandparent of a node is the parent of its parent if it exists.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/10/even1-tree.jpg" style="width: 504px; height: 302px;" />
+ * 
  * Input: root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
  * Output: 18
  * Explanation: The red nodes are the nodes with even-value grandparent while the blue nodes are the even-value grandparents.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/10/even2-tree.jpg" style="width: 64px; height: 65px;" />
+ * 
  * Input: root = [1]
  * Output: 0
  *

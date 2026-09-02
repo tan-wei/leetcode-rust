@@ -9,17 +9,17 @@
  * 	(A) has score 2 * A, where A is a balanced parentheses string.
  *
  *  
- * <strong class="example">Example 1:
+ * Example 1:
  *
  * Input: s = "()"
  * Output: 1
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: s = "(())"
  * Output: 2
  *
- * <strong class="example">Example 3:
+ * Example 3:
  *
  * Input: s = "()()"
  * Output: 2

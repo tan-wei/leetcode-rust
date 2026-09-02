@@ -6,14 +6,14 @@
  * In this context downward path means a path that starts at some node and goes downwards.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png" style="width: 220px; height: 280px;" />
+ * 
  *
  * Input: head = [4,2,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
  * Output: true
  * Explanation: Nodes in blue form a subpath in the binary Tree.  
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png" style="width: 220px; height: 280px;" />
+ * 
  *
  * Input: head = [1,4,2,6], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
  * Output: true

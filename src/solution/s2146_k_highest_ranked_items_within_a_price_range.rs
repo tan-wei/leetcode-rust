@@ -10,16 +10,16 @@
  * It takes 1 step to travel between adjacent grid cells.
  * You are also given integer arrays pricing and start where pricing = [low, high] and start = [row, col] indicates that you start at the position (row, col) and are interested only in items with a price in the range of [low, high] (inclusive). You are further given an integer k.
  * You are interested in the positions of the k highest-ranked items whose prices are within the given price range. The rank is determined by the first of these criteria that is different:
- * <ol>
+ * 
  * 	Distance, defined as the length of the shortest path from the start (shorter distance has a higher rank).
  * 	Price (lower price has a higher rank, but it must be in the price range).
  * 	The row number (smaller row number has a higher rank).
  * 	The column number (smaller column number has a higher rank).
- * </ol>
+ * 
  * Return the k highest-ranked items within the price range sorted by their rank (highest to lowest). If there are fewer than k reachable items within the price range, return all of them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/16/example1drawio.png" style="width: 200px; height: 151px;" />
+ * 
  * Input: grid = [[1,2,0,1],[1,3,0,1],[0,2,5,1]], pricing = [2,5], start = [0,0], k = 3
  * Output: [[0,1],[1,1],[2,1]]
  * Explanation: You start at (0,0).
@@ -32,7 +32,7 @@
  * Thus, the 3 highest ranked items in the price range are (0,1), (1,1), and (2,1).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/16/example2drawio1.png" style="width: 200px; height: 151px;" />
+ * 
  * Input: grid = [[1,2,0,1],[1,3,3,1],[0,2,5,1]], pricing = [2,3], start = [2,3], k = 2
  * Output: [[2,1],[1,2]]
  * Explanation: You start at (2,3).
@@ -45,7 +45,7 @@
  * Thus, the 2 highest ranked items in the price range are (2,1) and (1,2).
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/30/example3.png" style="width: 149px; height: 150px;" />
+ * 
  * Input: grid = [[1,1,1],[0,0,1],[2,3,4]], pricing = [2,3], start = [0,0], k = 3
  * Output: [[2,1],[2,0]]
  * Explanation: You start at (0,0).

@@ -6,7 +6,7 @@
  * Given the integer array position and the integer m. Return the required force.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/11/q3v1.jpg" style="width: 562px; height: 195px;" />
+ * 
  * Input: position = [1,2,3,4,7], m = 3
  * Output: 3
  * Explanation: Distributing the 3 balls into baskets 1, 4 and 7 will make the magnetic force between ball pairs [3, 3, 6]. The minimum magnetic force is 3. We cannot achieve a larger minimum magnetic force than 3.

@@ -17,7 +17,7 @@
  * The test cases are generated so that answer is unique under the given rules.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/18/rank1.jpg" style="width: 442px; height: 162px;" />
+ * 
  * Input: matrix = [[1,2],[3,4]]
  * Output: [[1,2],[2,3]]
  * Explanation:
@@ -27,12 +27,12 @@
  * The rank of matrix[1][1] is 3 because matrix[1][1] > matrix[0][1], matrix[1][1] > matrix[1][0], and both matrix[0][1] and matrix[1][0] are rank 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/18/rank2.jpg" style="width: 442px; height: 162px;" />
+ * 
  * Input: matrix = [[7,7],[7,7]]
  * Output: [[1,1],[1,1]]
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/18/rank3.jpg" style="width: 601px; height: 322px;" />
+ * 
  * Input: matrix = [[20,-21,14],[-19,4,19],[22,-47,24],[-19,4,19]]
  * Output: [[4,2,3],[1,3,4],[5,1,6],[1,3,4]]
  *

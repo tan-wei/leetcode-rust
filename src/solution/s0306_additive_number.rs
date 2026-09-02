@@ -23,10 +23,10 @@
  *  
  * Constraints:
  *
- * 	<font face="monospace">num </font>consists only of digits '0'-'9'.
+ * 	num consists only of digits '0'-'9'.
  * 	1 <= num.length <= 35
  *
- * Follow up:<br />
+ * Follow up:
  * How would you handle overflow for very large input integers?
  *
  */

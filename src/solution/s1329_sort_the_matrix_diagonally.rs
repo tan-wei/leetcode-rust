@@ -5,7 +5,7 @@
  * Given an m x n matrix mat of integers, sort each matrix diagonal in ascending order and return the resulting matrix.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/21/1482_example_1_2.png" style="width: 500px; height: 198px;" />
+ * 
  * Input: mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]
  * Output: [[1,1,1,1],[1,2,2,2],[1,2,3,3]]
  *

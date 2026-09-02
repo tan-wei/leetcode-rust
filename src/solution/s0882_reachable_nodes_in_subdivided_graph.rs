@@ -8,7 +8,7 @@
  * Given the original graph and maxMoves, return the number of nodes that are reachable from node 0 in the new graph.
  *  
  * Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/01/origfinal.png" style="width: 600px; height: 247px;" />
+ * 
  * Input: edges = [[0,1,10],[0,2,1],[1,2,2]], maxMoves = 6, n = 3
  * Output: 13
  * Explanation: The edge subdivisions are shown in the image above.

@@ -10,10 +10,10 @@
  * Input: nums = [3,6,2,7,1], k = 6
  * Output: 4
  * Explanation: The subarrays of nums where 6 is the least common multiple of all the subarray's elements are:
- * - [<u>3</u>,<u>6</u>,2,7,1]
- * - [<u>3</u>,<u>6</u>,<u>2</u>,7,1]
- * - [3,<u>6</u>,2,7,1]
- * - [3,<u>6</u>,<u>2</u>,7,1]
+ * - [3,6,2,7,1]
+ * - [3,6,2,7,1]
+ * - [3,6,2,7,1]
+ * - [3,6,2,7,1]
  *
  * Example 2:
  *

@@ -11,16 +11,16 @@
  * Return an array answer, where answer.length == queries.length and answer[i] is true if for the i^th query, there is a path between ai and bi, or answer[i] is false if there is no path.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/09/ex1.jpg" style="width: 382px; height: 181px;" />
+ * 
  * Input: n = 6, threshold = 2, queries = [[1,4],[2,5],[3,6]]
  * Output: [false,false,true]
  * Explanation: The divisors for each number:
  * 1:   1
  * 2:   1, 2
- * 3:   1, <u>3</u>
- * 4:   1, 2, <u>4</u>
- * 5:   1, <u>5</u>
- * 6:   1, 2, <u>3</u>, <u>6</u>
+ * 3:   1, 3
+ * 4:   1, 2, 4
+ * 5:   1, 5
+ * 6:   1, 2, 3, 6
  * Using the underlined divisors above the threshold, only cities 3 and 6 share a common divisor, so they are the
  * only ones directly connected. The result of each query:
  * [1,4]   1 is not connected to 4
@@ -28,14 +28,14 @@
  * [3,6]   3 is connected to 6 through path 3--6
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/10/tmp.jpg" style="width: 532px; height: 302px;" />
+ * 
  * Input: n = 6, threshold = 0, queries = [[4,5],[3,4],[3,2],[2,6],[1,3]]
  * Output: [true,true,true,true,true]
  * Explanation: The divisors for each number are the same as the previous example. However, since the threshold is 0,
  * all divisors can be used. Since all numbers share 1 as a divisor, all cities are connected.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/17/ex3.jpg" style="width: 282px; height: 282px;" />
+ * 
  * Input: n = 5, threshold = 1, queries = [[4,5],[4,5],[3,2],[2,3],[3,4]]
  * Output: [false,false,false,false,false]
  * Explanation: Only cities 2 and 4 share a common divisor 2 which is strictly greater than the threshold 1, so they are the only ones directly connected.

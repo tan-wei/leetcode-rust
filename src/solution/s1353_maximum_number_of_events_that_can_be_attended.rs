@@ -6,7 +6,7 @@
  * Return the maximum number of events you can attend.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/02/05/e1.png" style="width: 400px; height: 267px;" />
+ * 
  * Input: events = [[1,2],[2,3],[3,4]]
  * Output: 3
  * Explanation: You can attend all the three events.

@@ -12,7 +12,7 @@
  * Explanation:
  * You currently cannot reach the last rung.
  * Add rungs at heights 7 and 8 to climb this ladder.
- * The ladder will now have rungs at [1,3,5,<u>7</u>,<u>8</u>,10].
+ * The ladder will now have rungs at [1,3,5,7,8,10].
  *
  * Example 2:
  *
@@ -28,7 +28,7 @@
  * Explanation:
  * You currently cannot reach the first rung from the ground.
  * Add a rung at height 1 to climb this ladder.
- * The ladder will now have rungs at [<u>1</u>,3,4,6,7].
+ * The ladder will now have rungs at [1,3,4,6,7].
  *
  *  
  * Constraints:

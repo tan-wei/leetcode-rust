@@ -20,7 +20,7 @@
  * 	-10^4 <= target <= 10^4
  *
  *  
- * Follow up: This problem is the same as <a href="/problems/search-in-rotated-sorted-array/description/" target="_blank">Search in Rotated Sorted Array</a>, where nums may contain duplicates. Would this affect the runtime complexity? How and why?
+ * Follow up: This problem is the same as Search in Rotated Sorted Array, where nums may contain duplicates. Would this affect the runtime complexity? How and why?
  */
 pub struct Solution {}
 

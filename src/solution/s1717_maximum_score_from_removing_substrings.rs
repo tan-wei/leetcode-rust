@@ -5,12 +5,12 @@
  *
  * 	Remove substring "ab" and gain x points.
  *
- * 		For example, when removing "ab" from "c<u>ab</u>xbae" it becomes "cxbae".
+ * 		For example, when removing "ab" from "cabxbae" it becomes "cxbae".
  *
  *
  * 	Remove substring "ba" and gain y points.
  *
- * 		For example, when removing "ba" from "cabx<u>ba</u>e" it becomes "cabxe".
+ * 		For example, when removing "ba" from "cabxbae" it becomes "cabxe".
  *
  *
  *
@@ -21,10 +21,10 @@
  * Input: s = "cdbcbbaaabab", x = 4, y = 5
  * Output: 19
  * Explanation:
- * - Remove the "ba" underlined in "cdbcbbaaa<u>ba</u>b". Now, s = "cdbcbbaaab" and 5 points are added to the score.
- * - Remove the "ab" underlined in "cdbcbbaa<u>ab</u>". Now, s = "cdbcbbaa" and 4 points are added to the score.
- * - Remove the "ba" underlined in "cdbcb<u>ba</u>a". Now, s = "cdbcba" and 5 points are added to the score.
- * - Remove the "ba" underlined in "cdbc<u>ba</u>". Now, s = "cdbc" and 5 points are added to the score.
+ * - Remove the "ba" underlined in "cdbcbbaaabab". Now, s = "cdbcbbaaab" and 5 points are added to the score.
+ * - Remove the "ab" underlined in "cdbcbbaaab". Now, s = "cdbcbbaa" and 4 points are added to the score.
+ * - Remove the "ba" underlined in "cdbcbbaa". Now, s = "cdbcba" and 5 points are added to the score.
+ * - Remove the "ba" underlined in "cdbcba". Now, s = "cdbc" and 5 points are added to the score.
  * Total score = 5 + 4 + 5 + 5 = 19.
  * Example 2:
  *

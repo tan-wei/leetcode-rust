@@ -16,10 +16,10 @@
  * Output: [2]
  * Explanation: Starting with the grid:
  * [[1,0,0,0],
- *  [<u>1</u>,1,1,0]]
+ *  [1,1,1,0]]
  * We erase the underlined brick at (1,0), resulting in the grid:
  * [[1,0,0,0],
- *  [0,<u>1</u>,<u>1</u>,0]]
+ *  [0,1,1,0]]
  * The two underlined bricks are no longer stable as they are no longer connected to the top nor adjacent to another stable brick, so they will fall. The resulting grid is:
  * [[1,0,0,0],
  *  [0,0,0,0]]
@@ -31,13 +31,13 @@
  * Output: [0,0]
  * Explanation: Starting with the grid:
  * [[1,0,0,0],
- *  [1,<u>1</u>,0,0]]
+ *  [1,1,0,0]]
  * We erase the underlined brick at (1,1), resulting in the grid:
  * [[1,0,0,0],
  *  [1,0,0,0]]
  * All remaining bricks are still stable, so no bricks fall. The grid remains the same:
  * [[1,0,0,0],
- *  [<u>1</u>,0,0,0]]
+ *  [1,0,0,0]]
  * Next, we erase the underlined brick at (1,0), resulting in the grid:
  * [[1,0,0,0],
  *  [0,0,0,0]]

@@ -5,7 +5,7 @@
  *
  * Here, board = ["abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"], as shown in the diagram below.
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/07/28/azboard.png" style="width: 250px; height: 317px;" />
+ * 
  *
  * We may make the following moves:
  *

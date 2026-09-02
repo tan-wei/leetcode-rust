@@ -6,7 +6,7 @@
  * Return the maximum height of the stacked cuboids.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/10/21/image.jpg" style="width: 420px; height: 299px;" />
+ * 
  *
  * Input: cuboids = [[50,45,20],[95,37,53],[45,23,12]]
  * Output: 190

@@ -7,7 +7,7 @@
  * An obstacle and space is marked as 1 and 0 respectively in the grid.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/04/robot1.jpg" style="width: 242px; height: 242px;" />
+ * 
  * Input: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
  * Output: 2
  * Explanation: There is one obstacle in the middle of the 3x3 grid above.
@@ -16,7 +16,7 @@
  * 2. Down -> Down -> Right -> Right
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/04/robot2.jpg" style="width: 162px; height: 162px;" />
+ * 
  * Input: obstacleGrid = [[0,1],[0,0]]
  * Output: 1
  *

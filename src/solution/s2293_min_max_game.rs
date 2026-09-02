@@ -3,17 +3,17 @@
  *
  * You are given a 0-indexed integer array nums whose length is a power of 2.
  * Apply the following algorithm on nums:
- * <ol>
+ * 
  * 	Let n be the length of nums. If n == 1, end the process. Otherwise, create a new 0-indexed integer array newNums of length n / 2.
  * 	For every even index i where 0 <= i < n / 2, assign the value of newNums[i] as min(nums[2 * i], nums[2 * i + 1]).
  * 	For every odd index i where 0 <= i < n / 2, assign the value of newNums[i] as max(nums[2 * i], nums[2 * i + 1]).
  * 	Replace the array nums with newNums.
  * 	Repeat the entire process starting from step 1.
- * </ol>
+ * 
  * Return the last number that remains in nums after applying the algorithm.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/13/example1drawio-1.png" style="width: 500px; height: 240px;" />
+ * 
  * Input: nums = [1,3,5,2,4,8,2,2]
  * Output: 1
  * Explanation: The following arrays are the results of applying the algorithm repeatedly.

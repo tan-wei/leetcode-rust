@@ -4,7 +4,7 @@
  * Given the root of a binary tree, return the sum of values of its deepest leaves.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/07/31/1483_ex1.png" style="width: 273px; height: 265px;" />
+ * 
  * Input: root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
  * Output: 15
  *

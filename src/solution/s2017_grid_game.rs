@@ -7,7 +7,7 @@
  * The first robot wants to minimize the number of points collected by the second robot. In contrast, the second robot wants to maximize the number of points it collects. If both robots play optimally, return the number of points collected by the second robot.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a1.png" style="width: 388px; height: 103px;" />
+ * 
  * Input: grid = [[2,5,4],[1,5,1]]
  * Output: 4
  * Explanation: The optimal path taken by the first robot is shown in red, and the optimal path taken by the second robot is shown in blue.
@@ -15,7 +15,7 @@
  * The second robot will collect 0 + 0 + 4 + 0 = 4 points.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a2.png" style="width: 384px; height: 105px;" />
+ * 
  * Input: grid = [[3,3,1],[8,5,2]]
  * Output: 4
  * Explanation: The optimal path taken by the first robot is shown in red, and the optimal path taken by the second robot is shown in blue.
@@ -23,7 +23,7 @@
  * The second robot will collect 0 + 3 + 1 + 0 = 4 points.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/08/a3.png" style="width: 493px; height: 103px;" />
+ * 
  * Input: grid = [[1,3,1,15],[1,3,3,1]]
  * Output: 7
  * Explanation: The optimal path taken by the first robot is shown in red, and the optimal path taken by the second robot is shown in blue.

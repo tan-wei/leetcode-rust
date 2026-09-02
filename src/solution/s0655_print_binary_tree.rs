@@ -13,14 +13,14 @@
  * Return the constructed matrix res.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/03/print1-tree.jpg" style="width: 141px; height: 181px;" />
+ * 
  * Input: root = [1,2]
  * Output:
  * [["","1",""],
  *  ["2","",""]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/03/print2-tree.jpg" style="width: 207px; height: 302px;" />
+ * 
  * Input: root = [1,2,3,null,4]
  * Output:
  * [["","","","1","","",""],

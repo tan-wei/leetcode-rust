@@ -17,22 +17,22 @@
  * Input: words = ["acca","bbbb","caca"], target = "aba"
  * Output: 6
  * Explanation: There are 6 ways to form target.
- * "aba" -> index 0 ("<u>a</u>cca"), index 1 ("b<u>b</u>bb"), index 3 ("cac<u>a</u>")
- * "aba" -> index 0 ("<u>a</u>cca"), index 2 ("bb<u>b</u>b"), index 3 ("cac<u>a</u>")
- * "aba" -> index 0 ("<u>a</u>cca"), index 1 ("b<u>b</u>bb"), index 3 ("acc<u>a</u>")
- * "aba" -> index 0 ("<u>a</u>cca"), index 2 ("bb<u>b</u>b"), index 3 ("acc<u>a</u>")
- * "aba" -> index 1 ("c<u>a</u>ca"), index 2 ("bb<u>b</u>b"), index 3 ("acc<u>a</u>")
- * "aba" -> index 1 ("c<u>a</u>ca"), index 2 ("bb<u>b</u>b"), index 3 ("cac<u>a</u>")
+ * "aba" -> index 0 ("acca"), index 1 ("bbbb"), index 3 ("caca")
+ * "aba" -> index 0 ("acca"), index 2 ("bbbb"), index 3 ("caca")
+ * "aba" -> index 0 ("acca"), index 1 ("bbbb"), index 3 ("acca")
+ * "aba" -> index 0 ("acca"), index 2 ("bbbb"), index 3 ("acca")
+ * "aba" -> index 1 ("caca"), index 2 ("bbbb"), index 3 ("acca")
+ * "aba" -> index 1 ("caca"), index 2 ("bbbb"), index 3 ("caca")
  *
  * Example 2:
  *
  * Input: words = ["abba","baab"], target = "bab"
  * Output: 4
  * Explanation: There are 4 ways to form target.
- * "bab" -> index 0 ("<u>b</u>aab"), index 1 ("b<u>a</u>ab"), index 2 ("ab<u>b</u>a")
- * "bab" -> index 0 ("<u>b</u>aab"), index 1 ("b<u>a</u>ab"), index 3 ("baa<u>b</u>")
- * "bab" -> index 0 ("<u>b</u>aab"), index 2 ("ba<u>a</u>b"), index 3 ("baa<u>b</u>")
- * "bab" -> index 1 ("a<u>b</u>ba"), index 2 ("ba<u>a</u>b"), index 3 ("baa<u>b</u>")
+ * "bab" -> index 0 ("baab"), index 1 ("baab"), index 2 ("abba")
+ * "bab" -> index 0 ("baab"), index 1 ("baab"), index 3 ("baab")
+ * "bab" -> index 0 ("baab"), index 2 ("baab"), index 3 ("baab")
+ * "bab" -> index 1 ("abba"), index 2 ("baab"), index 3 ("baab")
  *
  *  
  * Constraints:

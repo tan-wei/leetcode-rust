@@ -5,7 +5,7 @@
  * You are given a 2D integer array edges where each edges[i] = [ui, vi] indicates that there is an edge between the nodes ui and vi. Return the center of the given star graph.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/02/24/star_graph.png" style="width: 331px; height: 321px;" />
+ * 
  * Input: edges = [[1,2],[2,3],[4,2]]
  * Output: 2
  * Explanation: As shown in the figure above, node 2 is connected to every other node, so 2 is the center.

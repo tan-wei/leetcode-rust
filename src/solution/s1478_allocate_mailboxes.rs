@@ -6,14 +6,14 @@
  * The test cases are generated so that the answer fits in a 32-bit integer.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/07/sample_11_1816.png" style="width: 454px; height: 154px;" />
+ * 
  * Input: houses = [1,4,8,10,20], k = 3
  * Output: 5
  * Explanation: Allocate mailboxes in position 3, 9 and 20.
  * Minimum total distance from each houses to nearest mailboxes is |3-1| + |4-3| + |9-8| + |10-9| + |20-20| = 5
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/07/sample_2_1816.png" style="width: 433px; height: 154px;" />
+ * 
  * Input: houses = [2,3,5,12,18], k = 2
  * Output: 9
  * Explanation: Allocate mailboxes in position 3 and 14.

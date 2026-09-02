@@ -7,7 +7,7 @@
  * Return the maximum number of achievable requests.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/10/move1.jpg" style="width: 600px; height: 406px;" />
+ * 
  * Input: n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
  * Output: 5
  * Explantion: Let's see the requests:
@@ -20,7 +20,7 @@
  * We can achieve the requests of users y, a and z by swapping the places in the 3 buildings.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/10/move2.jpg" style="width: 450px; height: 327px;" />
+ * 
  * Input: n = 3, requests = [[0,0],[1,2],[2,1]]
  * Output: 3
  * Explantion: Let's see the requests:

@@ -7,7 +7,7 @@
  * Return the minimum difficulty of a job schedule. If you cannot find a schedule for the jobs return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/16/untitled.png" style="width: 365px; height: 370px;" />
+ * 
  * Input: jobDifficulty = [6,5,4,3,2,1], d = 2
  * Output: 7
  * Explanation: First day you can finish the first 5 jobs, total difficulty = 6.

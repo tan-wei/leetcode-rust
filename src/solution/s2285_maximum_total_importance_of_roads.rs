@@ -7,7 +7,7 @@
  * Return the maximum total importance of all roads possible after assigning the values optimally.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/07/ex1drawio.png" style="width: 290px; height: 215px;" />
+ * 
  * Input: n = 5, roads = [[0,1],[1,2],[2,3],[0,2],[1,3],[2,4]]
  * Output: 43
  * Explanation: The figure above shows the country and the assigned values of [2,4,5,3,1].
@@ -21,7 +21,7 @@
  * It can be shown that we cannot obtain a greater total importance than 43.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/07/ex2drawio.png" style="width: 281px; height: 151px;" />
+ * 
  * Input: n = 5, roads = [[0,3],[2,4],[1,3]]
  * Output: 20
  * Explanation: The figure above shows the country and the assigned values of [4,3,2,5,1].

@@ -4,7 +4,7 @@
  * Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/06/removelinked-list.jpg" style="width: 500px; height: 142px;" />
+ * 
  * Input: head = [1,2,6,3,4,5,6], val = 6
  * Output: [1,2,3,4,5]
  *

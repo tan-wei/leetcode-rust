@@ -16,7 +16,7 @@
  * Return the maximum number of people who can be good based on the statements made by the n people.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/01/15/logic1.jpg" style="width: 600px; height: 262px;" />
+ * 
  * Input: statements = [[2,1,2],[1,2,2],[2,0,2]]
  * Output: 2
  * Explanation: Each person makes a single statement.
@@ -42,7 +42,7 @@
  * Note that there is more than one way to arrive at this conclusion.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/01/15/logic2.jpg" style="width: 600px; height: 262px;" />
+ * 
  * Input: statements = [[2,0],[0,2]]
  * Output: 1
  * Explanation: Each person makes a single statement.

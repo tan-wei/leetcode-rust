@@ -2,14 +2,14 @@
  * [2319] Check if Matrix Is X-Matrix
  *
  * A square matrix is said to be an X-Matrix if both of the following conditions hold:
- * <ol>
+ * 
  * 	All the elements in the diagonals of the matrix are non-zero.
  * 	All other elements are 0.
- * </ol>
+ * 
  * Given a 2D integer array grid of size n x n representing a square matrix, return true if grid is an X-Matrix. Otherwise, return false.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex1.jpg" style="width: 311px; height: 320px;" />
+ * 
  * Input: grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]
  * Output: true
  * Explanation: Refer to the diagram above.
@@ -17,7 +17,7 @@
  * Thus, grid is an X-Matrix.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex2.jpg" style="width: 238px; height: 246px;" />
+ * 
  * Input: grid = [[5,7,0],[0,3,1],[0,5,0]]
  * Output: false
  * Explanation: Refer to the diagram above.

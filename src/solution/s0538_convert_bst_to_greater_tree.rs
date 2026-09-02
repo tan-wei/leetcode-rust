@@ -10,7 +10,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/05/02/tree.png" style="width: 500px; height: 341px;" />
+ * 
  * Input: root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
  * Output: [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
  *
@@ -28,7 +28,7 @@
  * 	root is guaranteed to be a valid binary search tree.
  *
  *  
- * Note: This question is the same as 1038: <a href="https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/" target="_blank">https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/</a>
+ * Note: This question is the same as 1038: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
  *
  */
 pub struct Solution {}

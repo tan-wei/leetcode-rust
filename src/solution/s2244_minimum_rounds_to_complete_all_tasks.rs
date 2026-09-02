@@ -28,7 +28,7 @@
  * 	1 <= tasks[i] <= 10^9
  *
  *  
- * Note: This question is the same as <a href="https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/" target="_blank">2870: Minimum Number of Operations to Make Array Empty.</a>
+ * Note: This question is the same as 2870: Minimum Number of Operations to Make Array Empty.
  *
  */
 pub struct Solution {}

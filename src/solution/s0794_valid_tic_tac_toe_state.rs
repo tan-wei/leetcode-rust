@@ -14,19 +14,19 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/15/tictactoe1-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: board = ["O  ","   ","   "]
  * Output: false
  * Explanation: The first player always plays "X".
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/15/tictactoe2-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: board = ["XOX"," X ","   "]
  * Output: false
  * Explanation: Players take turns making moves.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/15/tictactoe4-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: board = ["XOX","O O","XOX"]
  * Output: true
  *

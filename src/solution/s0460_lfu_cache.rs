@@ -1,7 +1,7 @@
 /**
  * [0460] LFU Cache
  *
- * Design and implement a data structure for a <a href="https://en.wikipedia.org/wiki/Least_frequently_used" target="_blank">Least Frequently Used (LFU)</a> cache.
+ * Design and implement a data structure for a Least Frequently Used (LFU) cache.
  * Implement the LFUCache class:
  *
  * 	LFUCache(int capacity) Initializes the object with the capacity of the data structure.
@@ -10,7 +10,7 @@
  *
  * To determine the least frequently used key, a use counter is maintained for each key in the cache. The key with the smallest use counter is the least frequently used key.
  * When a key is first inserted into the cache, its use counter is set to 1 (due to the put operation). The use counter for a key in the cache is incremented either a get or put operation is called on it.
- * The functions <code data-stringify-type="code">get and <code data-stringify-type="code">put must each run in O(1) average time complexity.
+ * The functions get and put must each run in O(1) average time complexity.
  *  
  * Example 1:
  *
@@ -49,7 +49,7 @@
  * 	At most 2 * 10^5 calls will be made to get and put.
  *
  *  
- * <span style="display: none;"> </span>
+ *  
  */
 pub struct Solution {}
 

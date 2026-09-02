@@ -5,13 +5,13 @@
  * Return the length of the shortest path that visits every node. You may start and stop at any node, you may revisit nodes multiple times, and you may reuse edges.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/12/shortest1-graph.jpg" style="width: 222px; height: 183px;" />
+ * 
  * Input: graph = [[1,2,3],[0],[0],[0]]
  * Output: 4
  * Explanation: One possible path is [1,0,2,0,3]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/12/shortest2-graph.jpg" style="width: 382px; height: 222px;" />
+ * 
  * Input: graph = [[1],[0,2,4],[1,3,4],[2],[1,2]]
  * Output: 4
  * Explanation: One possible path is [0,1,4,2,3]

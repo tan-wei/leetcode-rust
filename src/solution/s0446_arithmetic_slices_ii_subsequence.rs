@@ -9,7 +9,7 @@
  *
  * A subsequence of an array is a sequence that can be formed by removing some elements (possibly none) of the array.
  *
- * 	For example, [2,5,10] is a subsequence of [1,2,1,<u>2</u>,4,1,<u>5</u>,<u>10</u>].
+ * 	For example, [2,5,10] is a subsequence of [1,2,1,2,4,1,5,10].
  *
  * The test cases are generated so that the answer fits in 32-bit integer.
  *  

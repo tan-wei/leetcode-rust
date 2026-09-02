@@ -6,7 +6,7 @@
  * Note: A leaf is a node with no children.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/12/ex_depth.jpg" style="width: 432px; height: 302px;" />
+ * 
  * Input: root = [3,9,20,null,null,15,7]
  * Output: 2
  *

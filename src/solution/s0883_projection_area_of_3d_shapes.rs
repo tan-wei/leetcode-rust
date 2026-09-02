@@ -8,7 +8,7 @@
  * Return the total area of all three projections.
  *  
  * Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/08/02/shadow.png" style="width: 800px; height: 214px;" />
+ * 
  * Input: grid = [[1,2],[3,4]]
  * Output: 17
  * Explanation: Here are the three projections ("shadows") of the shape made with each axis-aligned plane.

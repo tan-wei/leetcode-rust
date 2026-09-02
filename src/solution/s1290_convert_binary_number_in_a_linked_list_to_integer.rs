@@ -6,7 +6,7 @@
  * The most significant bit is at the head of the linked list.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/05/graph-1.png" style="width: 426px; height: 108px;" />
+ * 
  * Input: head = [1,0,1]
  * Output: 5
  * Explanation: (101) in base 2 = (5) in base 10

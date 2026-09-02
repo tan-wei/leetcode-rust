@@ -1,7 +1,7 @@
 /**
  * [299] Bulls and Cows
  *
- * You are playing the <a href="https://en.wikipedia.org/wiki/Bulls_and_Cows" target="_blank">Bulls and Cows</a> game with your friend.
+ * You are playing the Bulls and Cows game with your friend.
  * You write down a secret number and ask your friend to guess what the number is. When your friend makes a guess, you provide a hint with the following info:
  *
  * 	The number of "bulls", which are digits in the guess that are in the correct position.
@@ -17,7 +17,7 @@
  * Explanation: Bulls are connected with a '|' and cows are underlined:
  * "1807"
  *   |
- * "<u>7</u>8<u>10</u>"
+ * "7810"
  * Example 2:
  *
  * Input: secret = "1123", guess = "0111"
@@ -25,7 +25,7 @@
  * Explanation: Bulls are connected with a '|' and cows are underlined:
  * "1123"        "1123"
  *   |      or     |
- * "01<u>1</u>1"        "011<u>1</u>"
+ * "0111"        "0111"
  * Note that only one of the two unmatched 1s is counted as a cow since the non-bull digits can only be rearranged to allow one 1 to be a bull.
  *
  * Example 3:

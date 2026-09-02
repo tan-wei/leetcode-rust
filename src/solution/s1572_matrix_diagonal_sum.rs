@@ -5,7 +5,7 @@
  * Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/08/14/sample_1911.png" style="width: 336px; height: 174px;" />
+ * 
  * Input: mat = [[1,2,3],
  *               [4,5,6],
  *               [7,8,9]]

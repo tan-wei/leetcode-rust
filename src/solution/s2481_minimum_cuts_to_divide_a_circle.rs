@@ -7,18 +7,18 @@
  * 	A cut that is represented by a straight line that touches one point on the edge of the circle and its center.
  *
  * Some valid and invalid cuts are shown in the figures below.
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/29/alldrawio.png" style="width: 450px; height: 174px;" />
+ * 
  * Given the integer n, return the minimum number of cuts needed to divide a circle into n equal slices.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/11drawio.png" style="width: 200px; height: 200px;" />
+ * 
  * Input: n = 4
  * Output: 2
  * Explanation:
  * The above figure shows how cutting the circle twice through the middle divides it into 4 equal slices.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/24/22drawio.png" style="width: 200px; height: 201px;" />
+ * 
  * Input: n = 3
  * Output: 3
  * Explanation:

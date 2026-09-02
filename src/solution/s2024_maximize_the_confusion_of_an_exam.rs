@@ -12,23 +12,23 @@
  *
  * Input: answerKey = "TTFF", k = 2
  * Output: 4
- * Explanation: We can replace both the 'F's with 'T's to make answerKey = "<u>TTTT</u>".
+ * Explanation: We can replace both the 'F's with 'T's to make answerKey = "TTTT".
  * There are four consecutive 'T's.
  *
  * Example 2:
  *
  * Input: answerKey = "TFFT", k = 1
  * Output: 3
- * Explanation: We can replace the first 'T' with an 'F' to make answerKey = "<u>FFF</u>T".
- * Alternatively, we can replace the second 'T' with an 'F' to make answerKey = "T<u>FFF</u>".
+ * Explanation: We can replace the first 'T' with an 'F' to make answerKey = "FFFT".
+ * Alternatively, we can replace the second 'T' with an 'F' to make answerKey = "TFFF".
  * In both cases, there are three consecutive 'F's.
  *
  * Example 3:
  *
  * Input: answerKey = "TTFTTFTT", k = 1
  * Output: 5
- * Explanation: We can replace the first 'F' to make answerKey = "<u>TTTTT</u>FTT"
- * Alternatively, we can replace the second 'F' to make answerKey = "TTF<u>TTTTT</u>".
+ * Explanation: We can replace the first 'F' to make answerKey = "TTTTTFTT"
+ * Alternatively, we can replace the second 'F' to make answerKey = "TTFTTTTT".
  * In both cases, there are five consecutive 'T's.
  *
  *  

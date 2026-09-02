@@ -12,7 +12,7 @@
  *  
  * Example 1:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/21/leet1.png" style="width: 400px; height: 182px;" />
+ * 
  *
  *
  * Input: colors = "abaca", edges = [[0,1],[0,2],[2,3],[3,4]]
@@ -22,7 +22,7 @@
  *
  * Example 2:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/21/leet2.png" style="width: 85px; height: 85px;" />
+ * 
  *
  *
  * Input: colors = "a", edges = [[0,0]]

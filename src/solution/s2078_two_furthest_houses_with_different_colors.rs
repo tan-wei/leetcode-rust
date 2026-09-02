@@ -6,8 +6,8 @@
  * The distance between the i^th and j^th houses is abs(i - j), where abs(x) is the absolute value of x.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/31/eg1.png" style="width: 610px; height: 84px;" />
- * Input: colors = [<u>1</u>,1,1,<u>6</u>,1,1,1]
+ * 
+ * Input: colors = [1,1,1,6,1,1,1]
  * Output: 3
  * Explanation: In the above image, color 1 is blue, and color 6 is red.
  * The furthest two houses with different colors are house 0 and house 3.
@@ -15,8 +15,8 @@
  * Note that houses 3 and 6 can also produce the optimal answer.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/31/eg2.png" style="width: 426px; height: 84px;" />
- * Input: colors = [<u>1</u>,8,3,8,<u>3</u>]
+ * 
+ * Input: colors = [1,8,3,8,3]
  * Output: 4
  * Explanation: In the above image, color 1 is blue, color 8 is yellow, and color 3 is green.
  * The furthest two houses with different colors are house 0 and house 4.
@@ -24,7 +24,7 @@
  *
  * Example 3:
  *
- * Input: colors = [<u>0</u>,<u>1</u>]
+ * Input: colors = [0,1]
  * Output: 1
  * Explanation: The furthest two houses with different colors are house 0 and house 1.
  * House 0 has color 0, and house 1 has color 1. The distance between them is abs(0 - 1) = 1.

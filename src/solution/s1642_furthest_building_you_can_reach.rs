@@ -11,7 +11,7 @@
  * Return the furthest building index (0-indexed) you can reach if you use the given ladders and bricks optimally.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/27/q4.gif" style="width: 562px; height: 561px;" />
+ * 
  * Input: heights = [4,2,7,6,9,14,12], bricks = 5, ladders = 1
  * Output: 4
  * Explanation: Starting at building 0, you can follow these steps:

@@ -12,7 +12,7 @@
  * Input: nums = [2,4,-2], k = 5
  * Output: 2
  * Explanation: All the possible subsequence sums that we can obtain are the following sorted in decreasing order:
- * 6, 4, 4, 2, <u>2</u>, 0, 0, -2.
+ * 6, 4, 4, 2, 2, 0, 0, -2.
  * The 5-Sum of the array is 2.
  *
  * Example 2:

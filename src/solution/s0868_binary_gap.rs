@@ -9,10 +9,10 @@
  * Input: n = 22
  * Output: 2
  * Explanation: 22 in binary is "10110".
- * The first adjacent pair of 1's is "<u>1</u>0<u>1</u>10" with a distance of 2.
- * The second adjacent pair of 1's is "10<u>11</u>0" with a distance of 1.
+ * The first adjacent pair of 1's is "10110" with a distance of 2.
+ * The second adjacent pair of 1's is "10110" with a distance of 1.
  * The answer is the largest of these two distances, which is 2.
- * Note that "<u>1</u>01<u>1</u>0" is not a valid pair since there is a 1 separating the two 1's underlined.
+ * Note that "10110" is not a valid pair since there is a 1 separating the two 1's underlined.
  *
  * Example 2:
  *

@@ -6,17 +6,17 @@
  * Note that backslash characters are escaped, so a '\' is represented as '\\'.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/1.png" style="width: 200px; height: 200px;" />
+ * 
  * Input: grid = [" /","/ "]
  * Output: 2
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/2.png" style="width: 200px; height: 198px;" />
+ * 
  * Input: grid = [" /","  "]
  * Output: 1
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/15/4.png" style="width: 200px; height: 200px;" />
+ * 
  * Input: grid = ["/\\","\\/"]
  * Output: 5
  * Explanation: Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.

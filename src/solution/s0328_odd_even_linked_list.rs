@@ -7,12 +7,12 @@
  * You must solve the problem in O(1) extra space complexity and O(n) time complexity.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven-linked-list.jpg" style="width: 300px; height: 123px;" />
+ * 
  * Input: head = [1,2,3,4,5]
  * Output: [1,3,5,2,4]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/10/oddeven2-linked-list.jpg" style="width: 500px; height: 142px;" />
+ * 
  * Input: head = [2,1,3,5,6,4,7]
  * Output: [2,3,6,7,1,5,4]
  *

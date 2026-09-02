@@ -19,24 +19,24 @@
  * Input: sentence = "leetcode exercises sound delightful"
  * Output: true
  * Explanation: The words in sentence are ["leetcode", "exercises", "sound", "delightful"].
- * - leetcod<u>e</u>'s last character is equal to <u>e</u>xercises's first character.
- * - exercise<u>s</u>'s last character is equal to <u>s</u>ound's first character.
- * - soun<u>d</u>'s last character is equal to <u>d</u>elightful's first character.
- * - delightfu<u>l</u>'s last character is equal to <u>l</u>eetcode's first character.
+ * - leetcode's last character is equal to exercises's first character.
+ * - exercises's last character is equal to sound's first character.
+ * - sound's last character is equal to delightful's first character.
+ * - delightful's last character is equal to leetcode's first character.
  * The sentence is circular.
  * Example 2:
  *
  * Input: sentence = "eetcode"
  * Output: true
  * Explanation: The words in sentence are ["eetcode"].
- * - eetcod<u>e</u>'s last character is equal to <u>e</u>etcode's first character.
+ * - eetcode's last character is equal to eetcode's first character.
  * The sentence is circular.
  * Example 3:
  *
  * Input: sentence = "Leetcode is cool"
  * Output: false
  * Explanation: The words in sentence are ["Leetcode", "is", "cool"].
- * - Leetcod<u>e</u>'s last character is not equal to <u>i</u>s's first character.
+ * - Leetcode's last character is not equal to is's first character.
  * The sentence is not circular.
  *  
  * Constraints:

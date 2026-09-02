@@ -6,7 +6,7 @@
  * Return the number of nodes that have the highest score.
  *  
  * Example 1:
- * <img alt="example-1" src="https://assets.leetcode.com/uploads/2021/10/03/example-1.png" style="width: 604px; height: 266px;" />
+ * 
  * Input: parents = [-1,2,0,2,0]
  * Output: 3
  * Explanation:
@@ -18,7 +18,7 @@
  * The highest score is 4, and three nodes (node 1, node 3, and node 4) have the highest score.
  *
  * Example 2:
- * <img alt="example-2" src="https://assets.leetcode.com/uploads/2021/10/03/example-2.png" style="width: 95px; height: 143px;" />
+ * 
  * Input: parents = [-1,2,0]
  * Output: 2
  * Explanation:

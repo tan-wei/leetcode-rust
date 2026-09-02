@@ -7,7 +7,7 @@
  * Return the maximum total sum that the height of the buildings can be increased by without changing the city's skyline from any cardinal direction.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/21/807-ex1.png" style="width: 700px; height: 603px;" />
+ * 
  * Input: grid = [[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]]
  * Output: 35
  * Explanation: The building heights are shown in the center of the above image.

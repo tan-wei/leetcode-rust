@@ -7,7 +7,7 @@
  * A zero matrix is a matrix with all cells equal to 0.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/11/28/matrix.png" style="width: 409px; height: 86px;" />
+ * 
  * Input: mat = [[0,0],[0,1]]
  * Output: 3
  * Explanation: One possible solution is to flip (1, 0) then (0, 1) and finally (1, 1) as shown.

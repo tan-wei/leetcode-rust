@@ -6,19 +6,19 @@
  * Given the puzzle board board, return the least number of moves required so that the state of the board is solved. If it is impossible for the state of the board to be solved, return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide1-grid.jpg" style="width: 244px; height: 165px;" />
+ * 
  * Input: board = [[1,2,3],[4,0,5]]
  * Output: 1
  * Explanation: Swap the 0 and the 5 in one move.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide2-grid.jpg" style="width: 244px; height: 165px;" />
+ * 
  * Input: board = [[1,2,3],[5,4,0]]
  * Output: -1
  * Explanation: No number of moves will make the board solved.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/slide3-grid.jpg" style="width: 244px; height: 165px;" />
+ * 
  * Input: board = [[4,1,2],[5,0,3]]
  * Output: 5
  * Explanation: 5 is the smallest number of moves that solves the board.

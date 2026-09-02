@@ -2,7 +2,7 @@
  * [1420] Build Array Where You Can Find The Maximum Exactly K Comparisons
  *
  * You are given three integers n, m and k. Consider the following algorithm to find the maximum element of an array of positive integers:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/02/e.png" style="width: 424px; height: 372px;" />
+ * 
  * You should build the array arr which has the following properties:
  *
  * 	arr has exactly n integers.

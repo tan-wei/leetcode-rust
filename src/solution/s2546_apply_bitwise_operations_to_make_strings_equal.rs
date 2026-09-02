@@ -14,8 +14,8 @@
  * Input: s = "1010", target = "0110"
  * Output: true
  * Explanation: We can do the following operations:
- * - Choose i = 2 and j = 0. We have now s = "<u>0</u>0<u>1</u>0".
- * - Choose i = 2 and j = 1. We have now s = "0<u>11</u>0".
+ * - Choose i = 2 and j = 0. We have now s = "0010".
+ * - Choose i = 2 and j = 1. We have now s = "0110".
  * Since we can make s equal to target, we return true.
  *
  * Example 2:

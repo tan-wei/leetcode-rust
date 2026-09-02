@@ -9,7 +9,7 @@
  *
  * Input: s = "111000"
  * Output: 1
- * Explanation: Swap positions 1 and 4: "1<u>1</u>10<u>0</u>0" -> "1<u>0</u>10<u>1</u>0"
+ * Explanation: Swap positions 1 and 4: "111000" -> "101010"
  * The string is now alternating.
  *
  * Example 2:

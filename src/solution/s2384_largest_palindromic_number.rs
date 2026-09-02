@@ -14,7 +14,7 @@
  * Input: num = "444947137"
  * Output: "7449447"
  * Explanation:
- * Use the digits "4449477" from "<u>44494</u><u>7</u>13<u>7</u>" to form the palindromic integer "7449447".
+ * Use the digits "4449477" from "444947137" to form the palindromic integer "7449447".
  * It can be shown that "7449447" is the largest palindromic integer that can be formed.
  *
  * Example 2:

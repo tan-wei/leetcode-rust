@@ -11,9 +11,9 @@
  * Input: text = "abdcdbc", pattern = "ac"
  * Output: 4
  * Explanation:
- * If we add pattern[0] = 'a' in between text[1] and text[2], we get "ab<u>a</u>dcdbc". Now, the number of times "ac" occurs as a subsequence is 4.
- * Some other strings which have 4 subsequences "ac" after adding a character to text are "<u>a</u>abdcdbc" and "abd<u>a</u>cdbc".
- * However, strings such as "abdc<u>a</u>dbc", "abd<u>c</u>cdbc", and "abdcdbc<u>c</u>", although obtainable, have only 3 subsequences "ac" and are thus suboptimal.
+ * If we add pattern[0] = 'a' in between text[1] and text[2], we get "abadcdbc". Now, the number of times "ac" occurs as a subsequence is 4.
+ * Some other strings which have 4 subsequences "ac" after adding a character to text are "aabdcdbc" and "abdacdbc".
+ * However, strings such as "abdcadbc", "abdccdbc", and "abdcdbcc", although obtainable, have only 3 subsequences "ac" and are thus suboptimal.
  * It can be shown that it is not possible to get more than 4 subsequences "ac" by adding only one character.
  *
  * Example 2:
@@ -21,7 +21,7 @@
  * Input: text = "aabb", pattern = "ab"
  * Output: 6
  * Explanation:
- * Some of the strings which can be obtained from text and have 6 subsequences "ab" are "<u>a</u>aabb", "aa<u>a</u>bb", and "aab<u>b</u>b".
+ * Some of the strings which can be obtained from text and have 6 subsequences "ab" are "aaabb", "aaabb", and "aabbb".
  *
  *  
  * Constraints:

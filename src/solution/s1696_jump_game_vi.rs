@@ -8,13 +8,13 @@
  *  
  * Example 1:
  *
- * Input: nums = [<u>1</u>,<u>-1</u>,-2,<u>4</u>,-7,<u>3</u>], k = 2
+ * Input: nums = [1,-1,-2,4,-7,3], k = 2
  * Output: 7
  * Explanation: You can choose your jumps forming the subsequence [1,-1,4,3] (underlined above). The sum is 7.
  *
  * Example 2:
  *
- * Input: nums = [<u>10</u>,-5,-2,<u>4</u>,0,<u>3</u>], k = 3
+ * Input: nums = [10,-5,-2,4,0,3], k = 3
  * Output: 17
  * Explanation: You can choose your jumps forming the subsequence [10,4,3] (underlined above). The sum is 17.
  *

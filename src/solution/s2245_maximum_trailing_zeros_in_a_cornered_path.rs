@@ -12,7 +12,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/23/ex1new2.jpg" style="width: 577px; height: 190px;" />
+ * 
  * Input: grid = [[23,17,15,3,20],[8,1,20,27,11],[9,4,6,2,21],[40,9,1,10,6],[22,7,4,5,3]]
  * Output: 3
  * Explanation: The grid on the left shows a valid cornered path.
@@ -22,7 +22,7 @@
  * The grid on the right is not a cornered path as it requires a return to a previously visited cell.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/25/ex2.jpg" style="width: 150px; height: 157px;" />
+ * 
  * Input: grid = [[4,3,2],[7,6,1],[8,8,8]]
  * Output: 0
  * Explanation: The grid is shown in the figure above.

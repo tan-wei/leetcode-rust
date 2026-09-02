@@ -9,7 +9,7 @@
  *
  * Input: palindrome = "abccba"
  * Output: "aaccba"
- * Explanation: There are many ways to make "abccba" not a palindrome, such as "<u>z</u>bccba", "a<u>a</u>ccba", and "ab<u>a</u>cba".
+ * Explanation: There are many ways to make "abccba" not a palindrome, such as "zbccba", "aaccba", and "abacba".
  * Of all the ways, "aaccba" is the lexicographically smallest.
  *
  * Example 2:

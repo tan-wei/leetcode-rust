@@ -7,7 +7,7 @@
  * A node u is an ancestor of another node v if u can reach v via a set of edges.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/12/e1.png" style="width: 322px; height: 265px;" />
+ * 
  * Input: n = 8, edgeList = [[0,3],[0,4],[1,3],[2,4],[2,7],[3,5],[3,6],[3,7],[4,6]]
  * Output: [[],[],[],[0,1],[0,2],[0,1,3],[0,1,2,3,4],[0,1,2,3]]
  * Explanation:
@@ -20,7 +20,7 @@
  * - Node 7 has four ancestors 0, 1, 2, and 3.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/12/12/e2.png" style="width: 343px; height: 299px;" />
+ * 
  * Input: n = 5, edgeList = [[0,1],[0,2],[0,3],[0,4],[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]]
  * Output: [[],[0],[0,1],[0,1,2],[0,1,2,3]]
  * Explanation:

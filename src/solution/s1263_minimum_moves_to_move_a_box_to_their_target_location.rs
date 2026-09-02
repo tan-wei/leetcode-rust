@@ -15,7 +15,7 @@
  * Return the minimum number of pushes to move the box to the target. If there is no way to reach the target, return -1.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/11/06/sample_1_1620.png" style="width: 500px; height: 335px;" />
+ * 
  * Input: grid = vec![vec!["#","#","#","#","#","#"],
  *                ["#","T","#","#","#","#"],
  *                ["#",".",".","B",".","#"],

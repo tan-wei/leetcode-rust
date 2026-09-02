@@ -6,7 +6,7 @@
  * Return the number of bulbs that are on after n rounds.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/bulb.jpg" style="width: 421px; height: 321px;" />
+ * 
  * Input: n = 3
  * Output: 1
  * Explanation: At first, the three bulbs are [off, off, off].

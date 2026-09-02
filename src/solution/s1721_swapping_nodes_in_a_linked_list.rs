@@ -5,7 +5,7 @@
  * Return the head of the linked list after swapping the values of the k^th node from the beginning and the k^th node from the end (the list is 1-indexed).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/linked1.jpg" style="width: 400px; height: 112px;" />
+ * 
  * Input: head = [1,2,3,4,5], k = 2
  * Output: [1,4,3,2,5]
  *

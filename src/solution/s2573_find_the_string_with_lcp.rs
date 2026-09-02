@@ -30,7 +30,7 @@
  * Constraints:
  *
  * 	1 <= n == lcp.length == lcp[i].length <= 1000
- * 	<font face="monospace">0 <= lcp[i][j] <= n</font>
+ * 	0 <= lcp[i][j] <= n
  *
  */
 pub struct Solution {}

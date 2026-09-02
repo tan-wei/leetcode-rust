@@ -5,7 +5,7 @@
  * Return the minimum integer you can obtain also as a string.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/06/17/q4_1.jpg" style="width: 500px; height: 40px;" />
+ * 
  * Input: num = "4321", k = 4
  * Output: "1342"
  * Explanation: The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.

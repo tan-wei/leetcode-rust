@@ -8,7 +8,7 @@
  * Return an integer array ans where ans[i] represents the height described above after dropping the i^th square.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/28/fallingsq1-plane.jpg" style="width: 500px; height: 505px;" />
+ * 
  * Input: positions = [[1,2],[2,3],[6,1]]
  * Output: [2,5,5]
  * Explanation:

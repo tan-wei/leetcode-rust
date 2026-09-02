@@ -10,7 +10,7 @@
  *  
  * Example 1:
  *
- * Input: s = "<u>0</u>11<u>0</u>1<u>0</u>", minJump = 2, maxJump = 3
+ * Input: s = "011010", minJump = 2, maxJump = 3
  * Output: true
  * Explanation:
  * In the first step, move from index 0 to index 3.

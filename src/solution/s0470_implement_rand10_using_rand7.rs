@@ -21,7 +21,7 @@
  *  
  * Follow up:
  *
- * 	What is the <a href="https://en.wikipedia.org/wiki/Expected_value" target="_blank">expected value</a> for the number of calls to rand7() function?
+ * 	What is the expected value for the number of calls to rand7() function?
  * 	Could you minimize the number of calls to rand7()?
  *
  */

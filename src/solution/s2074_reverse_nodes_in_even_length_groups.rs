@@ -12,7 +12,7 @@
  * Reverse the nodes in each group with an even length, and return the head of the modified linked list.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/25/eg1.png" style="width: 699px; height: 124px;" />
+ * 
  * Input: head = [5,2,6,3,9,1,7,3,8,4]
  * Output: [5,6,2,3,9,1,4,8,3,7]
  * Explanation:
@@ -22,7 +22,7 @@
  * - The length of the last group is 4, which is even, hence the nodes are reversed.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/25/eg2.png" style="width: 284px; height: 114px;" />
+ * 
  * Input: head = [1,1,0,6]
  * Output: [1,0,1,6]
  * Explanation:
@@ -31,7 +31,7 @@
  * - The length of the last group is 1. No reversal occurs.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/11/17/ex3.png" style="width: 348px; height: 114px;" />
+ * 
  * Input: head = [1,1,0,6,5]
  * Output: [1,0,1,5,6]
  * Explanation:

@@ -28,7 +28,7 @@
  * 	1 <= time <= 1000
  *
  *  
- * Note: This question is the same as <a href="https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds/description/" target="_blank"> 3178: Find the Child Who Has the Ball After K Seconds.</a>
+ * Note: This question is the same as  3178: Find the Child Who Has the Ball After K Seconds.
  *
  */
 pub struct Solution {}

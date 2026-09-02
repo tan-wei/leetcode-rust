@@ -7,7 +7,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg" style="width: 483px; height: 342px;" />
+ * 
  *
  * Input: l1 = [2,4,3], l2 = [5,6,4]
  * Output: [7,0,8]

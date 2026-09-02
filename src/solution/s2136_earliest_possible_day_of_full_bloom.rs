@@ -10,7 +10,7 @@
  * Return the earliest possible day where all seeds are blooming.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/21/1.png" style="width: 453px; height: 149px;" />
+ * 
  * Input: plantTime = [1,4,3], growTime = [2,3,1]
  * Output: 9
  * Explanation: The grayed out pots represent planting days, colored pots represent growing days, and the flower represents the day it blooms.
@@ -21,7 +21,7 @@
  * Thus, on day 9, all the seeds are blooming.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/12/21/2.png" style="width: 454px; height: 184px;" />
+ * 
  * Input: plantTime = [1,2,3,2], growTime = [2,1,2,1]
  * Output: 9
  * Explanation: The grayed out pots represent planting days, colored pots represent growing days, and the flower represents the day it blooms.

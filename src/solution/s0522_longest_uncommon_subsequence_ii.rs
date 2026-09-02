@@ -5,7 +5,7 @@
  * An uncommon subsequence between an array of strings is a string that is a subsequence of one string but not the others.
  * A subsequence of a string s is a string that can be obtained after deleting any number of characters from s.
  *
- * 	For example, "abc" is a subsequence of "aebdc" because you can delete the underlined characters in "a<u>e</u>b<u>d</u>c" to get "abc". Other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).
+ * 	For example, "abc" is a subsequence of "aebdc" because you can delete the underlined characters in "aebdc" to get "abc". Other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).
  *
  *  
  * Example 1:

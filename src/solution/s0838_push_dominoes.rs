@@ -20,7 +20,7 @@
  * Explanation: The first domino expends no additional force on the second domino.
  *
  * Example 2:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/05/18/domino.png" style="height: 196px; width: 512px;" />
+ * 
  * Input: dominoes = ".L.R...LR..L.."
  * Output: "LL.RR.LLRRLL.."
  *

@@ -5,14 +5,14 @@
  * Return the area of the largest submatrix within matrix where every element of the submatrix is 1 after reordering the columns optimally.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/29/screenshot-2020-12-30-at-40536-pm.png" style="width: 500px; height: 240px;" />
+ * 
  * Input: matrix = [[0,0,1],[1,1,1],[1,0,1]]
  * Output: 4
  * Explanation: You can rearrange the columns as shown above.
  * The largest submatrix of 1s, in bold, has an area of 4.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/29/screenshot-2020-12-30-at-40852-pm.png" style="width: 500px; height: 62px;" />
+ * 
  * Input: matrix = [[1,0,1,0,1]]
  * Output: 3
  * Explanation: You can rearrange the columns as shown above.

@@ -12,10 +12,10 @@
  * Input: nums = [1,0,1,0,1], goal = 2
  * Output: 4
  * Explanation: The 4 subarrays are bolded and underlined below:
- * [<u>1,0,1</u>,0,1]
- * [<u>1,0,1,0</u>,1]
- * [1,<u>0,1,0,1</u>]
- * [1,0,<u>1,0,1</u>]
+ * [1,0,1,0,1]
+ * [1,0,1,0,1]
+ * [1,0,1,0,1]
+ * [1,0,1,0,1]
  *
  *
  * Example 2:

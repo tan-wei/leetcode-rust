@@ -13,7 +13,7 @@
  *  
  * Example 1:
  *
- * Input: sentence = "<u>cat</u> <u>and</u>  <u>dog</u>"
+ * Input: sentence = "cat and  dog"
  * Output: 3
  * Explanation: The valid words in the sentence are "cat", "and", and "dog".
  *
@@ -27,7 +27,7 @@
  *
  * Example 3:
  *
- * Input: sentence = "<u>alice</u> <u>and</u>  <u>bob</u> <u>are</u> <u>playing</u> stone-game10"
+ * Input: sentence = "alice and  bob are playing stone-game10"
  * Output: 5
  * Explanation: The valid words in the sentence are "alice", "and", "bob", "are", and "playing".
  * "stone-game10" is invalid because it contains digits.

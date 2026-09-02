@@ -6,17 +6,17 @@
  * Note that in a binary tree, the root node is at the depth 0, and children of each depth k node are at the depth k + 1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/02/12/q1248-01.png" style="width: 304px; height: 270px;" />
+ * 
  * Input: root = [1,2,3,4], x = 4, y = 3
  * Output: false
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/02/12/q1248-02.png" style="width: 334px; height: 266px;" />
+ * 
  * Input: root = [1,2,3,null,4,null,5], x = 5, y = 4
  * Output: true
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/02/13/q1248-03.png" style="width: 267px; height: 258px;" />
+ * 
  * Input: root = [1,2,3,null,4], x = 2, y = 3
  * Output: false
  *

@@ -6,12 +6,12 @@
  *
  * 	If the element is even, divide it by 2.
  *
- * 		For example, if the array is [1,2,3,4], then you can do this operation on the last element, and the array will be [1,2,3,<u>2</u>].
+ * 		For example, if the array is [1,2,3,4], then you can do this operation on the last element, and the array will be [1,2,3,2].
  *
  *
  * 	If the element is odd, multiply it by 2.
  *
- * 		For example, if the array is [1,2,3,4], then you can do this operation on the first element, and the array will be [<u>2</u>,2,3,4].
+ * 		For example, if the array is [1,2,3,4], then you can do this operation on the first element, and the array will be [2,2,3,4].
  *
  *
  *
@@ -22,13 +22,13 @@
  *
  * Input: nums = [1,2,3,4]
  * Output: 1
- * Explanation: You can transform the array to [1,2,3,<u>2</u>], then to [<u>2</u>,2,3,2], then the deviation will be 3 - 2 = 1.
+ * Explanation: You can transform the array to [1,2,3,2], then to [2,2,3,2], then the deviation will be 3 - 2 = 1.
  *
  * Example 2:
  *
  * Input: nums = [4,1,5,20,3]
  * Output: 3
- * Explanation: You can transform the array after two operations to [4,<u>2</u>,5,<u>5</u>,3], then the deviation will be 5 - 2 = 3.
+ * Explanation: You can transform the array after two operations to [4,2,5,5,3], then the deviation will be 5 - 2 = 3.
  *
  * Example 3:
  *
@@ -39,7 +39,7 @@
  * Constraints:
  *
  * 	n == nums.length
- * 	2 <= n <= 5 * 10^<span style="font-size: 10.8333px;">4</span>
+ * 	2 <= n <= 5 * 10^4
  * 	1 <= nums[i] <= 10^9
  *
  */

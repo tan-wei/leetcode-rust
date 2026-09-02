@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/08/30/1527_example_1_2.png" style="width: 442px; height: 449px;" />
+ * 
  * Input: neededApples = 1
  * Output: 8
  * Explanation: A square plot of side length 1 does not contain any apples.

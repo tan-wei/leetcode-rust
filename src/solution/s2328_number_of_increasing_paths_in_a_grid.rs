@@ -6,7 +6,7 @@
  * Two paths are considered different if they do not have exactly the same sequence of visited cells.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/10/griddrawio-4.png" style="width: 181px; height: 121px;" />
+ * 
  * Input: grid = [[1,1],[3,4]]
  * Output: 8
  * Explanation: The strictly increasing paths are:

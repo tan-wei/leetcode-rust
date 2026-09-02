@@ -1,8 +1,8 @@
 /**
  * [0707] Design Linked List
  *
- * Design your implementation of the linked list. You can choose to use a singly or doubly linked list.<br />
- * A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node.<br />
+ * Design your implementation of the linked list. You can choose to use a singly or doubly linked list.
+ * A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node.
  * If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. Assume all nodes in the linked list are 0-indexed.
  * Implement the MyLinkedList class:
  *

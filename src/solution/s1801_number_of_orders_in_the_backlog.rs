@@ -21,7 +21,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/ex1.png" style="width: 450px; height: 479px;" />
+ * 
  *
  * Input: orders = [[10,5,0],[15,2,1],[25,1,1],[30,4,0]]
  * Output: 6
@@ -34,7 +34,7 @@
  *
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/ex2.png" style="width: 450px; height: 584px;" />
+ * 
  *
  * Input: orders = [[7,1000000000,1],[15,3,0],[5,999999995,0],[5,1,1]]
  * Output: 999999984

@@ -10,8 +10,8 @@
  * Input: s = "aababbab"
  * Output: 2
  * Explanation: You can either:
- * Delete the characters at 0-indexed positions 2 and 6 ("aa<u>b</u>abb<u>a</u>b" -> "aaabbb"), or
- * Delete the characters at 0-indexed positions 3 and 6 ("aab<u>a</u>bb<u>a</u>b" -> "aabbbb").
+ * Delete the characters at 0-indexed positions 2 and 6 ("aababbab" -> "aaabbb"), or
+ * Delete the characters at 0-indexed positions 3 and 6 ("aababbab" -> "aabbbb").
  *
  * Example 2:
  *

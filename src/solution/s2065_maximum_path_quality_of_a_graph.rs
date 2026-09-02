@@ -7,7 +7,7 @@
  * Note: There are at most four edges connected to each node.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/19/ex1drawio.png" style="width: 269px; height: 170px;" />
+ * 
  * Input: values = [0,32,10,43], edges = [[0,1,10],[1,2,15],[0,3,10]], maxTime = 49
  * Output: 75
  * Explanation:
@@ -15,7 +15,7 @@
  * The nodes visited are 0, 1, and 3, giving a maximal path quality of 0 + 32 + 43 = 75.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/19/ex2drawio.png" style="width: 269px; height: 170px;" />
+ * 
  * Input: values = [5,10,15,20], edges = [[0,1,10],[1,2,10],[0,3,10]], maxTime = 30
  * Output: 25
  * Explanation:
@@ -23,7 +23,7 @@
  * The nodes visited are 0 and 3, giving a maximal path quality of 5 + 20 = 25.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/10/19/ex31drawio.png" style="width: 236px; height: 170px;" />
+ * 
  * Input: values = [1,2,3,4], edges = [[0,1,10],[1,2,11],[2,3,12],[1,3,13]], maxTime = 50
  * Output: 7
  * Explanation:

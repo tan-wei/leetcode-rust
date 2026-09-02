@@ -2,7 +2,7 @@
  * [0831] Masking Personal Information
  *
  * You are given a personal information string s, representing either an email address or a phone number. Return the masked personal information using the below rules.
- * <u>Email address:</u>
+ * Email address:
  * An email address is:
  *
  * 	A name consisting of uppercase and lowercase English letters, followed by
@@ -14,7 +14,7 @@
  * 	The uppercase letters in the name and domain must be converted to lowercase letters.
  * 	The middle letters of the name (i.e., all but the first and last letters) must be replaced by 5 asterisks "*****".
  *
- * <u>Phone number:</u>
+ * Phone number:
  * A phone number is formatted as follows:
  *
  * 	The phone number contains 10-13 digits.

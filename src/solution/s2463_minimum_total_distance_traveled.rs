@@ -16,7 +16,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/09/15/example1.jpg" style="width: 500px; height: 320px;" />
+ * 
  * Input: robot = [0,4,6], factory = [[2,2],[6,2]]
  * Output: 4
  * Explanation: As shown in the figure:
@@ -28,7 +28,7 @@
  * The total distance is |2 - 0| + |2 - 4| + |6 - 6| = 4. It can be shown that we cannot achieve a better total distance than 4.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/09/15/example-2.jpg" style="width: 500px; height: 329px;" />
+ * 
  * Input: robot = [1,-1], factory = [[-2,1],[2,1]]
  * Output: 2
  * Explanation: As shown in the figure:

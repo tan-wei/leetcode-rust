@@ -1,8 +1,8 @@
 /**
  * [27] Remove Element
  *
- * Given an array nums and a value val, remove all instances of that value <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a> and return the new length.
- * Do not allocate extra space for another array, you must do this by modifying the input array <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a> with O(1) extra memory.
+ * Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+ * Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
  * The order of elements can be changed. It doesn't matter what you leave beyond the new length.
  * Clarification:
  * Confused why the returned value is an integer but your answer is an array?

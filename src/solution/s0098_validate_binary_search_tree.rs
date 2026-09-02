@@ -10,12 +10,12 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg" style="width: 302px; height: 182px;" />
+ * 
  * Input: root = [2,1,3]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree2.jpg" style="width: 422px; height: 292px;" />
+ * 
  * Input: root = [5,1,4,null,null,3,6]
  * Output: false
  * Explanation: The root node's value is 5 but its right child's value is 4.

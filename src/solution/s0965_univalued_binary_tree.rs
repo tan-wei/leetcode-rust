@@ -5,12 +5,12 @@
  * Given the root of a binary tree, return true if the given tree is uni-valued, or false otherwise.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_1.png" style="width: 265px; height: 172px;" />
+ * 
  * Input: root = [1,1,1,1,1,null,1]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/28/unival_bst_2.png" style="width: 198px; height: 169px;" />
+ * 
  * Input: root = [2,2,2,5,2]
  * Output: false
  *

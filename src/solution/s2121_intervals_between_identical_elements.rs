@@ -37,7 +37,7 @@
  * 	1 <= arr[i] <= 10^5
  *
  *  
- * Note: This question is the same as <a href="https://leetcode.com/problems/sum-of-distances/description/" target="_blank"> 2615: Sum of Distances.</a>
+ * Note: This question is the same as  2615: Sum of Distances.
  *
  */
 pub struct Solution {}

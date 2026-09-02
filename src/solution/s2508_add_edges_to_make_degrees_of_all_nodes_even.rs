@@ -7,19 +7,19 @@
  * The degree of a node is the number of edges connected to it.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/26/agraphdrawio.png" style="width: 500px; height: 190px;" />
+ * 
  * Input: n = 5, edges = [[1,2],[2,3],[3,4],[4,2],[1,4],[2,5]]
  * Output: true
  * Explanation: The above diagram shows a valid way of adding an edge.
  * Every node in the resulting graph is connected to an even number of edges.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/26/aagraphdrawio.png" style="width: 400px; height: 120px;" />
+ * 
  * Input: n = 4, edges = [[1,2],[3,4]]
  * Output: true
  * Explanation: The above diagram shows a valid way of adding two edges.
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/26/aaagraphdrawio.png" style="width: 150px; height: 158px;" />
+ * 
  * Input: n = 4, edges = [[1,2],[1,3],[1,4]]
  * Output: false
  * Explanation: It is not possible to obtain a valid graph with adding at most 2 edges.

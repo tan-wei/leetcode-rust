@@ -5,13 +5,13 @@
  * You can use each character in text at most once. Return the maximum number of instances that can be formed.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG" style="width: 132px; height: 35px;" />
+ * 
  *
  * Input: text = "nlaebolko"
  * Output: 1
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG" style="width: 267px; height: 35px;" />
+ * 
  *
  * Input: text = "loonbalxballpoon"
  * Output: 2

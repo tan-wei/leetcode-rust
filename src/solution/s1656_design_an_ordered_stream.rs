@@ -10,7 +10,7 @@
  *
  *  
  * Example:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/10/q1.gif" style="width: 682px; height: 240px;" />
+ * 
  *
  * Input
  * ["OrderedStream", "insert", "insert", "insert", "insert", "insert"]

@@ -5,7 +5,7 @@
  * You should preserve the original relative order of the nodes in each of the two partitions.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/partition.jpg" style="width: 662px; height: 222px;" />
+ * 
  * Input: head = [1,4,3,2,5,2], x = 3
  * Output: [1,2,2,4,3,5]
  *

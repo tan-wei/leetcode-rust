@@ -6,7 +6,7 @@
  * Given the roots of two binary trees root1 and root2, return true if the two trees are flip equivalent or false otherwise.
  *  
  * Example 1:
- * <img alt="Flipped Trees Diagram" src="https://assets.leetcode.com/uploads/2018/11/29/tree_ex.png" style="width: 500px; height: 220px;" />
+ * 
  * Input: root1 = [1,2,3,4,5,6,null,null,null,7,8], root2 = [1,3,2,null,6,4,5,null,null,null,null,8,7]
  * Output: true
  * Explanation: We flipped at nodes with values 1, 3, and 5.

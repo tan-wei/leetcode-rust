@@ -9,14 +9,14 @@
  *
  * Input: s = "XXX"
  * Output: 1
- * Explanation: <u>XXX</u> -> OOO
+ * Explanation: XXX -> OOO
  * We select all the 3 characters and convert them in one move.
  *
  * Example 2:
  *
  * Input: s = "XXOX"
  * Output: 2
- * Explanation: <u>XXO</u>X -> O<u>OOX</u> -> OOOO
+ * Explanation: XXOX -> OOOX -> OOOO
  * We select the first 3 characters in the first move, and convert them to 'O'.
  * Then we select the last 3 characters and convert them so that the final string contains all 'O's.
  * Example 3:

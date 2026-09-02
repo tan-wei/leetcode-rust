@@ -8,14 +8,14 @@
  * Note that edges may contain cycles.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/06/07/graph4drawio-2.png" style="width: 321px; height: 161px;" />
+ * 
  * Input: edges = [2,2,3,-1], node1 = 0, node2 = 1
  * Output: 2
  * Explanation: The distance from node 0 to node 2 is 1, and the distance from node 1 to node 2 is 1.
  * The maximum of those two distances is 1. It can be proven that we cannot get a node with a smaller maximum distance than 1, so we return node 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/06/07/graph4drawio-4.png" style="width: 195px; height: 161px;" />
+ * 
  * Input: edges = [1,2,-1], node1 = 0, node2 = 2
  * Output: 2
  * Explanation: The distance from node 0 to node 2 is 2, and the distance from node 2 to itself is 0.

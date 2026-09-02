@@ -10,20 +10,20 @@
  * Return the minimum number of food buckets you should place at empty indices to feed all the hamsters or -1 if it is impossible to feed all of them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example1.png" style="width: 482px; height: 162px;" />
+ * 
  * Input: hamsters = "H..H"
  * Output: 2
  * Explanation: We place two food buckets at indices 1 and 2.
  * It can be shown that if we place only one food bucket, one of the hamsters will not be fed.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example2.png" style="width: 602px; height: 162px;" />
+ * 
  * Input: hamsters = ".H.H."
  * Output: 1
  * Explanation: We place one food bucket at index 2.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/01/example3.png" style="width: 602px; height: 162px;" />
+ * 
  * Input: hamsters = ".HHH."
  * Output: -1
  * Explanation: If we place a food bucket at every empty index as shown, the hamster at index 2 will not be able to eat.

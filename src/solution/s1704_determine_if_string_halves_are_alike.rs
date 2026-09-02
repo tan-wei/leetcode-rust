@@ -9,13 +9,13 @@
  *
  * Input: s = "book"
  * Output: true
- * Explanation: a = "b<u>o</u>" and b = "<u>o</u>k". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
+ * Explanation: a = "bo" and b = "ok". a has 1 vowel and b has 1 vowel. Therefore, they are alike.
  *
  * Example 2:
  *
  * Input: s = "textbook"
  * Output: false
- * Explanation: a = "t<u>e</u>xt" and b = "b<u>oo</u>k". a has 1 vowel whereas b has 2. Therefore, they are not alike.
+ * Explanation: a = "text" and b = "book". a has 1 vowel whereas b has 2. Therefore, they are not alike.
  * Notice that the vowel o is counted twice.
  *
  *  

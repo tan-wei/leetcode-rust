@@ -13,14 +13,14 @@
  * A cell is adjacent to another cell if the former is directly north, east, south, or west of the latter (i.e., their sides are touching).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/10/ex1new.jpg" style="width: 650px; height: 404px;" />
+ * 
  * Input: grid = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]
  * Output: 3
  * Explanation: The figure above shows the scenario where you stay in the initial position for 3 minutes.
  * You will still be able to safely reach the safehouse.
  * Staying for more than 3 minutes will not allow you to safely reach the safehouse.
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/10/ex2new2.jpg" style="width: 515px; height: 150px;" />
+ * 
  * Input: grid = [[0,0,0,0],[0,1,2,0],[0,2,0,0]]
  * Output: -1
  * Explanation: The figure above shows the scenario where you immediately move towards the safehouse.
@@ -28,7 +28,7 @@
  * Thus, -1 is returned.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/03/10/ex3new.jpg" style="width: 174px; height: 150px;" />
+ * 
  * Input: grid = [[0,0,0],[2,2,0],[1,2,0]]
  * Output: 1000000000
  * Explanation: The figure above shows the initial grid.

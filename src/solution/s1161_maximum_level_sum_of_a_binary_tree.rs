@@ -5,7 +5,7 @@
  * Return the smallest level x such that the sum of all the values of nodes at level x is maximal.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/05/03/capture.JPG" style="width: 200px; height: 175px;" />
+ * 
  * Input: root = [1,7,0,7,-8,null,null]
  * Output: 2
  * Explanation:

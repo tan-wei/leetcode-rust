@@ -6,7 +6,7 @@
  * Notice that the distance of a path connecting cities i and j is equal to the sum of the edges' weights along that path.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/16/find_the_city_01.png" style="width: 300px; height: 225px;" />
+ * 
  * Input: n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4
  * Output: 3
  * Explanation: The figure above describes the graph.
@@ -18,7 +18,7 @@
  * Cities 0 and 3 have 2 neighboring cities at a distanceThreshold = 4, but we have to return city 3 since it has the greatest number.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/01/16/find_the_city_02.png" style="width: 300px; height: 225px;" />
+ * 
  * Input: n = 5, edges = [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], distanceThreshold = 2
  * Output: 0
  * Explanation: The figure above describes the graph.

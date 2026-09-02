@@ -23,9 +23,9 @@
  * Return the elapsed minutes at which the last box reaches the left side of the bridge.
  *  
  * Example 1:
- * <div class="example-block">
- * Input: <span class="example-io">n = 1, k = 3, time = [[1,1,2,1],[1,1,3,1],[1,1,4,1]]</span>
- * Output: <span class="example-io">6</span>
+ * 
+ * Input: n = 1, k = 3, time = [[1,1,2,1],[1,1,3,1],[1,1,4,1]]
+ * Output: 6
  * Explanation:
  *
  * From 0 to 1 minutes: worker 2 crosses the bridge to the right.
@@ -33,17 +33,17 @@
  * From 2 to 6 minutes: worker 2 crosses the bridge to the left.
  * From 6 to 7 minutes: worker 2 puts a box at the left warehouse.
  * The whole process ends after 7 minutes. We return 6 because the problem asks for the instance of time at which the last worker reaches the left side of the bridge.
- * </div>
+ * 
  * Example 2:
- * <div class="example-block">
- * Input: <span class="example-io">n = 3, k = 2, time =</span> [[1,5,1,8],[10,10,10,10]]
+ * 
+ * Input: n = 3, k = 2, time = [[1,5,1,8],[10,10,10,10]]
  * Output: 37
  * Explanation:
  *
- * <img src="https://assets.leetcode.com/uploads/2024/11/21/378539249-c6ce3c73-40e7-4670-a8b5-7ddb9abede11.png" style="width: 450px; height: 176px;" />
+ * 
  *
  * The last box reaches the left side at 37 seconds. Notice, how we do not put the last boxes down, as that would take more time, and they are already on the left with the workers.
- * </div>
+ * 
  *  
  * Constraints:
  *

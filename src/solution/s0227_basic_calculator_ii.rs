@@ -3,7 +3,7 @@
  *
  * Given a string s which represents an expression, evaluate this expression and return its value.
  * The integer division should truncate toward zero.
- * <b data-stringify-type="bold">Note: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code data-stringify-type="code">eval().
+ * Note: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().
  *  
  * Example 1:
  * Input: s = "3+2*2"

@@ -2,10 +2,10 @@
  * [2019] The Score of Students Solving Math Expression
  *
  * You are given a string s that contains digits 0-9, addition symbols '+', and multiplication symbols '*' only, representing a valid math expression of single digit numbers (e.g., 3+5*2). This expression was given to n elementary school students. The students were instructed to get the answer of the expression by following this order of operations:
- * <ol>
+ * 
  * 	Compute multiplication, reading from left to right; Then,
  * 	Compute addition, reading from left to right.
- * </ol>
+ * 
  * You are given an integer array answers of length n, which are the submitted answers of the students in no particular order. You are asked to grade the answers, by following these rules:
  *
  * 	If an answer equals the correct answer of the expression, this student will be rewarded 5 points;
@@ -15,19 +15,19 @@
  * Return the sum of the points of the students.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/17/student_solving_math.png" style="width: 678px; height: 109px;" />
+ * 
  * Input: s = "7+3*1*2", answers = [20,13,42]
  * Output: 7
- * Explanation: As illustrated above, the correct answer of the expression is 13, therefore one student is rewarded 5 points: [20,<u>13</u>,42]
- * A student might have applied the operators in this wrong order: ((7+3)*1)*2 = 20. Therefore one student is rewarded 2 points: [<u>20</u>,13,42]
+ * Explanation: As illustrated above, the correct answer of the expression is 13, therefore one student is rewarded 5 points: [20,13,42]
+ * A student might have applied the operators in this wrong order: ((7+3)*1)*2 = 20. Therefore one student is rewarded 2 points: [20,13,42]
  * The points for the students are: [2,5,0]. The sum of the points is 2+5+0=7.
  *
  * Example 2:
  *
  * Input: s = "3+5*2", answers = [13,0,10,13,13,16,16]
  * Output: 19
- * Explanation: The correct answer of the expression is 13, therefore three students are rewarded 5 points each: [<u>13</u>,0,10,<u>13</u>,<u>13</u>,16,16]
- * A student might have applied the operators in this wrong order: ((3+5)*2 = 16. Therefore two students are rewarded 2 points: [13,0,10,13,13,<u>16</u>,<u>16</u>]
+ * Explanation: The correct answer of the expression is 13, therefore three students are rewarded 5 points each: [13,0,10,13,13,16,16]
+ * A student might have applied the operators in this wrong order: ((3+5)*2 = 16. Therefore two students are rewarded 2 points: [13,0,10,13,13,16,16]
  * The points for the students are: [5,0,0,5,5,2,2]. The sum of the points is 5+0+0+5+5+2+2=19.
  *
  * Example 3:

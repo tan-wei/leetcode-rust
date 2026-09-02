@@ -8,13 +8,13 @@
  * It's guaranteed that each city can reach city 0 after reorder.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/13/sample_1_1819.png" style="width: 311px; height: 189px;" />
+ * 
  * Input: n = 6, connections = [[0,1],[1,3],[2,3],[4,0],[4,5]]
  * Output: 3
  * Explanation: Change the direction of edges show in red such that each node can reach the node 0 (capital).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/05/13/sample_2_1819.png" style="width: 509px; height: 79px;" />
+ * 
  * Input: n = 5, connections = [[1,0],[1,2],[3,2],[3,4]]
  * Output: 2
  * Explanation: Change the direction of edges show in red such that each node can reach the node 0 (capital).

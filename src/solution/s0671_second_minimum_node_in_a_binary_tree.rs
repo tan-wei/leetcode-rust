@@ -7,13 +7,13 @@
  *  
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/15/smbt1.jpg" style="width: 431px; height: 302px;" />
+ * 
  * Input: root = [2,2,5,null,null,5,7]
  * Output: 5
  * Explanation: The smallest value is 2, the second smallest value is 5.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/15/smbt2.jpg" style="width: 321px; height: 182px;" />
+ * 
  * Input: root = [2,2,2]
  * Output: -1
  * Explanation: The smallest value is 2, but there isn't any second smallest value.

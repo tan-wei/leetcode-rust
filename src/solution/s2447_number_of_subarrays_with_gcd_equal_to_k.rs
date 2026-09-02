@@ -10,10 +10,10 @@
  * Input: nums = [9,3,1,2,6,3], k = 3
  * Output: 4
  * Explanation: The subarrays of nums where 3 is the greatest common divisor of all the subarray's elements are:
- * - [9,<u>3</u>,1,2,6,3]
- * - [9,3,1,2,6,<u>3</u>]
- * - [<u>9,3</u>,1,2,6,3]
- * - [9,3,1,2,<u>6,3</u>]
+ * - [9,3,1,2,6,3]
+ * - [9,3,1,2,6,3]
+ * - [9,3,1,2,6,3]
+ * - [9,3,1,2,6,3]
  *
  * Example 2:
  *

@@ -10,14 +10,14 @@
  * The test cases will be generated such that the binary tree is valid.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/02/09/example1drawio.png" style="width: 300px; height: 236px;" />
+ * 
  * Input: descriptions = [[20,15,1],[20,17,0],[50,20,1],[50,80,0],[80,19,1]]
  * Output: [50,20,80,15,17,19]
  * Explanation: The root node is the node with value 50 since it has no parent.
  * The resulting binary tree is shown in the diagram.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/02/09/example2drawio.png" style="width: 131px; height: 300px;" />
+ * 
  * Input: descriptions = [[1,2,1],[2,3,0],[3,4,1]]
  * Output: [1,2,null,null,3,4]
  * Explanation: The root node is the node with value 1 since it has no parent.

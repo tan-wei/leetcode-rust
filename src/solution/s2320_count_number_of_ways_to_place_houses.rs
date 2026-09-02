@@ -17,7 +17,7 @@
  * 4. Two houses are placed, one on each side of the street.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/12/arrangements.png" style="width: 500px; height: 500px;" />
+ * 
  * Input: n = 2
  * Output: 9
  * Explanation: The 9 possible arrangements are shown in the diagram above.

@@ -5,7 +5,7 @@
  * Follow up: Could you do this in one pass?
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="width: 542px; height: 222px;" />
+ * 
  * Input: head = [1,2,3,4,5], n = 2
  * Output: [1,2,3,5]
  *

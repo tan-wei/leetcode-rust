@@ -31,7 +31,7 @@
  * 	0 <= n < 10^9
  *
  *  
- * Note: This question is the same as 476: <a href="https://leetcode.com/problems/number-complement/" target="_blank">https://leetcode.com/problems/number-complement/</a>
+ * Note: This question is the same as 476: https://leetcode.com/problems/number-complement/
  *
  */
 pub struct Solution {}

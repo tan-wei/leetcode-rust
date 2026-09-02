@@ -5,7 +5,7 @@
  * A falling path with non-zero shifts is a choice of exactly one element from each row of grid such that no two elements chosen in adjacent rows are in the same column.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/10/falling-grid.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: grid = [[1,2,3],[4,5,6],[7,8,9]]
  * Output: 13
  * Explanation:

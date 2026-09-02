@@ -10,7 +10,7 @@
  *  
  * Example 1:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1.jpg" style="width: 388px; height: 240px;" />
+ * 
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 1
@@ -21,7 +21,7 @@
  *
  * Example 2:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-1.jpg" style="width: 388px; height: 240px;" />
+ * 
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 2
@@ -33,7 +33,7 @@
  *
  * Example 3:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/09/03/untitled-diagram-1-2.jpg" style="width: 388px; height: 240px;" />
+ * 
  *
  *
  * Input: distance = [1,2,3,4], start = 0, destination = 3

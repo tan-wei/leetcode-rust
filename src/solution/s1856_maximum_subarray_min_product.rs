@@ -11,21 +11,21 @@
  *  
  * Example 1:
  *
- * Input: nums = [1,<u>2,3,2</u>]
+ * Input: nums = [1,2,3,2]
  * Output: 14
  * Explanation: The maximum min-product is achieved with the subarray [2,3,2] (minimum value is 2).
  * 2 * (2+3+2) = 2 * 7 = 14.
  *
  * Example 2:
  *
- * Input: nums = [2,<u>3,3</u>,1,2]
+ * Input: nums = [2,3,3,1,2]
  * Output: 18
  * Explanation: The maximum min-product is achieved with the subarray [3,3] (minimum value is 3).
  * 3 * (3+3) = 3 * 6 = 18.
  *
  * Example 3:
  *
- * Input: nums = [3,1,<u>5,6,4</u>,2]
+ * Input: nums = [3,1,5,6,4,2]
  * Output: 60
  * Explanation: The maximum min-product is achieved with the subarray [5,6,4] (minimum value is 4).
  * 4 * (5+6+4) = 4 * 15 = 60.

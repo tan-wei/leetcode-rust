@@ -10,8 +10,8 @@
  * Input: word = "aeiouu"
  * Output: 2
  * Explanation: The vowel substrings of word are as follows (underlined):
- * - "<u>aeiou</u>u"
- * - "<u>aeiouu</u>"
+ * - "aeiouu"
+ * - "aeiouu"
  *
  * Example 2:
  *
@@ -24,13 +24,13 @@
  * Input: word = "cuaieuouac"
  * Output: 7
  * Explanation: The vowel substrings of word are as follows (underlined):
- * - "c<u>uaieuo</u>uac"
- * - "c<u>uaieuou</u>ac"
- * - "c<u>uaieuoua</u>c"
- * - "cu<u>aieuo</u>uac"
- * - "cu<u>aieuou</u>ac"
- * - "cu<u>aieuoua</u>c"
- * - "cua<u>ieuoua</u>c"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
+ * - "cuaieuouac"
  *
  *  
  * Constraints:

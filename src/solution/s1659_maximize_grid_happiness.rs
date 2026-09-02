@@ -12,7 +12,7 @@
  * The grid happiness is the sum of each person's happiness. Return the maximum possible grid happiness.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/grid_happiness.png" style="width: 261px; height: 121px;" />
+ * 
  * Input: m = 2, n = 3, introvertsCount = 1, extrovertsCount = 2
  * Output: 240
  * Explanation: Assume the grid is 1-indexed with coordinates (row, column).

@@ -11,7 +11,7 @@
  * Return the maximum number of connecting lines we can draw in this way.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/04/26/142.png" style="width: 400px; height: 286px;" />
+ * 
  * Input: nums1 = [1,4,2], nums2 = [1,2,4]
  * Output: 2
  * Explanation: We can draw 2 uncrossed lines as in the diagram.

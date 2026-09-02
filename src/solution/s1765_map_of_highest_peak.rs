@@ -16,7 +16,7 @@
  * Return an integer matrix height of size m x n where height[i][j] is cell (i, j)'s height. If there are multiple solutions, return any of them.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-82045-am.png" style="width: 220px; height: 219px;" />
+ * 
  *
  * Input: isWater = [[0,1],[0,0]]
  * Output: [[1,0],[2,1]]
@@ -24,7 +24,7 @@
  * The blue cell is the water cell, and the green cells are the land cells.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/10/screenshot-2021-01-11-at-82050-am.png" style="width: 300px; height: 296px;" />
+ * 
  *
  * Input: isWater = [[0,0,1],[1,0,0],[0,0,0]]
  * Output: [[1,1,0],[0,1,1],[1,2,2]]

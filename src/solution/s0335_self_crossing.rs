@@ -6,17 +6,17 @@
  * Return true if your path crosses itself, and false if it does not.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/14/selfcross1-plane.jpg" style="width: 400px; height: 435px;" />
+ * 
  * Input: distance = [2,1,1,2]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/14/selfcross2-plane.jpg" style="width: 400px; height: 435px;" />
+ * 
  * Input: distance = [1,2,3,4]
  * Output: false
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/14/selfcross3-plane.jpg" style="width: 400px; height: 435px;" />
+ * 
  * Input: distance = [1,1,1,1]
  * Output: true
  *

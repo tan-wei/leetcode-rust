@@ -23,7 +23,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/07/29/untitled.png" style="width: 375px; height: 246px;" />
+ * 
  * Input
  * ["LockingTree", "lock", "unlock", "unlock", "lock", "upgrade", "lock"]
  * [[[-1, 0, 0, 1, 1, 2, 2]], [2, 2], [2, 3], [2, 2], [4, 5], [0, 1], [0, 1]]

@@ -9,17 +9,17 @@
  * Return the size of the largest connected component in the graph.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex1.png" style="width: 500px; height: 97px;" />
+ * 
  * Input: nums = [4,6,15,35]
  * Output: 4
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex2.png" style="width: 500px; height: 85px;" />
+ * 
  * Input: nums = [20,50,9,63]
  * Output: 2
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/01/ex3.png" style="width: 500px; height: 260px;" />
+ * 
  * Input: nums = [2,3,6,7,4,12,21,39]
  * Output: 8
  *

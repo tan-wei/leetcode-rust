@@ -24,7 +24,7 @@
  * 	1 <= groupSize <= hand.length
  *
  *  
- * Note: This question is the same as 1296: <a href="https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/" target="_blank">https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/</a>
+ * Note: This question is the same as 1296: https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
  *
  */
 pub struct Solution {}

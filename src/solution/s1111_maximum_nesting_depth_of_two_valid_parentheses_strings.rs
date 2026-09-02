@@ -21,7 +21,7 @@
  *
  *  
  *
- * Given a VPS <font face="monospace">seq</font>, split it into two disjoint subsequences A and B, such that A and B are VPS's (and A.length + B.length = seq.length).
+ * Given a VPS seq, split it into two disjoint subsequences A and B, such that A and B are VPS's (and A.length + B.length = seq.length).
  *
  * Now choose any such A and B such that max(depth(A), depth(B)) is the minimum possible value.
  *

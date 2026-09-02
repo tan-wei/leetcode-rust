@@ -6,7 +6,7 @@
  * A chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/chessboard1-grid.jpg" style="width: 500px; height: 145px;" />
+ * 
  * Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
  * Output: 2
  * Explanation: One potential sequence of moves is shown.
@@ -14,13 +14,13 @@
  * The second move swaps the second and third row.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/chessboard2-grid.jpg" style="width: 164px; height: 165px;" />
+ * 
  * Input: board = [[0,1],[1,0]]
  * Output: 0
  * Explanation: Also note that the board with 0 in the top left corner, is also a valid chessboard.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/06/29/chessboard3-grid.jpg" style="width: 164px; height: 165px;" />
+ * 
  * Input: board = [[1,0],[1,0]]
  * Output: -1
  * Explanation: No matter what sequence of moves you make, you cannot end with a valid chessboard.

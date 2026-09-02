@@ -11,7 +11,7 @@
  * Return the answer after performing the operations described above.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/19/q1ex1.jpg" style="width: 600px; height: 135px;" />
+ * 
  * Input: grid = [[1,2,4],[3,3,1]]
  * Output: 8
  * Explanation: The diagram above shows the removed values in each step.
@@ -21,7 +21,7 @@
  * The final answer = 4 + 3 + 1 = 8.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/10/19/q1ex2.jpg" style="width: 83px; height: 83px;" />
+ * 
  * Input: grid = [[10]]
  * Output: 10
  * Explanation: The diagram above shows the removed values in each step.

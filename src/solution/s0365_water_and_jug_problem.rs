@@ -14,7 +14,7 @@
  *
  * Input: jug1Capacity = 3, jug2Capacity = 5, targetCapacity = 4
  * Output: true
- * Explanation: The famous <a href="https://www.youtube.com/watch?v=BVtQNK_ZUJg&amp;ab_channel=notnek01" target="_blank">Die Hard</a> example
+ * Explanation: The famous Die Hard example
  *
  * Example 2:
  *

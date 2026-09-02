@@ -8,7 +8,7 @@
  * You are the second player. If it is possible to choose such a y to ensure you win the game, return true. If it is not possible, return false.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/08/01/1480-binary-tree-coloring-game.png" style="width: 500px; height: 310px;" />
+ * 
  * Input: root = [1,2,3,4,5,6,7,8,9,10,11], n = 11, x = 3
  * Output: true
  * Explanation: The second player can choose the node with value 2.

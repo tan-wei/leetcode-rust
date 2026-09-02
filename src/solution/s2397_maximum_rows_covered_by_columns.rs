@@ -12,28 +12,28 @@
  * Return the maximum number of rows that can be covered by a set of numSelect columns.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/07/14/rowscovered.png" style="width: 240px; height: 400px;" />
- * <div class="example-block">
- * Input: <span class="example-io">matrix = [[0,0,0],[1,0,1],[0,1,1],[0,0,1]], numSelect = 2</span>
- * Output: <span class="example-io">3</span>
+ * 
+ * 
+ * Input: matrix = [[0,0,0],[1,0,1],[0,1,1],[0,0,1]], numSelect = 2
+ * Output: 3
  * Explanation:
- * One possible way to cover 3 rows is shown in the diagram above.<br />
- * We choose s = {0, 2}.<br />
- * - Row 0 is covered because it has no occurrences of 1.<br />
- * - Row 1 is covered because the columns with value 1, i.e. 0 and 2 are present in s.<br />
- * - Row 2 is not covered because matrix[2][1] == 1 but 1 is not present in s.<br />
- * - Row 3 is covered because matrix[2][2] == 1 and 2 is present in s.<br />
- * Thus, we can cover three rows.<br />
+ * One possible way to cover 3 rows is shown in the diagram above.
+ * We choose s = {0, 2}.
+ * - Row 0 is covered because it has no occurrences of 1.
+ * - Row 1 is covered because the columns with value 1, i.e. 0 and 2 are present in s.
+ * - Row 2 is not covered because matrix[2][1] == 1 but 1 is not present in s.
+ * - Row 3 is covered because matrix[2][2] == 1 and 2 is present in s.
+ * Thus, we can cover three rows.
  * Note that s = {1, 2} will also cover 3 rows, but it can be shown that no more than three rows can be covered.
- * </div>
+ * 
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/07/14/rowscovered2.png" style="height: 250px; width: 84px;" />
- * <div class="example-block">
- * Input: <span class="example-io">matrix = [[1],[0]], numSelect = 1</span>
- * Output: <span class="example-io">2</span>
+ * 
+ * 
+ * Input: matrix = [[1],[0]], numSelect = 1
+ * Output: 2
  * Explanation:
  * Selecting the only column will result in both rows being covered since the entire matrix is selected.
- * </div>
+ * 
  *  
  * Constraints:
  *

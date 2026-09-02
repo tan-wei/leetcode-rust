@@ -6,12 +6,12 @@
  * Return the coordinates of trees that are exactly located on the fence perimeter.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/erect2-plane.jpg" style="width: 509px; height: 500px;" />
+ * 
  * Input: points = [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
  * Output: [[1,1],[2,0],[3,3],[2,4],[4,2]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/erect1-plane.jpg" style="width: 509px; height: 500px;" />
+ * 
  * Input: points = [[1,2],[2,2],[4,2]]
  * Output: [[4,2],[2,2],[1,2]]
  *

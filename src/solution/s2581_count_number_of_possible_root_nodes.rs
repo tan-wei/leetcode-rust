@@ -12,7 +12,7 @@
  * Given the 2D integer arrays edges, guesses and the integer k, return the number of possible nodes that can be the root of Alice's tree. If there is no such tree, return 0.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/12/19/ex-1.png" style="width: 727px; height: 250px;" />
+ * 
  *
  * Input: edges = [[0,1],[1,2],[1,3],[4,2]], guesses = [[1,3],[0,1],[1,0],[2,4]], k = 3
  * Output: 3
@@ -25,7 +25,7 @@
  * Considering 0, 1, or 2 as root node leads to 3 correct guesses.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/12/19/ex-2.png" style="width: 600px; height: 303px;" />
+ * 
  *
  * Input: edges = [[0,1],[1,2],[2,3],[3,4]], guesses = [[1,0],[3,4],[2,1],[3,2]], k = 1
  * Output: 5

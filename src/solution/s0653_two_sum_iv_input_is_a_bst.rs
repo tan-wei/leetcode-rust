@@ -4,12 +4,12 @@
  * Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/sum_tree_1.jpg" style="width: 400px; height: 229px;" />
+ * 
  * Input: root = [5,3,6,2,4,null,7], k = 9
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/sum_tree_2.jpg" style="width: 400px; height: 229px;" />
+ * 
  * Input: root = [5,3,6,2,4,null,7], k = 28
  * Output: false
  *

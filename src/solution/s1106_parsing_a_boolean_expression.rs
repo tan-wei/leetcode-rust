@@ -6,7 +6,7 @@
  * 	't' that evaluates to true.
  * 	'f' that evaluates to false.
  * 	'!(subExpr)' that evaluates to the logical NOT of the inner expression subExpr.
- * 	'&amp;(subExpr1, subExpr2, ..., subExprn)' that evaluates to the logical AND of the inner expressions subExpr1, subExpr2, ..., subExprn where n >= 1.
+ * 	'&(subExpr1, subExpr2, ..., subExprn)' that evaluates to the logical AND of the inner expressions subExpr1, subExpr2, ..., subExprn where n >= 1.
  * 	'|(subExpr1, subExpr2, ..., subExprn)' that evaluates to the logical OR of the inner expressions subExpr1, subExpr2, ..., subExprn where n >= 1.
  *
  * Given a string expression that represents a boolean expression, return the evaluation of that expression.
@@ -14,11 +14,11 @@
  *  
  * Example 1:
  *
- * Input: expression = "&amp;(|(f))"
+ * Input: expression = "&(|(f))"
  * Output: false
  * Explanation:
- * First, evaluate |(f) --> f. The expression is now "&amp;(f)".
- * Then, evaluate &amp;(f) --> f. The expression is now "f".
+ * First, evaluate |(f) --> f. The expression is now "&(f)".
+ * Then, evaluate &(f) --> f. The expression is now "f".
  * Finally, return false.
  *
  * Example 2:
@@ -29,17 +29,17 @@
  *
  * Example 3:
  *
- * Input: expression = "!(&amp;(f,t))"
+ * Input: expression = "!(&(f,t))"
  * Output: true
  * Explanation:
- * First, evaluate &amp;(f,t) --> (false AND true) --> false --> f. The expression is now "!(f)".
+ * First, evaluate &(f,t) --> (false AND true) --> false --> f. The expression is now "!(f)".
  * Then, evaluate !(f) --> NOT false --> true. We return true.
  *
  *  
  * Constraints:
  *
  * 	1 <= expression.length <= 2 * 10^4
- * 	expression[i] is one following characters: '(', ')', '&amp;', '|', '!', 't', 'f', and ','.
+ * 	expression[i] is one following characters: '(', ')', '&', '|', '!', 't', 'f', and ','.
  *
  */
 pub struct Solution {}

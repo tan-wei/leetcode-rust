@@ -11,11 +11,11 @@
  * Output: 4
  * Explanation:
  * - We remove 1 bean from the bag with only 1 bean.
- *   This results in the remaining bags: [4,<u>0</u>,6,5]
+ *   This results in the remaining bags: [4,0,6,5]
  * - Then we remove 2 beans from the bag with 6 beans.
- *   This results in the remaining bags: [4,0,<u>4</u>,5]
+ *   This results in the remaining bags: [4,0,4,5]
  * - Then we remove 1 bean from the bag with 5 beans.
- *   This results in the remaining bags: [4,0,4,<u>4</u>]
+ *   This results in the remaining bags: [4,0,4,4]
  * We removed a total of 1 + 2 + 1 = 4 beans to make the remaining non-empty bags have an equal number of beans.
  * There are no other solutions that remove 4 beans or fewer.
  *
@@ -25,11 +25,11 @@
  * Output: 7
  * Explanation:
  * - We remove 2 beans from one of the bags with 2 beans.
- *   This results in the remaining bags: [<u>0</u>,10,3,2]
+ *   This results in the remaining bags: [0,10,3,2]
  * - Then we remove 2 beans from the other bag with 2 beans.
- *   This results in the remaining bags: [0,10,3,<u>0</u>]
+ *   This results in the remaining bags: [0,10,3,0]
  * - Then we remove 3 beans from the bag with 3 beans.
- *   This results in the remaining bags: [0,10,<u>0</u>,0]
+ *   This results in the remaining bags: [0,10,0,0]
  * We removed a total of 2 + 2 + 3 = 7 beans to make the remaining non-empty bags have an equal number of beans.
  * There are no other solutions that removes 7 beans or fewer.
  *

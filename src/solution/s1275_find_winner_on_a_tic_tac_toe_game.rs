@@ -14,19 +14,19 @@
  * You can assume that moves is valid (i.e., it follows the rules of Tic-Tac-Toe), the grid is initially empty, and A will play first.
  *
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/22/xo1-grid.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
  * Output: "A"
  * Explanation: A wins, they always play first.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/22/xo2-grid.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
  * Output: "B"
  * Explanation: B wins.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/09/22/xo3-grid.jpg" style="width: 244px; height: 245px;" />
+ * 
  * Input: moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
  * Output: "Draw"
  * Explanation: The game ends in a draw since there are no moves to make.

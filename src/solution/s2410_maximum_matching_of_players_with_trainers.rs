@@ -30,7 +30,7 @@
  * 	1 <= players[i], trainers[j] <= 10^9
  *
  *  
- * Note: This question is the same as <a href="https://leetcode.com/problems/assign-cookies/description/" target="_blank"> 445: Assign Cookies.</a>
+ * Note: This question is the same as  445: Assign Cookies.
  *
  */
 pub struct Solution {}

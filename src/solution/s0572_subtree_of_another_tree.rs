@@ -5,12 +5,12 @@
  * A subtree of a binary tree tree is a tree that consists of a node in tree and all of this node's descendants. The tree tree could also be considered as a subtree of itself.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/28/subtree1-tree.jpg" style="width: 532px; height: 400px;" />
+ * 
  * Input: root = [3,4,5,1,2], subRoot = [4,1,2]
  * Output: true
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/28/subtree2-tree.jpg" style="width: 502px; height: 458px;" />
+ * 
  * Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
  * Output: false
  *

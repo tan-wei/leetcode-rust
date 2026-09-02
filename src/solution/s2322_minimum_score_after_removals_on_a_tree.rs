@@ -4,17 +4,17 @@
  * There is an undirected connected tree with n nodes labeled from 0 to n - 1 and n - 1 edges.
  * You are given a 0-indexed integer array nums of length n where nums[i] represents the value of the i^th node. You are also given a 2D integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
  * Remove two distinct edges of the tree to form three connected components. For a pair of removed edges, the following steps are defined:
- * <ol>
+ * 
  * 	Get the XOR of all the values of the nodes for each of the three components respectively.
  * 	The difference between the largest XOR value and the smallest XOR value is the score of the pair.
- * </ol>
+ * 
  *
- * 	For example, say the three components have the node values: [4,5,7], [1,9], and [3,3,3]. The three XOR values are 4 ^ 5 ^ 7 = <u>6</u>, 1 ^ 9 = <u>8</u>, and 3 ^ 3 ^ 3 = <u>3</u>. The largest XOR value is 8 and the smallest XOR value is 3. The score is then 8 - 3 = 5.
+ * 	For example, say the three components have the node values: [4,5,7], [1,9], and [3,3,3]. The three XOR values are 4 ^ 5 ^ 7 = 6, 1 ^ 9 = 8, and 3 ^ 3 ^ 3 = 3. The largest XOR value is 8 and the smallest XOR value is 3. The score is then 8 - 3 = 5.
  *
  * Return the minimum score of any possible pair of edge removals on the given tree.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex1drawio.png" style="width: 193px; height: 190px;" />
+ * 
  * Input: nums = [1,5,5,4,11], edges = [[0,1],[1,2],[1,3],[3,4]]
  * Output: 9
  * Explanation: The diagram above shows a way to make a pair of removals.
@@ -25,7 +25,7 @@
  * It can be shown that no other pair of removals will obtain a smaller score than 9.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/05/03/ex2drawio.png" style="width: 287px; height: 150px;" />
+ * 
  * Input: nums = [5,5,2,4,4,2], edges = [[0,1],[1,2],[5,2],[4,3],[1,3]]
  * Output: 0
  * Explanation: The diagram above shows a way to make a pair of removals.

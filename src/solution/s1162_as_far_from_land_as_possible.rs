@@ -5,13 +5,13 @@
  * The distance used in this problem is the Manhattan distance: the distance between two cells (x0, y0) and (x1, y1) is |x0 - x1| + |y0 - y1|.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/05/03/1336_ex1.JPG" style="width: 185px; height: 87px;" />
+ * 
  * Input: grid = [[1,0,1],[0,0,0],[1,0,1]]
  * Output: 2
  * Explanation: The cell (1, 1) is as far as possible from all the land with distance 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/05/03/1336_ex2.JPG" style="width: 184px; height: 87px;" />
+ * 
  * Input: grid = [[1,0,0],[0,0,0],[0,0,0]]
  * Output: 4
  * Explanation: The cell (2, 2) is as far as possible from all the land with distance 4.

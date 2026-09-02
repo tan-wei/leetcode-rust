@@ -6,7 +6,7 @@
  * The cost of a path in grid is the sum of all values of cells visited plus the sum of costs of all the moves made. Return the minimum cost of a path that starts from any cell in the first row and ends at any cell in the last row.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/28/griddrawio-2.png" style="width: 301px; height: 281px;" />
+ * 
  * Input: grid = [[5,3],[4,0],[2,1]], moveCost = [[9,8],[1,5],[10,12],[18,6],[2,4],[14,3]]
  * Output: 17
  * Explanation: The path with the minimum possible cost is the path 5 -> 0 -> 1.

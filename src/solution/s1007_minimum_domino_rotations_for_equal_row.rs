@@ -7,7 +7,7 @@
  * If it cannot be done, return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/05/14/domino.png" style="height: 300px; width: 421px;" />
+ * 
  * Input: tops = [2,1,2,4,2,2], bottoms = [5,2,6,2,3,2]
  * Output: 2
  * Explanation:

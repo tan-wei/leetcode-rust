@@ -9,7 +9,7 @@
  * The test cases are generated so that the answer fits in a 32-bits integer.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png" style="width: 400px; height: 263px;" />
+ * 
  * Input: root = [1,0,1,0,1,0,1]
  * Output: 22
  * Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22

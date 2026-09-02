@@ -20,14 +20,14 @@
  *
  * Input: n = 3, k = 1
  * Output: "0"
- * Explanation: S3 is "<u>0</u>111001".
+ * Explanation: S3 is "0111001".
  * The 1^st bit is "0".
  *
  * Example 2:
  *
  * Input: n = 4, k = 11
  * Output: "1"
- * Explanation: S4 is "0111001101<u>1</u>0001".
+ * Explanation: S4 is "011100110110001".
  * The 11^th bit is "1".
  *
  *  

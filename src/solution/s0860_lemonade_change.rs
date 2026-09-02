@@ -5,7 +5,7 @@
  * Note that you do not have any change in hand at first.
  * Given an integer array bills where bills[i] is the bill the i^th customer pays, return true if you can provide every customer with the correct change, or false otherwise.
  *  
- * <strong class="example">Example 1:
+ * Example 1:
  *
  * Input: bills = [5,5,5,10,20]
  * Output: true
@@ -15,7 +15,7 @@
  * From the fifth customer, we give a $10 bill and a $5 bill.
  * Since all customers got correct change, we output true.
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: bills = [5,5,10,10,20]
  * Output: false

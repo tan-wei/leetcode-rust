@@ -28,13 +28,13 @@
  * Given a rows x cols matrix grid and two integers catJump and mouseJump, return true if Mouse can win the game if both Cat and Mouse play optimally, otherwise return false.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/12/sample_111_1955.png" style="width: 580px; height: 239px;" />
+ * 
  * Input: grid = ["####F","#C...","M...."], catJump = 1, mouseJump = 2
  * Output: true
  * Explanation: Cat cannot catch Mouse on its turn nor can it get the food before Mouse.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/12/sample_2_1955.png" style="width: 580px; height: 175px;" />
+ * 
  * Input: grid = ["M.C...F"], catJump = 1, mouseJump = 4
  * Output: true
  *

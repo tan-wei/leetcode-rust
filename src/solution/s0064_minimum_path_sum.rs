@@ -5,10 +5,10 @@
  * Note: You can only move either down or right at any point in time.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg" style="width: 242px; height: 242px;" />
+ * 
  * Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
  * Output: 7
- * Explanation: Because the path 1 &rarr; 3 &rarr; 1 &rarr; 1 &rarr; 1 minimizes the sum.
+ * Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
  *
  * Example 2:
  *

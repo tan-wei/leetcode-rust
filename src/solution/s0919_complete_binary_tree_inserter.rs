@@ -11,7 +11,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/08/03/lc-treeinsert.jpg" style="width: 500px; height: 143px;" />
+ * 
  * Input
  * ["CBTInserter", "insert", "insert", "get_root"]
  * [[[1, 2]], [3], [4], []]

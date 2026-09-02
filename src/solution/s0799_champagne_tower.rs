@@ -7,7 +7,7 @@
  *
  * For example, after one cup of champagne is poured, the top most glass is full.  After two cups of champagne are poured, the two glasses on the second row are half full.  After three cups of champagne are poured, those two cups become full - there are 3 full glasses total now.  After four cups of champagne are poured, the third row has the middle glass half full, and the two outside glasses are a quarter full, as pictured below.
  *
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/09/tower.png" style="height: 241px; width: 350px;" />
+ * 
  *
  * Now after pouring some non-negative integer cups of champagne, return how full the j^th glass in the i^th row is (both i and j are 0-indexed.)
  *

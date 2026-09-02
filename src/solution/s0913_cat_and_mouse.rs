@@ -20,12 +20,12 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/17/cat1.jpg" style="width: 300px; height: 300px;" />
+ * 
  * Input: graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
  * Output: 0
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/11/17/cat2.jpg" style="width: 200px; height: 200px;" />
+ * 
  * Input: graph = [[1,3],[0],[3],[0,2]]
  * Output: 1
  *

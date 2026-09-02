@@ -62,7 +62,7 @@
  *  
  * Constraints:
  *
- * 	There will be at most <font face="monospace">500</font> operations considering both methods: updateSubrectangle and getValue.
+ * 	There will be at most 500 operations considering both methods: updateSubrectangle and getValue.
  * 	1 <= rows, cols <= 100
  * 	rows == rectangle.length
  * 	cols == rectangle[i].length

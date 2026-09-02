@@ -9,7 +9,7 @@
  * Return the matrix mat after performing every query.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/24/p2example11.png" style="width: 531px; height: 121px;" />
+ * 
  * Input: n = 3, queries = [[1,1,2,2],[0,0,1,1]]
  * Output: [[1,1,0],[1,2,1],[0,1,1]]
  * Explanation: The diagram above shows the initial matrix, the matrix after the first query, and the matrix after the second query.
@@ -17,7 +17,7 @@
  * - In the second query, we add 1 to every element in the submatrix with the top left corner (0, 0) and bottom right corner (1, 1).
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/11/24/p2example22.png" style="width: 261px; height: 82px;" />
+ * 
  * Input: n = 2, queries = [[0,0,1,1]]
  * Output: [[1,1],[1,1]]
  * Explanation: The diagram above shows the initial matrix and the matrix after the first query.

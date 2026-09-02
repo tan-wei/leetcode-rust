@@ -14,7 +14,7 @@
  *  
  * Example 1:
  *
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/21/p1.png" style="width: 161px; height: 181px;" />
+ * 
  *
  *
  * Input: n = 4, edges = [[1,2],[2,3],[2,4]]

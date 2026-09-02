@@ -7,7 +7,7 @@
  *  
  * Example 1:
  *
- * Input: sentences = ["alice and bob love leetcode", "i think so too", <u>"this is great thanks very much"</u>]
+ * Input: sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
  * Output: 6
  * Explanation:
  * - The first sentence, "alice and bob love leetcode", has 5 words in total.
@@ -17,7 +17,7 @@
  *
  * Example 2:
  *
- * Input: sentences = ["please wait", <u>"continue to fight"</u>, <u>"continue to win"</u>]
+ * Input: sentences = ["please wait", "continue to fight", "continue to win"]
  * Output: 3
  * Explanation: It is possible that multiple sentences contain the same number of words.
  * In this example, the second and third sentences (underlined) have the same number of words.

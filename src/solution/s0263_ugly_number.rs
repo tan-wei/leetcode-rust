@@ -8,12 +8,12 @@
  *
  * Input: n = 6
  * Output: true
- * Explanation: 6 = 2 &times; 3
+ * Explanation: 6 = 2 × 3
  * Example 2:
  *
  * Input: n = 8
  * Output: true
- * Explanation: 8 = 2 &times; 2 &times; 2
+ * Explanation: 8 = 2 × 2 × 2
  *
  * Example 3:
  *

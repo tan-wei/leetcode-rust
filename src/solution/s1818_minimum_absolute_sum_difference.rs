@@ -16,8 +16,8 @@
  * Input: nums1 = [1,7,5], nums2 = [2,3,5]
  * Output: 3
  * Explanation: There are two possible optimal solutions:
- * - Replace the second element with the first: [1,<u>7</u>,5] => [1,<u>1</u>,5], or
- * - Replace the second element with the third: [1,<u>7</u>,5] => [1,<u>5</u>,5].
+ * - Replace the second element with the first: [1,7,5] => [1,1,5], or
+ * - Replace the second element with the third: [1,7,5] => [1,5,5].
  * Both will yield an absolute sum difference of |1-2| + (|1-3| or |5-3|) + |5-5| = 3.
  *
  * Example 2:
@@ -31,7 +31,7 @@
  *
  * Input: nums1 = [1,10,4,4,2,7], nums2 = [9,3,5,1,7,4]
  * Output: 20
- * Explanation: Replace the first element with the second: [<u>1</u>,10,4,4,2,7] => [<u>10</u>,10,4,4,2,7].
+ * Explanation: Replace the first element with the second: [1,10,4,4,2,7] => [10,10,4,4,2,7].
  * This yields an absolute sum difference of |10-9| + |10-3| + |4-5| + |4-1| + |2-7| + |7-4| = 20
  *
  *  

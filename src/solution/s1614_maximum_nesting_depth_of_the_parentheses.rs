@@ -4,24 +4,24 @@
  * Given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.
  *  
  * Example 1:
- * <div class="example-block">
- * Input: <span class="example-io">s = "(1+(2*3)+((8)/4))+1"</span>
- * Output: <span class="example-io">3</span>
+ * 
+ * Input: s = "(1+(2*3)+((8)/4))+1"
+ * Output: 3
  * Explanation:
  * Digit 8 is inside of 3 nested parentheses in the string.
- * </div>
+ * 
  * Example 2:
- * <div class="example-block">
- * Input: <span class="example-io">s = "(1)+((2))+(((3)))"</span>
- * Output: <span class="example-io">3</span>
+ * 
+ * Input: s = "(1)+((2))+(((3)))"
+ * Output: 3
  * Explanation:
  * Digit 3 is inside of 3 nested parentheses in the string.
- * </div>
+ * 
  * Example 3:
- * <div class="example-block">
- * Input: <span class="example-io">s = "()(())((()()))"</span>
- * Output: <span class="example-io">3</span>
- * </div>
+ * 
+ * Input: s = "()(())((()()))"
+ * Output: 3
+ * 
  *  
  * Constraints:
  *

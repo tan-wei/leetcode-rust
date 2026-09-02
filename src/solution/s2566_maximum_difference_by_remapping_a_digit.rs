@@ -5,7 +5,7 @@
  * Return the difference between the maximum and minimum values Bob can make by remapping exactly one digit in num.
  * Notes:
  *
- * 	When Bob remaps a digit <font face="monospace">d1</font> to another digit <font face="monospace">d2</font>, Bob replaces all occurrences of d1 in num with d2.
+ * 	When Bob remaps a digit d1 to another digit d2, Bob replaces all occurrences of d1 in num with d2.
  * 	Bob can remap a digit to itself, in which case num does not change.
  * 	Bob can remap different digits for obtaining minimum and maximum values respectively.
  * 	The resulting number after remapping can contain leading zeroes.

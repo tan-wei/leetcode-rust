@@ -7,13 +7,13 @@
  * Note that flipping a cell changes its value from 0 to 1 or from 1 to 0.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/12/07/yetgrid2drawio.png" style="width: 441px; height: 151px;" />
+ * 
  * Input: grid = [[1,1,1],[1,0,0],[1,1,1]]
  * Output: true
  * Explanation: We can change the cell shown in the diagram above. There is no path from (0, 0) to (2, 2) in the resulting grid.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/12/07/yetgrid3drawio.png" />
+ * 
  * Input: grid = [[1,1,1],[1,0,1],[1,1,1]]
  * Output: false
  * Explanation: It is not possible to change at most one cell such that there is not path from (0, 0) to (2, 2).

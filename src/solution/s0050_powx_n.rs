@@ -1,7 +1,7 @@
 /**
  * [50] Pow(x, n)
  *
- * Implement <a href="http://www.cplusplus.com/reference/valarray/pow/" target="_blank">pow(x, n)</a>, which calculates x raised to the power n (i.e. x^<span style="font-size:10.8333px">n</span>).
+ * Implement pow(x, n), which calculates x raised to the power n (i.e. x^n).
  *  
  * Example 1:
  *

@@ -5,7 +5,7 @@
  * Return the shuffled string.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/09/q1.jpg" style="width: 321px; height: 243px;" />
+ * 
  * Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
  * Output: "leetcode"
  * Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.

@@ -1,7 +1,7 @@
 /**
  * [1053] Previous Permutation With One Swap
  *
- * Given an array of positive integers arr (not necessarily distinct), return the <span data-keyword="lexicographically-smaller-array">lexicographically</span> largest permutation that is smaller than arr, that can be made with exactly one swap. If it cannot be done, then return the same array.
+ * Given an array of positive integers arr (not necessarily distinct), return the lexicographically largest permutation that is smaller than arr, that can be made with exactly one swap. If it cannot be done, then return the same array.
  * Note that a swap exchanges the positions of two numbers arr[i] and arr[j]
  *  
  * Example 1:

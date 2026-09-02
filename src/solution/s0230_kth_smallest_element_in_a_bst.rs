@@ -4,12 +4,12 @@
  * Given the root of a binary search tree, and an integer k, return the k^th (1-indexed) smallest element in the tree.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/28/kthtree1.jpg" style="width: 212px; height: 301px;" />
+ * 
  * Input: root = [3,1,4,null,2], k = 1
  * Output: 1
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/01/28/kthtree2.jpg" style="width: 382px; height: 302px;" />
+ * 
  * Input: root = [5,3,6,2,4,null,null,1], k = 3
  * Output: 3
  *

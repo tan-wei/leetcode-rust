@@ -7,23 +7,23 @@
  * Return true if any cycle of the same value exists in grid, otherwise, return false.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/1.png" style="width: 231px; height: 152px;" />
+ * 
  *
  * Input: grid = [["a","a","a","a"],["a","b","b","a"],["a","b","b","a"],["a","a","a","a"]]
  * Output: true
  * Explanation: There are two valid cycles shown in different colors in the image below:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/11.png" style="width: 225px; height: 163px;" />
+ * 
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/22.png" style="width: 236px; height: 154px;" />
+ * 
  *
  * Input: grid = [["c","c","c","a"],["c","d","c","c"],["c","c","e","c"],["f","c","c","c"]]
  * Output: true
  * Explanation: There is only one valid cycle highlighted in the image below:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/2.png" style="width: 229px; height: 157px;" />
+ * 
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/07/15/3.png" style="width: 183px; height: 120px;" />
+ * 
  *
  * Input: grid = [["a","b","b"],["b","z","b"],["b","b","a"]]
  * Output: false

@@ -7,7 +7,7 @@
  * Return the maximum number of minutes you can run all the n computers simultaneously.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/01/06/example1-fit.png" style="width: 762px; height: 150px;" />
+ * 
  * Input: n = 2, batteries = [3,3,3]
  * Output: 4
  * Explanation:
@@ -18,7 +18,7 @@
  * We can run the two computers simultaneously for at most 4 minutes, so we return 4.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/01/06/example2.png" style="width: 629px; height: 150px;" />
+ * 
  * Input: n = 2, batteries = [1,1,1,1]
  * Output: 2
  * Explanation:

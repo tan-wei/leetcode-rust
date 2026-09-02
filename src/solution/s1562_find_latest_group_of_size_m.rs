@@ -11,11 +11,11 @@
  * Input: arr = [3,5,1,2,4], m = 1
  * Output: 4
  * Explanation:
- * Step 1: "00<u>1</u>00", groups: ["1"]
- * Step 2: "0010<u>1</u>", groups: ["1", "1"]
- * Step 3: "<u>1</u>0101", groups: ["1", "1", "1"]
- * Step 4: "1<u>1</u>101", groups: ["111", "1"]
- * Step 5: "111<u>1</u>1", groups: ["11111"]
+ * Step 1: "00100", groups: ["1"]
+ * Step 2: "00101", groups: ["1", "1"]
+ * Step 3: "10101", groups: ["1", "1", "1"]
+ * Step 4: "11101", groups: ["111", "1"]
+ * Step 5: "11111", groups: ["11111"]
  * The latest step at which there exists a group of size 1 is step 4.
  *
  * Example 2:
@@ -23,11 +23,11 @@
  * Input: arr = [3,1,5,4,2], m = 2
  * Output: -1
  * Explanation:
- * Step 1: "00<u>1</u>00", groups: ["1"]
- * Step 2: "<u>1</u>0100", groups: ["1", "1"]
- * Step 3: "1010<u>1</u>", groups: ["1", "1", "1"]
- * Step 4: "101<u>1</u>1", groups: ["1", "111"]
- * Step 5: "1<u>1</u>111", groups: ["11111"]
+ * Step 1: "00100", groups: ["1"]
+ * Step 2: "10100", groups: ["1", "1"]
+ * Step 3: "10101", groups: ["1", "1", "1"]
+ * Step 4: "10111", groups: ["1", "111"]
+ * Step 5: "11111", groups: ["11111"]
  * No group of size 2 exists during any step.
  *
  *  

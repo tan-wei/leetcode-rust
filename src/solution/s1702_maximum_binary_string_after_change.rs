@@ -5,12 +5,12 @@
  *
  * 	Operation 1: If the number contains the substring "00", you can replace it with "10".
  *
- * 		For example, "<u>00</u>010" -> "<u>10</u>010"
+ * 		For example, "00010" -> "10010"
  *
  *
  * 	Operation 2: If the number contains the substring "10", you can replace it with "01".
  *
- * 		For example, "000<u>10</u>" -> "000<u>01</u>"
+ * 		For example, "00010" -> "00001"
  *
  *
  *
@@ -21,11 +21,11 @@
  * Input: binary = "000110"
  * Output: "111011"
  * Explanation: A valid transformation sequence can be:
- * "0001<u>10</u>" -> "0001<u>01</u>"
- * "<u>00</u>0101" -> "<u>10</u>0101"
- * "1<u>00</u>101" -> "1<u>10</u>101"
- * "110<u>10</u>1" -> "110<u>01</u>1"
- * "11<u>00</u>11" -> "11<u>10</u>11"
+ * "000110" -> "000101"
+ * "000101" -> "100101"
+ * "100101" -> "110101"
+ * "110101" -> "110011"
+ * "110011" -> "111011"
  *
  * Example 2:
  *

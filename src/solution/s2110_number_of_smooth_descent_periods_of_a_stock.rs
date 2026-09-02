@@ -18,7 +18,7 @@
  * Input: prices = [8,6,7,7]
  * Output: 4
  * Explanation: There are 4 smooth descent periods: [8], [6], [7], and [7]
- * Note that [8,6] is not a smooth descent period as 8 - 6 &ne; 1.
+ * Note that [8,6] is not a smooth descent period as 8 - 6 ≠ 1.
  *
  * Example 3:
  *

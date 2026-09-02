@@ -6,7 +6,7 @@
  * Return the minimum time required in which you can visit the bottom-right cell of the matrix. If you cannot visit the bottom-right cell, then return -1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2023/02/14/yetgriddrawio-8.png" />
+ * 
  *
  * Input: grid = [[0,1,3,2],[5,1,2,5],[4,3,8,6]]
  * Output: 7
@@ -22,7 +22,7 @@
  * The final time is 7. It can be shown that it is the minimum time possible.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2023/02/14/yetgriddrawio-9.png" style="width: 151px; height: 151px;" />
+ * 
  *
  * Input: grid = [[0,2,4],[3,2,1],[1,0,4]]
  * Output: -1
@@ -39,13 +39,13 @@
  * 	grid[0][0] == 0
  *
  *  
- * <style type="text/css">.spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0;
+ * .spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0;
  * }
  * .spoiler {overflow:hidden;}
  * .spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
  * .spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
  * .spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
- * </style>
+ * 
  *
  */
 pub struct Solution {}

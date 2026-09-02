@@ -6,19 +6,19 @@
  * Answers within 10^-5 of the actual answer will be accepted.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/21/1a.png" style="width: 398px; height: 400px;" />
+ * 
  * Input: points = [[1,2],[2,1],[1,0],[0,1]]
  * Output: 2.00000
  * Explanation: The minimum area rectangle occurs at [1,2],[2,1],[1,0],[0,1], with an area of 2.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/2.png" style="width: 400px; height: 251px;" />
+ * 
  * Input: points = [[0,1],[2,1],[1,1],[1,0],[2,0]]
  * Output: 1.00000
  * Explanation: The minimum area rectangle occurs at [1,0],[1,1],[2,1],[2,0], with an area of 1.
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2018/12/22/3.png" style="width: 383px; height: 400px;" />
+ * 
  * Input: points = [[0,3],[1,2],[3,1],[1,3],[2,1]]
  * Output: 0
  * Explanation: There is no possible rectangle to form from these points.

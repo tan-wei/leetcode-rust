@@ -5,12 +5,12 @@
  * The distance between two adjacent cells is 1.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/01-1-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: mat = [[0,0,0],[0,1,0],[0,0,0]]
  * Output: [[0,0,0],[0,1,0],[0,0,0]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/01-2-grid.jpg" style="width: 253px; height: 253px;" />
+ * 
  * Input: mat = [[0,0,0],[0,1,0],[1,1,1]]
  * Output: [[0,0,0],[0,1,0],[1,2,1]]
  *

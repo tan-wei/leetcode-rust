@@ -6,7 +6,7 @@
  * Return the number of ways of cutting the pizza such that each piece contains at least one apple. Since the answer can be a huge number, return this modulo 10^9 + 7.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/23/ways_to_cut_apple_1.png" style="width: 500px; height: 378px;" />
+ * 
  *
  * Input: pizza = ["A..","AAA","..."], k = 3
  * Output: 3

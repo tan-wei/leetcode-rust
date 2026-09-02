@@ -5,12 +5,12 @@
  * Follow up: Can you sort the linked list in O(n logn) time and O(1) memory (i.e. constant space)?
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/14/sort_list_1.jpg" style="width: 450px; height: 194px;" />
+ * 
  * Input: head = [4,2,1,3]
  * Output: [1,2,3,4]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/14/sort_list_2.jpg" style="width: 550px; height: 184px;" />
+ * 
  * Input: head = [-1,5,3,4,0]
  * Output: [-1,0,3,4,5]
  *

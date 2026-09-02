@@ -13,10 +13,10 @@
  * Constraints:
  *
  * 	1 <= s.length <= 10^5
- * 	s[i] is a <a href="https://en.wikipedia.org/wiki/ASCII#Printable_characters" target="_blank">printable ascii character</a>.
+ * 	s[i] is a printable ascii character.
  *
  *  
- * Follow up: Do not allocate extra space for another array. You must do this by modifying the input array <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a> with O(1) extra memory.
+ * Follow up: Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
  *
  */
 pub struct Solution {}

@@ -17,7 +17,7 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/29/sample_1_1802.png" style="width: 374px; height: 501px;" />
+ * 
  * Input: grid = [[3,1,1],[2,5,1],[1,5,5],[2,1,1]]
  * Output: 24
  * Explanation: Path of robot #1 and #2 are described in color green and blue respectively.
@@ -26,7 +26,7 @@
  * Total of cherries: 12 + 12 = 24.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/04/23/sample_2_1802.png" style="width: 500px; height: 452px;" />
+ * 
  * Input: grid = [[1,0,0,0,0,0,1],[2,0,0,0,0,3,0],[2,0,9,0,0,0,0],[0,3,0,5,4,0,0],[1,0,2,3,0,0,6]]
  * Output: 28
  * Explanation: Path of robot #1 and #2 are described in color green and blue respectively.

@@ -6,7 +6,7 @@
  * Return an m x n 2D array constructed according to the above procedure, or an empty 2D array if it is impossible.
  *  
  * Example 1:
- * <img src="https://assets.leetcode.com/uploads/2021/08/26/image-20210826114243-1.png" style="width: 500px; height: 174px;" />
+ * 
  * Input: original = [1,2,3,4], m = 2, n = 2
  * Output: [[1,2],[3,4]]
  * Explanation: The constructed 2D array should contain 2 rows and 2 columns.

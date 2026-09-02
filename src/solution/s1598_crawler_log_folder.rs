@@ -13,14 +13,14 @@
  * Return the minimum number of operations needed to go back to the main folder after the change folder operations.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/09/sample_11_1957.png" style="width: 775px; height: 151px;" />
+ * 
  *
  * Input: logs = ["d1/","d2/","../","d21/","./"]
  * Output: 2
  * Explanation: Use this change folder operation "../" 2 times and go back to the main folder.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2020/09/09/sample_22_1957.png" style="width: 600px; height: 270px;" />
+ * 
  *
  * Input: logs = ["d1/","d2/","./","d3/","../","d31/"]
  * Output: 3

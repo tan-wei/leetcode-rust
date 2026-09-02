@@ -12,12 +12,12 @@
  *
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/15/addrow-tree.jpg" style="width: 500px; height: 231px;" />
+ * 
  * Input: root = [4,2,6,3,1,5], val = 1, depth = 2
  * Output: [4,1,1,2,null,null,6,3,1,5]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/03/11/add2-tree.jpg" style="width: 500px; height: 277px;" />
+ * 
  * Input: root = [4,2,null,3,1], val = 1, depth = 3
  * Output: [4,2,null,1,1,3,null,null,1]
  *

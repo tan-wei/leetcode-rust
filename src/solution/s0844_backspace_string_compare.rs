@@ -25,8 +25,8 @@
  *  
  * Constraints:
  *
- * 	<span>1 <= s.length, t.length <= 200</span>
- * 	<span>s and t only contain lowercase letters and '#' characters.</span>
+ * 	1 <= s.length, t.length <= 200
+ * 	s and t only contain lowercase letters and '#' characters.
  *
  *  
  * Follow up: Can you solve it in O(n) time and O(1) space?

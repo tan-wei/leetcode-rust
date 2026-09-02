@@ -6,13 +6,13 @@
  * Given the two integers p and q, return the number of the receptor that the ray meets first.
  * The test cases are guaranteed so that the ray will meet a receptor eventually.
  *  
- * <strong class="example">Example 1:
- * <img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/18/reflection.png" style="width: 218px; height: 217px;" />
+ * Example 1:
+ * 
  * Input: p = 2, q = 1
  * Output: 2
  * Explanation: The ray meets receptor 2 the first time it gets reflected back to the left wall.
  *
- * <strong class="example">Example 2:
+ * Example 2:
  *
  * Input: p = 3, q = 1
  * Output: 1

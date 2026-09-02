@@ -12,7 +12,7 @@
  * Return an n x m matrix representing the box after the rotation described above.
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcodewithstones.png" style="width: 300px; height: 150px;" />
+ * 
  *
  * Input: boxGrid = [["#",".","#"]]
  * Output: [["."],
@@ -20,7 +20,7 @@
  *          ["#"]]
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode2withstones.png" style="width: 375px; height: 195px;" />
+ * 
  *
  * Input: boxGrid = [["#",".","*","."],
  *               ["#","#","*","."]]
@@ -30,7 +30,7 @@
  *          [".","."]]
  *
  * Example 3:
- * <img alt="" src="https://assets.leetcode.com/uploads/2021/04/08/rotatingtheboxleetcode3withstone.png" style="width: 400px; height: 218px;" />
+ * 
  *
  * Input: boxGrid = [["#","#","*",".","*","."],
  *               ["#","#","#","*",".","."],

@@ -13,7 +13,7 @@
  *
  * Input: nums = [0,1,2,2]
  * Output: 3
- * Explanation: The special subsequences are bolded [<u>0</u>,<u>1</u>,<u>2</u>,2], [<u>0</u>,<u>1</u>,2,<u>2</u>], and [<u>0</u>,<u>1</u>,<u>2</u>,<u>2</u>].
+ * Explanation: The special subsequences are bolded [0,1,2,2], [0,1,2,2], and [0,1,2,2].
  *
  * Example 2:
  *
@@ -26,13 +26,13 @@
  * Input: nums = [0,1,2,0,1,2]
  * Output: 7
  * Explanation: The special subsequences are bolded:
- * - [<u>0</u>,<u>1</u>,<u>2</u>,0,1,2]
- * - [<u>0</u>,<u>1</u>,2,0,1,<u>2</u>]
- * - [<u>0</u>,<u>1</u>,<u>2</u>,0,1,<u>2</u>]
- * - [<u>0</u>,<u>1</u>,2,0,<u>1</u>,<u>2</u>]
- * - [<u>0</u>,1,2,<u>0</u>,<u>1</u>,<u>2</u>]
- * - [<u>0</u>,1,2,0,<u>1</u>,<u>2</u>]
- * - [0,1,2,<u>0</u>,<u>1</u>,<u>2</u>]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
+ * - [0,1,2,0,1,2]
  *
  *  
  * Constraints:

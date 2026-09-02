@@ -10,7 +10,7 @@
  * Return the minimum number of obstacles to remove so you can move from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1).
  *  
  * Example 1:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/06/example1drawio-1.png" style="width: 605px; height: 246px;" />
+ * 
  * Input: grid = [[0,1,1],[1,1,0],[1,1,0]]
  * Output: 2
  * Explanation: We can remove the obstacles at (0, 1) and (0, 2) to create a path from (0, 0) to (2, 2).
@@ -18,7 +18,7 @@
  * Note that there may be other ways to remove 2 obstacles to create a path.
  *
  * Example 2:
- * <img alt="" src="https://assets.leetcode.com/uploads/2022/04/06/example1drawio.png" style="width: 405px; height: 246px;" />
+ * 
  * Input: grid = [[0,1,0,0,0],[0,1,0,1,0],[0,0,0,1,0]]
  * Output: 0
  * Explanation: We can move from (0, 0) to (2, 4) without removing any obstacles, so we return 0.
