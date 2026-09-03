@@ -1985,3 +1985,4 @@ mod s2862_maximum_element_sum_of_a_complete_subset_of_indices;
 mod s2864_maximum_odd_binary_number;
 mod s2865_beautiful_towers_i;
 mod s2866_beautiful_towers_ii;
+mod s2867_count_valid_paths_in_a_tree;
