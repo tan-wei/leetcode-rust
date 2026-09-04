@@ -1986,3 +1986,4 @@ mod s2864_maximum_odd_binary_number;
 mod s2865_beautiful_towers_i;
 mod s2866_beautiful_towers_ii;
 mod s2867_count_valid_paths_in_a_tree;
+mod s2869_minimum_operations_to_collect_elements;
