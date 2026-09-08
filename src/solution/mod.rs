@@ -1977,6 +1977,7 @@ mod s2583_kth_largest_sum_in_a_binary_tree;
 mod s2584_split_the_array_to_make_coprime_products;
 mod s2585_number_of_ways_to_earn_points;
 mod s2586_count_the_number_of_vowel_strings_in_range;
+mod s2587_rearrange_array_to_maximize_prefix_score;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
