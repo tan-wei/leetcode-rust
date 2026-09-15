@@ -1984,6 +1984,7 @@ mod s2591_distribute_money_to_maximum_children;
 mod s2592_maximize_greatness_of_an_array;
 mod s2593_find_score_of_an_array_after_marking_all_elements;
 mod s2594_minimum_time_to_repair_cars;
+mod s2595_number_of_even_and_odd_bits;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
