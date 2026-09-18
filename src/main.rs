@@ -293,29 +293,30 @@ fn build_desc(content: &str) -> String {
 }
 
 fn deal_solving(id: &u32) {
-    let problem = fetcher::get_problem(*id).unwrap();
-    let file_name = format!(
-        "p{:04}_{}",
-        problem.question_id,
-        problem.title_slug.replace("-", "_")
-    );
-    let file_path = Path::new("./src/problem").join(format!("{}.rs", file_name));
-    // check problem/ existence
-    if !file_path.exists() {
-        panic!("problem does not exist");
+    // scan problem/ for a file matching p{id:04}_*.rs (no network needed)
+    let problem_dir = Path::new("./src/problem");
+    let prefix = format!("p{:04}_", id);
+    let mut file_name: Option<String> = None;
+    for entry in fs::read_dir(problem_dir).unwrap() {
+        let entry = entry.unwrap();
+        let name = entry.file_name().to_string_lossy().to_string();
+        if name.starts_with(&prefix) && name.ends_with(".rs") {
+            file_name = Some(name.trim_end_matches(".rs").to_string());
+            break;
+        }
     }
-    // check solution/ no existence
-    let solution_name = format!(
-        "s{:04}_{}",
-        problem.question_id,
-        problem.title_slug.replace("-", "_")
-    );
+    let file_name = file_name.unwrap_or_else(|| {
+        panic!("problem #{} does not exist in problem/", id);
+    });
+    let file_path = problem_dir.join(format!("{}.rs", file_name));
+    // build solution name by replacing prefix 'p' with 's'
+    let solution_name = format!("s{}", &file_name[1..]);
     let solution_path = Path::new("./src/solution").join(format!("{}.rs", solution_name));
     if solution_path.exists() {
         panic!("solution exists");
     }
     // rename/move file
-    fs::rename(file_path, solution_path).unwrap();
+    fs::rename(&file_path, &solution_path).unwrap();
     // remove from problem/mod.rs
     let mod_file = "./src/problem/mod.rs";
     let target_line = format!("mod {};", file_name);
