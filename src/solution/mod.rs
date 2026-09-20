@@ -1989,6 +1989,7 @@ mod s2596_check_knight_tour_configuration;
 mod s2597_the_number_of_beautiful_subsets;
 mod s2598_smallest_missing_non_negative_integer_after_operations;
 mod s2600_k_items_with_the_maximum_sum;
+mod s2601_prime_subtraction_operation;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
