@@ -247,9 +247,12 @@ fn insert_return_in_code(return_type: &str, code: &str) -> String {
         "list<boolean>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "list<double>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "list<integer>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<string>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<long>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "list<list<integer>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "list<list<string>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
-        "list<string>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<list<long>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
+        "list<list<string>>" => re.replace(code, "{\n        vec![]\n    }").to_string(),
         "null" => code.to_string(),
         "string" => re
             .replace(code, "{\n        String::new()\n    }")
@@ -258,7 +261,10 @@ fn insert_return_in_code(return_type: &str, code: &str) -> String {
         "void" => code.to_string(),
         "NestedInteger" => code.to_string(),
         "Node" => code.to_string(),
-        _ => code.to_string(),
+        _ => {
+            println!("Unknown return type: {}", return_type);
+            code.to_string()
+        }
     }
 }
 
