@@ -331,7 +331,7 @@ fn deal_solving(id: &u32) {
         .map(|x| x.unwrap())
         .filter(|x| *x != target_line)
         .collect();
-    fs::write(mod_file, lines.join("\n"));
+    fs::write(mod_file, format!("{}\n", lines.join("\n")));
     // insert into solution/mod.rs
     let mut lib_file = fs::OpenOptions::new()
         .append(true)
