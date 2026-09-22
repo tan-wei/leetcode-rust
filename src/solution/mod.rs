@@ -2004,3 +2004,4 @@ mod s2865_beautiful_towers_i;
 mod s2866_beautiful_towers_ii;
 mod s2867_count_valid_paths_in_a_tree;
 mod s2869_minimum_operations_to_collect_elements;
+mod s2603_collect_coins_in_a_tree;
