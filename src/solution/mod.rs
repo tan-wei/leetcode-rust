@@ -1993,6 +1993,7 @@ mod s2601_prime_subtraction_operation;
 mod s2602_minimum_operations_to_make_all_array_elements_equal;
 mod s2603_collect_coins_in_a_tree;
 mod s2605_form_smallest_number_from_two_digit_arrays;
+mod s2606_find_the_substring_with_maximum_cost;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
