@@ -12,3 +12,7 @@ Cargo.lock
 
 # Dotenv file
 .env
+
+# Code coverage reports
+lcov.info
+coverage/

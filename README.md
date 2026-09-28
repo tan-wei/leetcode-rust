@@ -1,5 +1,8 @@
 # My Leetcode Solution in Rust
 
+[![CI](https://github.com/winterreise/leetcode-rust/actions/workflows/ci.yaml/badge.svg)](https://github.com/winterreise/leetcode-rust/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/winterreise/leetcode-rust/branch/master/graph/badge.svg)](https://codecov.io/gh/winterreise/leetcode-rust)
+
 NOTE: The [original repository](https://github.com/aylei/leetcode-rust) is great! Thanks the author and contributors of it!
 
 Run `cargo run {id}` to initialize the template submission file of "question #id".

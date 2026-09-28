@@ -1,0 +1,33 @@
+# Codecov configuration.
+# Only the LeetCode solutions in src/solution are meaningful for coverage;
+# everything else (CLI/fetcher/util scaffolding) is ignored.
+ignore:
+  - "src/main.rs"
+  - "src/fetcher.rs"
+  - "src/lib.rs"
+  - "src/problem/**"
+  - "src/util/**"
+  - "scripts/**"
+  - "template.rs"
+  - "target/**"
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+    patch:
+      default:
+        target: auto
+
+comment:
+  layout: "reach,diff,flags,tree"
+  behavior: default
+
+# Group all solution files under a single flag so they can be filtered/displayed together.
+flags:
+  solution:
+    paths:
+      - "src/solution/"
+    carryforward: true

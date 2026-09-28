@@ -11,7 +11,8 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - uses: actions/checkout@v7
-      - uses: dtolnay/rust-toolchain@nightly
+      # rustup reads rust-toolchain.toml and installs the pinned channel + components
+      - run: rustup show
       - run: cargo check
 
   test:
@@ -22,7 +23,8 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - uses: actions/checkout@v7
-      - uses: dtolnay/rust-toolchain@nightly
+      # rustup reads rust-toolchain.toml and installs the pinned channel + components
+      - run: rustup show
       - run: cargo test
 
   fmt:
@@ -30,18 +32,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: dtolnay/rust-toolchain@nightly
-        with:
-          components: rustfmt
+      # rustup reads rust-toolchain.toml and installs the pinned channel + components
+      - run: rustup show
       - run: cargo fmt --all -- --check
 
-  # TODO: Enable clippy with a configuration file
   # clippy:
   #   name: Clippy
   #   runs-on: ubuntu-latest
   #   steps:
   #     - uses: actions/checkout@v7
   #     - uses: dtolnay/rust-toolchain@nightly
-  #       with:
-  #         components: clippy
   #     - run: cargo clippy -- -D warnings
+
+  coverage:
+    name: Code coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # rustup reads rust-toolchain.toml and installs the pinned channel + components
+      - run: rustup show
+      - run: cargo llvm-cov --all --lcov --output-path lcov.info
+      - uses: codecov/codecov-action@v5
+        with:
+          files: lcov.info
+          fail_ci_if_error: true
