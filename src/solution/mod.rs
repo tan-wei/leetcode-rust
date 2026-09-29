@@ -1998,6 +1998,7 @@ mod s2607_make_k_subarray_sums_equal;
 mod s2608_shortest_cycle_in_a_graph;
 mod s2609_find_the_longest_balanced_substring_of_a_binary_string;
 mod s2610_convert_an_array_into_a_2d_array_with_conditions;
+mod s2611_mice_and_cheese;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
