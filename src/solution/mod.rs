@@ -2001,6 +2001,7 @@ mod s2610_convert_an_array_into_a_2d_array_with_conditions;
 mod s2611_mice_and_cheese;
 mod s2612_minimum_reverse_operations;
 mod s2614_prime_in_diagonal;
+mod s2615_sum_of_distances;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
