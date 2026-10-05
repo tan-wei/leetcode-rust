@@ -2004,6 +2004,7 @@ mod s2614_prime_in_diagonal;
 mod s2615_sum_of_distances;
 mod s2616_minimize_the_maximum_difference_of_pairs;
 mod s2617_minimum_number_of_visited_cells_in_a_grid;
+mod s2639_find_the_width_of_columns_of_a_grid;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
