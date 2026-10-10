@@ -2009,6 +2009,7 @@ mod s2640_find_the_score_of_all_prefixes_of_an_array;
 mod s2641_cousins_in_binary_tree_ii;
 mod s2642_design_graph_with_shortest_path_calculator;
 mod s2643_row_with_maximum_ones;
+mod s2644_find_the_maximum_divisibility_score;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
