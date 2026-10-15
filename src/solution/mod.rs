@@ -2014,6 +2014,7 @@ mod s2645_minimum_additions_to_make_valid_string;
 mod s2646_minimize_the_total_price_of_the_trips;
 mod s2651_calculate_delayed_arrival_time;
 mod s2652_sum_multiples;
+mod s2653_sliding_subarray_beauty;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
