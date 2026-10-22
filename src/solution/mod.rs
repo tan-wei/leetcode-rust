@@ -2020,6 +2020,7 @@ mod s2656_maximum_sum_with_exactly_k_elements;
 mod s2657_find_the_prefix_common_array_of_two_arrays;
 mod s2658_maximum_number_of_fish_in_a_grid;
 mod s2659_make_array_empty;
+mod s2660_determine_the_winner_of_a_bowling_game;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
