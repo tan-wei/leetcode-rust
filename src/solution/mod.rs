@@ -2023,6 +2023,7 @@ mod s2659_make_array_empty;
 mod s2660_determine_the_winner_of_a_bowling_game;
 mod s2661_first_completely_painted_row_or_column;
 mod s2662_minimum_cost_of_a_path_with_special_roads;
+mod s2663_lexicographically_smallest_beautiful_string;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
