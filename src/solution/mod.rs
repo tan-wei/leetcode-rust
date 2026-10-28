@@ -2026,6 +2026,7 @@ mod s2662_minimum_cost_of_a_path_with_special_roads;
 mod s2663_lexicographically_smallest_beautiful_string;
 mod s2670_find_the_distinct_difference_array;
 mod s2671_frequency_tracker;
+mod s2672_number_of_adjacent_elements_with_the_same_color;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
