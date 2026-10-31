@@ -2029,6 +2029,7 @@ mod s2671_frequency_tracker;
 mod s2672_number_of_adjacent_elements_with_the_same_color;
 mod s2673_make_costs_of_paths_equal_in_a_binary_tree;
 mod s2678_number_of_senior_citizens;
+mod s2679_sum_in_a_matrix;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
