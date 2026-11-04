@@ -2033,6 +2033,7 @@ mod s2679_sum_in_a_matrix;
 mod s2680_maximum_or;
 mod s2681_power_of_heroes;
 mod s2682_find_the_losers_of_the_circular_game;
+mod s2683_neighboring_bitwise_xor;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
