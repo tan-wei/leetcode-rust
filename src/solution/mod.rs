@@ -2036,6 +2036,7 @@ mod s2682_find_the_losers_of_the_circular_game;
 mod s2683_neighboring_bitwise_xor;
 mod s2684_maximum_number_of_moves_in_a_grid;
 mod s2685_count_the_number_of_complete_components;
+mod s2696_minimum_string_length_after_removing_substrings;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
