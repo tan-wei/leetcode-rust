@@ -2041,6 +2041,7 @@ mod s2697_lexicographically_smallest_palindrome;
 mod s2698_find_the_punishment_number_of_an_integer;
 mod s2699_modify_graph_edge_weights;
 mod s2706_buy_two_chocolates;
+mod s2707_extra_characters_in_a_string;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
