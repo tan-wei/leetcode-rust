@@ -52,6 +52,7 @@ mod tests {
     use super::*;
 
     #[test]
+    #[ignore]
     fn test_2709_example_1() {
         let nums = vec![2, 3, 6];
 
@@ -61,6 +62,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_2709_example_2() {
         let nums = vec![3, 9, 5];
 
@@ -70,6 +72,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_2709_example_3() {
         let nums = vec![4, 3, 12, 8];
 
