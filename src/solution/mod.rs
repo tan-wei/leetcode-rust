@@ -2046,6 +2046,7 @@ mod s2708_maximum_strength_of_a_group;
 mod s2709_greatest_common_divisor_traversal;
 mod s2710_remove_trailing_zeros_from_a_string;
 mod s2711_difference_of_number_of_distinct_values_on_diagonals;
+mod s2712_minimum_cost_to_make_all_characters_equal;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
