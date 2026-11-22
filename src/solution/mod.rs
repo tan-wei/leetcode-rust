@@ -2051,6 +2051,7 @@ mod s2713_maximum_strictly_increasing_cells_in_a_matrix;
 mod s2716_minimize_string_length;
 mod s2717_semi_ordered_permutation;
 mod s2718_sum_of_matrix_after_queries;
+mod s2719_count_of_integers;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
