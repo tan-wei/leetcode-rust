@@ -2053,6 +2053,7 @@ mod s2717_semi_ordered_permutation;
 mod s2718_sum_of_matrix_after_queries;
 mod s2719_count_of_integers;
 mod s2729_check_if_the_number_is_fascinating;
+mod s2730_find_the_longest_semi_repetitive_substring;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
