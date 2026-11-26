@@ -2055,6 +2055,7 @@ mod s2719_count_of_integers;
 mod s2729_check_if_the_number_is_fascinating;
 mod s2730_find_the_longest_semi_repetitive_substring;
 mod s2731_movement_of_robots;
+mod s2732_find_a_good_subset_of_the_matrix;
 mod s2855_minimum_right_shifts_to_sort_the_array;
 mod s2856_minimum_array_length_after_pair_removals;
 mod s2857_count_pairs_of_points_with_distance_k;
